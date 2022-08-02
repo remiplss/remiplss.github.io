@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/Chat/ChatMenu.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/Chat/ChatMenu.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import { Link } from &quot;react-router-dom&quot;;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import Collapsible from &apos;react-collapsible&apos;;
+import { set } from &quot;react-hook-form&quot;;
+import photo from &quot;../../webapp/temp/olivier_profil_1.jpeg&quot;
+import photo2 from &quot;../../webapp/temp/arthur_1.jpg&quot;
+
+
+/**
+ * Chat menu with list of conversation
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ *  @param {boolean} isLogged - test if the user is logged
+ *  @param {boolean} boolChat - test if the chat menu is open
+ *  @param {boolean} setBoolChat - boolChat setter
+ */
+
+export default function ChatMenu({ user, setUser, isLogged, boolChat, setBoolChat }) {
+
+	const [boolDisplay, setBoolDisplay] = useState(false);
+	const [listMsgBox, setListMsgBox] = useState([]);
+	const [listSender, setListSender] = useState([]);
+
+
+	function handleVisible() {
+		if (boolDisplay === false) {
+			setBoolDisplay(true);
+		}
+		else {
+			setBoolDisplay(false);
+		}
+		console.log(boolDisplay)
+
+	}
+
+	function addMessageBox() {
+
+		let tempList = listMsgBox;
+
+
+	}
+
+
+	return (
+		&lt;div className=&quot;ChatMenu&quot;&gt;
+			{/* &lt;!-- BOX MESSAGERIE FIXED BOTTOM - d&#xE9;but --&gt; */}
+			&lt;div className={boolDisplay === true ? &quot;msgBottomBox open&quot; : &quot;msgBottomBox closed&quot;}&gt;
+
+				&lt;header&gt;
+					&lt;a href=&quot;&quot;&gt;
+						&lt;img src={photo} alt=&quot;Messagerie&quot; /&gt;
+						&lt;span&gt;Messagerie&lt;/span&gt;
+					&lt;/a&gt;
+					&lt;button className=&quot;options&quot;&gt;&lt;/button&gt;
+					&lt;button className=&quot;newMsg&quot;&gt;&lt;/button&gt;
+					&lt;button className={boolDisplay === true ? &quot;isOpen&quot; : &quot;isClosed&quot;} onClick={handleVisible}&gt;&lt;/button&gt;
+					&lt;button className=&quot;close&quot; onClick={e =&gt; setBoolChat(false)}&gt;&lt;/button&gt;
+				&lt;/header&gt;
+
+				&lt;section&gt;
+
+					&lt;article &gt;
+						&lt;a href=&quot;&quot; className=&quot;pic&quot;&gt;&lt;img src={photo2} alt=&quot;Messagerie&quot; /&gt;&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;sender&quot;&gt;Arthur de Frayssinet&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;date&quot;&gt;9 Juin 2022&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;extract&quot;&gt;Lorem Ipsum is simply dummy text of the printing and ...&lt;/a&gt;
+					&lt;/article&gt;
+
+					&lt;article&gt;
+						&lt;a href=&quot;&quot; className=&quot;pic&quot;&gt;&lt;img src={photo2} alt=&quot;Messagerie&quot; /&gt;&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;sender&quot;&gt;Arthur de Frayssinet&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;date&quot;&gt;9 Juin 2022&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;extract&quot;&gt;Lorem Ipsum is simply dummy text of the printing and ...&lt;/a&gt;
+					&lt;/article&gt;
+
+					&lt;article&gt;
+						&lt;a href=&quot;&quot; className=&quot;pic&quot;&gt;&lt;img src={photo2} alt=&quot;Messagerie&quot; /&gt;&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;sender&quot;&gt;Arthur de Frayssinet&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;date&quot;&gt;9 Juin 2022&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;extract&quot;&gt;Lorem Ipsum is simply dummy text of the printing and ...&lt;/a&gt;
+					&lt;/article&gt;
+
+					&lt;article&gt;
+						&lt;a href=&quot;&quot; className=&quot;pic&quot;&gt;&lt;img src={photo2} alt=&quot;Messagerie&quot; /&gt;&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;sender&quot;&gt;Arthur de Frayssinet&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;date&quot;&gt;9 Juin 2022&lt;/a&gt;
+						&lt;a href=&quot;&quot; className=&quot;extract&quot;&gt;Lorem Ipsum is simply dummy text of the printing and ...&lt;/a&gt;
+					&lt;/article&gt;
+
+				&lt;/section&gt;
+
+			&lt;/div&gt;
+			{/* &lt;!-- BOX MESSAGERIE FIXED BOTTOM - fin --&gt; */}
+			{/* &lt;div className=&quot;messageBox&quot; style={{height:boolDisplay === false &amp;&amp;  &quot;50px&quot;}}&gt;
+                &lt;div className=&quot;titleMessageBox&quot;&gt;
+                    &lt;ul className=&quot;inlineList mb-a&quot;&gt;
+                   &lt;li&gt; &lt;a className=&quot;titleA&quot; style={{marginRight: &quot;70px&quot;}}&gt; Messagerie&lt;/a&gt;&lt;/li&gt;
+                   &lt;li&gt; &lt;button className=&quot;moreButton&quot;&gt;&lt;/button&gt;&lt;/li&gt;
+                   &lt;li&gt; &lt;button className=&quot;newMessageButton&quot;&gt;&lt;/button&gt;&lt;/li&gt;
+                   &lt;li&gt; &lt;button className={boolDisplay=== true ? &quot;collapseButtonOpen&quot; : &quot;collapseButtonClose&quot;} onClick={handleVisible} &gt;&lt;/button&gt;&lt;/li&gt;
+                   
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+
+                &lt;div className={boolDisplay=== true ? &quot;contentMessageBoxOpen&quot; : &quot;contentMessageBoxClose&quot;}&gt;
+                   
+                &lt;/div&gt;
+            &lt;/div&gt; */}
+
+		&lt;/div&gt;
+	);
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

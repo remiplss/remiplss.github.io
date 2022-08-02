@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/OpusPage/Painting.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/OpusPage/Painting.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useRef, useEffect, useState, Suspense } from &quot;react&quot;;
+
+import axios from &quot;axios&quot;;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import PrismaZoom from &apos;react-prismazoom&apos;
+import { Link } from &quot;react-router-dom&quot;;
+import { accordion } from &quot;../../webapp/js/js_source/accordion&quot;
+import ListModal2 from &quot;../general/ListModal2&quot;;
+import { EmailShareButton, FacebookShareButton, PinterestShareButton, TwitterShareButton, } from &quot;react-share&quot;;
+import { FacebookIcon, TwitterIcon, PinterestIcon, EmailIcon } from &quot;react-share&quot;;
+import { toast } from &quot;react-toastify&quot;
+import ReactLoading from &apos;react-loading&apos;;
+import down from &quot;../../webapp/img/icons/ico_arrow-down_2.svg&quot;
+
+/**
+ * This component display informations about a specific painting
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ * @param {boolean} isLogged - test if the user is logged
+ * @param {number} paintId - selected paint Id
+ * @emits - paintingEntity/${paintId} : get painting informations
+ * @emits - paintingEntity/numberFavorite/${paintId} : get number of likes
+ * @emits - api/painting_comment/save : post new comment
+ * @emits - users/updateFavoritePainting : like/unlike painting
+ */
+
+export default function Painting({ user, setUser, paintId, isLogged }) {
+
+
+	const [isLoading, setIsLoading] = useState(false);
+	const [Painting, setPainting] = useState([]);
+	const [zoomBool, setZoomBool] = useState(false);
+	const [refreshKey, setRefreshKey] = useState(0);
+	const [boolFav, setBoolFav] = useState(false);
+	const [commentText, setCommentText] = useState(&quot;&quot;);
+	const [shareUrlFb, setShareUrlFb] = useState(window.location.href);
+	const [showKeyword, setShowKeyword] = useState(false)
+	const [nLike, setNLike] = useState(0)
+	const [boolAccordion, setBoolAccordion] = useState(false);
+
+
+	accordion();
+
+	function handleAccordion() {
+
+		if (boolAccordion === true) {
+			setBoolAccordion(false)
+		}
+		else {
+			setBoolAccordion(true);
+		}
+	}
+
+	//get Painting info//
+	useEffect(() =&gt; {
+
+		axios.get(URLDayl + `paintingEntity/${paintId}`).then((response) =&gt; {
+			setIsLoading(true);
+			setPainting(response.data);
+			console.log(response.data)
+			const tempResponse = response.data;
+			//retrive keywords from string to array
+
+			tempResponse.boolList = false;
+			tempResponse.aw_keyw_ai = tempResponse.aw_keyw_ai.slice(1, -1)
+			tempResponse.aw_keyw_ai = tempResponse.aw_keyw_ai.split(&quot;,&quot;)
+			setPainting(tempResponse)
+			setShowKeyword(true)
+			//Get number like
+			axios.get(URLDayl + `paintingEntity/numberFavorite/${paintId}`).then((response2) =&gt; {
+				setNLike(response2.data);
+
+			});
+
+		});
+		//Test painting lik&#xE9; par l&apos;utilisateur
+		if (user)
+			user.paintingLiked.map((like) =&gt; {
+				paintId === like &amp;&amp; setBoolFav(true)
+			})
+
+	}, [paintId]);
+
+
+
+	////////Add fav////////
+	function handleClick() {
+		const tempUser = user;
+		if (isLogged === true) {
+			if (boolFav === true) {
+				setBoolFav(false);
+				//delete a favorite painting
+				axios.post(URLDayl + &quot;users/updateFavoritePainting&quot;, { userId: user.id, favoriteId: paintId, operation: &quot;remove&quot; },
+					{ headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;USER_PAINT&quot;: 0 } }
+				)
+					.then((response) =&gt; {
+
+						const removeIndex = tempUser.paintingLiked.indexOf(paintId);
+						tempUser.paintingLiked.splice(removeIndex, 1);
+						setUser(tempUser);
+						updateLike()
+						toast.success(&quot;Supprim&#xE9;e des favoris!&quot;, {
+							position: &quot;top-right&quot;,
+							autoClose: 3000,
+							hideProgressBar: false,
+							closeOnClick: true,
+							pauseOnHover: true,
+							draggable: true,
+							progress: undefined,
+						});
+					});
+
+			}
+			else {
+				setBoolFav(true);
+				//add a favorite painting
+				axios.post(URLDayl + &quot;users/updateFavoritePainting&quot;, { userId: user.id, favoriteId: paintId, operation: &quot;add&quot; },
+					{ headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;USER_PAINT&quot;: 0 } }
+				)
+					.then((response) =&gt; {
+
+
+
+						tempUser.paintingLiked.push(paintId)
+						setUser(tempUser)
+						updateLike()
+						toast.success(&quot;Ajout&#xE9;e aux favoris!&quot;, {
+							position: &quot;top-right&quot;,
+							autoClose: 3000,
+							hideProgressBar: false,
+							closeOnClick: true,
+							pauseOnHover: true,
+							draggable: true,
+							progress: undefined,
+						});
+
+					});
+			}
+
+
+
+		}
+
+	}
+	function updateLike() {
+		//update Nombres de like//
+		axios.get(URLDayl + `paintingEntity/numberFavorite/${paintId}`).then((response) =&gt; {
+			setNLike(response.data);
+			console.log(response.data)
+
+		});
+	}
+
+
+	// Call Jquery script
+	useEffect(() =&gt; {
+		const loadFile = async () =&gt; {
+			// const { modal } = await import(&quot;../../webapp/js/modalBox.min.js&quot;);
+
+			// modal();
+		};
+		loadFile();
+	}, []);
+
+	//afficher image zoom//
+	const handleZoomTrue = () =&gt; {
+		setZoomBool(false)
+	}
+	const handleZoomFalse = () =&gt; {
+		setZoomBool(true)
+	}
+
+
+	//post comment//
+	const handleSubmit = (e) =&gt; {
+
+		e.preventDefault();
+		if (isLogged === true) {
+			axios.post(URLDayl + &quot;api/painting_comment/save&quot;,
+				{ userId: user.id, paintingId: paintId, content: commentText, statusComment: &quot;ACTIVE&quot;, visibility: &quot;PUBLIC&quot; },
+				{ headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+			)
+				.then((response) =&gt; {
+					setRefreshKey(oldKey =&gt; oldKey + 1);
+
+					toast.success(&quot;Commentaire post&#xE9;!&quot;, {
+						position: &quot;top-right&quot;,
+						autoClose: 3000,
+						hideProgressBar: false,
+						closeOnClick: true,
+						pauseOnHover: true,
+						draggable: true,
+						progress: undefined,
+					});
+				});
+		}
+		else {
+			toast.warn(&quot;Connectez vous pour poster un commentaire!&quot;, {
+				position: &quot;top-right&quot;,
+				autoClose: 3000,
+				hideProgressBar: false,
+				closeOnClick: true,
+				pauseOnHover: true,
+				draggable: true,
+				progress: undefined,
+			});
+		}
+
+
+	}
+	return (
+		&lt;div className=&quot;Painting&quot;&gt;
+			{/* &lt;!-- ******************************************************
+			SECTION PR&#xC9;SENTATION DE L&apos;OEUVRE - d&#xE9;but
+			****************************************************** --&gt; */}
+			&lt;section className=&quot;center-col cont-sty-1&quot; style={{paddingBottom: &quot;150px&quot;}}&gt;
+
+				{/* &lt;!-- ******************************************************
+				BREADCRUMBS - d&#xE9;but
+				****************************************************** --&gt; */}
+				&lt;ol className=&quot;topBc&quot; style={{marginTop: &quot;20px&quot;}}&gt;
+					&lt;li&gt;&lt;Link to=&quot;../../&quot;&gt;Accueil&lt;/Link&gt;&lt;/li&gt;
+					{/* &lt;li className=&quot;#&quot;&gt;&lt;a&gt;Artistes&lt;/a&gt;&lt;/li&gt; */}
+					&lt;li className=&quot;#&quot;&gt;&lt;Link to={`../../view/ArtistDetailPage.js/${Painting.artist_idtf_intern}`} state={Painting.artist_idtf_intern} href=&quot;artiste.html&quot;&gt;{Painting.artist_name_tot}&lt;/Link&gt;&lt;/li&gt;
+					{/* &lt;li className=&quot;#&quot;&gt;&lt;a&gt;Oeuvres&lt;/a&gt;&lt;/li&gt; */}
+					&lt;li className=&quot;#&quot;&gt;{Painting.aw_title_Origin}&lt;/li&gt;
+				&lt;/ol&gt;
+				{/* &lt;!-- Breadcrumbs - fin --&gt; */}
+
+
+
+				&lt;div className=&quot;oeuvreTop&quot;&gt;
+
+					&lt;div className=&quot;itemImage&quot; style={{height: &quot;400px&quot;}}&gt;
+
+						{/* &lt;!-- Lancer un matching avec cette oeuvre - d&#xE9;but --&gt; */}
+						&lt;form id=&quot;matchThisItem&quot; className=&quot;matchSubAlt&quot; method=&quot;post&quot; action=&quot;&quot;&gt;
+						{isLoading === true &amp;&amp; &lt;div style={{marginBottom: &quot;20px&quot;}}&gt;&lt;ReactLoading color={&quot;#E9573F&quot;} type={&quot;spin&quot;} height={&quot;40px&quot;} width={&quot;40px&quot;}  /&gt;&lt;/div&gt;}
+							&lt;Link to={`../../view/MatchingPage.js/${paintId}`} state={paintId} &gt;&lt;input type=&quot;submit&quot; value=&quot;Match&quot; /&gt;&lt;/Link&gt;
+						&lt;/form&gt;
+						{/* &lt;!-- Lancer un matching avec cette oeuvre - fin --&gt; */}
+
+						{/* &lt;!-- Lightbox image avec fonction agrandir/r&#xE9;duire - d&#xE9;but --&gt; */}
+
+						&lt;a className=&quot;zoomOpen&quot; onClick={handleZoomFalse} data-modal=&quot;imgBox&quot;&gt;
+							&lt;img style={{maxHeight: &quot;400px&quot;}} onLoad={e =&gt; setIsLoading(false)} className=&quot;show&quot; src={URLDayl + `images/content/${Painting.artist_idtf_intern}/${Painting.generatedId}`} alt=&quot;Nom de l&apos;oeuvre&quot; /&gt;
+							
+						&lt;/a&gt;
+						{/*&lt;!-- Trigger Modal. --&gt; */}
+
+
+						{zoomBool === true &amp;&amp;
+							&lt;div className=&quot;zoomBox&quot; id=&quot;imgBox&quot; style={{ overflowY: &quot;hidden&quot; }}&gt;
+								&lt;button className=&quot;zoomCloseBtn&quot; onClick={handleZoomTrue} type=&quot;button&quot;&gt;x&lt;/button&gt;
+
+								&lt;div className=&quot;modal-sandbox&quot;&gt;&lt;/div&gt;
+								&lt;PrismaZoom allowPan={true} allowZoom={true}&gt;
+
+									&lt;img id=&quot;resizeMe&quot; style={{ height: &quot;auto &quot;, maxWidth: &quot;70% &quot; }} src={URLDayl + `images/content/${Painting.artist_idtf_intern}/${Painting.generatedId}`} draggable=&quot;true&quot; alt=&quot;Nom de l&apos;oeuvre&quot; /&gt;
+								&lt;/PrismaZoom&gt;
+							&lt;/div&gt;
+
+						}
+
+						{/* &lt;!-- Lightbox image avec fonction agrandir/r&#xE9;duire - fin --&gt; */}
+
+					&lt;/div&gt;
+
+					&lt;div className=&quot;itemDetails&quot;&gt;
+						&lt;h1&gt;{Painting.aw_title_Origin}, {Painting.aw_year}&lt;/h1&gt;
+						&lt;h2&gt;&lt;Link to={`../../view/ArtistDetailPage.js/${Painting.artist_idtf_intern}`} state={Painting.artist_idtf_intern} href=&quot;artiste.html&quot;&gt;{Painting.artist_name_tot}&lt;/Link&gt;&lt;/h2&gt;
+
+						{/* &lt;!-- LIEN PLUS D&apos;INFOS SUR CETTE OEUVRE (WIKIART...) - d&#xE9;but --&gt; */}
+						&lt;a className=&quot;itemExtData&quot; href={Painting.aw_link_ext} target=&quot;_blank&quot;&gt;Plus d&#x2019;informations sur {Painting.aw_desc_basic_source_1}&lt;/a&gt;
+						{/* &lt;!-- LIEN PLUS D&apos;INFOS SUR CETTE OEUVRE (WIKIART...) - fin --&gt; */}
+
+						{/* &lt;!-- ENREGISTRER &amp; PARTAGER LE MATCHING - d&#xE9;but --&gt; */}
+						&lt;ul className=&quot;hList&quot;&gt;
+
+							{/* &lt;!-- BOUTONS LIKES - d&#xE9;but --&gt; */}
+							&lt;li&gt;
+
+								&lt;input type=&quot;submit&quot; id=&quot;submit&quot; className={boolFav ? &quot;itemLikeItYes&quot; : &quot;itemLikeIt&quot;} onClick={() =&gt; handleClick()} value={nLike} /&gt;{/*&lt;!-- Le membre n&apos;aime pas d&#xE9;j&#xE0; cette oeuvre --&gt; */}
+
+							&lt;/li&gt;
+							{/* &lt;!-- BOUTONS LIKES - d&#xE9;but --&gt; */}
+
+
+
+							&lt;li&gt;
+								{/* &lt;!-- Modal &quot;ajouter &#xE0; une liste&quot; - d&#xE9;but --&gt; */}
+								&lt;ListModal2 user={user} isLogged={isLogged} listPaint={Painting} /&gt;
+
+							&lt;/li&gt;
+
+							&lt;li&gt;
+								{/* &lt;!-- Modal &quot;partager cette oeuvre&quot; - d&#xE9;but --&gt; */}
+								&lt;FacebookShareButton url={shareUrlFb} quote={&quot;Regarde l&apos;oeuvre que j&apos;ai trouv&#xE9; sur Dayl.art !&quot;} className=&quot;Demo__some-network__share-button&quot; &gt;
+									&lt;FacebookIcon size={32} round style={{ marginRight: &quot;1px&quot; }} /&gt;
+								&lt;/FacebookShareButton&gt;
+								&lt;TwitterShareButton url={shareUrlFb} title={&quot;Regarde l&apos;oeuvre que j&apos;ai trouv&#xE9; sur Dayl.art !&quot;} className=&quot;Demo__some-network__share-button&quot; &gt;
+									&lt;TwitterIcon size={32} round style={{ marginRight: &quot;1px&quot; }} /&gt;
+								&lt;/TwitterShareButton&gt;
+								&lt;PinterestShareButton url={shareUrlFb} description={&quot;Regarde l&apos;oeuvre que j&apos;ai trouv&#xE9; sur Dayl.art !&quot;} className=&quot;Demo__some-network__share-button&quot; &gt;
+									&lt;PinterestIcon size={32} round style={{ marginRight: &quot;1px&quot; }} /&gt;
+								&lt;/PinterestShareButton&gt;
+								&lt;EmailShareButton url={shareUrlFb} body={&quot;Regarde l&apos;oeuvre que j&apos;ai trouv&#xE9; sur Dayl.art !&quot;} className=&quot;Demo__some-network__share-button&quot; &gt;
+									&lt;EmailIcon size={32} round style={{ marginRight: &quot;1px&quot; }} /&gt;
+								&lt;/EmailShareButton&gt;
+								{/* &lt;!-- Modal &quot;partager cette oeuvre&quot; - fin --&gt; */}
+								{/* &lt;div className=&quot;smart-modal&quot;&gt;
+									&lt;a data-target=&quot;shareThis&quot; className=&quot;smart-modal-open-2&quot;&gt;&lt;span className=&quot;matchShare&quot;&gt;Partager&lt;/span&gt;&lt;/a&gt;
+
+									&lt;div id=&quot;shareThis&quot; className=&quot;smart-modal-content&quot;&gt;
+										&lt;h3&gt;Partager cette oeuvre&lt;/h3&gt;
+										&lt;a className=&quot;smart-modal-close&quot;&gt;&lt;img className=&quot;img-left&quot; src=&quot;img/icons/ico_close_2.svg&quot; alt=&quot;Trier&quot; /&gt;&lt;/a&gt;
+										
+										&lt;div className=&quot;entrySocial&quot;&gt;
+											&lt;div className=&quot;fb&quot;&gt;
+												&lt;a data-gtm-share-link=&quot;Facebook&quot;&gt;Facebook&lt;/a&gt;
+											&lt;/div&gt;
+											&lt;div className=&quot;twitter&quot;&gt;
+												&lt;a href=&quot;http://twitter.com/intent/tweet?text=Ajouter le tire de la page;url=medias/hd/m/a/amedeo-modigliani/1918_Femme-assise-robe-bleue.jpg&quot; onClick=&quot;window.open(this.href, &apos;Partager sur Twitter&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=no,height=600,width=600&apos;); return false;&quot; data-gtm-share-link=&quot;Twitter&quot;&gt;Twitter&lt;/a&gt;
+											&lt;/div&gt;
+											&lt;div className=&quot;pinterest&quot;&gt;
+												&lt;a href=&quot;https://www.pinterest.com/pin/create/button/?url=http%3A////www.domaine.com/url-complete-de-la-page;description=Ajouter le texte de la description de l&apos;artiste;media=medias/hd/m/a/amedeo-modigliani/1918_Femme-assise-robe-bleue.jpg&quot; onClick=&quot;window.open(this.href, &apos;&#xC9;pingler sur Pinterest&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=no,height=600,width=600&apos;); return false;&quot; data-gtm-share-link=&quot;Pinterest&quot;&gt;Pinterest&lt;/a&gt;
+											&lt;/div&gt;
+											&lt;div className=&quot;email&quot;&gt;
+												&lt;a href=&quot;mailto:stephane@novagen.tech?subject=#&amp;body=#&quot; data-gtm-share-link=&quot;email&quot;&gt;par Email&lt;/a&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+
+									&lt;/div&gt;
+								&lt;/div&gt; */}
+								{/* &lt;!-- Modal &quot;partager cette oeuvre&quot; - fin --&gt; */}
+							&lt;/li&gt;
+
+						&lt;/ul&gt;
+						{/* &lt;!-- Enregistrer &amp; partager le matching - fin --&gt;
+
+
+							&lt;!-- ******************************************************
+							PARTAGER UNE &#xC9;MOTION - d&#xE9;but
+							****************************************************** --&gt; */}
+						&lt;form method=&quot;post&quot; onSubmit={handleSubmit} className=&quot;addUserThought mt-b&quot; &gt;
+							&lt;textarea name=&quot;textarea&quot; onChange={(e) =&gt; setCommentText(e.target.value)} value={commentText} minLength=&quot;10&quot; maxLength=&quot;255&quot; placeholder=&quot;Publier une &#xE9;motion ou un avis sur cette oeuvre...&quot;&gt;&lt;/textarea&gt;
+							&lt;input type=&quot;submit&quot; value=&quot;&quot; /&gt;
+						&lt;/form&gt;
+						{/* &lt;!-- PARTAGER UNE &#xC9;MOTION - fin --&gt; */}
+
+					&lt;/div&gt;
+
+				&lt;/div&gt;
+			&lt;/section&gt;
+			{/* &lt;!-- SECTION PR&#xC9;SENTATION DE L&apos;OEUVRE - fin --&gt; */}
+
+
+			&lt;div className=&quot;cont-sty-3 mb-b&quot;&gt;
+				{/* 
+					&lt;!-- ******************************************************
+					SECTION DONN&#xC9;ES TECHNIQUES DE L&apos;OEUVRE ET MOTS-CLES - d&#xE9;but
+					****************************************************** --&gt; */}
+				&lt;section className=&quot;center-col&quot;&gt;
+					&lt;div className=&quot;cont-l-w mt-a flexResp&quot;&gt;
+
+						{/* &lt;!-- Donn&#xE9;es techniques - d&#xE9;but --&gt; */}
+						&lt;div className=&quot;row70&quot;&gt;
+							&lt;h2 className=&quot;mb-a&quot;&gt;Donn&#xE9;es techniques &lt;img src={down} style={{ width: &quot;20px&quot;, height: &quot;20px&quot;, top: &quot;4px&quot;, left: &quot;10px&quot; }} onClick={handleAccordion}&gt;&lt;/img&gt;&lt;/h2&gt;
+							{boolAccordion === true &amp;&amp; &lt;div className=&quot;toLeftDataList&quot;&gt;
+								&lt;div&gt;&lt;span className=&quot;dataName&quot;&gt;Style&lt;/span&gt;&lt;span className=&quot;dataValue&quot;&gt;{Painting.aw_style_import}&lt;/span&gt;&lt;/div&gt;
+								&lt;div&gt;&lt;span className=&quot;dataName&quot;&gt;Genre&lt;/span&gt;&lt;span className=&quot;dataValue&quot;&gt;{Painting.aw_genre_import}&lt;/span&gt;&lt;/div&gt;
+								&lt;div&gt;&lt;span className=&quot;dataName&quot;&gt;Support&lt;/span&gt;&lt;span className=&quot;dataValue&quot;&gt;{Painting.aw_medium}&lt;/span&gt;&lt;/div&gt;
+								&lt;div&gt;&lt;span className=&quot;dataName&quot;&gt;Dimensions&lt;/span&gt;&lt;span className=&quot;dataValue&quot;&gt;{Painting.aw_dim_width}{Painting.aw_dim_width &amp;&amp; &quot;x&quot;}{Painting.aw_dim_height}{Painting.aw_dim_width &amp;&amp; &quot;cm&quot;}&lt;/span&gt;&lt;/div&gt;
+								&lt;div&gt;&lt;span className=&quot;dataName&quot;&gt;Lieu&lt;/span&gt;&lt;span className=&quot;dataValue&quot;&gt;{Painting.aw_locate}&lt;/span&gt;&lt;/div&gt;
+								&lt;div&gt;&lt;span className=&quot;dataName&quot;&gt;Source&lt;/span&gt;&lt;span className=&quot;dataValue&quot;&gt;{Painting.aw_desc_basic_source_1}&lt;/span&gt;&lt;/div&gt;
+								&lt;div&gt;&lt;span className=&quot;dataName&quot;&gt;Droits&lt;/span&gt;&lt;span className=&quot;dataValue&quot;&gt;{Painting.aw_beneficiaries}&lt;/span&gt;&lt;/div&gt;
+								&lt;div&gt;&lt;span className=&quot;dataName&quot;&gt;Cr&#xE9;dits&lt;/span&gt;&lt;span className=&quot;dataValue&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+							&lt;/div&gt;}
+						&lt;/div&gt;
+						{/* &lt;!-- Donn&#xE9;es techniques - fin --&gt; */}
+
+						{/* &lt;!-- Mots-cl&#xE9;s - d&#xE9;but --&gt; */}
+						&lt;div className=&quot;row30 tagList&quot;&gt;
+							&lt;h2 className=&quot;mb-a&quot;&gt;Mots-cl&#xE9;s&lt;/h2&gt;
+							{/* {displayKeywords()}	 */}
+							{showKeyword &amp;&amp; typeof Painting.aw_keyw_ai === &quot;object&quot; &amp;&amp; Painting.aw_keyw_ai.map((keyword, index) =&gt; {
+								if (keyword !== &quot; &quot; &amp;&amp; keyword !== &quot;&quot;)
+									return (
+										&lt;a key={index}&gt;
+											{keyword}
+										&lt;/a&gt;
+									)
+							})}
+
+
+
+
+
+
+						&lt;/div&gt;
+						{/* &lt;!-- Mots-cl&#xE9;s - fin --&gt; */}
+
+					&lt;/div&gt;
+				&lt;/section&gt;
+			&lt;/div&gt;
+
+			{/* {Painting.length &gt; 0 &amp;&amp;
+							Painting.keywords.map((keyword) =&gt; (&lt;a href=&quot;/#&quot;&gt;{keyword}&lt;/a&gt;))} */}
+
+
+		&lt;/div&gt;
+	);
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

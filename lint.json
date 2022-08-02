@@ -1,0 +1,1414 @@
+[
+  {
+    "name": "Biography",
+    "filePath": "src/component/ArtistDetailPage/Biography.js",
+    "lines": [
+      {
+        "lineNumber": 10,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * Artist Biography in ArtistPage"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @param {string} bg - random image from this artist"
+      },
+      {
+        "lineNumber": 13,
+        "line": " * @param {object} artist - artist informations from api"
+      },
+      {
+        "lineNumber": 14,
+        "line": " */"
+      },
+      {
+        "lineNumber": 15,
+        "line": ""
+      },
+      {
+        "lineNumber": 16,
+        "line": "export default function Biography({bg, artist}) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "bg",
+      "artist"
+    ]
+  },
+  {
+    "name": "Biography",
+    "filePath": "src/component/Atelier/Biography.js",
+    "lines": [
+      {
+        "lineNumber": 8,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * Page to update your Biography"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 12,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 13,
+        "line": " */"
+      },
+      {
+        "lineNumber": 14,
+        "line": "export default function Biography({ user, setUser, isLogged }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged"
+    ]
+  },
+  {
+    "name": "MenuAtelier",
+    "filePath": "src/component/Atelier/MenuAtelier.js",
+    "lines": [
+      {
+        "lineNumber": 16,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 17,
+        "line": " * Workshop side menu"
+      },
+      {
+        "lineNumber": 18,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 19,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 20,
+        "line": " *  @param {boolean} isLogged - test if the user is logged "
+      },
+      {
+        "lineNumber": 21,
+        "line": " *  @param {boolean} setIsLogged - isLogged setter"
+      },
+      {
+        "lineNumber": 22,
+        "line": " */"
+      },
+      {
+        "lineNumber": 23,
+        "line": ""
+      },
+      {
+        "lineNumber": 24,
+        "line": "export default function MenuAtelier({ user, setUser, isLogged, setIsLogged }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged",
+      "setIsLogged"
+    ]
+  },
+  {
+    "name": "ChatMenu",
+    "filePath": "src/component/Chat/ChatMenu.js",
+    "lines": [
+      {
+        "lineNumber": 11,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * Chat menu with list of conversation"
+      },
+      {
+        "lineNumber": 13,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 14,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 15,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 16,
+        "line": " *  @param {boolean} boolChat - test if the chat menu is open"
+      },
+      {
+        "lineNumber": 17,
+        "line": " *  @param {boolean} setBoolChat - boolChat setter"
+      },
+      {
+        "lineNumber": 18,
+        "line": " */"
+      },
+      {
+        "lineNumber": 19,
+        "line": ""
+      },
+      {
+        "lineNumber": 20,
+        "line": "export default function ChatMenu({ user, setUser, isLogged, boolChat, setBoolChat }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged",
+      "boolChat",
+      "setBoolChat"
+    ]
+  },
+  {
+    "name": "ChatModal",
+    "filePath": "src/component/Chat/ChatModal.js",
+    "lines": [
+      {
+        "lineNumber": 13,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 14,
+        "line": " * Chat modal : used for chatting with someone"
+      },
+      {
+        "lineNumber": 15,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 16,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 17,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 18,
+        "line": " */"
+      },
+      {
+        "lineNumber": 19,
+        "line": ""
+      },
+      {
+        "lineNumber": 20,
+        "line": "export default function ChatModal({ user, setUser, isLogged }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged"
+    ]
+  },
+  {
+    "name": "Activity",
+    "filePath": "src/component/CompteAmateurPage/Activity.js",
+    "lines": [
+      {
+        "lineNumber": 8,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * This Component contain your network feed"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @emits - api/publication/save : save user publication"
+      },
+      {
+        "lineNumber": 13,
+        "line": " */"
+      },
+      {
+        "lineNumber": 14,
+        "line": ""
+      },
+      {
+        "lineNumber": 15,
+        "line": "export default function Activity({ user, SetUser }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser"
+    ]
+  },
+  {
+    "name": "FavArtists",
+    "filePath": "src/component/CompteAmateurPage/FavArtists.js",
+    "lines": [
+      {
+        "lineNumber": 7,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * This component contain your list of favorite artists"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @emits - artist/{id} : get artist informations"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @emits - artistLiked/deleteFavoriteArtist/ : unfollow artist"
+      },
+      {
+        "lineNumber": 13,
+        "line": " * "
+      },
+      {
+        "lineNumber": 14,
+        "line": " */"
+      },
+      {
+        "lineNumber": 15,
+        "line": ""
+      },
+      {
+        "lineNumber": 16,
+        "line": "export default function FavArtists({ user, setUser }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser"
+    ]
+  },
+  {
+    "name": "Likes",
+    "filePath": "src/component/CompteAmateurPage/Likes.js",
+    "lines": [
+      {
+        "lineNumber": 7,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * This component contain your list of likes"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @emits - paintingEntity/{id} : get paint informations"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @emits - users/updateFavoritePainting : delete paint"
+      },
+      {
+        "lineNumber": 13,
+        "line": " */"
+      },
+      {
+        "lineNumber": 14,
+        "line": ""
+      },
+      {
+        "lineNumber": 15,
+        "line": "export default function Likes({ user, setUser }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser"
+    ]
+  },
+  {
+    "name": "Matching",
+    "filePath": "src/component/CompteAmateurPage/Matching.js",
+    "lines": [
+      {
+        "lineNumber": 7,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * This component contain your list of saved matching"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 11,
+        "line": " */"
+      },
+      {
+        "lineNumber": 12,
+        "line": ""
+      },
+      {
+        "lineNumber": 13,
+        "line": "export default function Matching({ user }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser"
+    ]
+  },
+  {
+    "name": "ModalNetwork",
+    "filePath": "src/component/CompteAmateurPage/ModalNetwork.js",
+    "lines": [
+      {
+        "lineNumber": 20,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 21,
+        "line": " * This component is a modal used to manage your network (add/delete friends,...)"
+      },
+      {
+        "lineNumber": 22,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 23,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 24,
+        "line": " *  @param {boolean} boolNetWork - test if the network modal is open"
+      },
+      {
+        "lineNumber": 25,
+        "line": " *  @param {boolean} setBoolNetWork - boolNetWork setter"
+      },
+      {
+        "lineNumber": 26,
+        "line": " */"
+      },
+      {
+        "lineNumber": 27,
+        "line": ""
+      },
+      {
+        "lineNumber": 28,
+        "line": ""
+      },
+      {
+        "lineNumber": 29,
+        "line": "export default function ModalNetwork({ user, setUser, boolNetWork, setBoolNetWork }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "boolNetWork",
+      "setBoolNetWork"
+    ]
+  },
+  {
+    "name": "TabAmateurs",
+    "filePath": "src/component/CompteAmateurPage/TabAmateur.js",
+    "lines": [
+      {
+        "lineNumber": 18,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 19,
+        "line": " * This component order the previous components in tabs"
+      },
+      {
+        "lineNumber": 20,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 21,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 22,
+        "line": " *  @param {number} isActive - tab selection"
+      },
+      {
+        "lineNumber": 23,
+        "line": " *  @param {number} setIsActive - isActive setter"
+      },
+      {
+        "lineNumber": 24,
+        "line": " */"
+      },
+      {
+        "lineNumber": 25,
+        "line": ""
+      },
+      {
+        "lineNumber": 26,
+        "line": ""
+      },
+      {
+        "lineNumber": 27,
+        "line": "export default function TabAmateurs({ user, setUser, isActive, setIsActive }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isActive",
+      "setIsActive"
+    ]
+  },
+  {
+    "name": "ColorChooser",
+    "filePath": "src/component/MatchingColor/ColorChooser.js",
+    "lines": [
+      {
+        "lineNumber": 11,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * This component display a color Picker"
+      },
+      {
+        "lineNumber": 13,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 14,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 15,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 16,
+        "line": " * @param {string} color - contain the hex code of the chosed color"
+      },
+      {
+        "lineNumber": 17,
+        "line": " *  @param {string} setColor - color setter"
+      },
+      {
+        "lineNumber": 18,
+        "line": " *  @emits - paintingSearch/findByColor : get list of paintings by selected color"
+      },
+      {
+        "lineNumber": 19,
+        "line": " */"
+      },
+      {
+        "lineNumber": 20,
+        "line": ""
+      },
+      {
+        "lineNumber": 21,
+        "line": "export default function ColorChooser({ color, setColor, user, setUser, isLogged }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged",
+      "color",
+      "setColor"
+    ]
+  },
+  {
+    "name": "Painting",
+    "filePath": "src/component/OpusPage/Painting.js",
+    "lines": [
+      {
+        "lineNumber": 15,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 16,
+        "line": " * This component display informations about a specific painting"
+      },
+      {
+        "lineNumber": 17,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 18,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 19,
+        "line": " * @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 20,
+        "line": " * @param {number} paintId - selected paint Id"
+      },
+      {
+        "lineNumber": 21,
+        "line": " * @emits - paintingEntity/${paintId} : get painting informations"
+      },
+      {
+        "lineNumber": 22,
+        "line": " * @emits - paintingEntity/numberFavorite/${paintId} : get number of likes"
+      },
+      {
+        "lineNumber": 23,
+        "line": " * @emits - api/painting_comment/save : post new comment"
+      },
+      {
+        "lineNumber": 24,
+        "line": " * @emits - users/updateFavoritePainting : like/unlike painting"
+      },
+      {
+        "lineNumber": 25,
+        "line": " */"
+      },
+      {
+        "lineNumber": 26,
+        "line": ""
+      },
+      {
+        "lineNumber": 27,
+        "line": "export default function Painting({ user, setUser, paintId, isLogged }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged",
+      "paintId"
+    ]
+  },
+  {
+    "name": "EmojiPicker",
+    "filePath": "src/component/general/EmojiPicker.js",
+    "lines": [
+      {
+        "lineNumber": 11,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * This component is an emoji Picker used to send emoji in chat"
+      },
+      {
+        "lineNumber": 13,
+        "line": " * @param {string} txtArea - string containing your message"
+      },
+      {
+        "lineNumber": 14,
+        "line": " * @param {string} setTxtArea - txtArea setter"
+      },
+      {
+        "lineNumber": 15,
+        "line": ""
+      },
+      {
+        "lineNumber": 16,
+        "line": " */"
+      },
+      {
+        "lineNumber": 17,
+        "line": ""
+      },
+      {
+        "lineNumber": 18,
+        "line": ""
+      },
+      {
+        "lineNumber": 19,
+        "line": "export default function EmojiPicker({ txtArea, setTxtArea }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "txtArea",
+      "setTxtArea"
+    ]
+  },
+  {
+    "name": "Fav",
+    "filePath": "src/component/general/Fav.js",
+    "lines": [
+      {
+        "lineNumber": 7,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * This component is used to like a painting"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 10,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {object} favPaint - paint object to like"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @emits - users/updateFavoritePainting : like/unlike painting"
+      },
+      {
+        "lineNumber": 13,
+        "line": ""
+      },
+      {
+        "lineNumber": 14,
+        "line": " */"
+      },
+      {
+        "lineNumber": 15,
+        "line": ""
+      },
+      {
+        "lineNumber": 16,
+        "line": ""
+      },
+      {
+        "lineNumber": 17,
+        "line": "export default function Fav({ user, isLogged, favPaint }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "isLogged",
+      "favPaint"
+    ]
+  },
+  {
+    "name": "ListModal",
+    "filePath": "src/component/general/ListModal.js",
+    "lines": [
+      {
+        "lineNumber": 8,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * This component is used to add painting to a list in a grid"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 11,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @param {object} listPaint - paint object to add in list"
+      },
+      {
+        "lineNumber": 13,
+        "line": " * @emits - userLists/save : create new list"
+      },
+      {
+        "lineNumber": 14,
+        "line": " * @emits - userLists/byUserId : get user lists"
+      },
+      {
+        "lineNumber": 15,
+        "line": " */"
+      },
+      {
+        "lineNumber": 16,
+        "line": ""
+      },
+      {
+        "lineNumber": 17,
+        "line": "export default function ListModal({ user, isLogged, listPaint }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "isLogged",
+      "listPaint"
+    ]
+  },
+  {
+    "name": "ListModal2",
+    "filePath": "src/component/general/ListModal2.js",
+    "lines": [
+      {
+        "lineNumber": 9,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * This component is used to add your paint to a list"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 12,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 13,
+        "line": " * @param {object} listPaint - paint object to add in list"
+      },
+      {
+        "lineNumber": 14,
+        "line": " * @emits - userLists/save : create new list"
+      },
+      {
+        "lineNumber": 15,
+        "line": " * @emits - userLists/byUserId : get user lists"
+      },
+      {
+        "lineNumber": 16,
+        "line": " */"
+      },
+      {
+        "lineNumber": 17,
+        "line": ""
+      },
+      {
+        "lineNumber": 18,
+        "line": ""
+      },
+      {
+        "lineNumber": 19,
+        "line": "export default function ListModal2({ user, isLogged, listPaint }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "isLogged",
+      "listPaint"
+    ]
+  },
+  {
+    "name": "SaveMatch",
+    "filePath": "src/component/general/SaveMatch.js",
+    "lines": [
+      {
+        "lineNumber": 6,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 7,
+        "line": " * This component is used to save a matching"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * @todo en attente de changement api"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 10,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {object} matchPaint - paint object to add in match"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @emits - matching/save : save a matching"
+      },
+      {
+        "lineNumber": 13,
+        "line": " */"
+      },
+      {
+        "lineNumber": 14,
+        "line": ""
+      },
+      {
+        "lineNumber": 15,
+        "line": ""
+      },
+      {
+        "lineNumber": 16,
+        "line": "export default function SaveMatch({ user, isLogged, matchPaint }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "isLogged",
+      "matchPaint"
+    ]
+  },
+  {
+    "name": "SqueletteHead",
+    "filePath": "src/component/general/SqueletteHead.js",
+    "lines": [
+      {
+        "lineNumber": 27,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 28,
+        "line": " * website header"
+      },
+      {
+        "lineNumber": 29,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 30,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 31,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 32,
+        "line": " * @emits - users/${user.id} : update user informations"
+      },
+      {
+        "lineNumber": 33,
+        "line": " "
+      },
+      {
+        "lineNumber": 34,
+        "line": " */"
+      },
+      {
+        "lineNumber": 35,
+        "line": ""
+      },
+      {
+        "lineNumber": 36,
+        "line": "export default function SqueletteHead({user, setUser,isLogged}) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged"
+    ]
+  },
+  {
+    "name": "ArtistDetailpage",
+    "filePath": "src/view/ArtistDetailPage.js",
+    "lines": [
+      {
+        "lineNumber": 7,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * This component display artist Page"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 11,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @param {number} paintId - selected artist Id"
+      },
+      {
+        "lineNumber": 13,
+        "line": " */"
+      },
+      {
+        "lineNumber": 14,
+        "line": ""
+      },
+      {
+        "lineNumber": 15,
+        "line": "export default function ArtistDetailpage({user,setUser,paintId, isLogged}) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged",
+      "paintId"
+    ]
+  },
+  {
+    "name": "Atelier",
+    "filePath": "src/view/Atelier.js",
+    "lines": [
+      {
+        "lineNumber": 6,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 7,
+        "line": " * This component display workshop Page"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 10,
+        "line": " *  @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {boolean} setIsLogged - isLogged setter"
+      },
+      {
+        "lineNumber": 12,
+        "line": " */"
+      },
+      {
+        "lineNumber": 13,
+        "line": ""
+      },
+      {
+        "lineNumber": 14,
+        "line": "export default function Atelier({user,setIsLogged, isLogged,setUser}) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged",
+      "setIsLogged"
+    ]
+  },
+  {
+    "name": "CompteAmateurPage",
+    "filePath": "src/view/CompteAmateurPage.js",
+    "lines": [
+      {
+        "lineNumber": 7,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * This component display the User Page"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @param {boolean} setIsLogged - isLogged setter"
+      },
+      {
+        "lineNumber": 13,
+        "line": " *  @param {number} isActive - tab selection"
+      },
+      {
+        "lineNumber": 14,
+        "line": " *  @param {number} setIsActive - isActive setter"
+      },
+      {
+        "lineNumber": 15,
+        "line": " */"
+      },
+      {
+        "lineNumber": 16,
+        "line": ""
+      },
+      {
+        "lineNumber": 17,
+        "line": "export default function CompteAmateurPage({ setIsLogged, isLogged, isActive, setIsActive, user, setUser}) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged",
+      "setIsLogged",
+      "isActive",
+      "setIsActive"
+    ]
+  },
+  {
+    "name": "ListeAmateurPage",
+    "filePath": "src/view/ListeAmateurPage.js",
+    "lines": [
+      {
+        "lineNumber": 7,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * This component display the List Page"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {number} paintId - list Id"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 12,
+        "line": ""
+      },
+      {
+        "lineNumber": 13,
+        "line": " */"
+      },
+      {
+        "lineNumber": 14,
+        "line": ""
+      },
+      {
+        "lineNumber": 15,
+        "line": "export default function ListeAmateurPage({user,isLogged, paintId}) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "paintId",
+      "isLogged"
+    ]
+  },
+  {
+    "name": "MatchingColor",
+    "filePath": "src/view/MatchingColor.js",
+    "lines": [
+      {
+        "lineNumber": 9,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * This component display the Matching Color Page"
+      },
+      {
+        "lineNumber": 11,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 12,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 13,
+        "line": " * @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 14,
+        "line": " */"
+      },
+      {
+        "lineNumber": 15,
+        "line": ""
+      },
+      {
+        "lineNumber": 16,
+        "line": "export default function MatchingColor({ user, setUser, isLogged }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged"
+    ]
+  },
+  {
+    "name": "MatchingPage",
+    "filePath": "src/view/MatchingPage.js",
+    "lines": [
+      {
+        "lineNumber": 6,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 7,
+        "line": " * This component display a Matching Page with a painting from our db"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 11,
+        "line": " *  @param {number} paintId - paint id"
+      },
+      {
+        "lineNumber": 12,
+        "line": " */"
+      },
+      {
+        "lineNumber": 13,
+        "line": ""
+      },
+      {
+        "lineNumber": 14,
+        "line": "export default function MatchingPage({ user, setUser, paintId, isLogged }) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged",
+      "paintId"
+    ]
+  },
+  {
+    "name": "OpusPage",
+    "filePath": "src/view/OpusPage.js",
+    "lines": [
+      {
+        "lineNumber": 6,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 7,
+        "line": " * This component display a Painting full page"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 10,
+        "line": " * @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 11,
+        "line": " *  @param {number} paintId - paint id"
+      },
+      {
+        "lineNumber": 12,
+        "line": " *  @param {number} setPaintId - paintId setter"
+      },
+      {
+        "lineNumber": 13,
+        "line": " */"
+      },
+      {
+        "lineNumber": 14,
+        "line": ""
+      },
+      {
+        "lineNumber": 15,
+        "line": "export default function OpusPage({user,setUser,paintId,setPaintId, isLogged}) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "user",
+      "setUser",
+      "isLogged",
+      "paintId",
+      "setPaintId"
+    ]
+  },
+  {
+    "name": "UserInfo",
+    "filePath": "src/view/UserInfo.js",
+    "lines": [
+      {
+        "lineNumber": 5,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 6,
+        "line": " * This component display the User update Page"
+      },
+      {
+        "lineNumber": 7,
+        "line": " * @param {boolean} isLogged - test if the user is logged"
+      },
+      {
+        "lineNumber": 8,
+        "line": " * @param {object} user - user object from api"
+      },
+      {
+        "lineNumber": 9,
+        "line": " * @param {object} setUser - user setter"
+      },
+      {
+        "lineNumber": 10,
+        "line": ""
+      },
+      {
+        "lineNumber": 11,
+        "line": " */"
+      },
+      {
+        "lineNumber": 12,
+        "line": ""
+      },
+      {
+        "lineNumber": 13,
+        "line": ""
+      },
+      {
+        "lineNumber": 14,
+        "line": "export default function UserInfo({ isLogged,user, setUser}) {"
+      }
+    ],
+    "codeParams": [
+      "*"
+    ],
+    "docParams": [
+      "isLogged",
+      "user",
+      "setUser"
+    ]
+  }
+]

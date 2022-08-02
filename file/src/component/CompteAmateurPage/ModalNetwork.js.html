@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/CompteAmateurPage/ModalNetwork.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/CompteAmateurPage/ModalNetwork.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import { Link } from &quot;react-router-dom&quot;
+import { Tab, Tabs, TabList, TabPanel } from &quot;react-tabs&quot;;
+import close from &quot;../../webapp/img/icons/ico_close_2.svg&quot;
+import pers from &quot;../../webapp/img/icons/ico_relations_1.svg&quot;
+import send from &quot;../../webapp/img/icons/ico_chatbox_send.svg&quot;;
+import del from &quot;../../webapp/img/icons/ico_user_delete_2.svg&quot;
+import soc1 from &quot;../../webapp/temp/soc_1.jpg&quot;
+import soc2 from &quot;../../webapp/temp/soc_2.jpg&quot;
+import soc3 from &quot;../../webapp/temp/soc_3.jpg&quot;
+import soc4 from &quot;../../webapp/temp/soc_4.jpg&quot;
+import soc5 from &quot;../../webapp/temp/soc_5.jpg&quot;
+import soc6 from &quot;../../webapp/temp/soc_6.jpg&quot;
+import soc7 from &quot;../../webapp/temp/soc_7.jpg&quot;
+
+
+
+/**
+ * This component is a modal used to manage your network (add/delete friends,...)
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ *  @param {boolean} boolNetWork - test if the network modal is open
+ *  @param {boolean} setBoolNetWork - boolNetWork setter
+ */
+
+
+export default function ModalNetwork({ user, setUser, boolNetWork, setBoolNetWork }) {
+
+    //  init Variables global
+    const [isActive, setIsActive] = useState(1);
+
+    //Active class Tab
+    const toggleClass = (val) =&gt; {
+        setIsActive(val);
+
+    };
+
+
+
+    return (
+
+        &lt;div className=&quot;ModalNetwork&quot;&gt;
+
+            {/* &lt;!-- MODAL GERER MON RESEAU - D&#xC9;BUT --&gt; */}
+            &lt;div className=&quot;smart-modal-overlay&quot; style={{ display: &quot;block&quot; }}&gt;&lt;/div&gt;
+            &lt;div className=&quot;smart-modal-content-l scrollAuto&quot; style={{ transform: &quot;translate(-50%,-50%)&quot;, display: &quot;inline-flex&quot;, flexWrap: &quot;wrap&quot;, alignContent: &quot;flex-start&quot; }}&gt;
+                &lt;h3&gt;G&#xE9;rer mon r&#xE9;seau&lt;/h3&gt;
+                &lt;a className=&quot;smart-modal-close&quot; onClick={(e) =&gt; setBoolNetWork(!boolNetWork)}&gt;&lt;img className=&quot;img-left&quot; src={close} alt=&quot;Trier&quot; /&gt;&lt;/a&gt;
+                &lt;div className=&quot;showSubs&quot;&gt;
+                    &lt;Tabs defaultIndex={isActive - 1}&gt;
+                        &lt;TabList&gt;
+                            &lt;nav className=&quot;accountTabs&quot;&gt;
+                                &lt;ul&gt;
+                                    &lt;Tab className=&quot;react-tabs__tab&quot;&gt;&lt;a className={isActive === 1 ? &apos;active&apos; : null} onClick={() =&gt; toggleClass(1)} &gt;Demandes d&apos;ajout&lt;span className=&quot;pillR&quot;&gt;8&lt;/span&gt;&lt;/a&gt;&lt;/Tab&gt;
+                                    &lt;Tab className=&quot;react-tabs__tab&quot;&gt;&lt;a className={isActive === 2 ? &apos;active&apos; : null} onClick={() =&gt; toggleClass(2)}&gt;Mon r&#xE9;seau&lt;/a&gt;&lt;/Tab&gt;
+                                    &lt;Tab className=&quot;react-tabs__tab&quot;&gt;&lt;a className={isActive === 3 ? &apos;active&apos; : null} onClick={() =&gt; toggleClass(3)}&gt;Mes abonn&#xE9;s&lt;/a&gt;&lt;/Tab&gt;
+                                    &lt;Tab className=&quot;react-tabs__tab&quot;&gt; &lt;a className={isActive === 4 ? &apos;active&apos; : null} onClick={() =&gt; toggleClass(4)}&gt;Mes abonnements&lt;/a&gt;&lt;/Tab&gt;
+                                &lt;/ul&gt;
+                            &lt;/nav&gt;
+                        &lt;/TabList&gt;
+                        &lt;div className=&quot;doubleSearch&quot; data-tooltip=&quot;Recherche de personnes&quot;&gt;
+                            &lt;form action=&quot;&quot;&gt;
+                                &lt;input type=&quot;text&quot; style={{ backgroundImage: `url(${pers})`, backgroundSize: &quot;25px 25px&quot; }} size=&quot;35&quot; placeholder=&quot;&quot; required /&gt;
+                                &lt;input type=&quot;button&quot; value=&quot;&quot; /&gt;
+                            &lt;/form&gt;
+                        &lt;/div&gt;
+                        &lt;TabPanel&gt;
+                            &lt;h4 className=&quot;mb-b&quot;&gt;Demandes d&#x2019;ajout &#xE0; votre r&#xE9;seau (7)&lt;/h4&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc1})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Arthuro Bracchio&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;Florence, Italie&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;17 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;reject&quot; value=&quot;Ignorer&quot; /&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;accept&quot; value=&quot;Accepter&quot; /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc2})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Istria Desmoth&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;Edimburgh, Ecosse&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;31 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;reject&quot; value=&quot;Ignorer&quot; /&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;accept&quot; value=&quot;Accepter&quot; /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc3})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Latosha Johnson&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;Chicago, U.S.A&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;45 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;reject&quot; value=&quot;Ignorer&quot; /&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;accept&quot; value=&quot;Accepter&quot; /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc4})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Conchita Martinez&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;Madrid, Espagne&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;52 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;reject&quot; value=&quot;Ignorer&quot; /&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;accept&quot; value=&quot;Accepter&quot; /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc5})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Saginaw Rashpania&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;New-Dehli, Inde&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;12 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;reject&quot; value=&quot;Ignorer&quot; /&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;accept&quot; value=&quot;Accepter&quot; /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc6})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Ilona Hindenberg&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;Hannover, Allemagne&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;36 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;reject&quot; value=&quot;Ignorer&quot; /&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;accept&quot; value=&quot;Accepter&quot; /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc7})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Antonin Despentes&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;Lyon, France&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;36 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;reject&quot; value=&quot;Ignorer&quot; /&gt;
+                                    &lt;input type=&quot;button&quot; className=&quot;accept&quot; value=&quot;Accepter&quot; /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+                        &lt;/TabPanel&gt;
+                        &lt;TabPanel&gt;
+                            &lt;h4 className=&quot;mb-b&quot;&gt;Votre R&#xE9;seau (7)&lt;/h4&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc1})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Arthuro Bracchio&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;Florence, Italie&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;17 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                    &lt;a className=&quot;renameIt&quot; style={{ right: &quot;50px&quot;, width: &quot;42px&quot;, height: &quot;42px&quot;,padding: &quot;8px&quot; }}&gt;
+                                        &lt;img src={del} style={{ width: &quot;20px&quot;, height: &quot;20px&quot; }} /&gt;
+                                    &lt;/a&gt;
+                                    &lt;a type=&quot;button&quot; className=&quot;topAccountBg&quot; value=&quot;Accepter&quot; style={{ border: &quot;solid 1px grey&quot;, right: &quot;0&quot; }}&gt;
+                                        &lt;img src={send} style={{ width: &quot;20px&quot;, height: &quot;20px&quot; }} /&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+                        &lt;/TabPanel&gt;
+                        &lt;TabPanel&gt;
+                            &lt;h4 className=&quot;mb-b&quot;&gt;Vos Abonn&#xE9;s (7)&lt;/h4&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc1})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Arthuro Bracchio&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;Florence, Italie&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;17 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                &lt;a className=&quot;renameIt&quot; style={{ right: &quot;50px&quot;, width: &quot;42px&quot;, height: &quot;42px&quot;,padding: &quot;8px&quot; }}&gt;
+                                        &lt;img src={del} style={{ width: &quot;20px&quot;, height: &quot;20px&quot; }} /&gt;
+                                    &lt;/a&gt;
+                                    &lt;a type=&quot;button&quot; className=&quot;topAccountBg&quot; value=&quot;Accepter&quot; style={{ border: &quot;solid 1px grey&quot;, right: &quot;0&quot; }}&gt;
+                                        &lt;img src={send} style={{ width: &quot;20px&quot;, height: &quot;20px&quot; }} /&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+                        &lt;/TabPanel&gt;
+                        &lt;TabPanel&gt;
+                            &lt;h4 className=&quot;mb-b&quot;&gt;Vos Abonnements (7)&lt;/h4&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - d&#xE9;but --&gt; */}
+                            &lt;div className=&quot;subDetails&quot;&gt;
+                                &lt;div className=&quot;userFacts&quot;&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userAvatar&quot; style={{ backgroundImage: `url(${soc1})` }}&gt;&lt;/a&gt;
+                                    &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;Arthuro Bracchio&lt;/a&gt;
+                                    &lt;p className=&quot;userPlace&quot;&gt;Florence, Italie&lt;/p&gt;
+                                    &lt;p className=&quot;userCorel&quot;&gt;17 membres en commun&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div className=&quot;userSubBtn&quot;&gt;
+                                &lt;a className=&quot;renameIt&quot; style={{ right: &quot;50px&quot;, width: &quot;42px&quot;, height: &quot;42px&quot;,padding: &quot;8px&quot; }}&gt;
+                                        &lt;img src={del} style={{ width: &quot;20px&quot;, height: &quot;20px&quot; }} /&gt;
+                                    &lt;/a&gt;
+                                   
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            {/* &lt;!-- D&#xC9;TAILS CONTACT DU RESEAU - fin --&gt; */}
+                        &lt;/TabPanel&gt;
+                    &lt;/Tabs&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+    );
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

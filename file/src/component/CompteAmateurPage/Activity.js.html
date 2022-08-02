@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/CompteAmateurPage/Activity.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/CompteAmateurPage/Activity.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import { toast } from &quot;react-toastify&quot;
+import lockB from &quot;../../webapp/img/icons/content_locked_1-2.svg&quot;
+import unlockB from &quot;../../webapp/img/icons/content_unlocked_1-2.svg&quot;
+
+/**
+ * This Component contain your network feed
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ * @emits - api/publication/save : save user publication
+ */
+
+export default function Activity({ user, SetUser }) {
+
+	const [refreshKey, setRefreshKey] = useState(0);
+	const [publication, setPublication] = useState([]);
+	const [boolVis, setBollVis] = useState(false);
+
+
+
+	//post une publication//
+	function submitPost(e) {
+
+		e.preventDefault();
+
+		axios.post(URLDayl + &quot;api/publication/save&quot;,
+			{ content: publication, userId: user.id, publicationStatus: &quot;PUBLIC&quot; }, { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+		)
+			.then((response) =&gt; {
+				setRefreshKey(oldKey =&gt; oldKey + 1);
+				//popup alert
+				toast.success(&quot;Publication Post&#xE9;e!&quot;, {
+					position: &quot;top-right&quot;,
+					autoClose: 3000,
+					hideProgressBar: false,
+					closeOnClick: true,
+					pauseOnHover: true,
+					draggable: true,
+					progress: undefined,
+				});
+
+			});
+
+	}
+	function addMedia(e) {
+		e.preventDefault();
+
+	}
+
+	///////////////Change visibility////////////
+	const handleCheck = () =&gt; {
+
+
+		if (boolVis === false)
+			setBollVis(true);
+		else {
+			setBollVis(false)
+		}
+	}
+
+	return (
+		&lt;div className=&quot;Activity&quot; &gt;
+			{/* &lt;!-- ******************************************************
+				***********************************************************
+
+				BLOC CONTENU PRINCIPAL - d&#xE9;but
+
+				***********************************************************
+				******************************************************* --&gt; */}
+
+			&lt;div className=&quot;socialItems&quot;&gt;
+
+				{/* &lt;!-- publier - d&#xE9;but --&gt; */}
+				&lt;div className=&quot;addPost&quot;&gt;
+					&lt;form  &gt;
+						&lt;textarea onChange={(e) =&gt; setPublication(e.target.value)} value={publication} placeholder=&quot;Que souhaitez-vous partager aujourd&#x2019;hui ?&quot;&gt;&lt;/textarea&gt;
+						&lt;img src={URLDayl + `images/contentUser/${user.id}/${user.iconImage}`} /&gt;
+						
+						&lt;div className=&quot;postButtonContainer2&quot;&gt;
+						&lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Ex : expressionnisme, surr&#xE9;alisme &#x2026;&quot; style={{width: &quot;100%&quot;}}/&gt;
+                                    &lt;div className=&quot;hashList toLeft&quot;&gt;
+                                        &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+                                        &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+                                        &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+                                        &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+                                        &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+                                        &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+                                        &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+                                        &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+                                    &lt;/div&gt;
+							&lt;div className=&quot;toggleBox vis&quot; style={{ height: &quot;32px&quot; }}&gt;
+								
+								&lt;div className=&quot;lilToggle mt-b mb-b&quot;&gt;
+									
+									&lt;input type=&quot;checkbox&quot; onChange={(e) =&gt; handleCheck()} name=&quot;toggleDesc&quot; defaultChecked={boolVis} /&gt;
+									&lt;img src={lockB} style={{ width: &quot;20px&quot;, height: &quot;20px&quot;, top: &quot;6px&quot;, left: &quot;45px&quot;, position: &quot;absolute&quot;, borderRadius: &quot;0&quot; }} /&gt;
+									&lt;img src={unlockB} style={{ width: &quot;20px&quot;, height: &quot;20px&quot;, top: &quot;6px&quot;, left: &quot;7px&quot;, position: &quot;absolute&quot;, borderRadius: &quot;0&quot; }} /&gt;
+								&lt;/div&gt;
+								{boolVis === true ? &lt;span tool-tp&gt;Tout le monde &lt;/span&gt;
+									: &lt;span&gt;Mon r&#xE9;seau&lt;/span&gt;}
+							&lt;/div&gt;
+							{/* &lt;div style={{ width: &quot;170px&quot;}} className=&quot;selectPublish&quot;&gt;
+								&lt;select className=&quot;searchFilter&quot; &gt;
+									&lt;option value=&quot;&quot; selected&gt;Tp&lt;/option&gt;state
+									&lt;option value=&quot;Domaine public&quot;&gt;Domaine public&lt;/option&gt;
+									&lt;option value=&quot;protected&quot;&gt;Oeuvres prot&#xE9;g&#xE9;es&lt;/option&gt;
+								&lt;/select&gt;
+							&lt;/div&gt; */}
+							&lt;button className=&quot;publish&quot; onClick={submitPost} style={{ height: &quot;37px&quot; }}&gt;Publier&lt;/button&gt;
+						&lt;/div&gt;
+						&lt;div className=&quot;postButtonContainer&quot;&gt;
+							&lt;button className=&quot;addMedia&quot; /* style={{ top: &quot;120px&quot;, height: &quot;32px&quot; }} */ onClick={(e) =&gt; addMedia(e)}&gt;Ajouter des photos / une vid&#xE9;o&lt;/button&gt;
+							{/* &lt;button className=&quot;addHashtag&quot; onClick={(e) =&gt; addMedia(e)}&gt;Ajouter un hashtag&lt;/button&gt; */}
+						&lt;/div&gt;
+					&lt;/form&gt;
+
+					&lt;input type=&quot;button&quot; className=&quot;openModalNow deletePubli&quot;/*  onClick={() =&gt; handleBoolDeleteTrue(index)} */ /&gt;
+					&lt;input type=&quot;button&quot; className=&quot; openModalNow editPubli&quot; /* onClick={() =&gt; handleBoolEditTrue(index)} */ /&gt;
+					&lt;input type=&quot;button&quot; className=&quot; openModalNow savePubli&quot; /* onClick={() =&gt; handleBoolShareTrue(index)} */ /&gt;
+				&lt;/div&gt;
+				{/* &lt;!-- publier - fin --&gt; */}
+
+				{/* &lt;!-- publication - d&#xE9;but --&gt; */}
+						&lt;article&gt;
+							&lt;p class=&quot;postLikedBy&quot;&gt;&lt;b&gt;ILONA HINDENBERG&lt;/b&gt; aime ceci&lt;/p&gt;
+							&lt;div class=&quot;postData&quot;&gt;
+								&lt;h2&gt;Olivier Lefievre&lt;/h2&gt;
+								&lt;time datetime=&quot;2022-07-07T20:00:00&quot; class=&quot;authorPostTime&quot;&gt;post&#xE9; le 07 juillet 2022 &#xE0; 19:00&lt;/time&gt;
+								&lt;p class=&quot;postText&quot;&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.&lt;/p&gt;
+								&lt;img src=&quot;temp/olivier_profil_1.jpeg&quot; alt=&quot;Olivier Lefievre&quot;/&gt;
+							&lt;/div&gt;
+							&lt;div class=&quot;postStats&quot;&gt;
+								&lt;span class=&quot;countLikes&quot;&gt;12&lt;/span&gt;
+								&lt;span class=&quot;countComments&quot;&gt;3 commentaires&lt;/span&gt;
+							&lt;/div&gt;
+							&lt;div class=&quot;postActions mb-b&quot;&gt;
+								&lt;button class=&quot;likeIt&quot;&gt;J&apos;aime&lt;/button&gt;
+								&lt;button class=&quot;commentIt&quot;&gt;Commenter&lt;/button&gt;
+								&lt;button class=&quot;shareIt&quot;&gt;Partager&lt;/button&gt;
+							&lt;/div&gt;
+
+
+							{/* &lt;!-- COMMENTER / COMMENTAIRES SUR CETTE PUBLICATION - d&#xE9;but --&gt; */}
+							&lt;div class=&quot;postComments&quot;&gt;
+
+								&lt;div class=&quot;addPostComment&quot;&gt;
+									&lt;textarea name=&quot;message&quot; placeholder=&quot;ajouter un commentaire sur cette publication&quot;&gt;&lt;/textarea&gt;
+									&lt;button class=&quot;publish&quot;&gt;Publier&lt;/button&gt;
+									&lt;button class=&quot;addMedia&quot;&gt;Ajouter une photo&lt;/button&gt;
+								&lt;/div&gt;
+
+								&lt;div class=&quot;comment&quot;&gt;
+									&lt;div class=&quot;container&quot;&gt;
+										&lt;img src=&quot;temp/soc_6.jpg&quot; alt=&quot;Ilona Hindenberg&quot;/&gt;
+										&lt;h3&gt;Ilona Hindenberg&lt;/h3&gt;
+										&lt;time datetime=&quot;2022-07-07T20:00:00&quot; class=&quot;commentPostTime&quot;&gt;07 juillet 2022 - 20:00&lt;/time&gt;
+										&lt;p&gt;Oh my gooood !!! this is so absolutely gorgeous and crazy at the same time, i love it !!! can&apos;t wait for more art from this artist XOXO.&lt;/p&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+
+								&lt;div class=&quot;childComment&quot;&gt;
+									&lt;div class=&quot;container&quot;&gt;
+										&lt;img src=&quot;temp/soc_3.jpg&quot; alt=&quot;Latosha Johnson&quot;/&gt;
+										&lt;h3&gt;Latosha Johnson&lt;/h3&gt;
+										&lt;time datetime=&quot;2022-07-07T20:07:00&quot; class=&quot;commentPostTime&quot;&gt;07 juillet 2022 - 20:07&lt;/time&gt;
+										&lt;p&gt;Yeaaaaah ! girl, i must admit that you&apos;re right. Hope i can see it in real one time in Paris ! see ya !&lt;/p&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+
+								&lt;div class=&quot;comment&quot;&gt;
+									&lt;div class=&quot;container&quot;&gt;
+										&lt;img src=&quot;temp/soc_1.jpg&quot; alt=&quot;Arthuro Bracchio&quot;/&gt;
+										&lt;h3&gt;Arthuro Bracchio&lt;/h3&gt;
+										&lt;time datetime=&quot;2022-07-07T21:45:00&quot; class=&quot;commentPostTime&quot;&gt;07 juillet 2022 - 21:45&lt;/time&gt;
+										&lt;p&gt;mmmm ... not my cup of tea. But i have to admit that this artist will certainly have a lot of success in the future. Best wishes.&lt;/p&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+
+							&lt;/div&gt;
+							{/* &lt;!-- COMMENTER / COMMENTAIRES SUR CETTE PUBLICATION - fin --&gt; */}
+
+
+						&lt;/article&gt;
+						{/* &lt;!-- publication - fin --&gt; */}
+				{/* &lt;!-- publication avec media - d&#xE9;but --&gt; */}
+				&lt;article&gt;
+					&lt;p className=&quot;postLikedBy&quot;&gt;&lt;b&gt;Olivier LEFIEVRE&lt;/b&gt; aime ceci&lt;/p&gt;
+					&lt;div className=&quot;postData&quot;&gt;
+						&lt;h2&gt;Olivier Lefi&#xE8;vre&lt;/h2&gt;
+						&lt;p className=&quot;postTime&quot;&gt;il y a 6h&lt;/p&gt;
+						&lt;p className=&quot;postText&quot;&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.&lt;/p&gt;
+						&lt;img src=&quot;temp/olivier_profil_1.jpeg&quot; alt=&quot;Olivier Lefi&#xE8;vre&quot; /&gt;
+					&lt;/div&gt;
+					&lt;div className=&quot;postMedia&quot;&gt;
+						&lt;img className=&quot;image&quot; src={URLDayl + `images/contentUser/${user.id}/${user.iconImage}`} /&gt;
+					&lt;/div&gt;
+					&lt;div className=&quot;postStats&quot;&gt;
+						&lt;span className=&quot;countLikes&quot;&gt;12&lt;/span&gt;
+						&lt;span className=&quot;countComments&quot;&gt;3 commentaires&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div className=&quot;postActions&quot;&gt;
+						&lt;button className=&quot;likeIt&quot;&gt;J&apos;aime&lt;/button&gt;
+						&lt;button className=&quot;commentIt&quot;&gt;Commenter&lt;/button&gt;
+						&lt;button className=&quot;shareIt&quot;&gt;Partager&lt;/button&gt;
+					&lt;/div&gt;
+				&lt;/article&gt;
+				{/* &lt;!-- publication avec media - fin --&gt; */}
+
+
+				{/* &lt;!-- publication partag&#xE9;e - d&#xE9;but --&gt; */}
+				&lt;article&gt;
+					&lt;p className=&quot;postLikedBy&quot;&gt;&lt;b&gt;Olivier LEFIEVRE&lt;/b&gt; aime ceci&lt;/p&gt;
+					&lt;div className=&quot;postData&quot;&gt;
+						&lt;h2&gt;Olivier Lefi&#xE8;vre&lt;/h2&gt;
+						&lt;p className=&quot;postTime&quot;&gt;il y a 6h&lt;/p&gt;
+						&lt;p className=&quot;postText&quot;&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.&lt;/p&gt;
+						&lt;img src={URLDayl + `images/contentUser/${user.id}/${user.iconImage}`} /&gt;
+					&lt;/div&gt;
+					&lt;article className=&quot;mt-a&quot;&gt;
+						&lt;div className=&quot;postData&quot;&gt;
+							&lt;h2&gt;Olivier Lefi&#xE8;vre&lt;/h2&gt;
+							&lt;p className=&quot;postTime&quot;&gt;il y a 6h&lt;/p&gt;
+							&lt;p className=&quot;postText&quot;&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.&lt;/p&gt;
+							&lt;img src={URLDayl + `images/contentUser/${user.id}/${user.iconImage}`} /&gt;
+						&lt;/div&gt;
+						&lt;div className=&quot;postMedia&quot;&gt;
+							&lt;img className=&quot;image&quot; src={URLDayl + `images/contentUser/${user.id}/${user.iconImage}`} /&gt;
+						&lt;/div&gt;
+					&lt;/article&gt;
+					&lt;div className=&quot;postStats&quot;&gt;
+						&lt;span className=&quot;countLikes&quot;&gt;12&lt;/span&gt;
+						&lt;span className=&quot;countComments&quot;&gt;3 commentaires&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div className=&quot;postActions&quot;&gt;
+						&lt;button className=&quot;likeIt&quot;&gt;J&apos;aime&lt;/button&gt;
+						&lt;button className=&quot;commentIt&quot;&gt;Commenter&lt;/button&gt;
+						&lt;button className=&quot;shareIt&quot;&gt;Partager&lt;/button&gt;
+					&lt;/div&gt;
+				&lt;/article&gt;
+				{/* &lt;!-- publication partag&#xE9;e - fin --&gt; */}
+
+			&lt;/div&gt;
+
+
+			&lt;div className=&quot;cont-l-w center-tex&quot;&gt;
+				&lt;a className=&quot;viewMore&quot; &gt;Voir plus&lt;/a&gt;
+			&lt;/div&gt;
+
+			{/* &lt;!-- ******************************************************
+				***********************************************************
+
+				BLOC CONTENU PRINCIPAL - fin
+
+				***********************************************************
+				******************************************************* --&gt; */}
+
+		&lt;/div&gt;
+	)
+
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

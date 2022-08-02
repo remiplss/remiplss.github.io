@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/HomePage/SearchBar.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/HomePage/SearchBar.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import { Link } from &quot;react-router-dom&quot;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import Carousel from &quot;react-multi-carousel&quot;;
+import &quot;react-multi-carousel/lib/styles.css&quot;;
+import truncate from &quot;truncate&quot;;
+import { useForm } from &quot;react-hook-form&quot;;
+
+/**
+ * This component display 30 random paintings and allow you to make specific research with different filters
+ * @param {object} user - user object from api
+ * @emits - paintingEntity/randomPaintings30 : get 30 random paintings
+ * @emits - paintingFront/listStyles(listOrigins) (listGenres) : get list of filter
+ * @emits - paintingSearch/findPaintingBySearchDto : get search result
+
+ */
+
+export default function SearchBar({ user }) {
+  //Declaration des variables globales
+
+
+  const [searchPainting, setSearchPainting] = useState([]);
+  const [search, setSearch] = useState([]);
+  const [width, setWidth] = useState(window.innerWidth);
+  const [coefWidth, setCoefWidth] = useState();
+  const [listStyles, setListStyles] = useState([]);
+  const [listOrigins, setListOrigins] = useState([]);
+  const [listGenres, setListGenres] = useState([]);
+  const { register, handleSubmit, formState: { errors }, reset } = useForm();
+  // //parametres carousel//
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 9
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 9
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 5
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 2
+    }
+  };
+
+
+
+
+  const responsive2 = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+      paritialVisibilityGutter: 0
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+      paritialVisibilityGutter: 0
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      paritialVisibilityGutter: 0
+    }
+  };
+
+  // get 30 random Paint //
+
+  useEffect(() =&gt; {
+    axios
+      .get(URLDayl + &quot;paintingEntity/randomPaintings30&quot;, {}, { headers: { &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot; } })
+      .then((response) =&gt; {
+        setSearchPainting(response.data);
+        getItemWidth();
+      });
+  }, []);
+
+
+  // get filter //
+
+  useEffect(() =&gt; {
+    axios
+      .get(URLDayl + &quot;paintingFront/listStyles&quot;, {}, { headers: { &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot; } })
+      .then((response) =&gt; {
+        setListStyles(response.data);
+      });
+    axios
+      .get(URLDayl + &quot;paintingFront/listOrigins&quot;, {}, { headers: { &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot; } })
+      .then((response) =&gt; {
+        setListOrigins(response.data);
+      });
+    axios
+      .get(URLDayl + &quot;paintingFront/listGenres&quot;, {}, { headers: { &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot; } })
+      .then((response) =&gt; {
+        setListGenres(response.data);
+      });
+  }, []);
+
+
+  // send search //
+
+  const sendSearch =  async (data) =&gt;  {
+  
+console.log(data)
+    axios.post(URLDayl + &quot;paintingSearch/findPaintingBySearchDto&quot;, {
+      license: data.license, style: data.style, genre: data.genre, nationality: data.nationality,
+      freeSearch: data.freeSearch, year: data.year, decade: data.decade
+    },
+      { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;USER_PAINT&quot;: &quot;0&quot; } }
+    )
+      .then((response) =&gt; {
+
+        setSearchPainting(response.data);
+
+      });
+
+  }
+
+  //get la largeur d&apos;un item carrousel
+  function getItemWidth() {
+    let el = document.querySelector(&apos;.react-multi-carousel-item.itemTwo&apos;)
+    //on convertis la valeur en int
+
+
+    if (el) {
+      let element = parseInt(el.style.width.slice(0, 3))
+      let coef = 2 * (203 / element);
+      setCoefWidth(coef)
+    }
+
+  }
+  //get la largeur de la fenetre
+  const handleResize = () =&gt; {
+    setWidth(window.innerWidth)
+  }
+  useEffect(() =&gt; {
+    window.addEventListener(&quot;resize&quot;, handleResize, false);
+  }, []);
+
+
+  //update la largeur d&apos;un item quand la largeur de la fenetre change
+  useEffect(() =&gt; {
+
+    getItemWidth();
+  }, [width]);
+
+
+  return (
+
+    &lt;div className=&quot;SearchBar&quot;&gt;
+
+      {/* &lt;!-- ******************************************************
+			TOP BOX - TITRE &amp; BG - d&#xE9;but
+			******************************************************* --&gt; */}
+      &lt;section className=&quot;center-col&quot;&gt;
+
+        &lt;div className=&quot;cont-f-w startPageBg&quot; style={{ backgroundImage: `url(${URLDayl}images/content/${searchPainting.length &gt; 0 &amp;&amp; searchPainting[0].artistId}/${searchPainting.length &gt; 0 &amp;&amp; searchPainting[0].urlImage})`, backgroundRepeat: &quot;no-repeat&quot;, backgroundPosition: &quot;center center&quot;, backgroundSize: &quot;cover&quot;, height: &quot;400px&quot; }}&gt;&lt;/div&gt;
+
+        &lt;div className=&quot;cont-n-w center-col exploPageTop&quot; &gt;
+          &lt;h1 className=&quot;goRed&quot;&gt;Discover &lt;span&gt;Art&lt;/span&gt; You &lt;span&gt;Love&lt;/span&gt;&lt;/h1&gt;
+          &lt; div style={{ width: &quot;700px&quot; }}&gt;
+            &lt;Carousel
+              itemClass=&quot;image-item&quot;
+              responsive={responsive2}
+              arrows={false}
+              showDots={true}
+              autoPlay={true}
+              infinite={true}
+            &gt;
+              &lt;div style={{ width: &quot;650px&quot;, margin: &quot;25px&quot;, marginBottom: &quot;50px&quot; }}&gt; &lt;p&gt;Dayl offre, via les technologies IA, &lt;span&gt;un pont entre l&#x2019;histoire de l&#x2019;art et les artistes contemporains&lt;/span&gt; &#xE0; travers une navigation in&#xE9;dite et le &#xAB; matching &#xBB; des peintures&lt;/p&gt;&lt;/div&gt;
+              &lt;div style={{ width: &quot;650px&quot;, margin: &quot;25px&quot;, marginBottom: &quot;50px&quot; }}&gt; &lt;p&gt;Dayl, une plateforme ouverte &lt;span&gt;au partage, &#xE0; l&#x2019;&#xE9;change, aux rencontres et &#xE0; la promotion&lt;/span&gt; d&#x2019;une vision p&#xE9;dagogique des &#x153;uvres d&#x2019;art, &#xE0; travers les &#xE2;ges&lt;/p&gt;&lt;/div&gt;
+              &lt;div style={{ width: &quot;650px&quot;, margin: &quot;25px&quot;, marginBottom: &quot;50px&quot; }}&gt; &lt;p&gt;Dayl fait le pari de la valorisation des supports num&#xE9;riques artistiques en mode &lt;span&gt;Haute D&#xE9;finition&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+            &lt;/Carousel&gt;&lt;/div&gt;
+
+        &lt;/div&gt;
+
+
+      &lt;/section&gt;
+
+      {/* &lt;!-- ******************************************************
+TOP BOX - TITRE &amp; BG - fin --&gt; */}
+
+
+
+      {/* &lt;!-- ******************************************************
+			MENU DE RECHERCHE DES OEUVRES - d&#xE9;but
+			(blocks.css - code relatif ligne 54 -&gt; 55 + dropdown menus ligne 61 -&gt; 72)
+			****************************************************** --&gt; */}
+
+      &lt;section className=&quot;center-col bgc-a mt-b&quot;&gt;
+
+        &lt;h1 class=&quot;explorerTitleH&quot;&gt;Rechercher et Explorer&lt;/h1&gt;
+        &lt;form id=&quot;fineSearch&quot; className=&quot;fineSearch&quot; onSubmit={handleSubmit(sendSearch)} &gt;
+          {/* &lt;!-- Choisir un type de licence concernant les oeuvres - d&#xE9;but --&gt; */}
+          &lt;div &gt;
+            &lt;select className=&quot;searchFilter&quot; {...register(&quot;license&quot;)}&gt;
+              &lt;option value=&quot;&quot; selected&gt;Licence&lt;/option&gt;state
+              &lt;option value=&quot;Domaine public&quot;&gt;Domaine public&lt;/option&gt;
+              &lt;option value=&quot;protected&quot;&gt;Oeuvres prot&#xE9;g&#xE9;es&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/div&gt;
+          {/* &lt;!-- Choisir un type de licence concernant les oeuvres - fin --&gt; */}
+
+          {/* &lt;!-- Choisir un style d&apos;oeuvre - d&#xE9;but --&gt; */}
+          &lt;div&gt;
+            &lt;select className=&quot;searchFilter&quot; id=&quot;style&quot; name=&quot;style&quot; {...register(&quot;style&quot;)}&gt;
+              &lt;option value=&quot;&quot; selected&gt;Style&lt;/option&gt;
+              {listStyles.length &gt; 0 &amp;&amp; listStyles.map((style, index) =&gt; (
+                &lt;option value={style.code}&gt;{style.name}&lt;/option&gt;
+              ))}
+
+
+            &lt;/select&gt;
+          &lt;/div&gt;
+          {/* &lt;!-- Choisir un style d&apos;oeuvre - fin --&gt; */}
+
+          {/* &lt;!-- Choisir un genre d&apos;oeuvre - d&#xE9;but --&gt; */}
+          &lt;div &gt;
+            &lt;select className=&quot;searchFilter&quot; id=&quot;genre&quot; name=&quot;genre&quot; {...register(&quot;genre&quot;)}&gt;
+              &lt;option value=&quot;&quot; selected&gt;Genre&lt;/option&gt;
+              {listGenres.length &gt; 0 &amp;&amp; listGenres.map((genre, index) =&gt; (
+                &lt;option value={genre.code}&gt;{genre.name}&lt;/option&gt;
+              ))}
+            &lt;/select&gt;
+          &lt;/div&gt;
+
+          {/* &lt;!-- Choisir un genre d&apos;oeuvre - fin --&gt; */}
+
+          {/* &lt;!-- Choisir une nationalit&#xE9; de l&apos;oeuvre - d&#xE9;but --&gt; */}
+          &lt;div&gt;
+            &lt;select className=&quot;searchFilter&quot; id=&quot;nationalite&quot; name=&quot;nationalite&quot; {...register(&quot;nationality&quot;)}&gt;
+              &lt;option value=&quot;&quot; selected&gt;Nationalit&#xE9;&lt;/option&gt;
+              {listOrigins.length &gt; 0 &amp;&amp; listOrigins.map((origin, index) =&gt; (
+                &lt;option value={origin.code}&gt;{origin.name}&lt;/option&gt;
+              ))}
+            &lt;/select&gt;
+          &lt;/div&gt;
+          {/* &lt;!-- Choisir une nationalit&#xE9; de l&apos;oeuvre - fin --&gt; */}
+
+          {/* &lt;!-- Champ de recherche texte - d&#xE9;but --&gt; */}
+          &lt;div&gt;
+            &lt;input
+              {...register(&quot;freeSearch&quot;)}
+              type=&quot;text&quot;
+              className=&quot;searchString explorer&quot;
+              placeholder=&quot;Artiste, mot-cl&#xE9;...&quot;
+            /&gt;
+          &lt;/div&gt;
+          {/* &lt;!-- Champ de recherche texte - fin --&gt; */}
+
+          {/* &lt;!-- Ann&#xE9;e de l&apos;oeuvre - d&#xE9;but --&gt; */}
+          &lt;div&gt;
+            &lt;input
+             {...register(&quot;year&quot;)}
+              type=&quot;text&quot;
+              className=&quot;date&quot;
+              placeholder=&quot;Ann&#xE9;e&quot;
+            /&gt;
+          &lt;/div&gt;
+          {/* &lt;!-- Ann&#xE9;e de l&apos;oeuvre - fin --&gt; */}
+
+          {/* &lt;!-- D&#xE9;cennie de l&apos;oeuvre - d&#xE9;but --&gt; */}
+          &lt;div&gt;
+            &lt;input
+              {...register(&quot;decade&quot;)}
+              type=&quot;text&quot;
+              className=&quot;date&quot;
+              placeholder=&quot;D&#xE9;cennie&quot;
+            /&gt;
+          &lt;/div&gt;
+          {/* &lt;!-- D&#xE9;cennie de l&apos;oeuvre - fin --&gt; */}
+
+          {/* &lt;!-- Bouton de lancement de recherche - d&#xE9;but --&gt; */}
+          &lt;div data-tooltip=&quot;Lancer la recherche&quot;&gt;
+            &lt;input type=&quot;submit&quot; /* onClick={handleSubmit} */  className=&quot;squareSub&quot; value=&quot;&quot;/&gt;
+           
+          &lt;/div&gt; 
+          &lt;div data-tooltip=&quot;Reset les filtres&quot;&gt;
+          &lt;input  onClick={(e) =&gt; reset()}  className=&quot;squareReset&quot; value=&quot;&quot;/&gt;
+          &lt;/div&gt;
+          {/* &lt;!-- Bouton de lancement de recherche - fin --&gt;
+
+					&lt;!-- Lien matching &#xE0; la vol&#xE9;e - d&#xE9;but --&gt; */}
+          {/* &lt;div data-tooltip=&quot;Matching &#xE0; la vol&#xE9;e&quot;&gt;
+            &lt;Link href=&quot;matching-image.html&quot; to=&quot;../../view/MatchingImage.js&quot; className=&quot;squareMatch&quot;&gt;&lt;/Link&gt;
+          &lt;/div&gt; */}
+          {/* &lt;!-- Lien matching &#xE0; la vol&#xE9;e - fin --&gt; */}
+        &lt;/form&gt;
+      &lt;/section&gt;
+      {/* &lt;!-- MENU DE RECHERCHE DES OEUVRES - fin --&gt;
+
+
+			&lt;!-- ******************************************************
+			CAROUSEL PLEINE LARGEUR - d&#xE9;but
+			(carousels.css)
+			****************************************************** --&gt; */}
+      &lt;section className=&quot;center-col&quot;&gt;
+        {/* &lt;!-- R&#xE9;sultats carousel - d&#xE9;but --&gt; */}
+        &lt;div className=&quot;cont-l-slider&quot;&gt;
+          &lt;Carousel responsive={responsive}
+            infinite={true}
+            shouldResetAutoplay={false}
+            itemClass=&quot;itemTwo&quot;
+            rewind={false}
+            slidesToSlide={coefWidth}
+            rewindWithAnimation={false}
+          &gt;
+
+            {searchPainting.length / 2 &gt; 0 &amp;&amp;
+              searchPainting.map(function (searchPaint, index) {
+                if (index % 2 == 0) return (
+                  &lt;div className=&quot;sliderTwo&quot; &gt;
+
+                    &lt;div className=&quot;item&quot; style={{ backgroundImage: `url(${URLDayl}images/content/mini/${(searchPaint &amp;&amp; searchPaint.hasOwnProperty(&quot;artistId&quot;)) &amp;&amp; searchPaint.artistId}/${searchPaint.urlImage &amp;&amp; searchPaint.urlImage})`, backgroundSize: &quot;cover&quot;, backgroundPosition: &quot;center center&quot; }}&gt;
+                      &lt;div className=&quot;img-wrapper&quot; &gt;
+                        &lt;div className=&quot;bt-wrapper&quot;&gt;
+                          &lt;div className=&quot;name&quot;&gt;{searchPaint.artisteName &amp;&amp; searchPaint.artisteName}&lt;/div&gt;
+                          &lt;div className=&quot;titre&quot;&gt;
+                            {searchPaint.name &amp;&amp; searchPaint.name}
+                            &lt;div className=&quot;date&quot;&gt;{searchPaint.year &amp;&amp; searchPaint.year}&lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;div className=&quot;container-action&quot;&gt;
+                            &lt;Link className=&quot;bt-action voir&quot; to={`../../view/OpusPage.js/${searchPaint.id &amp;&amp; searchPaint.id}`} state={searchPaint.id &amp;&amp; searchPaint.id}&gt;
+
+                              voir
+
+                            &lt;/Link&gt;
+                            &lt;Link className=&quot;bt-action match&quot; to={`../../view/MatchingPage.js/${searchPaint.id &amp;&amp; searchPaint.id}`} state={searchPaint.id &amp;&amp; searchPaint.id}&gt;
+                              match
+                            &lt;/Link&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        {/* &lt;img
+                          className=&quot;owl-lazy&quot;
+                          src={`https://art.novagen.tech/medias/artist/${searchPaint.artistId}/_mini/${searchPaint.urlImage}`}
+                          alt=&quot;Titre de l&apos;oeuvre&quot;
+                        /&gt; */}
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div className=&quot;item&quot; style={{ backgroundImage: `url(${URLDayl}images/content/mini/${(searchPainting[index + 1] &amp;&amp; searchPainting[index + 1].hasOwnProperty(&quot;artistId&quot;)) &amp;&amp; searchPainting[index + 1].artistId}/${(searchPainting[index + 1] &amp;&amp; searchPainting[index + 1].hasOwnProperty(&quot;urlImage&quot;)) &amp;&amp; searchPainting[index + 1].urlImage})`, backgroundSize: &quot;cover&quot;, backgroundPosition: &quot;center center&quot; }}&gt;
+                      &lt;div className=&quot;img-wrapper&quot; &gt;
+                        &lt;div className=&quot;bt-wrapper&quot;&gt;
+                          &lt;div className=&quot;name&quot;&gt;{(searchPainting[index + 1] &amp;&amp; searchPainting[index + 1].hasOwnProperty(&quot;name&quot;)) &amp;&amp; searchPainting[index + 1].artisteName}&lt;/div&gt;
+                          &lt;div className=&quot;titre&quot;&gt;
+                            {(searchPainting[index + 1] &amp;&amp; searchPainting[index + 1].hasOwnProperty(&quot;name&quot;)) &amp;&amp; searchPainting[index + 1].name}
+                            &lt;div className=&quot;date&quot;&gt;{(searchPainting[index + 1] &amp;&amp; searchPainting[index + 1].hasOwnProperty(&quot;year&quot;)) &amp;&amp; searchPainting[index + 1].year}&lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;div className=&quot;container-action&quot;&gt;
+                            &lt;Link className=&quot;bt-action voir&quot; to={`../../view/OpusPage.js/${(searchPainting[index + 1] &amp;&amp; searchPainting[index + 1].hasOwnProperty(&quot;id&quot;)) &amp;&amp; searchPainting[index + 1].id}`} state={(searchPainting[index + 1] &amp;&amp; searchPainting[index + 1].hasOwnProperty(&quot;id&quot;)) &amp;&amp; searchPainting[index + 1].id}&gt;
+
+                              voir
+
+                            &lt;/Link&gt;
+                            &lt;Link className=&quot;bt-action match&quot; to={`../../view/MatchingPage.js/${(searchPainting[index + 1] &amp;&amp; searchPainting[index + 1].hasOwnProperty(&quot;id&quot;)) &amp;&amp; searchPainting[index + 1].id}`} state={(searchPainting[index + 1] &amp;&amp; searchPainting[index + 1].hasOwnProperty(&quot;id&quot;)) &amp;&amp; searchPainting[index + 1].id}&gt;
+                              match
+                            &lt;/Link&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        {/* &lt;img
+                          className=&quot;owl-lazy&quot;
+                          src={`https://art.novagen.tech/medias/artist/${searchPainting[index+1].artistId}/_mini/${searchPainting[index+1].urlImage}`}
+                          alt=&quot;Titre de l&apos;oeuvre&quot;
+                        /&gt; */}
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+
+                  &lt;/div&gt;
+                )
+
+
+              })}
+
+          &lt;/Carousel&gt;
+        &lt;/div&gt;
+
+        {/* &lt;!-- R&#xE9;sultats carousel - fin --&gt; */}
+
+
+
+        {searchPainting.length &lt; 1 &amp;&amp; &lt;div className=&quot;cont-l-w noContentResult&quot;&gt;
+          &lt;img src=&quot;img/icons/ico_noresult_1.svg&quot; alt=&quot;Aucun r&#xE9;sultat&quot; /&gt;
+          &lt;p&gt;Aucun r&#xE9;sultat.&lt;/p&gt;
+        &lt;/div&gt;}
+
+
+      &lt;/section&gt;
+      {/* &lt;!-- CAROUSEL PLEINE LARGEUR - fin --&gt; */}
+    &lt;/div&gt;
+  );
+}
+
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

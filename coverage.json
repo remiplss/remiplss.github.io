@@ -1,7 +1,7 @@
 {
-  "coverage": "97.77%",
-  "expectCount": 45,
-  "actualCount": 44,
+  "coverage": "98.48%",
+  "expectCount": 66,
+  "actualCount": 65,
   "files": {
     "src/App.js": {
       "expectCount": 1,
@@ -18,7 +18,17 @@
       "actualCount": 1,
       "undocumentLines": []
     },
+    "src/component/ArtistDetailPage/ListPaintArtist.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
     "src/component/ArtistDetailPage/SimilarArtist.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/Atelier/Accueil.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
@@ -48,12 +58,27 @@
       "actualCount": 1,
       "undocumentLines": []
     },
+    "src/component/CompteAmateurPage/Comments.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/CompteAmateurPage/DisplayUser.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
     "src/component/CompteAmateurPage/FavArtists.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
     },
     "src/component/CompteAmateurPage/Likes.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/CompteAmateurPage/Lists.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
@@ -69,26 +94,6 @@
       "undocumentLines": []
     },
     "src/component/CompteAmateurPage/TabAmateur.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/component/HomePage/RandomInfo.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/component/HomePage/SearchBar.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/component/MatchingColor/ColorChooser.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/component/OpusPage/Painting.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
@@ -138,12 +143,82 @@
       "actualCount": 1,
       "undocumentLines": []
     },
-    "src/services/Api.js": {
+    "src/component/HomePage/MatchingImage.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
     },
-    "src/services/ScrollToTop.js": {
+    "src/component/HomePage/MostMatched.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/HomePage/RandomInfo.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/HomePage/SearchArtist.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/HomePage/SearchBar.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/HomePage/SearchColor.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/ListeAmateurPage/ DisplayInfoList.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/ListeAmateurPage/DisplayList.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/MatchingColor/ColorChooser.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/MatchingColor/ResultMatchingColor.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/MatchingResult/PaintingToMatch.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/MatchingResult/ResultMatch.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/OpusPage/Painting.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/OpusPage/SimilarPaint.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/component/UserInfo/AmateurInfo.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/services/Api.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
@@ -154,6 +229,11 @@
       "undocumentLines": [
         8
       ]
+    },
+    "src/services/ScrollToTop.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/view/ArtistDetailPage.js": {
       "expectCount": 1,
@@ -170,12 +250,27 @@
       "actualCount": 1,
       "undocumentLines": []
     },
+    "src/view/HomePage.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
     "src/view/ListeAmateurPage.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
     },
+    "src/view/LogIn.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
     "src/view/MatchingColor.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/view/MatchingImage.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
@@ -190,7 +285,17 @@
       "actualCount": 1,
       "undocumentLines": []
     },
+    "src/view/SignIn.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
     "src/view/SignInPage.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/view/StartPage.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []

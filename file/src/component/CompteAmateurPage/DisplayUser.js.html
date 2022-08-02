@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/CompteAmateurPage/DisplayUser.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Accueil">Accueil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Comments">Comments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayUser">DisplayUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Lists">Lists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MostMatched">MostMatched</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchArtist">SearchArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchColor">SearchColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-listeamateurpage">component/ListeAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayInfoList">DisplayInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayList">DisplayList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatchingColor">ResultMatchingColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingresult">component/MatchingResult</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PaintingToMatch">PaintingToMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatch">ResultMatch</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-userinfo">component/UserInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AmateurInfo">AmateurInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogIn">LogIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignIn">SignIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-StartPage">StartPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/CompteAmateurPage/DisplayUser.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import edit from &quot;../../webapp/img/icons/ico_pen_2.svg&quot;;
+import { Tab, Tabs, TabList, TabPanel } from &quot;react-tabs&quot;;
+import editBg from &quot;../../webapp/img/icons/ico_pen_1.svg&quot;;
+import close from &quot;../../webapp/img/icons/ico_close_2.svg&quot;
+import LinkedinLogo from &quot;../../webapp/img/icons/ico_social_linkedin_2.svg&quot;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import { Link } from &quot;react-router-dom&quot;
+import { useForm } from &quot;react-hook-form&quot;;
+import { getCookie, setCookie } from &apos;react-use-cookie&apos;;
+import { toast } from &quot;react-toastify&quot;
+import { useNavigate } from &quot;react-router&quot;;
+import defaultLogo from &quot;../../webapp/img/icons/ico_mod_profile_1.svg&quot;
+import defaultBg from &quot;../../webapp/img/bg/bg_default.jpg&quot;
+import pers from &quot;../../webapp/img/icons/ico_relations_1.svg&quot;
+import ModalNetwork from &quot;./ModalNetwork&quot;;
+
+
+/**
+ * This component diplay your infomations (name, profile picture, background,...)
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ *  @param {boolean} isLogged - test if the user is logged
+ *  @param {boolean} setIsLogged - isLogged setter
+ * @emits - images/uploadUserBackgroundIcon?userId=${user.id} : post new background image
+ * @emits - users/statistics : get user stats
+ */
+
+export default function DisplayUser({ user, setUser, isLogged, setIsLogged }) {
+
+  // const [bool1, setBool1] = useState(false);
+  // const [bool2, setBool2] = useState(false);
+  // const [boolNetWork, setBoolNetWork] = useState(false);
+  // const [stats, setStats] = useState([]);
+  // const [fileName, setFileName] = useState(&quot;Glissez/d&#xE9;posez votre fichier ici&quot;)
+  // const { register, handleSubmit, formState: { errors }, setValue, getValues } = useForm();
+
+  // const navigate = useNavigate();
+
+
+
+
+  // //Disconnect user account
+  // function Disconnect(e) {
+  //   e.preventDefault();
+  //   localStorage.setItem(&quot;id&quot;, null)
+  //   setUser(null)
+  //   setIsLogged(false)
+
+  //   //redirection vers la page connexion
+  //   navigate(&quot;../view/Login.js&quot;)
+
+  //   toast.success(&quot;Vous vous &#xEA;tes deconnect&#xE9; avec succ&#xE8;s!&quot;, {
+  //     position: &quot;top-right&quot;,
+  //     autoClose: 3000,
+  //     hideProgressBar: false,
+  //     closeOnClick: true,
+  //     pauseOnHover: true,
+  //     draggable: true,
+  //     progress: undefined,
+  //   });
+
+
+  // }
+  // // Call Jquery script
+  // useEffect(() =&gt; {
+  //   const loadFile = async () =&gt; {
+  //     const { modal } = await import(&quot;../../webapp/js/js_source/modalBox&quot;);
+
+  //     modal();
+  //   };
+  //   loadFile();
+  // }, []);
+  // //functions for modif modals//
+  // const handleBool1 = () =&gt; {
+
+  //   if (bool1 === true) {
+
+  //     setBool1(false);
+  //   }
+  //   else {
+  //     setBool1(true);
+  //   }
+  // }
+
+  // const handleBool2 = () =&gt; {
+
+  //   if (bool2 === true) {
+
+  //     setBool2(false);
+  //   }
+  //   else {
+  //     setBool2(true);
+  //   }
+  // }
+
+
+
+
+
+  // //update User
+  // const updateUser = () =&gt; {
+
+  //   axios.get(URLDayl + `users/${user.id}`, { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+  //   ).then((response) =&gt; {
+  //     setUser(response.data)
+
+  //   });
+
+  // }
+
+
+
+
+  // //envoie de la banniere &#xE0; l&apos;api
+  // const onSubmitBg = async (data) =&gt; {
+
+  //   var file = await data.fileBg[0];
+  //   var formdata = new FormData();
+  //   formdata.append(&apos;image&apos;, file);
+  //   console.log(file)
+
+  //   var xhr = new XMLHttpRequest();
+  //   xhr.open(&apos;POST&apos;, URLDayl + `images/uploadUserBackgroundIcon?userId=${user.id}`);
+  //   //xhr.setRequestHeader(&apos;Content-Type&apos;, &apos;multipart/form-data&apos;);
+  //   xhr.send(formdata);
+
+  //   xhr.onreadystatechange = function () {
+  //     if (xhr.readyState != 4) return;
+  //     if (xhr.status != 200) {
+  //       toast.warning(&quot;Un probl&#xE8;me est survenu dans l&apos;enregistrement de votre banni&#xE8;re!&quot;, {
+  //         position: &quot;top-right&quot;,
+  //         autoClose: 3000,
+  //         hideProgressBar: false,
+  //         closeOnClick: true,
+  //         pauseOnHover: true,
+  //         draggable: true,
+  //         progress: undefined,
+  //       });
+  //     } else {
+  //       updateUser();
+  //       toast.success(&quot;Nouvelle banni&#xE8;re enregistr&#xE9;e!&quot;, {
+  //         position: &quot;top-right&quot;,
+  //         autoClose: 3000,
+  //         hideProgressBar: false,
+  //         closeOnClick: true,
+  //         pauseOnHover: true,
+  //         draggable: true,
+  //         progress: undefined,
+  //       });
+  //     }
+  //   };
+
+  // }
+
+  // //Get Stats  (and refresh every 10 secondes)//
+  // useEffect(() =&gt; {
+  //   axios
+  //     .get(URLDayl + &quot;users/statistics&quot;, { params: { userId: user.id } }
+  //     )
+  //     .then((response) =&gt; {
+
+  //       setStats(response.data)
+  //     });
+
+  // }, 10000);
+
+
+  // return (
+  //   &lt;div className=&quot;DisplayUser&quot;&gt;
+  //     {/* &lt;!-- SECTION HAUT DE PAGE - d&#xE9;but --&gt; */}
+
+  //     {/* &lt;!-- ******************************************************
+	// 			***********************************************************
+
+	// 			BLOC ARRI&#xC8;RE-PLAN HAUT DE PAGE - d&#xE9;but
+
+	// 			***********************************************************
+	// 			******************************************************* --&gt; */}
+  //     &lt;div className=&quot;cont-f-w accountBg&quot; style={user.backgroundImage ? { backgroundImage: `url(${URLDayl}images/contentUser/${user.id}/${user.backgroundImage})` } : { backgroundImage: `url(${defaultBg})` }}&gt;
+  //       {/*&lt;!-- IMAGE ARRI&#xC8;RE-PLAN PROFILE ARTISTE --&gt; */}
+
+  //       {/* &lt;!-- ///////////////////////////////////
+	// 				Modal configuration de l&apos;arri&#xE8;re-plan - fin
+	// 				//////////////////////////////////// --&gt; */}
+  //       &lt;a className=&quot;openModalNow smart-modal-open topAccountBg&quot; data-target=&quot;topAccountBg&quot; rel=&quot;nofollow&quot; &gt;
+  //         &lt;img src={editBg} alt=&quot;Modifier l&apos;arri&#xE8;re-plan&quot; /&gt;
+  //       &lt;/a&gt;
+
+  //       &lt;div id=&quot;topAccountBg&quot; className=&quot;smart-modal-content scrollAuto&quot; style={{ width: &quot;340px&quot; }}&gt;
+  //         &lt;h3&gt;Modifier l&apos;arri&#xE8;re-plan&lt;/h3&gt;
+  //         &lt;a className=&quot;smart-modal-close&quot;&gt;
+  //           &lt;img className=&quot;img-left&quot; src={close} alt=&quot;Fermer&quot; /&gt;
+  //         &lt;/a&gt;
+
+  //         &lt;p className=&quot;fileRestriction mt-b mb-a&quot;&gt; Image au format .jpg ou .png &lt;br /&gt; 2Mo maximum &lt;/p&gt;
+  //         &lt;form className=&quot;modalForm&quot; onSubmit={handleSubmit(onSubmitBg)}&gt;
+  //           &lt;div className=&quot;fileUploadInput&quot; data-text={fileName} &gt;
+  //             &lt;input name=&quot;fileUploadField&quot; type=&quot;file&quot; className=&quot;fileUploadField&quot; id=&quot;formBg&quot;  {...register(&quot;fileBg&quot;)} onChange={(e) =&gt; setFileName(e.target.files[0].name)} /&gt;
+  //           &lt;/div&gt;
+  //           &lt;input type=&quot;submit&quot; className=&quot;submit mt-b smart-modal-close&quot; value=&quot;Enregistrer les modifications&quot; style={{ position: &quot;relative&quot;, right: &quot;0&quot;, top: &quot;0&quot; }} /&gt;
+  //         &lt;/form&gt;
+  //       &lt;/div&gt;
+
+  //       {/* &lt;!-- ///////////////////////////////////
+	// 				Modal configuration de l&apos;arri&#xE8;re-plan - fin
+	// 				//////////////////////////////////// --&gt; */}
+  //     &lt;/div&gt;
+  //     {/* &lt;!-- ******************************************************
+	// 			***********************************************************
+
+	// 			BLOC ARRI&#xC8;RE-PLAN HAUT DE PAGE - fin
+
+	// 			***********************************************************
+	// 			******************************************************* --&gt;
+
+
+	// 			&lt;!-- ******************************************************
+	// 			***********************************************************
+
+	// 			BLOC INFOS MEMBRE GAUCHE HAUT DE PAGE - d&#xE9;but
+
+	// 			***********************************************************
+	// 			******************************************************* --&gt; */}
+  //     &lt;div className=&quot;accountBox&quot;&gt;
+  //       {/* &lt;!-- Modal &#xE9;dition du profil membre - d&#xE9;but --&gt; */}
+  //       &lt;Link className=&quot;topAccountEdit&quot; data-target=&quot;topAccountEdit&quot; rel=&quot;nofollow&quot; to=&quot;../../view/UserInfo.js&quot; state={user} data-tooltip=&quot;Ne fonctionne pas correctement pour l&apos;instant&quot;&gt;
+  //         &lt;img src={edit} alt=&quot;&#xC9;diter mon profil&quot; /&gt;
+  //       &lt;/Link&gt;
+
+  //       {/* &lt;div id=&quot;topAccountEdit&quot; className=&quot;smart-modal-content scrollAuto&quot;&gt;
+         
+  //           &lt;h3&gt;&#xC9;diter mon profil&lt;/h3&gt;
+
+  //           &lt;a className=&quot;smart-modal-close&quot;&gt;
+  //             &lt;img className=&quot;img-left&quot; src={close} alt=&quot;Fermer&quot; style={{ bottom: &quot;50%&quot;, left: &quot;20px&quot; }} /&gt;
+  //           &lt;/a&gt;
+  //         &lt;/div&gt;
+  //         &lt;form className=&quot;modalForm&quot; onSubmit={handleSubmit(postUserInfo)} style={{marginTop: &quot;75px&quot;}}&gt;
+  //           &lt;div className=&quot;userAvatar&quot; style={user.iconImage ? { backgroundImage: `url(${URLDayl}images/contentUser/${user.id}/${user.iconImage})` } : { backgroundImage: `url(${defaultLogo})` }} &gt;
+  //             &lt;div className=&quot;uploadBtn absBR&quot;&gt;
+  //               &lt;button className=&quot;btn&quot; onClick={() =&gt; handleBool1()} &gt; &lt;img src={edit} alt=&quot;Modifier l&apos;image&quot; /&gt;&lt;/button&gt;
+  //               &lt;input name=&quot;fileUploadField&quot; type=&quot;file&quot; className=&quot;fileUploadField&quot; id=&quot;formIcon&quot;  {...register(&quot;file&quot;)} /&gt;
+  //             &lt;/div&gt;
+  //           &lt;/div&gt;
+  //           &lt;p className=&quot;fileRestriction&quot;&gt; Image au format .jpg ou .png &lt;br /&gt; 2Mo maximum &lt;/p&gt;
+  //           &lt;label for=&quot;userName&quot; className=&quot;mt-b&quot;&gt;Nom d&apos;utilisateur &lt;/label&gt;
+  //           &lt;label for=&quot;userName&quot; className=&quot;mt-b&quot;&gt;Pr&#xE9;nom &lt;/label&gt;
+  //           &lt;input type=&quot;text&quot; id=&quot;firstname&quot; size=&quot;35&quot; {...register(&quot;firstName&quot;, { value: user.firstName })}   required /&gt;
+  //           &lt;label for=&quot;userName&quot; className=&quot;mt-b&quot;&gt;Nom&lt;/label&gt;
+  //           &lt;input type=&quot;text&quot; id=&quot;lastname&quot; size=&quot;35&quot; {...register(&quot;lastName&quot;, { value: user.lastName })}   required /&gt;
+  //           &lt;label for=&quot;userBio&quot;&gt;Pr&#xE9;sentation&lt;/label&gt;
+  //           &lt;input id=&quot;userBio&quot; className=&quot;mb-b&quot; maxlength=&quot;255&quot; {...register(&quot;biography&quot;, { value: user.biography })}  /&gt;
+  //           &lt;label for=&quot;userLoca&quot;&gt;Ville&lt;/label&gt;
+  //           &lt;input type=&quot;text&quot; id=&quot;userLoca&quot; size=&quot;35&quot; {...register(&quot;city&quot;, { value: user.city })} /&gt;
+  //           &lt;label for=&quot;userLoca&quot;&gt;Pays&lt;/label&gt;
+  //           &lt;input type=&quot;text&quot; id=&quot;userLoca&quot; size=&quot;35&quot; {...register(&quot;country&quot;, { value: user.country })}   /&gt;
+  //           &lt;label for=&quot;userLI&quot;&gt;Page LinkedIn&lt;/label&gt;
+  //           &lt;input type=&quot;text&quot; id=&quot;userLI&quot; size=&quot;90&quot; {...register(&quot;linkedinAccount&quot;, { value: user.linkedinAccount })}  /&gt;
+  //           &lt;label for=&quot;userTW&quot;&gt;Page Twitter&lt;/label&gt;
+  //           &lt;input type=&quot;text&quot; id=&quot;userTW&quot; size=&quot;90&quot; {...register(&quot;twitterAccount&quot;, { value: user.twitterAccount })}   /&gt;
+  //           &lt;label for=&quot;userFB&quot;&gt;Page Facebook&lt;/label&gt;
+  //           &lt;input type=&quot;text&quot; id=&quot;userFB&quot; size=&quot;90&quot; {...register(&quot;facebookAccount&quot;, { value: user.facebookAccount })}   /&gt;
+  //           &lt;label for=&quot;userPI&quot;&gt;Page Pinterest&lt;/label&gt;
+  //           &lt;input type=&quot;text&quot; id=&quot;userPI&quot; size=&quot;90&quot; {...register(&quot;pinterestAccount&quot;, { value: user.pinterestAccount })}  /&gt;
+  //           &lt;label for=&quot;userPI&quot;&gt;Page Instagram&lt;/label&gt;
+  //           &lt;input type=&quot;text&quot; id=&quot;userIN&quot; size=&quot;90&quot; {...register(&quot;instragramAccount&quot;, { value: user.instragramAccount })}  /&gt;
+  //           &lt;input type=&quot;submit&quot; className=&quot;submit mt-b smart-modal-close&quot; value=&quot;Enregistrer les modifications&quot; style={{ position: &quot;relative&quot;, right: &quot;0&quot;, top: &quot;0&quot; }} /&gt;
+  //         &lt;/form&gt;
+  //       &lt;/div&gt; */}
+  //       {/* &lt;!-- Modal &#xE9;dition /du profil membre - fin --&gt; */}
+
+  //       &lt;div className=&quot;userAvatar&quot; style={user.iconImage ? { backgroundImage: `url(${URLDayl}images/contentUser/${user.id}/${user.iconImage})` } : { backgroundImage: `url(${defaultLogo})` }}&gt;&lt;/div&gt;
+  //       &lt;h1&gt;{user.firstName} {user.lastName}&lt;/h1&gt;
+  //       &lt;p className=&quot;userActualPlace&quot;&gt;{user.city}{user.city &amp;&amp; user.city &amp;&amp; &quot;,&quot;} {user.country}&lt;/p&gt;
+  //       &lt;p className=&quot;userLifeSpan&quot;&gt;{/* &amp;#10013; 23-01-1989 */}&lt;/p&gt;
+  //       &lt;p className=&quot;userQuickBio&quot;&gt;
+  //         {user.biography}
+  //       &lt;/p&gt;
+
+
+  //       {/* &lt;!-- LIEN VERS MON ATELIER - d&#xE9;but --&gt; */}
+
+  //       {user.userType !== &quot;amateur&quot; &amp;&amp; &lt;Link className=&quot;workShopLink mb-b&quot; to=&quot;../../view/Atelier.js&quot;&gt;Mon atelier&lt;/Link&gt;}
+
+  //       {/* &lt;!-- LIEN VERS MON ATELIER - fin --&gt; */}
+
+  //       &lt;div className=&quot;openRelations&quot;&gt;
+  //         {/* &lt;!-- LIEN OUVERTURE MODAL RELATIONS - d&#xE9;but --&gt; */}
+  //         &lt;a className=&quot;&quot; rel=&quot;nofollow&quot; onClick={(e) =&gt; setBoolNetWork(!boolNetWork)}&gt;&lt;img src={pers} alt=&quot;Mes relations&quot; /&gt;&lt;/a&gt;
+  //         &lt;a className=&quot; modalTextLink&quot; rel=&quot;nofollow&quot; onClick={(e) =&gt; setBoolNetWork(!boolNetWork)}&gt;&lt;span&gt;Mon r&#xE9;seau&lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;/a&gt;    {/* TODO */}
+  //         &lt;a className=&quot; modalTextLink&quot; rel=&quot;nofollow&quot; onClick={(e) =&gt; setBoolNetWork(!boolNetWork)}&gt;&lt;span&gt;Mes abonn&#xE9;s&lt;/span&gt;&lt;span&gt;{stats.numberFollowers}&lt;/span&gt;&lt;/a&gt;
+  //         &lt;a className=&quot; modalTextLink&quot; rel=&quot;nofollow&quot; onClick={(e) =&gt; setBoolNetWork(!boolNetWork)}&gt;&lt;span&gt;Mes abonnements&lt;/span&gt;&lt;span&gt;{stats.numberFollowing}&lt;/span&gt;&lt;/a&gt;
+  //         {/* &lt;!-- LIEN OUVERTURE MODAL RELATIONS - fin --&gt; */}
+  //       &lt;/div&gt;
+
+  //       {boolNetWork === true &amp;&amp; &lt;ModalNetwork user={user} setUser={setUser} setBoolNetWork={setBoolNetWork} boolNetWork={boolNetWork} /&gt;}
+  //       {/* &lt;!-- LIENS VERS LES PAGES DE R&#xC9;SEAUX SOCIAUX DE L&apos;ABONN&#xC9;.E - d&#xE9;but --&gt; */}
+  //       &lt;ul className=&quot;userSocialLinks&quot;&gt;
+  //         &lt;li&gt;
+  //           &lt;a href={user.linkedinAccount} target=&quot;_blank&quot;&gt;
+  //             &lt;img src={LinkedinLogo} alt=&quot;Compte LinkedIn&quot; /&gt;
+  //           &lt;/a&gt;
+  //         &lt;/li&gt;
+  //         &lt;li&gt;
+  //           &lt;a href={user.twitterAccount} target=&quot;_blank&quot;&gt;
+  //             &lt;img
+  //               src={require(&quot;../../webapp/img/icons/ico_social_twitter_2.png&quot;)}
+  //               alt=&quot;Compte Twitter&quot;
+  //             /&gt;
+  //           &lt;/a&gt;
+  //         &lt;/li&gt;
+  //         &lt;li&gt;
+  //           &lt;a href={user.facebookAccount} target=&quot;_blank&quot;&gt;
+  //             &lt;img
+  //               src={require(&quot;../../webapp/img/icons/ico_social_facebook_2.png&quot;)}
+  //               alt=&quot;Compte Facebook&quot;
+  //             /&gt;
+  //           &lt;/a&gt;
+  //         &lt;/li&gt;
+  //         &lt;li&gt;
+  //           &lt;a href={user.pinterestAccount} target=&quot;_blank&quot;&gt;
+  //             &lt;img
+  //               src={require(&quot;../../webapp/img/icons/ico_social_pinterest_2.png&quot;)}
+  //               alt=&quot;Compte Pinterest&quot;
+  //             /&gt;
+  //           &lt;/a&gt;
+  //         &lt;/li&gt;
+  //       &lt;/ul&gt;
+  //       {/* &lt;!-- LIENS VERS LES PAGES DE R&#xC9;SEAUX SOCIAUX DE L&apos;ABONN&#xC9;.E - fin --&gt; */}
+
+  //       {/* &lt;!-- D&#xC9;CONNEXION DU COMPTE - d&#xE9;but --&gt; */}
+  //       &lt;div className=&quot;logoutLink pt-a&quot;&gt;
+  //         &lt;a onClick={Disconnect}&gt;D&#xE9;connexion du compte&lt;/a&gt;&lt;br /&gt;
+  //         {/* &lt;!-- D&#xC9;CONNEXION DU COMPTE - fin --&gt; */}
+
+  //       &lt;/div&gt;
+  //     &lt;/div&gt;
+
+
+  //     &lt;div id=&quot;modalSubscribedTo&quot; className=&quot;smart-modal-content scrollAuto&quot;&gt;
+  //       &lt;h3&gt;Abonnements&lt;/h3&gt;
+  //       &lt;a className=&quot;smart-modal-close&quot;&gt;
+  //         &lt;img
+  //           className=&quot;img-left&quot;
+  //           src={require(&quot;../../webapp/img/icons/ico_close_2.svg&quot;)}
+  //           alt=&quot;Trier&quot;
+  //         /&gt;
+  //       &lt;/a&gt;
+  //       &lt;div className=&quot;showSubs&quot;&gt;
+  //         {/* &lt;!-- D&#xC9;TAILS ABONNEMENT - d&#xE9;but --&gt; */}
+  //         &lt;div className=&quot;subDetails&quot;&gt;
+  //           &lt;a
+  //             href=&quot;&quot;
+  //             className=&quot;userAvatar&quot;
+  //             style={{
+  //               backgroundImage: `url(${require(&quot;../../webapp/temp/arthur_1.jpg&quot;)})`,
+  //             }}
+  //           &gt;&lt;/a&gt;
+  //           &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;
+  //             Nom d&apos;utilisateur
+  //           &lt;/a&gt;
+  //           &lt;div className=&quot;userSubs&quot;&gt;128 abonn&#xE9;.es&lt;/div&gt;
+  //           &lt;a href=&quot;#&quot; className=&quot;endMemberSubscription&quot;&gt;&lt;/a&gt;
+
+  //           &lt;input
+  //             type=&quot;button&quot;
+  //             className=&quot;endMemberSubscription&quot;
+  //             value=&quot;&quot;
+  //             onClick=&quot;openCloseNextDiv(this);&quot;
+  //           /&gt;
+
+  //           &lt;div className=&quot;deleteConfirm&quot;&gt;
+  //             &lt;span className=&quot;deleteText&quot;&gt;Supprimer?&lt;/span&gt;
+  //             &lt;button
+  //               type=&quot;button&quot;
+  //               className=&quot;yes closeTwoParentsNow&quot;
+  //               value=&quot;&quot;
+  //             &gt;
+  //               Oui
+  //             &lt;/button&gt;
+  //             &lt;button type=&quot;button&quot; className=&quot;no closeParentNow&quot; value=&quot;&quot;&gt;
+  //               Non
+  //             &lt;/button&gt;
+  //           &lt;/div&gt;
+  //         &lt;/div&gt;
+  //         {/* &lt;!-- D&#xC9;TAILS ABONNEMENT - fin --&gt;
+	// 					&lt;!-- D&#xC9;TAILS ABONNEMENT - d&#xE9;but --&gt; */}
+  //         &lt;div className=&quot;subDetails&quot;&gt;
+  //           &lt;a
+  //             href=&quot;/#&quot;
+  //             className=&quot;userAvatar&quot;
+  //             style={{
+  //               backgroundImage: `url(${require(&quot;../../webapp/temp/arthur_1.jpg&quot;)})`,
+  //             }}
+  //           &gt;&lt;/a&gt;
+  //           &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;
+  //             Nom d&apos;utilisateur
+  //           &lt;/a&gt;
+  //           &lt;div className=&quot;userSubs&quot;&gt;128 abonn&#xE9;.es&lt;/div&gt;
+  //           &lt;a href=&quot;/#&quot; className=&quot;endMemberSubscription&quot;&gt;&lt;/a&gt;
+
+  //           &lt;input
+  //             type=&quot;button&quot;
+  //             className=&quot;endMemberSubscription&quot;
+  //             value=&quot;&quot;
+  //             onClick=&quot;openCloseNextDiv(this);&quot;
+  //           /&gt;
+
+  //           &lt;div className=&quot;deleteConfirm&quot;&gt;
+  //             &lt;span className=&quot;deleteText&quot;&gt;Supprimer?&lt;/span&gt;
+  //             &lt;button
+  //               type=&quot;button&quot;
+  //               className=&quot;yes closeTwoParentsNow&quot;
+  //               value=&quot;&quot;
+  //             &gt;
+  //               Oui
+  //             &lt;/button&gt;
+  //             &lt;button type=&quot;button&quot; className=&quot;no closeParentNow&quot; value=&quot;&quot;&gt;
+  //               Non
+  //             &lt;/button&gt;
+  //           &lt;/div&gt;
+  //         &lt;/div&gt;
+  //         {/* &lt;!-- D&#xC9;TAILS ABONNEMENT - fin --&gt;
+	// 					&lt;!-- D&#xC9;TAILS ABONNEMENT - d&#xE9;but --&gt; */}
+  //         &lt;div className=&quot;subDetails&quot;&gt;
+  //           &lt;a
+  //             href=&quot;&quot;
+  //             className=&quot;userAvatar&quot;
+  //             style={{
+  //               backgroundImage: `url(${require(&quot;../../webapp/temp/arthur_1.jpg&quot;)})`,
+  //             }}
+  //           &gt;&lt;/a&gt;
+  //           &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;
+  //             Nom d&apos;utilisateur
+  //           &lt;/a&gt;
+  //           &lt;div className=&quot;userSubs&quot;&gt;128 abonn&#xE9;.es&lt;/div&gt;
+  //           &lt;a href=&quot;#&quot; className=&quot;endMemberSubscription&quot;&gt;&lt;/a&gt;
+
+  //           &lt;input
+  //             type=&quot;button&quot;
+  //             className=&quot;endMemberSubscription&quot;
+  //             value=&quot;&quot;
+  //             onClick=&quot;openCloseNextDiv(this);&quot;
+  //           /&gt;
+
+  //           &lt;div className=&quot;deleteConfirm&quot;&gt;
+  //             &lt;span className=&quot;deleteText&quot;&gt;Supprimer?&lt;/span&gt;
+  //             &lt;button
+  //               type=&quot;button&quot;
+  //               className=&quot;yes closeTwoParentsNow&quot;
+  //               value=&quot;&quot;
+  //             &gt;
+  //               Oui
+  //             &lt;/button&gt;
+  //             &lt;button type=&quot;button&quot; className=&quot;no closeParentNow&quot; value=&quot;&quot;&gt;
+  //               Non
+  //             &lt;/button&gt;
+  //           &lt;/div&gt;
+  //         &lt;/div&gt;
+  //         {/* &lt;!-- D&#xC9;TAILS ABONNEMENT - fin --&gt;
+	// 					&lt;!-- D&#xC9;TAILS ABONNEMENT - d&#xE9;but --&gt; */}
+  //         &lt;div className=&quot;subDetails&quot;&gt;
+  //           &lt;a
+  //             href=&quot;&quot;
+  //             className=&quot;userAvatar&quot;
+  //             style={{
+  //               backgroundImage: `url(${require(&quot;../../webapp/temp/arthur_1.jpg&quot;)})`,
+  //             }}
+  //           &gt;&lt;/a&gt;
+  //           &lt;a href=&quot;&quot; className=&quot;userName&quot;&gt;
+  //             Nom d&apos;utilisateur
+  //           &lt;/a&gt;
+  //           &lt;div className=&quot;userSubs&quot;&gt;128 abonn&#xE9;.es&lt;/div&gt;
+  //           &lt;a href=&quot;#&quot; className=&quot;endMemberSubscription&quot;&gt;&lt;/a&gt;
+
+  //           &lt;input
+  //             type=&quot;button&quot;
+  //             className=&quot;endMemberSubscription&quot;
+  //             value=&quot;&quot;
+  //             onClick=&quot;openCloseNextDiv(this);&quot;
+  //           /&gt;
+
+  //           &lt;div className=&quot;deleteConfirm&quot;&gt;
+  //             &lt;span className=&quot;deleteText&quot;&gt;Supprimer?&lt;/span&gt;
+  //             &lt;button
+  //               type=&quot;button&quot;
+  //               className=&quot;yes closeTwoParentsNow&quot;
+  //               value=&quot;&quot;
+  //             &gt;
+  //               Oui
+  //             &lt;/button&gt;
+  //             &lt;button type=&quot;button&quot; className=&quot;no closeParentNow&quot; value=&quot;&quot;&gt;
+  //               Non
+  //             &lt;/button&gt;
+  //           &lt;/div&gt;
+  //         &lt;/div&gt;
+  //         {/* &lt;!-- D&#xC9;TAILS ABONNEMENT - fin --&gt; */}
+  //       &lt;/div&gt;
+  //     &lt;/div&gt;
+  //     {/* &lt;!-- MODAL ABONNEMENTS - FIN --&gt;
+
+	// 			&lt;!-- ******************************************************
+	// 			***********************************************************
+
+	// 			BLOC INFOS MEMBRE GAUCHE HAUT DE PAGE - fin
+
+	// 			***********************************************************
+	// 			******************************************************* --&gt; */}
+  //   &lt;/div&gt;
+  // );
+
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

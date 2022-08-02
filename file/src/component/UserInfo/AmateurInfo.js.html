@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/UserInfo/AmateurInfo.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Accueil">Accueil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Comments">Comments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayUser">DisplayUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Lists">Lists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MostMatched">MostMatched</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchArtist">SearchArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchColor">SearchColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-listeamateurpage">component/ListeAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayInfoList">DisplayInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayList">DisplayList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatchingColor">ResultMatchingColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingresult">component/MatchingResult</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PaintingToMatch">PaintingToMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatch">ResultMatch</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-userinfo">component/UserInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AmateurInfo">AmateurInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogIn">LogIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignIn">SignIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-StartPage">StartPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/UserInfo/AmateurInfo.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import { useForm } from &quot;react-hook-form&quot;;
+import close from &quot;../../webapp/img/icons/ico_close_2.svg&quot;
+import pen from &quot;../../webapp/img/icons/ico_pen_1.svg&quot;
+import pen2 from &quot;../../webapp/img/icons/ico_pen_2.svg&quot;
+import { URLDayl } from &quot;../../services/constantes&quot;;
+import defaultBg from &quot;../../webapp/img/bg/bg_default.jpg&quot;
+import defaultLogo from &quot;../../webapp/img/icons/ico_mod_profile_1.svg&quot;
+import { toast } from &quot;react-toastify&quot;
+import axios from &quot;axios&quot;;
+
+/**
+ * This component is used to update your informations
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ * @emits - users/update : edit user information
+ * @emits - images/uploadUserIcon?userId=${user.id} :edit profil picture
+ * @emits - users/${user.id} : update user informations 
+ */
+
+export default function AmateurInfo({ user, setUser}) {
+
+    // const [boolExpert, setBoolExpert] = useState(false);
+    // const [boolCrea, setBoolCrea] = useState(false);
+    // const { register, handleSubmit, formState: { errors }, setValue, getValues } = useForm();
+    // const [fileName, setFileName] = useState(&quot;Glissez/d&#xE9;posez votre fichier ici&quot;);
+    // const [title, setTitle] = useState(&quot;Glissez/d&#xE9;posez votre fichier ici&quot;);
+    // const [count1, setCount1] = useState(0);
+    // const [count2, setCount2] = useState(0);
+    // const [count3, setCount3] = useState(0);
+
+    // console.log(user)
+
+    // //Post user info//
+    // const postUserInfo = async (data) =&gt; {
+
+    //     axios.post(URLDayl + &quot;users/update&quot;,
+    //         {
+    //             id: user.id, firstName: data.firstName, lastName: data.lastName, biography: data.biography,
+    //             linkedinAccount: data.linkedinAccount, instragramAccount: data.instragramAccount, facebookAccount: data.facebookAccount
+    //             , pinterestAccount: data.pinterestAccount, twitterAccount: data.twitterAccount, city: data.city, country: data.country
+    //         },
+    //         { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+    //     )
+    //         .then((response) =&gt; {
+
+    //             toast.success(&quot;Nouvelles informations enregistr&#xE9;es!&quot;, {
+    //                 position: &quot;top-right&quot;,
+    //                 autoClose: 3000,
+    //                 hideProgressBar: false,
+    //                 closeOnClick: true,
+    //                 pauseOnHover: true,
+    //                 draggable: true,
+    //                 progress: undefined,
+
+    //             });
+    //             updateUser();
+
+
+
+    //         });
+
+
+
+    // }
+
+    // //      //envoie de la banniere &#xE0; l&apos;api
+    // //   const onSubmitBg = async (data) =&gt; {
+
+    // //     var file = await data.fileBg[0];
+    // //     var formdata = new FormData();
+    // //     formdata.append(&apos;image&apos;, file);
+
+
+    // //     var xhr = new XMLHttpRequest();
+    // //     xhr.open(&apos;POST&apos;, URLDayl + `images/uploadUserBackgroundIcon?userId=${user.id}`);
+    // //     //xhr.setRequestHeader(&apos;Content-Type&apos;, &apos;multipart/form-data&apos;);
+    // //     xhr.send(formdata);
+
+    // //     xhr.onreadystatechange = function () {
+    // //       if (xhr.readyState != 4) return;
+    // //       if (xhr.status != 200) {
+    // //         toast.warning(&quot;Un probl&#xE8;me est survenu dans l&apos;enregistrement de votre banni&#xE8;re!&quot;, {
+    // //           position: &quot;top-right&quot;,
+    // //           autoClose: 3000,
+    // //           hideProgressBar: false,
+    // //           closeOnClick: true,
+    // //           pauseOnHover: true,
+    // //           draggable: true,
+    // //           progress: undefined,
+    // //         });
+    // //       } else {
+    // //         updateUser();
+    // //         toast.success(&quot;Nouvelle banni&#xE8;re enregistr&#xE9;e!&quot;, {
+    // //           position: &quot;top-right&quot;,
+    // //           autoClose: 3000,
+    // //           hideProgressBar: false,
+    // //           closeOnClick: true,
+    // //           pauseOnHover: true,
+    // //           draggable: true,
+    // //           progress: undefined,
+    // //         });
+    // //       }
+    // //     };
+
+    // //   }
+
+    // const postProfilPicture = async (data) =&gt; {
+    //     var file = await data.file[0];
+    //     var formdata = new FormData();
+    //     formdata.append(&apos;image&apos;, file);
+    //     console.log(data.file[0])
+    //     if (data.file[0]) {
+    //         var xhr = new XMLHttpRequest();
+    //         xhr.open(&apos;POST&apos;, URLDayl + `images/uploadUserIcon?userId=${user.id}`);
+    //         xhr.send(formdata);
+    //         xhr.onreadystatechange = function () {
+
+    //             if (xhr.readyState != 4) return;
+    //             if (xhr.status != 200) {
+    //                 toast.warning(&quot;Un probl&#xE8;me est survenu dans l&apos;enregistrement de votre banni&#xE8;re!&quot;, {
+    //                     position: &quot;top-right&quot;,
+    //                     autoClose: 3000,
+    //                     hideProgressBar: false,
+    //                     closeOnClick: true,
+    //                     pauseOnHover: true,
+    //                     draggable: true,
+    //                     progress: undefined,
+    //                 });
+    //             } else {
+
+    //                 toast.success(&quot;Nouvelle photo de profile   enregistr&#xE9;e!&quot;, {
+    //                     position: &quot;top-right&quot;,
+    //                     autoClose: 3000,
+    //                     hideProgressBar: false,
+    //                     closeOnClick: true,
+    //                     pauseOnHover: true,
+    //                     draggable: true,
+    //                     progress: undefined,
+    //                 });
+    //             }
+    //             updateUser()
+    //         };
+    //     }
+    //     else {
+    //     }
+
+    // }
+
+    // //update User
+    // const updateUser = async () =&gt; {
+
+    //     axios.get(URLDayl + `users/${user.id}`, { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+    //     ).then((response) =&gt; {
+    //         setUser(response.data);
+
+    //     });
+
+    // }
+
+
+    // // Call Jquery script
+    // useEffect(() =&gt; {
+    //     const loadFile = async () =&gt; {
+    //         const { modal } = await import(&quot;../../webapp/js/js_source/modalBox&quot;);
+
+    //         modal();
+    //     };
+    //     loadFile();
+    // }, []);
+
+
+    // return (
+    //     &lt;div className=&quot;AmateurInfo&quot;&gt;
+
+    //         &lt;body&gt;
+
+    //             &lt;div class=&quot;enthusiastHeader&quot;&gt;
+    //                 {/* &lt;!-- BLOC AVATAR TOP - d&#xE9;but --&gt; */}
+    //                 &lt;div class=&quot;enthusiastTop&quot;&gt;
+    //                     &lt;div class=&quot;userTop pb-b&quot;&gt;
+    //                         &lt;form onChange={handleSubmit(postProfilPicture)}&gt;
+    //                             &lt;div className=&quot;userImg userAvatar&quot; style={user.iconImage ? { backgroundImage: `url(${URLDayl}images/contentUser/${user.id}/${user.iconImage})` } : { backgroundImage: `url(${defaultLogo})` }} &gt;
+    //                                 &lt;div className=&quot;uploadBtn absBR&quot; style={{ width: &quot;36px&quot;, height: &quot;36px&quot; }} &gt;
+    //                                     &lt;button style={{ width: &quot;36px&quot;, height: &quot;36px&quot;, padding: &quot;0&quot;, border: &quot;2px solid #4B4B4B&quot; }} className=&quot;btn&quot; /* onClick={() =&gt; handleBool1()} */ &gt; &lt;img style={{ width: &quot;16px&quot;, height: &quot;16px&quot; }} src={pen2} alt=&quot;Modifier l&apos;image&quot; /&gt;&lt;/button&gt;
+    //                                     &lt;input style={{ width: &quot;36px&quot;, height: &quot;36px&quot; }} name=&quot;fileUploadField&quot; type=&quot;file&quot; className=&quot;fileUploadField&quot; id=&quot;formIcon&quot;  {...register(&quot;file&quot;)} /&gt;
+    //                                 &lt;/div&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/form&gt;
+    //                         &lt;h1&gt;{user.firstName} {user.lastName}&lt;/h1&gt;
+    //                         &lt;p&gt;Mes informations&lt;/p&gt;
+    //                     &lt;/div&gt;
+    //                 &lt;/div&gt;
+    //                 {/* &lt;!-- BLOC AVATAR TOP - fin --&gt; */}
+    //             &lt;/div&gt;
+
+    //             {/* &lt;!-- **************************************************
+	// 	BLOC CONTENU DE LA PAGE - d&#xE9;but
+	// 	**************************************************** --&gt; */}
+    //             &lt;main className=&quot;enthusiastMain&quot;&gt;
+
+    //                 {/* &lt;!-- SECTION A PROPOS DE MOI - d&#xE9;but --&gt; */}
+    //                 &lt;section&gt;
+    //                     &lt;form className=&quot;formCompact&quot; onSubmit={handleSubmit(postUserInfo)}&gt;
+    //                         &lt;h3 className=&quot;mt-a&quot;&gt;Mes informations personnelles&lt;/h3&gt;
+    //                         &lt;div className=&quot;inputInline&quot;&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Nom&quot; {...register(&quot;lastName&quot;, { value: user.lastName })} required /&gt;
+    //                                 &lt;span className=&quot;required&quot;&gt;*&lt;/span&gt;
+    //                             &lt;/div&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Pr&#xE9;nom&quot; {...register(&quot;firstName&quot;, { value: user.firstName })} required /&gt;
+    //                                 &lt;span className=&quot;required&quot;&gt;*&lt;/span&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+    //                         &lt;div className=&quot;inputInline&quot;&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Votre pseudo&quot; {...register(&quot;pseudo&quot;, { value: user.pseudo })} /&gt;
+    //                             &lt;/div&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;p className=&quot;legend&quot;&gt;Souhaitez vous que votre pseudo soit repris sur votre profil et dans toutes vos publications ? (dans le cas contraire, votre nom et pr&#xE9;nom seront affich&#xE9;s).&lt;/p&gt;
+    //                                 &lt;span className=&quot;selectLine&quot;&gt;
+    //                                     &lt;input type=&quot;radio&quot; name=&quot;pseudo&quot; value=&quot;true&quot;  {...register(&quot;visPseudo&quot;, { value: user.visPseudo })} /&gt;
+    //                                     &lt;label for=&quot;radio&quot;&gt;oui&lt;/label&gt;
+    //                                     &lt;input type=&quot;radio&quot; name=&quot;pseudo&quot; value=&quot;false&quot;  {...register(&quot;visPseudo&quot;, { value: user.visPseudo })} defaultChecked={true} /&gt;
+    //                                     &lt;label for=&quot;radio&quot;&gt;non&lt;/label&gt;
+    //                                 &lt;/span&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+
+    //                         &lt;div className=&quot;inputInline&quot;&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Ann&#xE9;e de naissance&quot; {...register(&quot;birthdate&quot;, { value: user.birthdate })} required /&gt;
+    //                                 &lt;span className=&quot;required&quot;&gt;*&lt;/span&gt;
+    //                             &lt;/div&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Origine, nationalit&#xE9;&quot; {...register(&quot;origin&quot;, { value: user.country })} required /&gt;
+
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+
+    //                         &lt;div className=&quot;inputInline mb-b&quot;&gt;
+    //                         &lt;div&gt;
+    //                                 &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;N&#xB0; de t&#xE9;l&#xE9;phone&quot; {...register(&quot;phone&quot;, { value: user.phone })} /&gt;
+    //                             &lt;/div&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Ville de r&#xE9;sidence&quot; {...register(&quot;city&quot;, { value: user.city })} /&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+
+                           
+
+
+    //                         &lt;div className=&quot;inputInline&quot;&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;select name=&quot;ann&#xE9;e&quot; {...register(&quot;language&quot;, { value: user.language })}&gt;
+    //                                     &lt;option value=&quot;&quot;&gt;Langue de r&#xE9;f&#xE9;rence&lt;/option&gt;
+    //                                     &lt;option value=&quot;1&quot;&gt;Fran&#xE7;ais&lt;/option&gt;
+    //                                     &lt;option value=&quot;2&quot;&gt;Anglais&lt;/option&gt;
+    //                                     &lt;option value=&quot;3&quot;&gt;Espagnol&lt;/option&gt;
+    //                                 &lt;/select&gt;
+    //                                 &lt;span className=&quot;required&quot;&gt;*&lt;/span&gt;
+    //                             &lt;/div&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;p className=&quot;legend&quot;&gt;Choisissez votre langue habituelle pour l&apos;affichage du contenu et des fonctionnalit&#xE9;s Dayl.&lt;/p&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+
+
+    //                         {/* &lt;h3 className=&quot;mt-b&quot;&gt;Ma banni&#xE8;re&lt;/h3&gt;
+    //                         &lt;div className=&quot;userBanner&quot; style={user.backgroundImage ? { backgroundImage: `url(${URLDayl}images/contentUser/${user.id}/${user.backgroundImage})` } : { backgroundImage: `url(${defaultBg})` }}&gt;
+    //                             &lt;a className=&quot;openModalNow smart-modal-open topAccountBg&quot; data-target=&quot;topAccountBg&quot; rel=&quot;nofollow&quot; &gt;
+    //                                 &lt;img src={pen} alt=&quot;Modifier l&apos;arri&#xE8;re-plan&quot; /&gt;
+    //                             &lt;/a&gt;
+
+    //                             &lt;div id=&quot;topAccountBg&quot; className=&quot;smart-modal-content scrollAuto&quot; style={{ width: &quot;340px&quot; }}&gt;
+    //       &lt;h3&gt;Modifier l&apos;arri&#xE8;re-plan&lt;/h3&gt;
+    //       &lt;a className=&quot;smart-modal-close&quot;&gt;
+    //         &lt;img className=&quot;img-left&quot; src={close} alt=&quot;Fermer&quot; /&gt;
+    //       &lt;/a&gt;
+
+    //       &lt;p className=&quot;fileRestriction mt-b mb-a&quot;&gt; Image au format .jpg ou .png &lt;br /&gt; 2Mo maximum &lt;/p&gt;
+    //       &lt;form className=&quot;modalForm&quot; onSubmit={handleSubmit(onSubmitBg)}&gt;
+    //         &lt;div className=&quot;fileUploadInput&quot; data-text={fileName} &gt;
+    //           &lt;input type=&quot;file&quot; className=&quot;fileUploadField&quot;   {...register(&quot;fileBg&quot;)} onChange={(e) =&gt; setFileName(e.target.files[0].name)} /&gt;
+    //         &lt;/div&gt;
+    //         &lt;input type=&quot;submit&quot; className=&quot;submit mt-b smart-modal-close&quot; value=&quot;Enregistrer les modifications&quot; style={{ position: &quot;relative&quot;, right: &quot;0&quot;, top: &quot;0&quot; }} /&gt;
+    //       &lt;/form&gt;
+    //     &lt;/div&gt;
+    //                         &lt;/div&gt; */}
+
+
+    //                         &lt;h3 className=&quot;mt-c&quot;&gt;Ma pr&#xE9;sentation&lt;/h3&gt;
+    //                         &lt;div className=&quot;inputInline&quot;&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;textarea name=&quot;message&quot; rows=&quot;5&quot; cols=&quot;33&quot;   {...register(&quot;biography&quot;, { value: user.biography, onChange: e =&gt; setCount1(e.target.value.length) })}&gt; &lt;/textarea&gt;
+    //                                 &lt;div className=&quot;charCount&quot;&gt;{count1}/255&lt;/div&gt;
+    //                             &lt;/div&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;p className=&quot;legend&quot;&gt;Pr&#xE9;sentation synth&#xE9;tique qui apparaitra sur votre profil et sera visible par chaque membre de la communaut&#xE9; Dayl.&lt;/p&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+
+
+    //                         &lt;h3 className=&quot;mt-c&quot;&gt;Mes centres d&apos;int&#xE9;r&#xEA;ts artistiques &lt;span /&gt;&lt;a className=&quot;openModalNow  renameIt&quot; data-target=&quot;renameSection&quot; data-tooltip-2=&quot;Vous avez la possibilit&#xE9; de modifier le titre de cette section&quot; rel=&quot;nofollow&quot;&gt;&lt;img src={pen2} alt=&quot;Renommer cette section&quot; /&gt;&lt;/a&gt;&lt;/h3&gt;
+    //                         {/* &lt;!-- Modal renommer cette section - d&#xE9;but --&gt; */}
+    //                         &lt;div id=&quot;renameSection&quot; className=&quot;smart-modal-content scrollAuto&quot; style={{ width: &quot;380px&quot; }}&gt;
+    //                             &lt;h3&gt;Renommer cette section&lt;/h3&gt;
+    //                             &lt;a className=&quot;smart-modal-close&quot;&gt;&lt;img className=&quot;img-left&quot; src={close} alt=&quot;Fermer&quot; /&gt;&lt;/a&gt;
+    //                             &lt;p className=&quot;mt-b&quot;&gt;Nouveau nom de cette section:&lt;/p&gt;
+    //                             &lt;div className=&quot;simpleModalTextSubmit&quot;&gt;
+    //                                 &lt;input type=&quot;text&quot; placeholder=&quot;Nom de la liste&quot; /&gt;
+    //                                 &lt;button type=&quot;submit&quot;&gt;renommer&lt;/button&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+    //                         {/* &lt;!-- Modal renommer cette section - fin --&gt; */}
+    //                         &lt;div className=&quot;inputInline&quot;&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;textarea name=&quot;message&quot; rows=&quot;5&quot; cols=&quot;33&quot;  {...register(&quot;interest&quot;, { value: user.interest, onChange: e =&gt; setCount2(e.target.value.length) })}&gt;&lt;/textarea&gt;
+    //                                 &lt;div className=&quot;charCount&quot;&gt;{count2}/800&lt;/div&gt;
+    //                             &lt;/div&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;p className=&quot;legend&quot;&gt;Pr&#xE9;sentation synth&#xE9;tique qui apparaitra sur votre profil et sera visible par chaque membre de la communaut&#xE9; Dayl.&lt;/p&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+    //                         &lt;h4 className=&quot;mt-a&quot;&gt;Hashtags associ&#xE9;s &#xE0; vos centres d&apos;int&#xE9;r&#xEA;ts artistiques&lt;/h4&gt;
+    //                         &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Ex : expressionnisme, surr&#xE9;alisme &#x2026;&quot; /&gt;
+    //                         &lt;div className=&quot;hashList toLeft&quot;&gt;
+    //                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                         &lt;/div&gt;
+
+
+    //                         &lt;h3 className=&quot;mt-c&quot;&gt;Disposez-vous d&#x2019;une expertise dans le domaine de l&#x2019;art ?&lt;/h3&gt;
+    //                         &lt;div className=&quot;inputInline&quot;&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;span className=&quot;selectLine&quot;&gt;
+    //                                     &lt;input type=&quot;radio&quot; name=&quot;expert&quot; value=&quot;true&quot; onChange={e =&gt; setBoolExpert(true)} /&gt;
+    //                                     &lt;label for=&quot;radio&quot;&gt;oui&lt;/label&gt;
+    //                                     &lt;input type=&quot;radio&quot; name=&quot;expert&quot; value=&quot;false&quot; onChange={e =&gt; setBoolExpert(false)} defaultChecked={true} /&gt;
+    //                                     &lt;label for=&quot;radio&quot;&gt;non&lt;/label&gt;
+    //                                 &lt;/span&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+    //                         {/* &lt;!-- BLOC INFOS EXPERTISE (apparait lorsque input radio value = oui) - d&#xE9;but --&gt; */}
+    //                         {boolExpert === true &amp;&amp;
+    //                             &lt;div&gt;
+    //                                 &lt;div className=&quot;inputInline&quot;&gt;
+    //                                     &lt;div&gt;
+    //                                         &lt;textarea name=&quot;message&quot; rows=&quot;5&quot; cols=&quot;33&quot;   {...register(&quot;expert&quot;, { value: user.expert, onChange: e =&gt; setCount3(e.target.value.length) })}&gt;&lt;/textarea&gt;
+    //                                         &lt;div className=&quot;charCount&quot;&gt;{count3}/255&lt;/div&gt;
+    //                                     &lt;/div&gt;
+    //                                     &lt;div&gt;
+    //                                         &lt;p className=&quot;legend&quot;&gt;Pr&#xE9;sentation synth&#xE9;tique qui apparaitra sur votre profil et sera visible par chaque membre de la communaut&#xE9; Dayl.&lt;/p&gt;
+    //                                     &lt;/div&gt;
+    //                                 &lt;/div&gt;
+    //                                 &lt;h4 className=&quot;mt-a&quot;&gt;Hashtags associ&#xE9;s &#xE0; votre expertise&lt;/h4&gt;
+    //                                 &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Ex : expressionnisme, surr&#xE9;alisme &#x2026;&quot; /&gt;
+    //                                 &lt;div className=&quot;hashList toLeft&quot;&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                 &lt;/div&gt;
+    //                                 &lt;h4 className=&quot;mt-a&quot;&gt;Participer &#xE0; de la cr&#xE9;ation de contenu pourrait vous int&#xE9;resser ?&lt;/h4&gt;
+    //                                 &lt;div className=&quot;inputInline&quot;&gt;
+    //                                     &lt;div&gt;
+    //                                         &lt;span className=&quot;selectLine&quot;&gt;
+    //                                             &lt;input type=&quot;radio&quot; name=&quot;crea&quot; value=&quot;&quot; onChange={e =&gt; setBoolCrea(true)} /&gt;
+    //                                             &lt;label for=&quot;radio&quot;&gt;oui&lt;/label&gt;
+    //                                             &lt;input type=&quot;radio&quot; name=&quot;crea&quot; value=&quot;&quot; onChange={e =&gt; setBoolCrea(false)} defaultChecked={true} /&gt;
+    //                                             &lt;label for=&quot;radio&quot;&gt;non&lt;/label&gt;
+    //                                         &lt;/span&gt;
+    //                                     &lt;/div&gt;
+    //                                 &lt;/div&gt;
+    //                                 {boolCrea === true &amp;&amp;
+    //                                     &lt;div&gt;
+    //                                         &lt;h4 className=&quot;mt-a&quot;&gt;Hashtags associ&#xE9;s &#xE0; votre cr&#xE9;ation&lt;/h4&gt;
+    //                                         &lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Ex : expressionnisme, surr&#xE9;alisme &#x2026;&quot; /&gt;
+    //                                         &lt;div className=&quot;hashList toLeft&quot;&gt;
+    //                                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                             &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                         &lt;/div&gt;
+    //                                     &lt;/div&gt;}
+    //                             &lt;/div&gt;}
+    //                         {/* &lt;!-- BLOC INFOS EXPERTISE (apparait lorsque input radio value = oui) - fin --&gt; */}
+
+
+    //                         &lt;h3 className=&quot;mt-c&quot;&gt;Mes r&#xE9;seaux sociaux&lt;/h3&gt;
+    //                         &lt;div className=&quot;inputInline userSN&quot;&gt;
+    //                             &lt;input type=&quot;text&quot; className=&quot;userWebsite&quot; size=&quot;55&quot; placeholder=&quot;Site internet&quot; {...register(&quot;webSite&quot;, { value: user.webSite })} /&gt;
+    //                             &lt;input type=&quot;text&quot; className=&quot;userFacebook&quot; size=&quot;55&quot; placeholder=&quot;Page Facebook&quot; {...register(&quot;facebookAccount&quot;, { value: user.facebookAccount })} /&gt;
+    //                         &lt;/div&gt;
+    //                         &lt;div className=&quot;inputInline userSN&quot;&gt;
+    //                             &lt;input type=&quot;text&quot; className=&quot;userInstagram&quot; size=&quot;55&quot; placeholder=&quot;Page Instagram&quot; {...register(&quot;instagramAccount&quot;, { value: user.instragramAccount })} /&gt;
+    //                             &lt;input type=&quot;text&quot; className=&quot;userPinterest&quot; size=&quot;55&quot; placeholder=&quot;Page Pinterest&quot; {...register(&quot;pinterestAccount&quot;, { value: user.pinterestAccount })} /&gt;
+    //                         &lt;/div&gt;
+    //                         &lt;div className=&quot;inputInline userSN&quot;&gt;
+    //                             &lt;input type=&quot;text&quot; className=&quot;userTwitter&quot; size=&quot;55&quot; placeholder=&quot;Page Twitter&quot; {...register(&quot;twitterAccount&quot;, { value: user.twitterAccount })} /&gt;
+    //                             &lt;input type=&quot;text&quot; className=&quot;userLinkedin&quot; size=&quot;55&quot; placeholder=&quot;Page LinkedIn&quot; {...register(&quot;linkedinAccount&quot;, { value: user.linkedinAccount })} /&gt;
+    //                         &lt;/div&gt;
+    //                         &lt;div className=&quot;inputInline mt-c&quot;&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;input type=&quot;reset&quot; className=&quot;saveDraftBtn mt-a&quot; value=&quot;Sauvegarder comme brouillon&quot; /&gt;
+    //                             &lt;/div&gt;
+    //                             &lt;div&gt;
+    //                                 &lt;input type=&quot;submit&quot; className=&quot;submitFormBtn mt-a&quot; value=&quot;Enregistrer&quot; /&gt;
+    //                             &lt;/div&gt;
+    //                         &lt;/div&gt;
+
+    //                     &lt;/form&gt;
+
+
+    //                 &lt;/section&gt;
+    //                 {/* &lt;!-- SECTION A PROPOS DE MOI - fin --&gt; */}
+
+
+    //             &lt;/main&gt;
+    //             {/* &lt;!-- **************************************************
+	// 	BLOC CONTENU DE LA PAGE - fin
+	// 	**************************************************** --&gt; */}
+
+    //         &lt;/body&gt;
+    //     &lt;/div&gt;
+
+    // );
+}
+
+
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

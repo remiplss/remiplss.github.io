@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/HomePage/MostMatched.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Accueil">Accueil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Comments">Comments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayUser">DisplayUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Lists">Lists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MostMatched">MostMatched</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchArtist">SearchArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchColor">SearchColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-listeamateurpage">component/ListeAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayInfoList">DisplayInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayList">DisplayList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatchingColor">ResultMatchingColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingresult">component/MatchingResult</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PaintingToMatch">PaintingToMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatch">ResultMatch</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-userinfo">component/UserInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AmateurInfo">AmateurInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogIn">LogIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignIn">SignIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-StartPage">StartPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/HomePage/MostMatched.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState, useRef } from &quot;react&quot;;
+
+import axios from &quot;axios&quot;;
+import { Link, useLocation, BrowserRouter as Router } from &quot;react-router-dom&quot;;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import Carousel from &quot;react-multi-carousel&quot;;
+
+import &quot;react-multi-carousel/lib/styles.css&quot;;
+import Fav from &quot;../general/Fav&quot;;
+import { SliderPicker } from &quot;react-color&quot;;
+
+/**
+ * This component display the most matched painting of a month
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ *  @param {boolean} isLogged - test if the user is logged
+ * @emits - users/${user.id} : update user informations
+ */
+
+export default function MostMatched({ user, setUser, isLogged }) {
+//   //Declaration des variables globales
+//   const [error, setError] = useState(null);
+//   const [isLoaded, setIsLoaded] = useState(false);
+//   const [matchedPainting, setMatchedPainting] = useState([]);
+//   const [refreshKey, setRefreshKey] = useState(0);
+//   const [width, setWidth] = useState(window.innerWidth);
+//   const [coefWidth, setCoefWidth] = useState();
+//   const [nMonth, setNMonth] = useState(&quot;1&quot;);
+//   const [date, setDate] = useState();
+
+
+
+//   // document.documentElement.style.setProperty(&apos;--color-2&apos;, &quot;#FFF&quot;);
+//   // document.documentElement.style.setProperty(&apos;--color-6&apos;, &quot;#000000&quot;);
+//   // document.documentElement.style.setProperty(&apos;--color-5&apos;, &quot;#1a1a1a&quot;);
+//   // document.documentElement.style.setProperty(&apos;--color-11b&apos;, &quot;#0c0c0c&quot;);
+//   // //parametres carousel//
+//   const responsive = {
+
+//     superLargeDesktop: {
+//       // the naming can be any, depends on you.
+//       breakpoint: { max: 4000, min: 0 },
+//       items: 5,
+//     },
+//     // desktop: {
+//     //   breakpoint: { max: 3000, min: 1024 },
+//     //   items: 5,
+//     // },
+//     // tablet: {
+//     //   breakpoint: { max: 1024, min: 464 },
+//     //   items: 3,
+//     // },
+//     // mobile: {
+//     //   breakpoint: { max: 464, min: 0 },
+//     //   items: 2,
+//     // }
+//   };
+
+//   // Call Jquery script
+//   useEffect(() =&gt; {
+//     const loadFile = async () =&gt; {
+//       const { modal } = await import(&quot;../../webapp/js/js_source/modalBox&quot;);
+
+//       modal();
+//     };
+//     loadFile();
+//   }, []);
+
+
+
+//   //update user
+//   useEffect(() =&gt; {
+//     if (user)
+//       axios.get(URLDayl + `users/${user.id}`, { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+//       ).then((response) =&gt; { setUser(response.data) });
+
+
+//   }, [refreshKey]);
+
+//   //Get Most matched this month//
+//   useEffect(() =&gt; {
+//     testDate();
+//     axios
+//       .get(URLDayl + `matchingSearch/moreMatchedPaintingForLast30Days?numberOfMonthsBefore=${nMonth}`
+//       )
+//       .then((response) =&gt; {
+//         setMatchedPainting(response.data);
+// console.log(response)
+//         const boolArray = response.data.map((el) =&gt; { return { ...el, bool: false } });
+
+//         setMatchedPainting(boolArray);
+//         getItemWidth();
+
+
+//       });
+
+
+
+//   }, [nMonth]);
+
+//   function testDate() {
+//     if (nMonth === &quot;1&quot;) {
+//       setDate(&quot;Ce mois-ci&quot;)
+//     }
+//     if (nMonth === &quot;2&quot;) {
+//       setDate(&quot;Le mois dernier&quot;);
+//     }
+//     if (nMonth === &quot;3&quot;) {
+//       setDate(&quot;Il y a 2 mois&quot;)
+//     }
+//     if (nMonth === &quot;4&quot;) {
+//       setDate(&quot;Il y a 4 mois&quot;)
+//     }
+
+//   }
+
+//   //get la largeur d&apos;un item carrousel
+//   function getItemWidth() {
+//     let el = document.querySelector(&apos;.react-multi-carousel-item.itemOne&apos;)
+//     //on convertis la valeur en int
+
+//     if (el) {
+//       let element = parseInt(el.style.width.slice(0, 3))
+//       let coef = 2 * (270 / element);
+//       setCoefWidth(coef)
+//     }
+
+//   }
+//   //get la largeur de la fenetre
+//   const handleResize = () =&gt; {
+//     setWidth(window.innerWidth)
+//   }
+//   useEffect(() =&gt; {
+//     window.addEventListener(&quot;resize&quot;, handleResize, false);
+//   }, []);
+
+
+//   //update la largeur d&apos;un item quand la largeur de la fenetre change
+//   useEffect(() =&gt; {
+
+//     getItemWidth();
+//   }, [width]);
+
+
+//   return (
+//     &lt;div className=&quot;MostMatched&quot;&gt;
+     
+
+//       {/* &lt;!-- ******************************************************
+// 			SECTION SECTION LES PLUS MATCH&#xC9;ES - d&#xE9;but
+// 			****************************************************** --&gt; */}
+//       &lt;section className=&quot;center-col cont-sty-1&quot;&gt;
+//         {/* &lt;!-- informations et actions - d&#xE9;but --&gt; */}
+//         &lt;div className=&quot;cont-l-w center-row&quot;&gt;
+//           &lt;div className=&quot;cont-fl-l&quot;&gt;
+//             &lt;h2&gt;Les plus match&#xE9;es&lt;/h2&gt;
+//             &lt;h3&gt;
+//               &lt;a href=&quot;#&quot;&gt;{date}&lt;/a&gt;
+//             &lt;/h3&gt;
+//           &lt;/div&gt;
+//           &lt;div className=&quot;cont-fl-r&quot; &gt;
+//             &lt;ul&gt;
+//               &lt;li&gt;
+//                 {/* &lt;!-- Dropdown les plus match&#xE9;es &quot;trier&quot; - d&#xE9;but --&gt; */}
+
+//                 &lt;div&gt;
+//                   &lt;select className=&quot;searchFilter&quot; id=&quot;mostMatchedByMonth&quot; name=&quot;mostMatchedByMonth&quot; onChange={(e) =&gt; setNMonth(e.target.value)}&gt;
+//                     &lt;option value=&quot;1&quot; selected&gt;Ce mois-ci&lt;/option&gt;
+//                     &lt;option value=&quot;2&quot;&gt;Le mois dernier&lt;/option&gt;
+//                     &lt;option value=&quot;3&quot;&gt;Il y a 2 mois&lt;/option&gt;
+//                     &lt;option value=&quot;4&quot;&gt;Il y a 3 mois&lt;/option&gt;
+//                   &lt;/select&gt;
+//                 &lt;/div&gt;
+//               &lt;/li&gt;
+//             &lt;/ul&gt;
+//             {/* &lt;!-- Dropdown les plus match&#xE9;es &quot;trier&quot; - fin --&gt; */}
+//           &lt;/div&gt;
+//         &lt;/div&gt;
+//         {/* &lt;!-- informations et actions - fin --&gt; */}
+
+//         {/* &lt;!-- carouse                                    &lt;Link className=&quot;discover&quot; to={`../../view/ListAmateurPage.js/${list.id}`} state={list.id}&gt;{list.listName}&lt;/Link&gt;
+// l - d&#xE9;but --&gt; */}
+//         &lt;div className=&quot;cont-l-w&quot;&gt;
+//           &lt;Carousel responsive={responsive}
+//             infinite={true}
+//             swipeable={true}
+//             ssr={true}
+//             slidesToSlide={coefWidth}
+//             shouldResetAutoplay={false}
+//             itemClass=&quot;itemOne&quot;
+//             partialVisible={true}
+//             renderButtonGroupOutside={true}
+//             arrows={true}
+//             rewind={false}
+//             rewindWithAnimation={false}
+//           &gt;
+
+//             {matchedPainting.length &gt; 0 &amp;&amp;
+//               matchedPainting.map((matchPaint, index) =&gt; (
+//                 &lt;div className=&quot;sliderOne owl-loaded&quot; style={{ paddingRight: &quot;20px&quot; }}&gt;
+//                   &lt;div className=&quot;item&quot; &gt;
+//                     &lt;Fav user={user} isLogged={isLogged} favPaint={matchPaint.painting} /&gt;
+//                     &lt;div className=&quot;img-wrapper&quot; &gt;
+//                       &lt;div className=&quot;bt-wrapper&quot;&gt;
+//                         &lt;div className=&quot;titre&quot;&gt;
+//                           {matchPaint.painting.name}
+//                           &lt;div className=&quot;date&quot;&gt;{matchPaint.painting.year}&lt;/div&gt;
+//                         &lt;/div&gt;
+//                         &lt;div className=&quot;container-action&quot;&gt;
+//                           &lt;Link className=&quot;bt-action voir&quot; to={`../../view/OpusPage.js/${matchPaint.painting.id}`} state={matchPaint.painting.id}&gt;
+
+//                             voir
+
+//                           &lt;/Link&gt;
+//                           &lt;Link className=&quot;bt-action match&quot; to={`../../view/MatchingPage.js/${matchPaint.painting.id}`} state={matchPaint.painting.id}&gt;
+//                             match
+//                           &lt;/Link&gt;
+//                         &lt;/div&gt;
+//                       &lt;/div&gt;
+//                       &lt;img
+//                         className=&quot;owl-lazy&quot;
+//                         src={URLDayl + `images/content/mini/${matchPaint.painting.artistId}/${matchPaint.painting.urlImage}`}
+//                         alt=&quot;Titre de l&apos;oeuvre&quot;
+//                       /&gt;
+//                     &lt;/div&gt;
+//                     &lt;div className=&quot;name&quot;&gt;
+//                       &lt;Link to={`../../view/ArtistDetailPage.js/${matchPaint.painting.artistId}`} state={matchPaint.painting.artistId}&gt;{matchPaint.painting.artisteName}&lt;/Link&gt;
+//                     &lt;/div&gt;
+//                   &lt;/div&gt;
+//                 &lt;/div&gt;)
+
+//               )}
+//           &lt;/Carousel&gt;
+//         &lt;/div&gt;
+//         {/* &lt;!-- carousel - fin --&gt; */}
+//       &lt;/section&gt;
+//       {/* &lt;!-- SECTION LES PLUS MATCH&#xC9;ES - fin --&gt; */}
+//     &lt;/div&gt;
+//   );
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

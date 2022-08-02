@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 147,
+  "end": 157,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 147,
+    "end": 157,
     "loc": {
       "start": {
         "line": 1,
@@ -30,8 +30,8 @@
     "body": [
       {
         "type": "ExportNamedDeclaration",
-        "start": 49,
-        "end": 92,
+        "start": 55,
+        "end": 98,
         "loc": {
           "start": {
             "line": 7,
@@ -46,8 +46,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 56,
-          "end": 92,
+          "start": 62,
+          "end": 98,
           "loc": {
             "start": {
               "line": 7,
@@ -61,8 +61,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 62,
-              "end": 91,
+              "start": 68,
+              "end": 97,
               "loc": {
                 "start": {
                   "line": 7,
@@ -75,8 +75,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 62,
-                "end": 66,
+                "start": 68,
+                "end": 72,
                 "loc": {
                   "start": {
                     "line": 7,
@@ -93,8 +93,8 @@
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 69,
-                "end": 91,
+                "start": 75,
+                "end": 97,
                 "loc": {
                   "start": {
                     "line": 7,
@@ -118,9 +118,9 @@
           "leadingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\n * Constant used in the whole website\n\n ",
-              "start": 1,
-              "end": 47,
+              "value": "*\r\n * Constant used in the whole website\r\n\r\n ",
+              "start": 2,
+              "end": 51,
               "loc": {
                 "start": {
                   "line": 2,
@@ -138,9 +138,9 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\n * Constant used in the whole website\n\n ",
-            "start": 1,
-            "end": 47,
+            "value": "*\r\n * Constant used in the whole website\r\n\r\n ",
+            "start": 2,
+            "end": 51,
             "loc": {
               "start": {
                 "line": 2,
@@ -157,8 +157,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 93,
-        "end": 144,
+        "start": 100,
+        "end": 151,
         "loc": {
           "start": {
             "line": 8,
@@ -173,8 +173,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 100,
-          "end": 144,
+          "start": 107,
+          "end": 151,
           "loc": {
             "start": {
               "line": 8,
@@ -188,8 +188,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 106,
-              "end": 144,
+              "start": 113,
+              "end": 151,
               "loc": {
                 "start": {
                   "line": 8,
@@ -202,8 +202,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 106,
-                "end": 113,
+                "start": 113,
+                "end": 120,
                 "loc": {
                   "start": {
                     "line": 8,
@@ -219,8 +219,8 @@
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 116,
-                "end": 144,
+                "start": 123,
+                "end": 151,
                 "loc": {
                   "start": {
                     "line": 8,
@@ -251,9 +251,9 @@
   "comments": [
     {
       "type": "CommentBlock",
-      "value": "*\n * Constant used in the whole website\n\n ",
-      "start": 1,
-      "end": 47,
+      "value": "*\r\n * Constant used in the whole website\r\n\r\n ",
+      "start": 2,
+      "end": 51,
       "loc": {
         "start": {
           "line": 2,
@@ -269,9 +269,9 @@
   "tokens": [
     {
       "type": "CommentBlock",
-      "value": "*\n * Constant used in the whole website\n\n ",
-      "start": 1,
-      "end": 47,
+      "value": "*\r\n * Constant used in the whole website\r\n\r\n ",
+      "start": 2,
+      "end": 51,
       "loc": {
         "start": {
           "line": 2,
@@ -298,8 +298,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 49,
-      "end": 55,
+      "start": 55,
+      "end": 61,
       "loc": {
         "start": {
           "line": 7,
@@ -326,8 +326,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 56,
-      "end": 61,
+      "start": 62,
+      "end": 67,
       "loc": {
         "start": {
           "line": 7,
@@ -352,8 +352,8 @@
         "binop": null
       },
       "value": "SALT",
-      "start": 62,
-      "end": 66,
+      "start": 68,
+      "end": 72,
       "loc": {
         "start": {
           "line": 7,
@@ -379,8 +379,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 67,
-      "end": 68,
+      "start": 73,
+      "end": 74,
       "loc": {
         "start": {
           "line": 7,
@@ -406,8 +406,8 @@
         "updateContext": null
       },
       "value": "PAINTING_NOVAGEN_ETC",
-      "start": 69,
-      "end": 91,
+      "start": 75,
+      "end": 97,
       "loc": {
         "start": {
           "line": 7,
@@ -432,8 +432,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 91,
-      "end": 92,
+      "start": 97,
+      "end": 98,
       "loc": {
         "start": {
           "line": 7,
@@ -460,8 +460,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 93,
-      "end": 99,
+      "start": 100,
+      "end": 106,
       "loc": {
         "start": {
           "line": 8,
@@ -488,8 +488,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 100,
-      "end": 105,
+      "start": 107,
+      "end": 112,
       "loc": {
         "start": {
           "line": 8,
@@ -514,8 +514,8 @@
         "binop": null
       },
       "value": "URLDayl",
-      "start": 106,
-      "end": 113,
+      "start": 113,
+      "end": 120,
       "loc": {
         "start": {
           "line": 8,
@@ -541,8 +541,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 114,
-      "end": 115,
+      "start": 121,
+      "end": 122,
       "loc": {
         "start": {
           "line": 8,
@@ -568,8 +568,8 @@
         "updateContext": null
       },
       "value": "http://162.19.52.131:8088/",
-      "start": 116,
-      "end": 144,
+      "start": 123,
+      "end": 151,
       "loc": {
         "start": {
           "line": 8,
@@ -594,8 +594,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 147,
-      "end": 147,
+      "start": 157,
+      "end": 157,
       "loc": {
         "start": {
           "line": 11,

@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/view/MatchingImage.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Accueil">Accueil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Comments">Comments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayUser">DisplayUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Lists">Lists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MostMatched">MostMatched</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchArtist">SearchArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchColor">SearchColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-listeamateurpage">component/ListeAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayInfoList">DisplayInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayList">DisplayList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatchingColor">ResultMatchingColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingresult">component/MatchingResult</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PaintingToMatch">PaintingToMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatch">ResultMatch</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-userinfo">component/UserInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AmateurInfo">AmateurInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogIn">LogIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignIn">SignIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-StartPage">StartPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/view/MatchingImage.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import { useLocation } from &quot;react-router-dom&quot;;
+import { useForm } from &quot;react-hook-form&quot;;
+import { URLDayl } from &quot;../services/constantes&quot;
+import { Link } from &quot;react-router-dom&quot;;
+import Fav from &quot;../component/general/Fav&quot;;
+import ListModal from &quot;../component/general/ListModal&quot;;
+import close from &quot;../webapp/img/icons/ico_close_2.svg&quot;
+
+/**
+ * This component display the Matching Page with uploaded image
+ * @param {object} user - user object from api
+ * @param {boolean} isLogged - test if the user is logged
+ * @emits - images/submitImageForMatching?fileName=${data.itemName}&amp;artist=${data.artistName} : submit an image for matching
+ */
+
+export default function MatchingImage({ user, isLogged }) {
+
+
+// 	const { state } = useLocation();
+
+// 	const [result, setResult] = useState(state.result);
+// 	const [styleChoice, setStyleChoice] = useState(&quot;1&quot;);
+// 	const [listArtist, setListArtist] = useState([]);
+// 	const [boolModalArtist, setBoolModalArtist] = useState(false);
+// 	const [boolAllArtist, setBoolAllArtist] = useState(true);
+// 	const [orderDate, setOrderDate] = useState(0);
+// 	const [tempList, setTempList] = useState([]);
+// 	const [image, setImage] = useState(state.image)
+// 	const [fileName, setFileName] = useState(&quot;Glissez/d&#xE9;posez votre fichier ici&quot;)
+// 	const { register, handleSubmit } = useForm();
+
+
+	
+	
+	
+
+
+
+// useEffect(() =&gt; {
+
+// 	let tempListArtist = result.filter((v, i) =&gt; {
+// 		return result.map((res) =&gt; res.artistId).indexOf(v.artistId) == i
+// 	})
+// 	tempListArtist = tempListArtist.map((el) =&gt; { return { ...el, boolList: true } });
+
+// 	console.log(tempListArtist)
+
+// 	setListArtist([...tempListArtist])
+
+// }, []);
+
+
+
+// 	function onSubmit(data) {
+
+// 		var file = data.file[0];
+// 		var formdata = new FormData();
+// 		formdata.append(&apos;image&apos;, file);
+// 		setImage(URL.createObjectURL(file));
+// 		if (!data.itemName) {
+// 			data.itemName = &quot; &quot;;
+// 		}
+// 		if (!data.artistName) {
+// 			data.artistName = &quot; &quot;;
+// 		}
+
+// 		var xhr = new XMLHttpRequest();
+// 		xhr.open(&apos;POST&apos;, URLDayl + `images/submitImageForMatching?fileName=${data.itemName}&amp;artist=${data.artistName}`);
+// 		//xhr.setRequestHeader(&apos;Content-Type&apos;, &apos;multipart/form-data&apos;);
+// 		xhr.send(formdata);
+
+
+// 		xhr.onreadystatechange = function () {
+// 			if (xhr.readyState !== 4) return;
+// 			//si probleme on affiche l&apos;erreur
+// 			if (xhr.status !== 200) {
+// 				console.log(xhr);
+// 				//sinon on affiche les resultats
+// 			} else {
+
+// 				if (styleChoice === &quot;1&quot;) {
+// 					setResult(Object.values(JSON.parse(xhr.responseText).style).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 					setTempList(Object.values(JSON.parse(xhr.responseText).style).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 				}
+// 				if (styleChoice === &quot;2&quot;) {
+// 					setResult(Object.values(JSON.parse(xhr.responseText).color).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 					setTempList(Object.values(JSON.parse(xhr.responseText).color).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 				}
+// 				if (styleChoice === &quot;3&quot;) {
+// 					setResult(Object.values(JSON.parse(xhr.responseText).content).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 					setTempList(Object.values(JSON.parse(xhr.responseText).content).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 				}
+// 				if (styleChoice === &quot;4&quot;) {
+// 					setResult(Object.values(JSON.parse(xhr.responseText).color_content).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 					setTempList(Object.values(JSON.parse(xhr.responseText).color_content).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 				}
+// 				if (styleChoice === &quot;5&quot;) {
+// 					setResult(Object.values(JSON.parse(xhr.responseText).color_style).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 					setTempList(Object.values(JSON.parse(xhr.responseText).color_style).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 				}
+// 				if (styleChoice === &quot;6&quot;) {
+// 					setResult(Object.values(JSON.parse(xhr.responseText).content_style).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 					setTempList(Object.values(JSON.parse(xhr.responseText).content_style).map((el) =&gt; { return { ...el, boolVis: true } }));
+// 				}
+
+// 				let tempListArtist = Object.values(JSON.parse(xhr.responseText).style).filter((v, i) =&gt; {
+// 					return Object.values(JSON.parse(xhr.responseText).style).map((res) =&gt; res.artistId).indexOf(v.artistId) == i
+// 				})
+// 				tempListArtist = tempListArtist.map((el) =&gt; { return { ...el, boolList: true } });
+
+// 				console.log(tempListArtist)
+
+// 				setListArtist([...tempListArtist])
+
+// 			}
+// 		}
+// 	}
+
+
+// 	//Choisis les artistes &#xE0; trier
+// 	function setTriArtist(index) {
+
+// 		let tempList = [...listArtist];
+// 		let tempResult = [...result];
+
+// 		if (tempList[index].boolList === true) {
+// 			tempList[index].boolList = false;
+// 			tempResult.map((res) =&gt; {
+// 				if (res.artistId === tempList[index].artistId) res.boolVis = false
+// 			})
+// 		}
+// 		else {
+// 			tempList[index].boolList = true;
+// 			tempResult.map((res) =&gt; {
+// 				if (res.artistId === tempList[index].artistId) res.boolVis = true
+// 			})
+// 		}
+// 		setListArtist([...tempList]);
+// 		setResult([...tempResult]);
+
+// 		testAllArtists();
+
+// 	};
+// 	//Test si tt les artistes sont selectionn&#xE9;s
+// 	function testAllArtists() {
+// 		let count = 0;
+
+// 		listArtist.map((artist) =&gt; {
+// 			if (artist.boolList === true) {
+// 				count++;
+// 			}
+
+// 		})
+
+// 		if (count === listArtist.length) {
+
+// 			setBoolAllArtist(true)
+
+
+// 		}
+// 		else {
+
+
+// 			setBoolAllArtist(false)
+// 		}
+
+
+// 	}
+// 	//OnClick bouton &quot;Tous&quot;
+// 	function allArtists() {
+
+// 		let tempList = [...listArtist];
+
+// 		if (boolAllArtist === true) {
+// 			for (let i = 0; i &lt; tempList.length; i++)
+// 				tempList[i].boolList = false;
+// 			for (let i = 0; i &lt; result.length; i++)
+// 				result[i].boolVis = false;
+// 			setBoolAllArtist(false)
+// 		}
+// 		else {
+// 			for (let i = 0; i &lt; tempList.length; i++)
+// 				tempList[i].boolList = true;
+// 			for (let i = 0; i &lt; result.length; i++)
+// 				result[i].boolVis = true;
+// 			setBoolAllArtist(true)
+// 		}
+// 		setListArtist([...tempList])
+
+// 	}
+
+// 	//Ouvre la modale de tri artiste
+// 	function openModalArtist() {
+
+// 		if (boolModalArtist === true) {
+// 			setBoolModalArtist(false)
+// 		}
+// 		else {
+// 			setBoolModalArtist(true)
+// 		}
+
+
+// 	}
+
+// 	//fonction de tri par date
+// 	function handleOrderDate() {
+// 		let bufferOrder;
+// 		let bufferOrder2;
+// 		if (orderDate === 0) {
+// 			//tri ordre decroissant
+// 			setResult(result.sort((a, b) =&gt; b.year - a.year));
+
+// 			setOrderDate(1);
+// 		}
+// 		else if (orderDate === 1) {
+// 			//on stock les oeuvres dont la date = 0 ou null
+// 			bufferOrder = result.filter(function (paint) { return paint.year === null || paint.year === 0; })
+
+// 			//tri ordre croissant sans les 0 et null
+// 			bufferOrder2 = result.filter(function (paint) { return paint.year &gt; 0; }).sort((a, b) =&gt; a.year - b.year);
+
+// 			//on rajoute les oauvres tri&#xE9; au tableau de 0
+// 			bufferOrder.unshift(...bufferOrder2)
+
+// 			setResult(bufferOrder)
+// 			setOrderDate(1);
+
+// 			setOrderDate(2);
+// 		}
+// 		else if (orderDate === 2) {
+// 			setResult(tempList);
+// 			setOrderDate(0);
+// 		}
+// 	}
+
+// 	return (
+// 		&lt;div className=&quot;MatchingImage&quot;&gt;
+
+// 			{/* &lt;!-- ******************************************************
+// 			SECTION MATCHING IMAGE UPLOAD - d&#xE9;but
+// 			****************************************************** --&gt; */}
+// 			&lt;section className=&quot;center-col&quot;&gt;
+// 				&lt;div className=&quot;cont-f-w&quot;&gt;
+
+// 					{/* &lt;!-- formulaire de matching - d&#xE9;but --&gt; */}
+// 					&lt;div className=&quot;matchingImgSearch&quot;&gt;
+
+// 						&lt;h1&gt;Choisissez une image, une peinture sur votre ordinateur&lt;/h1&gt;
+// 						&lt;p className=&quot;title&quot;&gt;Une de vos oeuvres ? Une peinture en photo ?&lt;/p&gt;
+
+// 						&lt;form id=&quot;ImgMatchingSearch&quot; onSubmit={handleSubmit(onSubmit)}&gt;
+// 							&lt;input type=&quot;text&quot; id=&quot;artistName&quot; {...register(&quot;artistName&quot;)} /* value={form?.artistName} onChange={e =&gt; setForm({ ...form, artistName: e.target.value })} */ placeholder=&quot;Un nom d&#x2019;artiste? (facultatif)&quot; /&gt;
+// 							&lt;input type=&quot;text&quot; id=&quot;artistItemName&quot; {...register(&quot;itemName&quot;)}/* value={form?.itemName} onChange={e =&gt; setForm({ ...form, itemName: e.target.value })} */ placeholder=&quot;Un nom d&#x2019;oeuvre? (facultatif)&quot; /&gt;
+
+// 							&lt;div style={{ marginRight: &quot;15px&quot;, bottom: &quot;10px&quot; }}&gt;
+// 								&lt;select id=&quot;type&quot; name=&quot;type&quot; className=&quot;searchFilter&quot; value={styleChoice} onChange={e =&gt; setStyleChoice(e.target.value)} style={{ alignItems: &quot;center&quot; }}&gt;
+// 									&lt;option value=&quot;1&quot;&gt;Style&lt;/option&gt;
+// 									&lt;option value=&quot;2&quot;&gt;Couleur&lt;/option&gt;
+// 									&lt;option value=&quot;3&quot;&gt;Contenu&lt;/option&gt;
+// 									&lt;option value=&quot;4&quot;&gt;couleur et contenu&lt;/option&gt;
+// 									&lt;option value=&quot;5&quot;&gt;couleur et style&lt;/option&gt;
+// 									&lt;option value=&quot;6&quot;&gt;contenu et style&lt;/option&gt;
+// 								&lt;/select&gt;
+// 							&lt;/div&gt;
+// 							&lt;div className=&quot;fileDropArea&quot;&gt;
+// 								&lt;span className=&quot;fakeBtn&quot;&gt;&lt;/span&gt;
+// 								&lt;span className=&quot;fileMsg&quot; &gt;{fileName}&lt;/span&gt;
+// 								&lt;input className=&quot;fileInput&quot; type=&quot;file&quot; id=&quot;formImage&quot; {...register(&quot;file&quot;)} onChange={e =&gt; setFileName(e.target.files[0].name)} multiple /&gt;
+// 							&lt;/div&gt;
+
+// 							&lt;input type=&quot;submit&quot; className=&quot;matchSub&quot; value=&quot;Match&quot; /&gt;
+// 						&lt;/form&gt;
+// 						{image &amp;&amp; &lt;div style={{ padding: &quot;10px&quot;, borderRadius: &quot;8px&quot;, backgroundColor: &quot;white&quot;, margin: &quot;20px&quot; }}&gt;
+// 							&lt;img className=&quot;show&quot; src={image} style={{ maxWidth: &quot;650px&quot;, height: &quot;auto&quot;, maxHeight: &quot;300px&quot;, borderRadius: &quot;8px&quot;, width: &quot;auto&quot; }} /&gt;
+// 						&lt;/div&gt;}
+
+// 					&lt;/div&gt;
+// 					{/* &lt;!-- formulaire de matching - fin --&gt; */}
+
+
+// 				&lt;/div&gt;
+
+
+// 				{/* &lt;!-- SECTION MATCHING IMAGE UPLOAD - fin --&gt; */}
+
+// 				&lt;div className=&quot;cont-l-w center-row&quot;&gt;
+
+// 					&lt;div className=&quot;orderingBox&quot; style={{ marginTop: &quot;50px&quot; }}&gt;
+// 						{/* &lt;!-- Bouton matching par ann&#xE9;e (+ ancien au + r&#xE9;cent) - d&#xE9;but --&gt; */}
+// 						&lt;button className={orderDate === 0 ? &quot;orderByDate&quot; : orderDate === 1 ? &quot;orderByDateDown&quot; : &quot;orderByDateUp&quot;} onClick={handleOrderDate} style={{ backgroundColor: &quot;#F3F3F3&quot; }}&gt;{orderDate === 0 ?&quot;Tri par date&quot; : orderDate === 1 ? &quot;Tri croissant&quot; : &quot;Tri d&#xE9;croissant&quot;}&lt;/button&gt;
+// 						{/* &lt;!-- Bouton matching par ann&#xE9;e (+ ancien au + r&#xE9;cent) - fin --&gt; */}
+// 						{/* &lt;h2 className=&quot;center-tex goRed&quot;&gt;Matching &lt;span&gt;{matchingType.text}&lt;/span&gt;&lt;/h2&gt; */}
+// 						{/* &lt;!-- Bouton matching par artistes - d&#xE9;but --&gt; */}
+// 						&lt;button className=&quot;orderByArtist&quot; onClick={openModalArtist} style={{ backgroundColor: &quot;#F3F3F3&quot; }}&gt;Choisir vos artiste(s) &lt;/button&gt;
+// 						{boolModalArtist === true &amp;&amp;
+// 							&lt;div&gt;
+// 								&lt;div className=&quot;smart-modal-overlay&quot; style={{ display: &quot;block&quot; }}&gt;&lt;/div&gt;
+// 								&lt;div id=&quot;1777&quot; className=&quot;smart-modal-content scrollAuto&quot; style={{ display: &quot;block&quot;, transform: &quot;translate(-50%,-50%)&quot;, top: &quot;50%&quot;, left: &quot;50%&quot; }}&gt;
+
+// 									&lt;h3&gt;Artistes&lt;/h3&gt;
+// 									&lt;a className=&quot;smart-modal-close&quot; onClick={openModalArtist}&gt;&lt;img className=&quot;img-left&quot; src={close} alt=&quot;close&quot; /&gt;&lt;/a&gt;
+
+// 									{/* &lt;!-- checkbox artiste match&#xE9; - d&#xE9;but --&gt; */}
+// 									&lt;div className=&quot;checkLister all&quot;&gt;
+// 										&lt;button className={boolAllArtist === true ? &quot;checkbox checked&quot; : &quot;checkbox &quot;} onClick={allArtists}&gt;&lt;/button&gt;
+// 										&lt;span&gt;Tous&lt;/span&gt;
+// 									&lt;/div&gt;
+// 									{/* &lt;!-- checkbox artiste match&#xE9; - fin --&gt;
+// 											&lt;!-- checkbox artiste match&#xE9; - d&#xE9;but --&gt; */}
+// 									{listArtist.length &gt; 0 &amp;&amp;
+// 										listArtist.map((artist, index) =&gt; {
+// 											return (
+// 												&lt;div className=&quot;checkLister&quot; &gt;
+
+// 													&lt;div className={artist.boolList === true ? &quot;checkbox checked&quot; : &quot;checkbox&quot;} onClick={() =&gt; setTriArtist(index)}&gt;&lt;/div&gt;
+// 													&lt;span&gt;{artist.artisteName}&lt;/span&gt;
+// 												&lt;/div&gt;
+// 											)
+// 										})}
+
+// 									{/* &lt;!-- checkbox artiste match&#xE9; - fin --&gt;*/}
+
+// 								&lt;/div&gt;
+// 							&lt;/div&gt;
+// 						}
+
+// 						{/* &lt;!-- Bouton matching par artistes - fin --&gt; */}
+// 					&lt;/div&gt;
+// 				&lt;/div&gt;
+
+
+// 				{/* &lt;!-- Modal artistes match&#xE9;s &amp; filtrer le matching - d&#xE9;but --&gt; */}
+// 				&lt;div className=&quot;cont-l-w&quot;&gt;
+// 					&lt;div className=&quot;itemGallery mt-a&quot;&gt;
+// 						&lt;div className=&quot;gridContent items&quot;&gt;
+
+
+
+
+// 							{result.length &gt; 0 &amp;&amp;
+// 								result.filter(filter =&gt; filter.boolVis === true).map((paint, index) =&gt; {
+// 									// if (listArtist[index] &amp;&amp; listArtist[index].boolList === true)
+// 									return (
+// 										&lt;div className=&quot;item&quot;&gt;
+// 											&lt;div className=&quot;base&quot; style={{ backgroundImage: `url(${URLDayl}images/content/mini/${paint.artistId}/${paint.urlImage})` }}&gt;
+// 												&lt;button id=&quot;itemCommentState&quot; className=&quot;comment yes&quot; type=&quot;button&quot; value=&quot;notComment&quot;&gt;&lt;/button&gt;
+// 												&lt;Fav user={user} isLogged={isLogged} favPaint={paint} /&gt;
+// 												&lt;ListModal user={user} isLogged={isLogged} listPaint={paint} /&gt;
+// 											&lt;/div&gt;
+// 											&lt;div className=&quot;hidden&quot;&gt;
+// 												&lt;div className=&quot;revealShadow&quot;&gt;&lt;/div&gt;
+// 												&lt;h3 className=&quot;itemArtist&quot;&gt;{paint.artisteName}&lt;/h3&gt;
+// 												&lt;h4 className=&quot;itemName&quot;&gt;{paint.name}&lt;/h4&gt;
+// 												&lt;div className=&quot;itemYear&quot;&gt;{paint.year}&lt;/div&gt;
+// 												&lt;ul className=&quot;hListGridItem&quot;&gt;
+// 													&lt;li&gt;
+// 														&lt;div className=&quot;smart-modal&quot;&gt;
+// 															&lt;Link className=&quot;GridviewItem&quot; to={`../../view/OpusPage.js/${paint.id}`} state={paint.id} &gt;
+// 																Voir
+// 															&lt;/Link&gt;
+// 														&lt;/div&gt;
+// 													&lt;/li&gt;
+// 													&lt;li&gt;
+// 														&lt;Link className=&quot;GridmakeMatch&quot; to=&quot;../view/MatchingPage.js&quot; state={paint.id} &gt;
+// 															match
+// 														&lt;/Link&gt;
+// 													&lt;/li&gt;
+// 												&lt;/ul&gt;
+
+// 											&lt;/div&gt;
+
+// 											{/* &lt;!-- oeuvre - fin --&gt; */}
+// 										&lt;/div&gt;
+// 									)
+// 								})}
+
+
+
+
+// 						&lt;/div&gt;
+// 					&lt;/div&gt;
+// 					{/* &lt;!-- items row - fin --&gt; */}
+// 				&lt;/div&gt;
+
+// 			&lt;/section&gt;
+// 		&lt;/div&gt;
+
+// 	);
+}
+
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

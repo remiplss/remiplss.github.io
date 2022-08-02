@@ -1,0 +1,5026 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 4371,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 97,
+      "column": 1
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 4371,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 97,
+        "column": 1
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "start": 0,
+        "end": 26,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 26
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 7,
+            "end": 12,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 12
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 7,
+              "end": 12,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 7
+                },
+                "end": {
+                  "line": 1,
+                  "column": 12
+                },
+                "identifierName": "React"
+              },
+              "name": "React"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 18,
+          "end": 25,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 18
+            },
+            "end": {
+              "line": 1,
+              "column": 25
+            }
+          },
+          "extra": {
+            "rawValue": "react",
+            "raw": "\"react\""
+          },
+          "value": "react"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 28,
+        "end": 72,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 37,
+            "end": 46,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 9
+              },
+              "end": {
+                "line": 2,
+                "column": 18
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 37,
+              "end": 46,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 9
+                },
+                "end": {
+                  "line": 2,
+                  "column": 18
+                },
+                "identifierName": "useEffect"
+              },
+              "name": "useEffect"
+            },
+            "importKind": null,
+            "local": {
+              "type": "Identifier",
+              "start": 37,
+              "end": 46,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 9
+                },
+                "end": {
+                  "line": 2,
+                  "column": 18
+                },
+                "identifierName": "useEffect"
+              },
+              "name": "useEffect"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 48,
+            "end": 56,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 20
+              },
+              "end": {
+                "line": 2,
+                "column": 28
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 48,
+              "end": 56,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 20
+                },
+                "end": {
+                  "line": 2,
+                  "column": 28
+                },
+                "identifierName": "useState"
+              },
+              "name": "useState"
+            },
+            "importKind": null,
+            "local": {
+              "type": "Identifier",
+              "start": 48,
+              "end": 56,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 20
+                },
+                "end": {
+                  "line": 2,
+                  "column": 28
+                },
+                "identifierName": "useState"
+              },
+              "name": "useState"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 64,
+          "end": 71,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          },
+          "extra": {
+            "rawValue": "react",
+            "raw": "\"react\""
+          },
+          "value": "react"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 74,
+        "end": 100,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 26
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 81,
+            "end": 86,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 7
+              },
+              "end": {
+                "line": 3,
+                "column": 12
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 81,
+              "end": 86,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 7
+                },
+                "end": {
+                  "line": 3,
+                  "column": 12
+                },
+                "identifierName": "axios"
+              },
+              "name": "axios"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 92,
+          "end": 99,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 18
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          },
+          "extra": {
+            "rawValue": "axios",
+            "raw": "\"axios\""
+          },
+          "value": "axios"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 102,
+        "end": 153,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 111,
+            "end": 118,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 9
+              },
+              "end": {
+                "line": 4,
+                "column": 16
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 111,
+              "end": 118,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 9
+                },
+                "end": {
+                  "line": 4,
+                  "column": 16
+                },
+                "identifierName": "URLDayl"
+              },
+              "name": "URLDayl"
+            },
+            "importKind": null,
+            "local": {
+              "type": "Identifier",
+              "start": 111,
+              "end": 118,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 9
+                },
+                "end": {
+                  "line": 4,
+                  "column": 16
+                },
+                "identifierName": "URLDayl"
+              },
+              "name": "URLDayl"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 126,
+          "end": 153,
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 24
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          },
+          "extra": {
+            "rawValue": "../../services/constantes",
+            "raw": "\"../../services/constantes\""
+          },
+          "value": "../../services/constantes"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 155,
+        "end": 211,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 56
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 162,
+            "end": 166,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 7
+              },
+              "end": {
+                "line": 5,
+                "column": 11
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 162,
+              "end": 166,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 7
+                },
+                "end": {
+                  "line": 5,
+                  "column": 11
+                },
+                "identifierName": "edit"
+              },
+              "name": "edit"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 172,
+          "end": 210,
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 17
+            },
+            "end": {
+              "line": 5,
+              "column": 55
+            }
+          },
+          "extra": {
+            "rawValue": "../../webapp/img/icons/ico_pen_2.svg",
+            "raw": "\"../../webapp/img/icons/ico_pen_2.svg\""
+          },
+          "value": "../../webapp/img/icons/ico_pen_2.svg"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 213,
+        "end": 271,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 58
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 220,
+            "end": 225,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 7
+              },
+              "end": {
+                "line": 6,
+                "column": 12
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 220,
+              "end": 225,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 7
+                },
+                "end": {
+                  "line": 6,
+                  "column": 12
+                },
+                "identifierName": "close"
+              },
+              "name": "close"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 231,
+          "end": 271,
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 18
+            },
+            "end": {
+              "line": 6,
+              "column": 58
+            }
+          },
+          "extra": {
+            "rawValue": "../../webapp/img/icons/ico_close_2.svg",
+            "raw": "\"../../webapp/img/icons/ico_close_2.svg\""
+          },
+          "value": "../../webapp/img/icons/ico_close_2.svg",
+          "leadingComments": null,
+          "trailingComments": null
+        },
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\r\n * This component display informations about this list\r\n * @param {object} user - user object from api\r\n * @param {number} paintID - id of the list\r\n * @emits - userLists/detailByListId?listId=${paintId} : get list informations\r\n * @emits - userLists/update : update list informations\r\n ",
+            "start": 277,
+            "end": 571,
+            "loc": {
+              "start": {
+                "line": 9,
+                "column": 0
+              },
+              "end": {
+                "line": 15,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExportDefaultDeclaration",
+        "start": 581,
+        "end": 4371,
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 0
+          },
+          "end": {
+            "line": 97,
+            "column": 1
+          }
+        },
+        "declaration": {
+          "type": "FunctionDeclaration",
+          "start": 596,
+          "end": 4371,
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 15
+            },
+            "end": {
+              "line": 97,
+              "column": 1
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "start": 605,
+            "end": 620,
+            "loc": {
+              "start": {
+                "line": 20,
+                "column": 24
+              },
+              "end": {
+                "line": 20,
+                "column": 39
+              },
+              "identifierName": "DisplayInfoList"
+            },
+            "name": "DisplayInfoList",
+            "leadingComments": null
+          },
+          "generator": false,
+          "expression": false,
+          "async": false,
+          "params": [
+            {
+              "type": "ObjectPattern",
+              "start": 621,
+              "end": 638,
+              "loc": {
+                "start": {
+                  "line": 20,
+                  "column": 40
+                },
+                "end": {
+                  "line": 20,
+                  "column": 57
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 623,
+                  "end": 630,
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 42
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 49
+                    }
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 623,
+                    "end": 630,
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 42
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 49
+                      },
+                      "identifierName": "paintId"
+                    },
+                    "name": "paintId"
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "start": 623,
+                    "end": 630,
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 42
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 49
+                      },
+                      "identifierName": "paintId"
+                    },
+                    "name": "paintId"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                },
+                {
+                  "type": "ObjectProperty",
+                  "start": 632,
+                  "end": 636,
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 51
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 55
+                    }
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 632,
+                    "end": 636,
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 51
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 55
+                      },
+                      "identifierName": "user"
+                    },
+                    "name": "user"
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "start": 632,
+                    "end": 636,
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 51
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 55
+                      },
+                      "identifierName": "user"
+                    },
+                    "name": "user"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 640,
+            "end": 4371,
+            "loc": {
+              "start": {
+                "line": 20,
+                "column": 59
+              },
+              "end": {
+                "line": 97,
+                "column": 1
+              }
+            },
+            "body": [],
+            "directives": [],
+            "leadingComments": null,
+            "innerComments": [
+              {
+                "type": "CommentLine",
+                "value": " const [listInfo, setListInfo] = useState([]);",
+                "start": 649,
+                "end": 697,
+                "loc": {
+                  "start": {
+                    "line": 22,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 22,
+                    "column": 52
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " const [templistInfo, setTempListInfo] = useState([]);",
+                "start": 703,
+                "end": 759,
+                "loc": {
+                  "start": {
+                    "line": 23,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 23,
+                    "column": 60
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " const [refreshKey, setRefreshKey] = useState(0);",
+                "start": 765,
+                "end": 816,
+                "loc": {
+                  "start": {
+                    "line": 24,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 24,
+                    "column": 55
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " //get List info//",
+                "start": 824,
+                "end": 844,
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " useEffect(() => {",
+                "start": 850,
+                "end": 870,
+                "loc": {
+                  "start": {
+                    "line": 27,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 27,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     axios.get(URLDayl + `userLists/detailByListId?listId=${paintId}`).then((response) => {",
+                "start": 876,
+                "end": 969,
+                "loc": {
+                  "start": {
+                    "line": 28,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 28,
+                    "column": 97
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         setListInfo(response.data.userListDTO);",
+                "start": 975,
+                "end": 1025,
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 29,
+                    "column": 54
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         setTempListInfo(response.data.userListDTO)",
+                "start": 1031,
+                "end": 1084,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 57
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         console.log(response.data.userListDTO);",
+                "start": 1090,
+                "end": 1140,
+                "loc": {
+                  "start": {
+                    "line": 31,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 31,
+                    "column": 54
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     });",
+                "start": 1146,
+                "end": 1156,
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 32,
+                    "column": 14
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " }, [refreshKey]);",
+                "start": 1162,
+                "end": 1182,
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " // Call Jquery script",
+                "start": 1190,
+                "end": 1214,
+                "loc": {
+                  "start": {
+                    "line": 35,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 35,
+                    "column": 28
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " useEffect(() => {",
+                "start": 1220,
+                "end": 1240,
+                "loc": {
+                  "start": {
+                    "line": 36,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 36,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     const loadFile = async () => {",
+                "start": 1246,
+                "end": 1283,
+                "loc": {
+                  "start": {
+                    "line": 37,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 37,
+                    "column": 41
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         const { modal } = await import(\"../../webapp/js/js_source/modalBox\");",
+                "start": 1289,
+                "end": 1369,
+                "loc": {
+                  "start": {
+                    "line": 38,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 38,
+                    "column": 84
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         modal();",
+                "start": 1377,
+                "end": 1396,
+                "loc": {
+                  "start": {
+                    "line": 40,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 40,
+                    "column": 23
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     };",
+                "start": 1402,
+                "end": 1411,
+                "loc": {
+                  "start": {
+                    "line": 41,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 41,
+                    "column": 13
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     loadFile();",
+                "start": 1417,
+                "end": 1435,
+                "loc": {
+                  "start": {
+                    "line": 42,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 42,
+                    "column": 22
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " }, []);",
+                "start": 1441,
+                "end": 1451,
+                "loc": {
+                  "start": {
+                    "line": 43,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 14
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " //TODO",
+                "start": 1459,
+                "end": 1468,
+                "loc": {
+                  "start": {
+                    "line": 45,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 13
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " const postListInfo = (e) => {",
+                "start": 1474,
+                "end": 1506,
+                "loc": {
+                  "start": {
+                    "line": 46,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 46,
+                    "column": 36
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     e.preventDefault();",
+                "start": 1512,
+                "end": 1538,
+                "loc": {
+                  "start": {
+                    "line": 47,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 47,
+                    "column": 30
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     axios.post(URLDayl + \"userLists/update\", { id: paintId, listName: templistInfo.listName, detail: templistInfo.detail },",
+                "start": 1546,
+                "end": 1672,
+                "loc": {
+                  "start": {
+                    "line": 49,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 49,
+                    "column": 130
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         { headers: { \"Access-Control-Allow-Origin\": \"*\", \"Content-Type\": \"application/json\" } }",
+                "start": 1678,
+                "end": 1776,
+                "loc": {
+                  "start": {
+                    "line": 50,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 50,
+                    "column": 102
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     )",
+                "start": 1782,
+                "end": 1790,
+                "loc": {
+                  "start": {
+                    "line": 51,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 51,
+                    "column": 12
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         .then((response) => {",
+                "start": 1796,
+                "end": 1828,
+                "loc": {
+                  "start": {
+                    "line": 52,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 52,
+                    "column": 36
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "             setRefreshKey(oldKey => oldKey + 1);",
+                "start": 1834,
+                "end": 1885,
+                "loc": {
+                  "start": {
+                    "line": 53,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 53,
+                    "column": 55
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         });",
+                "start": 1893,
+                "end": 1907,
+                "loc": {
+                  "start": {
+                    "line": 55,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 55,
+                    "column": 18
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " }",
+                "start": 1915,
+                "end": 1919,
+                "loc": {
+                  "start": {
+                    "line": 57,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 57,
+                    "column": 8
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " return (",
+                "start": 1929,
+                "end": 1940,
+                "loc": {
+                  "start": {
+                    "line": 60,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 60,
+                    "column": 15
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     <div className=\"DisplayInfoList\">",
+                "start": 1946,
+                "end": 1986,
+                "loc": {
+                  "start": {
+                    "line": 61,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 61,
+                    "column": 44
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         {/* <!-- SECTION PRESENTATION DE LA LISTE - début --> */}",
+                "start": 1992,
+                "end": 2060,
+                "loc": {
+                  "start": {
+                    "line": 62,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 62,
+                    "column": 72
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         <div className=\"cont-sty-5\" style={{paddingBottom: \"0\"}}>",
+                "start": 2066,
+                "end": 2134,
+                "loc": {
+                  "start": {
+                    "line": 63,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 63,
+                    "column": 72
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "             <section className=\"center-col\">",
+                "start": 2140,
+                "end": 2187,
+                "loc": {
+                  "start": {
+                    "line": 64,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 64,
+                    "column": 51
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                 <div className=\"cont-l-w mt-b mb-b center-col memberList\">",
+                "start": 2193,
+                "end": 2270,
+                "loc": {
+                  "start": {
+                    "line": 65,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 65,
+                    "column": 81
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                     <h1 className=\"mb-a\">{listInfo.listName}</h1>",
+                "start": 2276,
+                "end": 2344,
+                "loc": {
+                  "start": {
+                    "line": 66,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 66,
+                    "column": 72
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                     <p className=\"mb-a\">{listInfo.detail}</p>",
+                "start": 2350,
+                "end": 2414,
+                "loc": {
+                  "start": {
+                    "line": 67,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 67,
+                    "column": 68
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                     {/* <!-- Modal modification de la liste - début --> */}",
+                "start": 2422,
+                "end": 2500,
+                "loc": {
+                  "start": {
+                    "line": 69,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 69,
+                    "column": 82
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                     <div className=\"smart-modal\">",
+                "start": 2506,
+                "end": 2558,
+                "loc": {
+                  "start": {
+                    "line": 70,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 70,
+                    "column": 56
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                         <a className=\" smart-modal-open modifyList\" data-target=\"modifyList\" rel=\"nofollow\">",
+                "start": 2564,
+                "end": 2675,
+                "loc": {
+                  "start": {
+                    "line": 71,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 71,
+                    "column": 115
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                             <img src={edit} alt=\"Éditer mon profil\" />",
+                "start": 2681,
+                "end": 2754,
+                "loc": {
+                  "start": {
+                    "line": 72,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 72,
+                    "column": 77
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                         </a>",
+                "start": 2760,
+                "end": 2791,
+                "loc": {
+                  "start": {
+                    "line": 73,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 73,
+                    "column": 35
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                         <div id=\"modifyList\" className=\"smart-modal-content scrollAuto\">",
+                "start": 2799,
+                "end": 2890,
+                "loc": {
+                  "start": {
+                    "line": 75,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 75,
+                    "column": 95
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                             <h3>Modifier la liste</h3>",
+                "start": 2896,
+                "end": 2953,
+                "loc": {
+                  "start": {
+                    "line": 76,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 76,
+                    "column": 61
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                             <a className=\"smart-modal-close\"><img className=\"img-left\" src={close} alt=\"Trier\" /></a>",
+                "start": 2959,
+                "end": 3079,
+                "loc": {
+                  "start": {
+                    "line": 77,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 77,
+                    "column": 124
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                             <form className=\"modalForm\" onSubmit={postListInfo}>",
+                "start": 3085,
+                "end": 3168,
+                "loc": {
+                  "start": {
+                    "line": 78,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 78,
+                    "column": 87
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                                 <label for=\"listName\" className=\"mt-b\">Nom de la liste</label>",
+                "start": 3174,
+                "end": 3271,
+                "loc": {
+                  "start": {
+                    "line": 79,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 79,
+                    "column": 101
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                                 <input type=\"text\" id=\"listName\" size=\"35\" value={templistInfo?.listName} onChange={e => setTempListInfo({ ...templistInfo, listName: e.target.value })} required />",
+                "start": 3277,
+                "end": 3476,
+                "loc": {
+                  "start": {
+                    "line": 80,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 80,
+                    "column": 203
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                                 <label for=\"listDesc\">Description de la liste</label>",
+                "start": 3482,
+                "end": 3570,
+                "loc": {
+                  "start": {
+                    "line": 81,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 81,
+                    "column": 92
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                                 <textarea id=\"listDesc\" className=\"mb-b\" maxlength=\"255\" value={templistInfo?.detail} onChange={e => setTempListInfo({ ...templistInfo, detail: e.target.value })} />",
+                "start": 3576,
+                "end": 3776,
+                "loc": {
+                  "start": {
+                    "line": 82,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 82,
+                    "column": 204
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                                 <input type=\"submit\" className=\"submit mt-b smart-modal-close\" value=\"Enregistrer les modifications\" style={{ position: \"relative\", right: \"0\", top: \"0\" }} />",
+                "start": 3782,
+                "end": 3975,
+                "loc": {
+                  "start": {
+                    "line": 83,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 83,
+                    "column": 197
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                             </form>",
+                "start": 3981,
+                "end": 4019,
+                "loc": {
+                  "start": {
+                    "line": 84,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 84,
+                    "column": 42
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                         </div>",
+                "start": 4025,
+                "end": 4058,
+                "loc": {
+                  "start": {
+                    "line": 85,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 85,
+                    "column": 37
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                     </div>",
+                "start": 4066,
+                "end": 4095,
+                "loc": {
+                  "start": {
+                    "line": 87,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 87,
+                    "column": 33
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                     {/* <!-- Modal modification de la liste - fin --> */}",
+                "start": 4101,
+                "end": 4177,
+                "loc": {
+                  "start": {
+                    "line": 88,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 88,
+                    "column": 80
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "                 </div>",
+                "start": 4185,
+                "end": 4210,
+                "loc": {
+                  "start": {
+                    "line": 90,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 90,
+                    "column": 29
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "             </section>",
+                "start": 4216,
+                "end": 4241,
+                "loc": {
+                  "start": {
+                    "line": 91,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 91,
+                    "column": 29
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         </div>",
+                "start": 4247,
+                "end": 4264,
+                "loc": {
+                  "start": {
+                    "line": 92,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 92,
+                    "column": 21
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "         {/* <!-- SECTION PRESENTATION DE LA LISTE - fin --> */}",
+                "start": 4270,
+                "end": 4336,
+                "loc": {
+                  "start": {
+                    "line": 93,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 93,
+                    "column": 70
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": "     </div>",
+                "start": 4344,
+                "end": 4357,
+                "loc": {
+                  "start": {
+                    "line": 95,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 95,
+                    "column": 17
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " );",
+                "start": 4363,
+                "end": 4368,
+                "loc": {
+                  "start": {
+                    "line": 96,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 96,
+                    "column": 9
+                  }
+                }
+              }
+            ]
+          },
+          "leadingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * @param \n * {*} undefined \n"
+            },
+            {
+              "type": "CommentBlock",
+              "value": "*\r\n * This component display informations about this list\r\n * @param {object} user - user object from api\r\n * @param {number} paintID - id of the list\r\n * @emits - userLists/detailByListId?listId=${paintId} : get list informations\r\n * @emits - userLists/update : update list informations\r\n ",
+              "start": 277,
+              "end": 571,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 0
+                },
+                "end": {
+                  "line": 15,
+                  "column": 3
+                }
+              }
+            }
+          ],
+          "trailingComments": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\r\n * This component display informations about this list\r\n * @param {object} user - user object from api\r\n * @param {number} paintID - id of the list\r\n * @emits - userLists/detailByListId?listId=${paintId} : get list informations\r\n * @emits - userLists/update : update list informations\r\n ",
+            "start": 277,
+            "end": 571,
+            "loc": {
+              "start": {
+                "line": 9,
+                "column": 0
+              },
+              "end": {
+                "line": 15,
+                "column": 3
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": "*\r\n * This component display informations about this list\r\n * @param {object} user - user object from api\r\n * @param {number} paintID - id of the list\r\n * @emits - userLists/detailByListId?listId=${paintId} : get list informations\r\n * @emits - userLists/update : update list informations\r\n ",
+      "start": 277,
+      "end": 571,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " const [listInfo, setListInfo] = useState([]);",
+      "start": 649,
+      "end": 697,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " const [templistInfo, setTempListInfo] = useState([]);",
+      "start": 703,
+      "end": 759,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " const [refreshKey, setRefreshKey] = useState(0);",
+      "start": 765,
+      "end": 816,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " //get List info//",
+      "start": 824,
+      "end": 844,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 4
+        },
+        "end": {
+          "line": 26,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " useEffect(() => {",
+      "start": 850,
+      "end": 870,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     axios.get(URLDayl + `userLists/detailByListId?listId=${paintId}`).then((response) => {",
+      "start": 876,
+      "end": 969,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 97
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         setListInfo(response.data.userListDTO);",
+      "start": 975,
+      "end": 1025,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 29,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         setTempListInfo(response.data.userListDTO)",
+      "start": 1031,
+      "end": 1084,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 57
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         console.log(response.data.userListDTO);",
+      "start": 1090,
+      "end": 1140,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     });",
+      "start": 1146,
+      "end": 1156,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }, [refreshKey]);",
+      "start": 1162,
+      "end": 1182,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " // Call Jquery script",
+      "start": 1190,
+      "end": 1214,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " useEffect(() => {",
+      "start": 1220,
+      "end": 1240,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 4
+        },
+        "end": {
+          "line": 36,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     const loadFile = async () => {",
+      "start": 1246,
+      "end": 1283,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 4
+        },
+        "end": {
+          "line": 37,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         const { modal } = await import(\"../../webapp/js/js_source/modalBox\");",
+      "start": 1289,
+      "end": 1369,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 84
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         modal();",
+      "start": 1377,
+      "end": 1396,
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 4
+        },
+        "end": {
+          "line": 40,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     };",
+      "start": 1402,
+      "end": 1411,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 4
+        },
+        "end": {
+          "line": 41,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     loadFile();",
+      "start": 1417,
+      "end": 1435,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 4
+        },
+        "end": {
+          "line": 42,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }, []);",
+      "start": 1441,
+      "end": 1451,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 4
+        },
+        "end": {
+          "line": 43,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " //TODO",
+      "start": 1459,
+      "end": 1468,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 4
+        },
+        "end": {
+          "line": 45,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " const postListInfo = (e) => {",
+      "start": 1474,
+      "end": 1506,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 4
+        },
+        "end": {
+          "line": 46,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     e.preventDefault();",
+      "start": 1512,
+      "end": 1538,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 4
+        },
+        "end": {
+          "line": 47,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     axios.post(URLDayl + \"userLists/update\", { id: paintId, listName: templistInfo.listName, detail: templistInfo.detail },",
+      "start": 1546,
+      "end": 1672,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 4
+        },
+        "end": {
+          "line": 49,
+          "column": 130
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         { headers: { \"Access-Control-Allow-Origin\": \"*\", \"Content-Type\": \"application/json\" } }",
+      "start": 1678,
+      "end": 1776,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 4
+        },
+        "end": {
+          "line": 50,
+          "column": 102
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     )",
+      "start": 1782,
+      "end": 1790,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 4
+        },
+        "end": {
+          "line": 51,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         .then((response) => {",
+      "start": 1796,
+      "end": 1828,
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 4
+        },
+        "end": {
+          "line": 52,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             setRefreshKey(oldKey => oldKey + 1);",
+      "start": 1834,
+      "end": 1885,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 4
+        },
+        "end": {
+          "line": 53,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         });",
+      "start": 1893,
+      "end": 1907,
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 4
+        },
+        "end": {
+          "line": 55,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }",
+      "start": 1915,
+      "end": 1919,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 4
+        },
+        "end": {
+          "line": 57,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " return (",
+      "start": 1929,
+      "end": 1940,
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 4
+        },
+        "end": {
+          "line": 60,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     <div className=\"DisplayInfoList\">",
+      "start": 1946,
+      "end": 1986,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 4
+        },
+        "end": {
+          "line": 61,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         {/* <!-- SECTION PRESENTATION DE LA LISTE - début --> */}",
+      "start": 1992,
+      "end": 2060,
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 4
+        },
+        "end": {
+          "line": 62,
+          "column": 72
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         <div className=\"cont-sty-5\" style={{paddingBottom: \"0\"}}>",
+      "start": 2066,
+      "end": 2134,
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 4
+        },
+        "end": {
+          "line": 63,
+          "column": 72
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             <section className=\"center-col\">",
+      "start": 2140,
+      "end": 2187,
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 4
+        },
+        "end": {
+          "line": 64,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 <div className=\"cont-l-w mt-b mb-b center-col memberList\">",
+      "start": 2193,
+      "end": 2270,
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 4
+        },
+        "end": {
+          "line": 65,
+          "column": 81
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     <h1 className=\"mb-a\">{listInfo.listName}</h1>",
+      "start": 2276,
+      "end": 2344,
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 4
+        },
+        "end": {
+          "line": 66,
+          "column": 72
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     <p className=\"mb-a\">{listInfo.detail}</p>",
+      "start": 2350,
+      "end": 2414,
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 4
+        },
+        "end": {
+          "line": 67,
+          "column": 68
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     {/* <!-- Modal modification de la liste - début --> */}",
+      "start": 2422,
+      "end": 2500,
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 4
+        },
+        "end": {
+          "line": 69,
+          "column": 82
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     <div className=\"smart-modal\">",
+      "start": 2506,
+      "end": 2558,
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 4
+        },
+        "end": {
+          "line": 70,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                         <a className=\" smart-modal-open modifyList\" data-target=\"modifyList\" rel=\"nofollow\">",
+      "start": 2564,
+      "end": 2675,
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 4
+        },
+        "end": {
+          "line": 71,
+          "column": 115
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             <img src={edit} alt=\"Éditer mon profil\" />",
+      "start": 2681,
+      "end": 2754,
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 4
+        },
+        "end": {
+          "line": 72,
+          "column": 77
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                         </a>",
+      "start": 2760,
+      "end": 2791,
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 4
+        },
+        "end": {
+          "line": 73,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                         <div id=\"modifyList\" className=\"smart-modal-content scrollAuto\">",
+      "start": 2799,
+      "end": 2890,
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 4
+        },
+        "end": {
+          "line": 75,
+          "column": 95
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             <h3>Modifier la liste</h3>",
+      "start": 2896,
+      "end": 2953,
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 4
+        },
+        "end": {
+          "line": 76,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             <a className=\"smart-modal-close\"><img className=\"img-left\" src={close} alt=\"Trier\" /></a>",
+      "start": 2959,
+      "end": 3079,
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 4
+        },
+        "end": {
+          "line": 77,
+          "column": 124
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             <form className=\"modalForm\" onSubmit={postListInfo}>",
+      "start": 3085,
+      "end": 3168,
+      "loc": {
+        "start": {
+          "line": 78,
+          "column": 4
+        },
+        "end": {
+          "line": 78,
+          "column": 87
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <label for=\"listName\" className=\"mt-b\">Nom de la liste</label>",
+      "start": 3174,
+      "end": 3271,
+      "loc": {
+        "start": {
+          "line": 79,
+          "column": 4
+        },
+        "end": {
+          "line": 79,
+          "column": 101
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <input type=\"text\" id=\"listName\" size=\"35\" value={templistInfo?.listName} onChange={e => setTempListInfo({ ...templistInfo, listName: e.target.value })} required />",
+      "start": 3277,
+      "end": 3476,
+      "loc": {
+        "start": {
+          "line": 80,
+          "column": 4
+        },
+        "end": {
+          "line": 80,
+          "column": 203
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <label for=\"listDesc\">Description de la liste</label>",
+      "start": 3482,
+      "end": 3570,
+      "loc": {
+        "start": {
+          "line": 81,
+          "column": 4
+        },
+        "end": {
+          "line": 81,
+          "column": 92
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <textarea id=\"listDesc\" className=\"mb-b\" maxlength=\"255\" value={templistInfo?.detail} onChange={e => setTempListInfo({ ...templistInfo, detail: e.target.value })} />",
+      "start": 3576,
+      "end": 3776,
+      "loc": {
+        "start": {
+          "line": 82,
+          "column": 4
+        },
+        "end": {
+          "line": 82,
+          "column": 204
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <input type=\"submit\" className=\"submit mt-b smart-modal-close\" value=\"Enregistrer les modifications\" style={{ position: \"relative\", right: \"0\", top: \"0\" }} />",
+      "start": 3782,
+      "end": 3975,
+      "loc": {
+        "start": {
+          "line": 83,
+          "column": 4
+        },
+        "end": {
+          "line": 83,
+          "column": 197
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             </form>",
+      "start": 3981,
+      "end": 4019,
+      "loc": {
+        "start": {
+          "line": 84,
+          "column": 4
+        },
+        "end": {
+          "line": 84,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                         </div>",
+      "start": 4025,
+      "end": 4058,
+      "loc": {
+        "start": {
+          "line": 85,
+          "column": 4
+        },
+        "end": {
+          "line": 85,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     </div>",
+      "start": 4066,
+      "end": 4095,
+      "loc": {
+        "start": {
+          "line": 87,
+          "column": 4
+        },
+        "end": {
+          "line": 87,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     {/* <!-- Modal modification de la liste - fin --> */}",
+      "start": 4101,
+      "end": 4177,
+      "loc": {
+        "start": {
+          "line": 88,
+          "column": 4
+        },
+        "end": {
+          "line": 88,
+          "column": 80
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 </div>",
+      "start": 4185,
+      "end": 4210,
+      "loc": {
+        "start": {
+          "line": 90,
+          "column": 4
+        },
+        "end": {
+          "line": 90,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             </section>",
+      "start": 4216,
+      "end": 4241,
+      "loc": {
+        "start": {
+          "line": 91,
+          "column": 4
+        },
+        "end": {
+          "line": 91,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         </div>",
+      "start": 4247,
+      "end": 4264,
+      "loc": {
+        "start": {
+          "line": 92,
+          "column": 4
+        },
+        "end": {
+          "line": 92,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         {/* <!-- SECTION PRESENTATION DE LA LISTE - fin --> */}",
+      "start": 4270,
+      "end": 4336,
+      "loc": {
+        "start": {
+          "line": 93,
+          "column": 4
+        },
+        "end": {
+          "line": 93,
+          "column": 70
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     </div>",
+      "start": 4344,
+      "end": 4357,
+      "loc": {
+        "start": {
+          "line": 95,
+          "column": 4
+        },
+        "end": {
+          "line": 95,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " );",
+      "start": 4363,
+      "end": 4368,
+      "loc": {
+        "start": {
+          "line": 96,
+          "column": 4
+        },
+        "end": {
+          "line": 96,
+          "column": 9
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 0,
+      "end": 6,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "React",
+      "start": 7,
+      "end": 12,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 7
+        },
+        "end": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 13,
+      "end": 17,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 13
+        },
+        "end": {
+          "line": 1,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "react",
+      "start": 18,
+      "end": 25,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 18
+        },
+        "end": {
+          "line": 1,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 25,
+      "end": 26,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 25
+        },
+        "end": {
+          "line": 1,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 28,
+      "end": 34,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "useEffect",
+      "start": 37,
+      "end": 46,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 9
+        },
+        "end": {
+          "line": 2,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 46,
+      "end": 47,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 18
+        },
+        "end": {
+          "line": 2,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "useState",
+      "start": 48,
+      "end": 56,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 20
+        },
+        "end": {
+          "line": 2,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 59,
+      "end": 63,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "react",
+      "start": 64,
+      "end": 71,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 36
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 71,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 74,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "axios",
+      "start": 81,
+      "end": 86,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 3,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 87,
+      "end": 91,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "axios",
+      "start": 92,
+      "end": 99,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 18
+        },
+        "end": {
+          "line": 3,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 99,
+      "end": 100,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 25
+        },
+        "end": {
+          "line": 3,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 102,
+      "end": 108,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 109,
+      "end": 110,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 7
+        },
+        "end": {
+          "line": 4,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "URLDayl",
+      "start": 111,
+      "end": 118,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 9
+        },
+        "end": {
+          "line": 4,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 119,
+      "end": 120,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 17
+        },
+        "end": {
+          "line": 4,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 121,
+      "end": 125,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 19
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "../../services/constantes",
+      "start": 126,
+      "end": 153,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 4,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 155,
+      "end": 161,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "edit",
+      "start": 162,
+      "end": 166,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 5,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 167,
+      "end": 171,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 12
+        },
+        "end": {
+          "line": 5,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "../../webapp/img/icons/ico_pen_2.svg",
+      "start": 172,
+      "end": 210,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 17
+        },
+        "end": {
+          "line": 5,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 210,
+      "end": 211,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 55
+        },
+        "end": {
+          "line": 5,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 213,
+      "end": 219,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "close",
+      "start": 220,
+      "end": 225,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 7
+        },
+        "end": {
+          "line": 6,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 226,
+      "end": 230,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 13
+        },
+        "end": {
+          "line": 6,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "../../webapp/img/icons/ico_close_2.svg",
+      "start": 231,
+      "end": 271,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 18
+        },
+        "end": {
+          "line": 6,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\r\n * This component display informations about this list\r\n * @param {object} user - user object from api\r\n * @param {number} paintID - id of the list\r\n * @emits - userLists/detailByListId?listId=${paintId} : get list informations\r\n * @emits - userLists/update : update list informations\r\n ",
+      "start": 277,
+      "end": 571,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 581,
+      "end": 587,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 588,
+      "end": 595,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 7
+        },
+        "end": {
+          "line": 20,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "function",
+        "keyword": "function",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "function",
+      "start": 596,
+      "end": 604,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 15
+        },
+        "end": {
+          "line": 20,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "DisplayInfoList",
+      "start": 605,
+      "end": 620,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 24
+        },
+        "end": {
+          "line": 20,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 620,
+      "end": 621,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 39
+        },
+        "end": {
+          "line": 20,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 621,
+      "end": 622,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 40
+        },
+        "end": {
+          "line": 20,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "paintId",
+      "start": 623,
+      "end": 630,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 42
+        },
+        "end": {
+          "line": 20,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 630,
+      "end": 631,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 49
+        },
+        "end": {
+          "line": 20,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "user",
+      "start": 632,
+      "end": 636,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 51
+        },
+        "end": {
+          "line": 20,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 637,
+      "end": 638,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 56
+        },
+        "end": {
+          "line": 20,
+          "column": 57
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 638,
+      "end": 639,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 57
+        },
+        "end": {
+          "line": 20,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 640,
+      "end": 641,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 59
+        },
+        "end": {
+          "line": 20,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " const [listInfo, setListInfo] = useState([]);",
+      "start": 649,
+      "end": 697,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 4
+        },
+        "end": {
+          "line": 22,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " const [templistInfo, setTempListInfo] = useState([]);",
+      "start": 703,
+      "end": 759,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " const [refreshKey, setRefreshKey] = useState(0);",
+      "start": 765,
+      "end": 816,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " //get List info//",
+      "start": 824,
+      "end": 844,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 4
+        },
+        "end": {
+          "line": 26,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " useEffect(() => {",
+      "start": 850,
+      "end": 870,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 4
+        },
+        "end": {
+          "line": 27,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     axios.get(URLDayl + `userLists/detailByListId?listId=${paintId}`).then((response) => {",
+      "start": 876,
+      "end": 969,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 97
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         setListInfo(response.data.userListDTO);",
+      "start": 975,
+      "end": 1025,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 29,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         setTempListInfo(response.data.userListDTO)",
+      "start": 1031,
+      "end": 1084,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 57
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         console.log(response.data.userListDTO);",
+      "start": 1090,
+      "end": 1140,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 4
+        },
+        "end": {
+          "line": 31,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     });",
+      "start": 1146,
+      "end": 1156,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }, [refreshKey]);",
+      "start": 1162,
+      "end": 1182,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " // Call Jquery script",
+      "start": 1190,
+      "end": 1214,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " useEffect(() => {",
+      "start": 1220,
+      "end": 1240,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 4
+        },
+        "end": {
+          "line": 36,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     const loadFile = async () => {",
+      "start": 1246,
+      "end": 1283,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 4
+        },
+        "end": {
+          "line": 37,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         const { modal } = await import(\"../../webapp/js/js_source/modalBox\");",
+      "start": 1289,
+      "end": 1369,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 4
+        },
+        "end": {
+          "line": 38,
+          "column": 84
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         modal();",
+      "start": 1377,
+      "end": 1396,
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 4
+        },
+        "end": {
+          "line": 40,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     };",
+      "start": 1402,
+      "end": 1411,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 4
+        },
+        "end": {
+          "line": 41,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     loadFile();",
+      "start": 1417,
+      "end": 1435,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 4
+        },
+        "end": {
+          "line": 42,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }, []);",
+      "start": 1441,
+      "end": 1451,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 4
+        },
+        "end": {
+          "line": 43,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " //TODO",
+      "start": 1459,
+      "end": 1468,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 4
+        },
+        "end": {
+          "line": 45,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " const postListInfo = (e) => {",
+      "start": 1474,
+      "end": 1506,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 4
+        },
+        "end": {
+          "line": 46,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     e.preventDefault();",
+      "start": 1512,
+      "end": 1538,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 4
+        },
+        "end": {
+          "line": 47,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     axios.post(URLDayl + \"userLists/update\", { id: paintId, listName: templistInfo.listName, detail: templistInfo.detail },",
+      "start": 1546,
+      "end": 1672,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 4
+        },
+        "end": {
+          "line": 49,
+          "column": 130
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         { headers: { \"Access-Control-Allow-Origin\": \"*\", \"Content-Type\": \"application/json\" } }",
+      "start": 1678,
+      "end": 1776,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 4
+        },
+        "end": {
+          "line": 50,
+          "column": 102
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     )",
+      "start": 1782,
+      "end": 1790,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 4
+        },
+        "end": {
+          "line": 51,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         .then((response) => {",
+      "start": 1796,
+      "end": 1828,
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 4
+        },
+        "end": {
+          "line": 52,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             setRefreshKey(oldKey => oldKey + 1);",
+      "start": 1834,
+      "end": 1885,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 4
+        },
+        "end": {
+          "line": 53,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         });",
+      "start": 1893,
+      "end": 1907,
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 4
+        },
+        "end": {
+          "line": 55,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }",
+      "start": 1915,
+      "end": 1919,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 4
+        },
+        "end": {
+          "line": 57,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " return (",
+      "start": 1929,
+      "end": 1940,
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 4
+        },
+        "end": {
+          "line": 60,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     <div className=\"DisplayInfoList\">",
+      "start": 1946,
+      "end": 1986,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 4
+        },
+        "end": {
+          "line": 61,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         {/* <!-- SECTION PRESENTATION DE LA LISTE - début --> */}",
+      "start": 1992,
+      "end": 2060,
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 4
+        },
+        "end": {
+          "line": 62,
+          "column": 72
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         <div className=\"cont-sty-5\" style={{paddingBottom: \"0\"}}>",
+      "start": 2066,
+      "end": 2134,
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 4
+        },
+        "end": {
+          "line": 63,
+          "column": 72
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             <section className=\"center-col\">",
+      "start": 2140,
+      "end": 2187,
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 4
+        },
+        "end": {
+          "line": 64,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 <div className=\"cont-l-w mt-b mb-b center-col memberList\">",
+      "start": 2193,
+      "end": 2270,
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 4
+        },
+        "end": {
+          "line": 65,
+          "column": 81
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     <h1 className=\"mb-a\">{listInfo.listName}</h1>",
+      "start": 2276,
+      "end": 2344,
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 4
+        },
+        "end": {
+          "line": 66,
+          "column": 72
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     <p className=\"mb-a\">{listInfo.detail}</p>",
+      "start": 2350,
+      "end": 2414,
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 4
+        },
+        "end": {
+          "line": 67,
+          "column": 68
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     {/* <!-- Modal modification de la liste - début --> */}",
+      "start": 2422,
+      "end": 2500,
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 4
+        },
+        "end": {
+          "line": 69,
+          "column": 82
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     <div className=\"smart-modal\">",
+      "start": 2506,
+      "end": 2558,
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 4
+        },
+        "end": {
+          "line": 70,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                         <a className=\" smart-modal-open modifyList\" data-target=\"modifyList\" rel=\"nofollow\">",
+      "start": 2564,
+      "end": 2675,
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 4
+        },
+        "end": {
+          "line": 71,
+          "column": 115
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             <img src={edit} alt=\"Éditer mon profil\" />",
+      "start": 2681,
+      "end": 2754,
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 4
+        },
+        "end": {
+          "line": 72,
+          "column": 77
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                         </a>",
+      "start": 2760,
+      "end": 2791,
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 4
+        },
+        "end": {
+          "line": 73,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                         <div id=\"modifyList\" className=\"smart-modal-content scrollAuto\">",
+      "start": 2799,
+      "end": 2890,
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 4
+        },
+        "end": {
+          "line": 75,
+          "column": 95
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             <h3>Modifier la liste</h3>",
+      "start": 2896,
+      "end": 2953,
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 4
+        },
+        "end": {
+          "line": 76,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             <a className=\"smart-modal-close\"><img className=\"img-left\" src={close} alt=\"Trier\" /></a>",
+      "start": 2959,
+      "end": 3079,
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 4
+        },
+        "end": {
+          "line": 77,
+          "column": 124
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             <form className=\"modalForm\" onSubmit={postListInfo}>",
+      "start": 3085,
+      "end": 3168,
+      "loc": {
+        "start": {
+          "line": 78,
+          "column": 4
+        },
+        "end": {
+          "line": 78,
+          "column": 87
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <label for=\"listName\" className=\"mt-b\">Nom de la liste</label>",
+      "start": 3174,
+      "end": 3271,
+      "loc": {
+        "start": {
+          "line": 79,
+          "column": 4
+        },
+        "end": {
+          "line": 79,
+          "column": 101
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <input type=\"text\" id=\"listName\" size=\"35\" value={templistInfo?.listName} onChange={e => setTempListInfo({ ...templistInfo, listName: e.target.value })} required />",
+      "start": 3277,
+      "end": 3476,
+      "loc": {
+        "start": {
+          "line": 80,
+          "column": 4
+        },
+        "end": {
+          "line": 80,
+          "column": 203
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <label for=\"listDesc\">Description de la liste</label>",
+      "start": 3482,
+      "end": 3570,
+      "loc": {
+        "start": {
+          "line": 81,
+          "column": 4
+        },
+        "end": {
+          "line": 81,
+          "column": 92
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <textarea id=\"listDesc\" className=\"mb-b\" maxlength=\"255\" value={templistInfo?.detail} onChange={e => setTempListInfo({ ...templistInfo, detail: e.target.value })} />",
+      "start": 3576,
+      "end": 3776,
+      "loc": {
+        "start": {
+          "line": 82,
+          "column": 4
+        },
+        "end": {
+          "line": 82,
+          "column": 204
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                                 <input type=\"submit\" className=\"submit mt-b smart-modal-close\" value=\"Enregistrer les modifications\" style={{ position: \"relative\", right: \"0\", top: \"0\" }} />",
+      "start": 3782,
+      "end": 3975,
+      "loc": {
+        "start": {
+          "line": 83,
+          "column": 4
+        },
+        "end": {
+          "line": 83,
+          "column": 197
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                             </form>",
+      "start": 3981,
+      "end": 4019,
+      "loc": {
+        "start": {
+          "line": 84,
+          "column": 4
+        },
+        "end": {
+          "line": 84,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                         </div>",
+      "start": 4025,
+      "end": 4058,
+      "loc": {
+        "start": {
+          "line": 85,
+          "column": 4
+        },
+        "end": {
+          "line": 85,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     </div>",
+      "start": 4066,
+      "end": 4095,
+      "loc": {
+        "start": {
+          "line": 87,
+          "column": 4
+        },
+        "end": {
+          "line": 87,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                     {/* <!-- Modal modification de la liste - fin --> */}",
+      "start": 4101,
+      "end": 4177,
+      "loc": {
+        "start": {
+          "line": 88,
+          "column": 4
+        },
+        "end": {
+          "line": 88,
+          "column": 80
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 </div>",
+      "start": 4185,
+      "end": 4210,
+      "loc": {
+        "start": {
+          "line": 90,
+          "column": 4
+        },
+        "end": {
+          "line": 90,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             </section>",
+      "start": 4216,
+      "end": 4241,
+      "loc": {
+        "start": {
+          "line": 91,
+          "column": 4
+        },
+        "end": {
+          "line": 91,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         </div>",
+      "start": 4247,
+      "end": 4264,
+      "loc": {
+        "start": {
+          "line": 92,
+          "column": 4
+        },
+        "end": {
+          "line": 92,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         {/* <!-- SECTION PRESENTATION DE LA LISTE - fin --> */}",
+      "start": 4270,
+      "end": 4336,
+      "loc": {
+        "start": {
+          "line": 93,
+          "column": 4
+        },
+        "end": {
+          "line": 93,
+          "column": 70
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     </div>",
+      "start": 4344,
+      "end": 4357,
+      "loc": {
+        "start": {
+          "line": 95,
+          "column": 4
+        },
+        "end": {
+          "line": 95,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " );",
+      "start": 4363,
+      "end": 4368,
+      "loc": {
+        "start": {
+          "line": 96,
+          "column": 4
+        },
+        "end": {
+          "line": 96,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4370,
+      "end": 4371,
+      "loc": {
+        "start": {
+          "line": 97,
+          "column": 0
+        },
+        "end": {
+          "line": 97,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4371,
+      "end": 4371,
+      "loc": {
+        "start": {
+          "line": 97,
+          "column": 1
+        },
+        "end": {
+          "line": 97,
+          "column": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7065 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 4550,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 157,
+      "column": 1
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 4550,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 157,
+        "column": 1
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "start": 0,
+        "end": 26,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 26
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 7,
+            "end": 12,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 12
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 7,
+              "end": 12,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 7
+                },
+                "end": {
+                  "line": 1,
+                  "column": 12
+                },
+                "identifierName": "React"
+              },
+              "name": "React"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 18,
+          "end": 25,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 18
+            },
+            "end": {
+              "line": 1,
+              "column": 25
+            }
+          },
+          "extra": {
+            "rawValue": "react",
+            "raw": "\"react\""
+          },
+          "value": "react"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 28,
+        "end": 72,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 44
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 37,
+            "end": 46,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 9
+              },
+              "end": {
+                "line": 2,
+                "column": 18
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 37,
+              "end": 46,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 9
+                },
+                "end": {
+                  "line": 2,
+                  "column": 18
+                },
+                "identifierName": "useEffect"
+              },
+              "name": "useEffect"
+            },
+            "importKind": null,
+            "local": {
+              "type": "Identifier",
+              "start": 37,
+              "end": 46,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 9
+                },
+                "end": {
+                  "line": 2,
+                  "column": 18
+                },
+                "identifierName": "useEffect"
+              },
+              "name": "useEffect"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 48,
+            "end": 56,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 20
+              },
+              "end": {
+                "line": 2,
+                "column": 28
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 48,
+              "end": 56,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 20
+                },
+                "end": {
+                  "line": 2,
+                  "column": 28
+                },
+                "identifierName": "useState"
+              },
+              "name": "useState"
+            },
+            "importKind": null,
+            "local": {
+              "type": "Identifier",
+              "start": 48,
+              "end": 56,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 20
+                },
+                "end": {
+                  "line": 2,
+                  "column": 28
+                },
+                "identifierName": "useState"
+              },
+              "name": "useState"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 64,
+          "end": 71,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 43
+            }
+          },
+          "extra": {
+            "rawValue": "react",
+            "raw": "\"react\""
+          },
+          "value": "react"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 74,
+        "end": 100,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 26
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 81,
+            "end": 86,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 7
+              },
+              "end": {
+                "line": 3,
+                "column": 12
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 81,
+              "end": 86,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 7
+                },
+                "end": {
+                  "line": 3,
+                  "column": 12
+                },
+                "identifierName": "axios"
+              },
+              "name": "axios"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 92,
+          "end": 99,
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 18
+            },
+            "end": {
+              "line": 3,
+              "column": 25
+            }
+          },
+          "extra": {
+            "rawValue": "axios",
+            "raw": "\"axios\""
+          },
+          "value": "axios"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 102,
+        "end": 153,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 51
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 111,
+            "end": 118,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 9
+              },
+              "end": {
+                "line": 4,
+                "column": 16
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 111,
+              "end": 118,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 9
+                },
+                "end": {
+                  "line": 4,
+                  "column": 16
+                },
+                "identifierName": "URLDayl"
+              },
+              "name": "URLDayl"
+            },
+            "importKind": null,
+            "local": {
+              "type": "Identifier",
+              "start": 111,
+              "end": 118,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 9
+                },
+                "end": {
+                  "line": 4,
+                  "column": 16
+                },
+                "identifierName": "URLDayl"
+              },
+              "name": "URLDayl"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 126,
+          "end": 153,
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 24
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          },
+          "extra": {
+            "rawValue": "../../services/constantes",
+            "raw": "\"../../services/constantes\""
+          },
+          "value": "../../services/constantes"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 155,
+        "end": 195,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 164,
+            "end": 168,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 9
+              },
+              "end": {
+                "line": 5,
+                "column": 13
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 164,
+              "end": 168,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 9
+                },
+                "end": {
+                  "line": 5,
+                  "column": 13
+                },
+                "identifierName": "Link"
+              },
+              "name": "Link"
+            },
+            "importKind": null,
+            "local": {
+              "type": "Identifier",
+              "start": 164,
+              "end": 168,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 9
+                },
+                "end": {
+                  "line": 5,
+                  "column": 13
+                },
+                "identifierName": "Link"
+              },
+              "name": "Link"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 176,
+          "end": 194,
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 21
+            },
+            "end": {
+              "line": 5,
+              "column": 39
+            }
+          },
+          "extra": {
+            "rawValue": "react-router-dom",
+            "raw": "\"react-router-dom\""
+          },
+          "value": "react-router-dom"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 197,
+        "end": 235,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 38
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 206,
+            "end": 209,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 9
+              },
+              "end": {
+                "line": 6,
+                "column": 12
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 206,
+              "end": 209,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 9
+                },
+                "end": {
+                  "line": 6,
+                  "column": 12
+                },
+                "identifierName": "set"
+              },
+              "name": "set"
+            },
+            "importKind": null,
+            "local": {
+              "type": "Identifier",
+              "start": 206,
+              "end": 209,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 9
+                },
+                "end": {
+                  "line": 6,
+                  "column": 12
+                },
+                "identifierName": "set"
+              },
+              "name": "set"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 217,
+          "end": 234,
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 20
+            },
+            "end": {
+              "line": 6,
+              "column": 37
+            }
+          },
+          "extra": {
+            "rawValue": "react-hook-form",
+            "raw": "\"react-hook-form\""
+          },
+          "value": "react-hook-form"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 237,
+        "end": 275,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 246,
+            "end": 251,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 9
+              },
+              "end": {
+                "line": 7,
+                "column": 14
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 246,
+              "end": 251,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 9
+                },
+                "end": {
+                  "line": 7,
+                  "column": 14
+                },
+                "identifierName": "toast"
+              },
+              "name": "toast"
+            },
+            "importKind": null,
+            "local": {
+              "type": "Identifier",
+              "start": 246,
+              "end": 251,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 9
+                },
+                "end": {
+                  "line": 7,
+                  "column": 14
+                },
+                "identifierName": "toast"
+              },
+              "name": "toast"
+            }
+          }
+        ],
+        "importKind": "value",
+        "source": {
+          "type": "StringLiteral",
+          "start": 259,
+          "end": 275,
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 22
+            },
+            "end": {
+              "line": 7,
+              "column": 38
+            }
+          },
+          "extra": {
+            "rawValue": "react-toastify",
+            "raw": "\"react-toastify\""
+          },
+          "value": "react-toastify",
+          "leadingComments": null,
+          "trailingComments": null
+        },
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\r\n * This component contain your list of painting list\r\n * @param {object} user - user object from api\r\n * @param {object} setUser - user setter\r\n * @emits - userLists/save : create new list\r\n * @emits - userLists/byUserId : get user lists\r\n * @emits - userLists/deleteById?listId=${listId} : delete selected list\r\n ",
+            "start": 281,
+            "end": 602,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 0
+              },
+              "end": {
+                "line": 17,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExportDefaultDeclaration",
+        "start": 608,
+        "end": 4550,
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 0
+          },
+          "end": {
+            "line": 157,
+            "column": 1
+          }
+        },
+        "declaration": {
+          "type": "FunctionDeclaration",
+          "start": 623,
+          "end": 4550,
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 15
+            },
+            "end": {
+              "line": 157,
+              "column": 1
+            }
+          },
+          "id": {
+            "type": "Identifier",
+            "start": 632,
+            "end": 637,
+            "loc": {
+              "start": {
+                "line": 20,
+                "column": 24
+              },
+              "end": {
+                "line": 20,
+                "column": 29
+              },
+              "identifierName": "Lists"
+            },
+            "name": "Lists",
+            "leadingComments": null
+          },
+          "generator": false,
+          "expression": false,
+          "async": false,
+          "params": [
+            {
+              "type": "ObjectPattern",
+              "start": 638,
+              "end": 655,
+              "loc": {
+                "start": {
+                  "line": 20,
+                  "column": 30
+                },
+                "end": {
+                  "line": 20,
+                  "column": 47
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 640,
+                  "end": 644,
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 32
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 36
+                    }
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 640,
+                    "end": 644,
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 32
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 36
+                      },
+                      "identifierName": "user"
+                    },
+                    "name": "user"
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "start": 640,
+                    "end": 644,
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 32
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 36
+                      },
+                      "identifierName": "user"
+                    },
+                    "name": "user"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                },
+                {
+                  "type": "ObjectProperty",
+                  "start": 646,
+                  "end": 653,
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 38
+                    },
+                    "end": {
+                      "line": 20,
+                      "column": 45
+                    }
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 646,
+                    "end": 653,
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 38
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 45
+                      },
+                      "identifierName": "setUser"
+                    },
+                    "name": "setUser"
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "start": 646,
+                    "end": 653,
+                    "loc": {
+                      "start": {
+                        "line": 20,
+                        "column": 38
+                      },
+                      "end": {
+                        "line": 20,
+                        "column": 45
+                      },
+                      "identifierName": "setUser"
+                    },
+                    "name": "setUser"
+                  },
+                  "extra": {
+                    "shorthand": true
+                  }
+                }
+              ]
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 657,
+            "end": 4550,
+            "loc": {
+              "start": {
+                "line": 20,
+                "column": 49
+              },
+              "end": {
+                "line": 157,
+                "column": 1
+              }
+            },
+            "body": [],
+            "directives": [],
+            "leadingComments": null,
+            "innerComments": [
+              {
+                "type": "CommentLine",
+                "value": " \tconst [listList, setListList] = useState([]);",
+                "start": 664,
+                "end": 713,
+                "loc": {
+                  "start": {
+                    "line": 23,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 23,
+                    "column": 49
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \tconst [listTitle, setListTitle] = useState([]);",
+                "start": 715,
+                "end": 766,
+                "loc": {
+                  "start": {
+                    "line": 24,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 24,
+                    "column": 51
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \tconst [refreshKey, setRefreshKey] = useState(0);",
+                "start": 768,
+                "end": 820,
+                "loc": {
+                  "start": {
+                    "line": 25,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 25,
+                    "column": 52
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t//Post new list to the API//",
+                "start": 830,
+                "end": 862,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 32
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \tconst handleSubmit = (e) => {",
+                "start": 864,
+                "end": 897,
+                "loc": {
+                  "start": {
+                    "line": 31,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 31,
+                    "column": 33
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\te.preventDefault();",
+                "start": 903,
+                "end": 927,
+                "loc": {
+                  "start": {
+                    "line": 34,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 34,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\taxios.post(URLDayl + \"userLists/save\",",
+                "start": 931,
+                "end": 974,
+                "loc": {
+                  "start": {
+                    "line": 36,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 36,
+                    "column": 43
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t{ listName: listTitle, rank: 0, userId: user.id, id: 0, status: \"ACTIVE\", detail: \"\", imageUrl: \"\" }, { headers: { \"Access-Control-Allow-Origin\": \"*\", \"Content-Type\": \"application/json\" } }",
+                "start": 976,
+                "end": 1171,
+                "loc": {
+                  "start": {
+                    "line": 37,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 37,
+                    "column": 195
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t)",
+                "start": 1173,
+                "end": 1179,
+                "loc": {
+                  "start": {
+                    "line": 38,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 38,
+                    "column": 6
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t.then((response) => {",
+                "start": 1181,
+                "end": 1208,
+                "loc": {
+                  "start": {
+                    "line": 39,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 39,
+                    "column": 27
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\tsetRefreshKey(oldKey => oldKey + 1);",
+                "start": 1210,
+                "end": 1253,
+                "loc": {
+                  "start": {
+                    "line": 40,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 40,
+                    "column": 43
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\ttoast.success(\"Nouvelle liste ajoutée!\", {",
+                "start": 1257,
+                "end": 1306,
+                "loc": {
+                  "start": {
+                    "line": 42,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 42,
+                    "column": 49
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tposition: \"top-right\",",
+                "start": 1308,
+                "end": 1338,
+                "loc": {
+                  "start": {
+                    "line": 43,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 30
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tautoClose: 3000,",
+                "start": 1340,
+                "end": 1364,
+                "loc": {
+                  "start": {
+                    "line": 44,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 44,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\thideProgressBar: false,",
+                "start": 1366,
+                "end": 1397,
+                "loc": {
+                  "start": {
+                    "line": 45,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 31
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tcloseOnClick: true,",
+                "start": 1399,
+                "end": 1426,
+                "loc": {
+                  "start": {
+                    "line": 46,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 46,
+                    "column": 27
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tpauseOnHover: true,",
+                "start": 1428,
+                "end": 1455,
+                "loc": {
+                  "start": {
+                    "line": 47,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 47,
+                    "column": 27
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tdraggable: true,",
+                "start": 1457,
+                "end": 1481,
+                "loc": {
+                  "start": {
+                    "line": 48,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 48,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tprogress: undefined,",
+                "start": 1483,
+                "end": 1511,
+                "loc": {
+                  "start": {
+                    "line": 49,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 49,
+                    "column": 28
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t});",
+                "start": 1513,
+                "end": 1523,
+                "loc": {
+                  "start": {
+                    "line": 50,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 50,
+                    "column": 10
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t});",
+                "start": 1529,
+                "end": 1538,
+                "loc": {
+                  "start": {
+                    "line": 53,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 53,
+                    "column": 9
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t}",
+                "start": 1542,
+                "end": 1547,
+                "loc": {
+                  "start": {
+                    "line": 55,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 55,
+                    "column": 5
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t//Get User List//",
+                "start": 1551,
+                "end": 1572,
+                "loc": {
+                  "start": {
+                    "line": 57,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 57,
+                    "column": 21
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \tuseEffect(() => {",
+                "start": 1574,
+                "end": 1595,
+                "loc": {
+                  "start": {
+                    "line": 58,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 58,
+                    "column": 21
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\taxios",
+                "start": 1599,
+                "end": 1609,
+                "loc": {
+                  "start": {
+                    "line": 60,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 60,
+                    "column": 10
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t.get(URLDayl + \"userLists/byUserId\", { params: { userId: user.id } }",
+                "start": 1611,
+                "end": 1685,
+                "loc": {
+                  "start": {
+                    "line": 61,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 61,
+                    "column": 74
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t)",
+                "start": 1687,
+                "end": 1694,
+                "loc": {
+                  "start": {
+                    "line": 62,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 62,
+                    "column": 7
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t.then((response) => {",
+                "start": 1696,
+                "end": 1723,
+                "loc": {
+                  "start": {
+                    "line": 63,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 63,
+                    "column": 27
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\tsetListList(response.data);",
+                "start": 1725,
+                "end": 1759,
+                "loc": {
+                  "start": {
+                    "line": 64,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 64,
+                    "column": 34
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " console.log(response.data)",
+                "start": 1761,
+                "end": 1790,
+                "loc": {
+                  "start": {
+                    "line": 65,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 65,
+                    "column": 29
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\tconst boolArray = response.data.map((el) => { return { ...el, bool: false } });",
+                "start": 1792,
+                "end": 1878,
+                "loc": {
+                  "start": {
+                    "line": 66,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 66,
+                    "column": 86
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\tsetListList(boolArray)",
+                "start": 1880,
+                "end": 1909,
+                "loc": {
+                  "start": {
+                    "line": 67,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 67,
+                    "column": 29
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t});",
+                "start": 1911,
+                "end": 1920,
+                "loc": {
+                  "start": {
+                    "line": 68,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 68,
+                    "column": 9
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t}, [refreshKey]);",
+                "start": 1924,
+                "end": 1945,
+                "loc": {
+                  "start": {
+                    "line": 70,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 70,
+                    "column": 21
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t//Delete user list//",
+                "start": 1949,
+                "end": 1973,
+                "loc": {
+                  "start": {
+                    "line": 72,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 72,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \tconst deleteList = (listId) => {",
+                "start": 1975,
+                "end": 2011,
+                "loc": {
+                  "start": {
+                    "line": 73,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 73,
+                    "column": 36
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\taxios",
+                "start": 2015,
+                "end": 2025,
+                "loc": {
+                  "start": {
+                    "line": 75,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 75,
+                    "column": 10
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t.delete(URLDayl + `userLists/deleteById?listId=${listId}`, { headers: { \"Access-Control-Allow-Origin\": \"*\", \"Content-Type\": \"application/json\" } }",
+                "start": 2027,
+                "end": 2179,
+                "loc": {
+                  "start": {
+                    "line": 76,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 76,
+                    "column": 152
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t)",
+                "start": 2181,
+                "end": 2188,
+                "loc": {
+                  "start": {
+                    "line": 77,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 77,
+                    "column": 7
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t.then((response) => {",
+                "start": 2190,
+                "end": 2217,
+                "loc": {
+                  "start": {
+                    "line": 78,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 78,
+                    "column": 27
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\tsetListList(response.data);",
+                "start": 2219,
+                "end": 2253,
+                "loc": {
+                  "start": {
+                    "line": 79,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 79,
+                    "column": 34
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\tsetRefreshKey(oldKey => oldKey + 1);",
+                "start": 2255,
+                "end": 2298,
+                "loc": {
+                  "start": {
+                    "line": 80,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 80,
+                    "column": 43
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\ttoast.success(\"Liste supprimée!\", {",
+                "start": 2302,
+                "end": 2344,
+                "loc": {
+                  "start": {
+                    "line": 82,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 82,
+                    "column": 42
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tposition: \"top-right\",",
+                "start": 2346,
+                "end": 2376,
+                "loc": {
+                  "start": {
+                    "line": 83,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 83,
+                    "column": 30
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tautoClose: 3000,",
+                "start": 2378,
+                "end": 2402,
+                "loc": {
+                  "start": {
+                    "line": 84,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 84,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\thideProgressBar: false,",
+                "start": 2404,
+                "end": 2435,
+                "loc": {
+                  "start": {
+                    "line": 85,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 85,
+                    "column": 31
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tcloseOnClick: true,",
+                "start": 2437,
+                "end": 2464,
+                "loc": {
+                  "start": {
+                    "line": 86,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 86,
+                    "column": 27
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tpauseOnHover: true,",
+                "start": 2466,
+                "end": 2493,
+                "loc": {
+                  "start": {
+                    "line": 87,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 87,
+                    "column": 27
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tdraggable: true,",
+                "start": 2495,
+                "end": 2519,
+                "loc": {
+                  "start": {
+                    "line": 88,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 88,
+                    "column": 24
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tprogress: undefined,",
+                "start": 2521,
+                "end": 2549,
+                "loc": {
+                  "start": {
+                    "line": 89,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 89,
+                    "column": 28
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t});",
+                "start": 2551,
+                "end": 2561,
+                "loc": {
+                  "start": {
+                    "line": 90,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 90,
+                    "column": 10
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t});",
+                "start": 2563,
+                "end": 2572,
+                "loc": {
+                  "start": {
+                    "line": 91,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 91,
+                    "column": 9
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t}",
+                "start": 2578,
+                "end": 2583,
+                "loc": {
+                  "start": {
+                    "line": 94,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 94,
+                    "column": 5
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t//afficher modale suppression//",
+                "start": 2589,
+                "end": 2624,
+                "loc": {
+                  "start": {
+                    "line": 97,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 97,
+                    "column": 35
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \tconst handleBoolListTrue = (index) => {",
+                "start": 2626,
+                "end": 2669,
+                "loc": {
+                  "start": {
+                    "line": 98,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 98,
+                    "column": 43
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\tconst tempBool = [...listList]",
+                "start": 2673,
+                "end": 2708,
+                "loc": {
+                  "start": {
+                    "line": 100,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 100,
+                    "column": 35
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\ttempBool[index].bool = true;",
+                "start": 2712,
+                "end": 2745,
+                "loc": {
+                  "start": {
+                    "line": 102,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 102,
+                    "column": 33
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\tsetListList(tempBool);",
+                "start": 2747,
+                "end": 2774,
+                "loc": {
+                  "start": {
+                    "line": 103,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 103,
+                    "column": 27
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t}",
+                "start": 2776,
+                "end": 2781,
+                "loc": {
+                  "start": {
+                    "line": 104,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 104,
+                    "column": 5
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t//cacher modale suppression//",
+                "start": 2785,
+                "end": 2818,
+                "loc": {
+                  "start": {
+                    "line": 106,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 106,
+                    "column": 33
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \tconst handleBoolListFalse = (index) => {",
+                "start": 2820,
+                "end": 2864,
+                "loc": {
+                  "start": {
+                    "line": 107,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 107,
+                    "column": 44
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\tconst tempBool = [...listList]",
+                "start": 2868,
+                "end": 2903,
+                "loc": {
+                  "start": {
+                    "line": 109,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 109,
+                    "column": 35
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\ttempBool[index].bool = false;",
+                "start": 2907,
+                "end": 2941,
+                "loc": {
+                  "start": {
+                    "line": 111,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 111,
+                    "column": 34
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\tsetListList(tempBool);",
+                "start": 2943,
+                "end": 2970,
+                "loc": {
+                  "start": {
+                    "line": 112,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 112,
+                    "column": 27
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t}",
+                "start": 2974,
+                "end": 2979,
+                "loc": {
+                  "start": {
+                    "line": 114,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 114,
+                    "column": 5
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \treturn (",
+                "start": 2991,
+                "end": 3003,
+                "loc": {
+                  "start": {
+                    "line": 120,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 120,
+                    "column": 12
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t<div className=\"Lists\">",
+                "start": 3005,
+                "end": 3033,
+                "loc": {
+                  "start": {
+                    "line": 121,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 121,
+                    "column": 28
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t<div className=\"createThisNewFolder mb-b\">",
+                "start": 3035,
+                "end": 3083,
+                "loc": {
+                  "start": {
+                    "line": 122,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 122,
+                    "column": 48
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t<p className=\"mt-a\">Créer une nouvelle liste</p>",
+                "start": 3085,
+                "end": 3140,
+                "loc": {
+                  "start": {
+                    "line": 123,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 123,
+                    "column": 55
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t<form action=\"\" onSubmit={handleSubmit}>",
+                "start": 3142,
+                "end": 3189,
+                "loc": {
+                  "start": {
+                    "line": 124,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 124,
+                    "column": 47
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t<div className=\"addListForm\">",
+                "start": 3191,
+                "end": 3228,
+                "loc": {
+                  "start": {
+                    "line": 125,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 125,
+                    "column": 37
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t<input onChange={(e) => setListTitle(e.target.value)} value={listTitle} type=\"text\" placeholder=\"Nom de la liste\" />",
+                "start": 3230,
+                "end": 3355,
+                "loc": {
+                  "start": {
+                    "line": 126,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 126,
+                    "column": 125
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t<button type=\"submit\">Créer</button>",
+                "start": 3357,
+                "end": 3402,
+                "loc": {
+                  "start": {
+                    "line": 127,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 127,
+                    "column": 45
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t</div>",
+                "start": 3404,
+                "end": 3418,
+                "loc": {
+                  "start": {
+                    "line": 128,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 128,
+                    "column": 14
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t</form>",
+                "start": 3420,
+                "end": 3434,
+                "loc": {
+                  "start": {
+                    "line": 129,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 129,
+                    "column": 14
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t</div>",
+                "start": 3436,
+                "end": 3448,
+                "loc": {
+                  "start": {
+                    "line": 130,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 130,
+                    "column": 12
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t{/* <!-- créer une nouvelle liste - fin --> */}",
+                "start": 3450,
+                "end": 3503,
+                "loc": {
+                  "start": {
+                    "line": 131,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 131,
+                    "column": 53
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t<div className=\"accountArtists \">",
+                "start": 3507,
+                "end": 3546,
+                "loc": {
+                  "start": {
+                    "line": 133,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 133,
+                    "column": 39
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t{listList.length > 0 &&",
+                "start": 3548,
+                "end": 3578,
+                "loc": {
+                  "start": {
+                    "line": 134,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 134,
+                    "column": 30
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\tlistList.map((list, index) => (",
+                "start": 3580,
+                "end": 3619,
+                "loc": {
+                  "start": {
+                    "line": 135,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 135,
+                    "column": 39
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t<div className=\"item\" style={{ backgroundImage: `url(${URLDayl}images/content/mini/${list.imageUrl})` }}>",
+                "start": 3623,
+                "end": 3737,
+                "loc": {
+                  "start": {
+                    "line": 137,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 137,
+                    "column": 114
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t\t<div className=\"name\">{list.listName}</div>",
+                "start": 3739,
+                "end": 3792,
+                "loc": {
+                  "start": {
+                    "line": 138,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 138,
+                    "column": 53
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t\t<div className=\"items-count\">{list.countItems} oeuvres</div>",
+                "start": 3794,
+                "end": 3864,
+                "loc": {
+                  "start": {
+                    "line": 139,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 139,
+                    "column": 70
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t\t<Link className=\"discover\" to={`../../view/ListeAmateurPage.js/${list.id}`} state={list.id}></Link>",
+                "start": 3866,
+                "end": 3975,
+                "loc": {
+                  "start": {
+                    "line": 140,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 140,
+                    "column": 109
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t\t<input type=\"button\" className=\"unfollow\" onClick={() => handleBoolListTrue(index)} value=\"\" />",
+                "start": 3979,
+                "end": 4084,
+                "loc": {
+                  "start": {
+                    "line": 142,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 142,
+                    "column": 105
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t\t{list.bool && <div className=\"deleteConfirm\">",
+                "start": 4088,
+                "end": 4143,
+                "loc": {
+                  "start": {
+                    "line": 144,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 144,
+                    "column": 55
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t\t\t<span className=\"deleteText\">Supprimer?</span>",
+                "start": 4145,
+                "end": 4202,
+                "loc": {
+                  "start": {
+                    "line": 145,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 145,
+                    "column": 57
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t\t\t<button type=\"button\" className=\"yes closeTwoParentsNow\" onClick={() => deleteList(list.id)} value=\"\">Oui</button>",
+                "start": 4204,
+                "end": 4329,
+                "loc": {
+                  "start": {
+                    "line": 146,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 146,
+                    "column": 125
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t\t\t<button type=\"button\" className=\"no closeParentNow\" onClick={() => handleBoolListFalse(index)} value=\"\">Non</button>",
+                "start": 4331,
+                "end": 4458,
+                "loc": {
+                  "start": {
+                    "line": 147,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 147,
+                    "column": 127
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t\t</div>}",
+                "start": 4460,
+                "end": 4477,
+                "loc": {
+                  "start": {
+                    "line": 148,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 148,
+                    "column": 17
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t\t</div>",
+                "start": 4479,
+                "end": 4494,
+                "loc": {
+                  "start": {
+                    "line": 149,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 149,
+                    "column": 15
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t\t\t))}",
+                "start": 4496,
+                "end": 4507,
+                "loc": {
+                  "start": {
+                    "line": 150,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 150,
+                    "column": 11
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t\t</div>",
+                "start": 4511,
+                "end": 4523,
+                "loc": {
+                  "start": {
+                    "line": 152,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 152,
+                    "column": 12
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t\t</div>",
+                "start": 4527,
+                "end": 4538,
+                "loc": {
+                  "start": {
+                    "line": 154,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 154,
+                    "column": 11
+                  }
+                }
+              },
+              {
+                "type": "CommentLine",
+                "value": " \t)",
+                "start": 4540,
+                "end": 4545,
+                "loc": {
+                  "start": {
+                    "line": 155,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 155,
+                    "column": 5
+                  }
+                }
+              }
+            ]
+          },
+          "leadingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n * @param \n * {*} undefined \n"
+            },
+            {
+              "type": "CommentBlock",
+              "value": "*\r\n * This component contain your list of painting list\r\n * @param {object} user - user object from api\r\n * @param {object} setUser - user setter\r\n * @emits - userLists/save : create new list\r\n * @emits - userLists/byUserId : get user lists\r\n * @emits - userLists/deleteById?listId=${listId} : delete selected list\r\n ",
+              "start": 281,
+              "end": 602,
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 0
+                },
+                "end": {
+                  "line": 17,
+                  "column": 3
+                }
+              }
+            }
+          ],
+          "trailingComments": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\r\n * This component contain your list of painting list\r\n * @param {object} user - user object from api\r\n * @param {object} setUser - user setter\r\n * @emits - userLists/save : create new list\r\n * @emits - userLists/byUserId : get user lists\r\n * @emits - userLists/deleteById?listId=${listId} : delete selected list\r\n ",
+            "start": 281,
+            "end": 602,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 0
+              },
+              "end": {
+                "line": 17,
+                "column": 3
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": "*\r\n * This component contain your list of painting list\r\n * @param {object} user - user object from api\r\n * @param {object} setUser - user setter\r\n * @emits - userLists/save : create new list\r\n * @emits - userLists/byUserId : get user lists\r\n * @emits - userLists/deleteById?listId=${listId} : delete selected list\r\n ",
+      "start": 281,
+      "end": 602,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst [listList, setListList] = useState([]);",
+      "start": 664,
+      "end": 713,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst [listTitle, setListTitle] = useState([]);",
+      "start": 715,
+      "end": 766,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst [refreshKey, setRefreshKey] = useState(0);",
+      "start": 768,
+      "end": 820,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//Post new list to the API//",
+      "start": 830,
+      "end": 862,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst handleSubmit = (e) => {",
+      "start": 864,
+      "end": 897,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\te.preventDefault();",
+      "start": 903,
+      "end": 927,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\taxios.post(URLDayl + \"userLists/save\",",
+      "start": 931,
+      "end": 974,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t{ listName: listTitle, rank: 0, userId: user.id, id: 0, status: \"ACTIVE\", detail: \"\", imageUrl: \"\" }, { headers: { \"Access-Control-Allow-Origin\": \"*\", \"Content-Type\": \"application/json\" } }",
+      "start": 976,
+      "end": 1171,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 195
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t)",
+      "start": 1173,
+      "end": 1179,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.then((response) => {",
+      "start": 1181,
+      "end": 1208,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetRefreshKey(oldKey => oldKey + 1);",
+      "start": 1210,
+      "end": 1253,
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\ttoast.success(\"Nouvelle liste ajoutée!\", {",
+      "start": 1257,
+      "end": 1306,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 0
+        },
+        "end": {
+          "line": 42,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tposition: \"top-right\",",
+      "start": 1308,
+      "end": 1338,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 0
+        },
+        "end": {
+          "line": 43,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tautoClose: 3000,",
+      "start": 1340,
+      "end": 1364,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 0
+        },
+        "end": {
+          "line": 44,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\thideProgressBar: false,",
+      "start": 1366,
+      "end": 1397,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 0
+        },
+        "end": {
+          "line": 45,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tcloseOnClick: true,",
+      "start": 1399,
+      "end": 1426,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 0
+        },
+        "end": {
+          "line": 46,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tpauseOnHover: true,",
+      "start": 1428,
+      "end": 1455,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tdraggable: true,",
+      "start": 1457,
+      "end": 1481,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 0
+        },
+        "end": {
+          "line": 48,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tprogress: undefined,",
+      "start": 1483,
+      "end": 1511,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 0
+        },
+        "end": {
+          "line": 49,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t});",
+      "start": 1513,
+      "end": 1523,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 0
+        },
+        "end": {
+          "line": 50,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t});",
+      "start": 1529,
+      "end": 1538,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 0
+        },
+        "end": {
+          "line": 53,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}",
+      "start": 1542,
+      "end": 1547,
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 0
+        },
+        "end": {
+          "line": 55,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//Get User List//",
+      "start": 1551,
+      "end": 1572,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 0
+        },
+        "end": {
+          "line": 57,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tuseEffect(() => {",
+      "start": 1574,
+      "end": 1595,
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 0
+        },
+        "end": {
+          "line": 58,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\taxios",
+      "start": 1599,
+      "end": 1609,
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 0
+        },
+        "end": {
+          "line": 60,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.get(URLDayl + \"userLists/byUserId\", { params: { userId: user.id } }",
+      "start": 1611,
+      "end": 1685,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 0
+        },
+        "end": {
+          "line": 61,
+          "column": 74
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t)",
+      "start": 1687,
+      "end": 1694,
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 0
+        },
+        "end": {
+          "line": 62,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.then((response) => {",
+      "start": 1696,
+      "end": 1723,
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 0
+        },
+        "end": {
+          "line": 63,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetListList(response.data);",
+      "start": 1725,
+      "end": 1759,
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 0
+        },
+        "end": {
+          "line": 64,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " console.log(response.data)",
+      "start": 1761,
+      "end": 1790,
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 0
+        },
+        "end": {
+          "line": 65,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tconst boolArray = response.data.map((el) => { return { ...el, bool: false } });",
+      "start": 1792,
+      "end": 1878,
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 0
+        },
+        "end": {
+          "line": 66,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetListList(boolArray)",
+      "start": 1880,
+      "end": 1909,
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 0
+        },
+        "end": {
+          "line": 67,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t});",
+      "start": 1911,
+      "end": 1920,
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 0
+        },
+        "end": {
+          "line": 68,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}, [refreshKey]);",
+      "start": 1924,
+      "end": 1945,
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 0
+        },
+        "end": {
+          "line": 70,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//Delete user list//",
+      "start": 1949,
+      "end": 1973,
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 0
+        },
+        "end": {
+          "line": 72,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst deleteList = (listId) => {",
+      "start": 1975,
+      "end": 2011,
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 0
+        },
+        "end": {
+          "line": 73,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\taxios",
+      "start": 2015,
+      "end": 2025,
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 0
+        },
+        "end": {
+          "line": 75,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.delete(URLDayl + `userLists/deleteById?listId=${listId}`, { headers: { \"Access-Control-Allow-Origin\": \"*\", \"Content-Type\": \"application/json\" } }",
+      "start": 2027,
+      "end": 2179,
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 0
+        },
+        "end": {
+          "line": 76,
+          "column": 152
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t)",
+      "start": 2181,
+      "end": 2188,
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 0
+        },
+        "end": {
+          "line": 77,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.then((response) => {",
+      "start": 2190,
+      "end": 2217,
+      "loc": {
+        "start": {
+          "line": 78,
+          "column": 0
+        },
+        "end": {
+          "line": 78,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetListList(response.data);",
+      "start": 2219,
+      "end": 2253,
+      "loc": {
+        "start": {
+          "line": 79,
+          "column": 0
+        },
+        "end": {
+          "line": 79,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetRefreshKey(oldKey => oldKey + 1);",
+      "start": 2255,
+      "end": 2298,
+      "loc": {
+        "start": {
+          "line": 80,
+          "column": 0
+        },
+        "end": {
+          "line": 80,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\ttoast.success(\"Liste supprimée!\", {",
+      "start": 2302,
+      "end": 2344,
+      "loc": {
+        "start": {
+          "line": 82,
+          "column": 0
+        },
+        "end": {
+          "line": 82,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tposition: \"top-right\",",
+      "start": 2346,
+      "end": 2376,
+      "loc": {
+        "start": {
+          "line": 83,
+          "column": 0
+        },
+        "end": {
+          "line": 83,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tautoClose: 3000,",
+      "start": 2378,
+      "end": 2402,
+      "loc": {
+        "start": {
+          "line": 84,
+          "column": 0
+        },
+        "end": {
+          "line": 84,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\thideProgressBar: false,",
+      "start": 2404,
+      "end": 2435,
+      "loc": {
+        "start": {
+          "line": 85,
+          "column": 0
+        },
+        "end": {
+          "line": 85,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tcloseOnClick: true,",
+      "start": 2437,
+      "end": 2464,
+      "loc": {
+        "start": {
+          "line": 86,
+          "column": 0
+        },
+        "end": {
+          "line": 86,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tpauseOnHover: true,",
+      "start": 2466,
+      "end": 2493,
+      "loc": {
+        "start": {
+          "line": 87,
+          "column": 0
+        },
+        "end": {
+          "line": 87,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tdraggable: true,",
+      "start": 2495,
+      "end": 2519,
+      "loc": {
+        "start": {
+          "line": 88,
+          "column": 0
+        },
+        "end": {
+          "line": 88,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tprogress: undefined,",
+      "start": 2521,
+      "end": 2549,
+      "loc": {
+        "start": {
+          "line": 89,
+          "column": 0
+        },
+        "end": {
+          "line": 89,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t});",
+      "start": 2551,
+      "end": 2561,
+      "loc": {
+        "start": {
+          "line": 90,
+          "column": 0
+        },
+        "end": {
+          "line": 90,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t});",
+      "start": 2563,
+      "end": 2572,
+      "loc": {
+        "start": {
+          "line": 91,
+          "column": 0
+        },
+        "end": {
+          "line": 91,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}",
+      "start": 2578,
+      "end": 2583,
+      "loc": {
+        "start": {
+          "line": 94,
+          "column": 0
+        },
+        "end": {
+          "line": 94,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//afficher modale suppression//",
+      "start": 2589,
+      "end": 2624,
+      "loc": {
+        "start": {
+          "line": 97,
+          "column": 0
+        },
+        "end": {
+          "line": 97,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst handleBoolListTrue = (index) => {",
+      "start": 2626,
+      "end": 2669,
+      "loc": {
+        "start": {
+          "line": 98,
+          "column": 0
+        },
+        "end": {
+          "line": 98,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\tconst tempBool = [...listList]",
+      "start": 2673,
+      "end": 2708,
+      "loc": {
+        "start": {
+          "line": 100,
+          "column": 0
+        },
+        "end": {
+          "line": 100,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\ttempBool[index].bool = true;",
+      "start": 2712,
+      "end": 2745,
+      "loc": {
+        "start": {
+          "line": 102,
+          "column": 0
+        },
+        "end": {
+          "line": 102,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\tsetListList(tempBool);",
+      "start": 2747,
+      "end": 2774,
+      "loc": {
+        "start": {
+          "line": 103,
+          "column": 0
+        },
+        "end": {
+          "line": 103,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}",
+      "start": 2776,
+      "end": 2781,
+      "loc": {
+        "start": {
+          "line": 104,
+          "column": 0
+        },
+        "end": {
+          "line": 104,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//cacher modale suppression//",
+      "start": 2785,
+      "end": 2818,
+      "loc": {
+        "start": {
+          "line": 106,
+          "column": 0
+        },
+        "end": {
+          "line": 106,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst handleBoolListFalse = (index) => {",
+      "start": 2820,
+      "end": 2864,
+      "loc": {
+        "start": {
+          "line": 107,
+          "column": 0
+        },
+        "end": {
+          "line": 107,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\tconst tempBool = [...listList]",
+      "start": 2868,
+      "end": 2903,
+      "loc": {
+        "start": {
+          "line": 109,
+          "column": 0
+        },
+        "end": {
+          "line": 109,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\ttempBool[index].bool = false;",
+      "start": 2907,
+      "end": 2941,
+      "loc": {
+        "start": {
+          "line": 111,
+          "column": 0
+        },
+        "end": {
+          "line": 111,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\tsetListList(tempBool);",
+      "start": 2943,
+      "end": 2970,
+      "loc": {
+        "start": {
+          "line": 112,
+          "column": 0
+        },
+        "end": {
+          "line": 112,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}",
+      "start": 2974,
+      "end": 2979,
+      "loc": {
+        "start": {
+          "line": 114,
+          "column": 0
+        },
+        "end": {
+          "line": 114,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \treturn (",
+      "start": 2991,
+      "end": 3003,
+      "loc": {
+        "start": {
+          "line": 120,
+          "column": 0
+        },
+        "end": {
+          "line": 120,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t<div className=\"Lists\">",
+      "start": 3005,
+      "end": 3033,
+      "loc": {
+        "start": {
+          "line": 121,
+          "column": 0
+        },
+        "end": {
+          "line": 121,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t<div className=\"createThisNewFolder mb-b\">",
+      "start": 3035,
+      "end": 3083,
+      "loc": {
+        "start": {
+          "line": 122,
+          "column": 0
+        },
+        "end": {
+          "line": 122,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t<p className=\"mt-a\">Créer une nouvelle liste</p>",
+      "start": 3085,
+      "end": 3140,
+      "loc": {
+        "start": {
+          "line": 123,
+          "column": 0
+        },
+        "end": {
+          "line": 123,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t<form action=\"\" onSubmit={handleSubmit}>",
+      "start": 3142,
+      "end": 3189,
+      "loc": {
+        "start": {
+          "line": 124,
+          "column": 0
+        },
+        "end": {
+          "line": 124,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t<div className=\"addListForm\">",
+      "start": 3191,
+      "end": 3228,
+      "loc": {
+        "start": {
+          "line": 125,
+          "column": 0
+        },
+        "end": {
+          "line": 125,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t<input onChange={(e) => setListTitle(e.target.value)} value={listTitle} type=\"text\" placeholder=\"Nom de la liste\" />",
+      "start": 3230,
+      "end": 3355,
+      "loc": {
+        "start": {
+          "line": 126,
+          "column": 0
+        },
+        "end": {
+          "line": 126,
+          "column": 125
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t<button type=\"submit\">Créer</button>",
+      "start": 3357,
+      "end": 3402,
+      "loc": {
+        "start": {
+          "line": 127,
+          "column": 0
+        },
+        "end": {
+          "line": 127,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t</div>",
+      "start": 3404,
+      "end": 3418,
+      "loc": {
+        "start": {
+          "line": 128,
+          "column": 0
+        },
+        "end": {
+          "line": 128,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t</form>",
+      "start": 3420,
+      "end": 3434,
+      "loc": {
+        "start": {
+          "line": 129,
+          "column": 0
+        },
+        "end": {
+          "line": 129,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t</div>",
+      "start": 3436,
+      "end": 3448,
+      "loc": {
+        "start": {
+          "line": 130,
+          "column": 0
+        },
+        "end": {
+          "line": 130,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t{/* <!-- créer une nouvelle liste - fin --> */}",
+      "start": 3450,
+      "end": 3503,
+      "loc": {
+        "start": {
+          "line": 131,
+          "column": 0
+        },
+        "end": {
+          "line": 131,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t<div className=\"accountArtists \">",
+      "start": 3507,
+      "end": 3546,
+      "loc": {
+        "start": {
+          "line": 133,
+          "column": 0
+        },
+        "end": {
+          "line": 133,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t{listList.length > 0 &&",
+      "start": 3548,
+      "end": 3578,
+      "loc": {
+        "start": {
+          "line": 134,
+          "column": 0
+        },
+        "end": {
+          "line": 134,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tlistList.map((list, index) => (",
+      "start": 3580,
+      "end": 3619,
+      "loc": {
+        "start": {
+          "line": 135,
+          "column": 0
+        },
+        "end": {
+          "line": 135,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t<div className=\"item\" style={{ backgroundImage: `url(${URLDayl}images/content/mini/${list.imageUrl})` }}>",
+      "start": 3623,
+      "end": 3737,
+      "loc": {
+        "start": {
+          "line": 137,
+          "column": 0
+        },
+        "end": {
+          "line": 137,
+          "column": 114
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t<div className=\"name\">{list.listName}</div>",
+      "start": 3739,
+      "end": 3792,
+      "loc": {
+        "start": {
+          "line": 138,
+          "column": 0
+        },
+        "end": {
+          "line": 138,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t<div className=\"items-count\">{list.countItems} oeuvres</div>",
+      "start": 3794,
+      "end": 3864,
+      "loc": {
+        "start": {
+          "line": 139,
+          "column": 0
+        },
+        "end": {
+          "line": 139,
+          "column": 70
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t<Link className=\"discover\" to={`../../view/ListeAmateurPage.js/${list.id}`} state={list.id}></Link>",
+      "start": 3866,
+      "end": 3975,
+      "loc": {
+        "start": {
+          "line": 140,
+          "column": 0
+        },
+        "end": {
+          "line": 140,
+          "column": 109
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t<input type=\"button\" className=\"unfollow\" onClick={() => handleBoolListTrue(index)} value=\"\" />",
+      "start": 3979,
+      "end": 4084,
+      "loc": {
+        "start": {
+          "line": 142,
+          "column": 0
+        },
+        "end": {
+          "line": 142,
+          "column": 105
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t{list.bool && <div className=\"deleteConfirm\">",
+      "start": 4088,
+      "end": 4143,
+      "loc": {
+        "start": {
+          "line": 144,
+          "column": 0
+        },
+        "end": {
+          "line": 144,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t\t<span className=\"deleteText\">Supprimer?</span>",
+      "start": 4145,
+      "end": 4202,
+      "loc": {
+        "start": {
+          "line": 145,
+          "column": 0
+        },
+        "end": {
+          "line": 145,
+          "column": 57
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t\t<button type=\"button\" className=\"yes closeTwoParentsNow\" onClick={() => deleteList(list.id)} value=\"\">Oui</button>",
+      "start": 4204,
+      "end": 4329,
+      "loc": {
+        "start": {
+          "line": 146,
+          "column": 0
+        },
+        "end": {
+          "line": 146,
+          "column": 125
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t\t<button type=\"button\" className=\"no closeParentNow\" onClick={() => handleBoolListFalse(index)} value=\"\">Non</button>",
+      "start": 4331,
+      "end": 4458,
+      "loc": {
+        "start": {
+          "line": 147,
+          "column": 0
+        },
+        "end": {
+          "line": 147,
+          "column": 127
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t</div>}",
+      "start": 4460,
+      "end": 4477,
+      "loc": {
+        "start": {
+          "line": 148,
+          "column": 0
+        },
+        "end": {
+          "line": 148,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t</div>",
+      "start": 4479,
+      "end": 4494,
+      "loc": {
+        "start": {
+          "line": 149,
+          "column": 0
+        },
+        "end": {
+          "line": 149,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t))}",
+      "start": 4496,
+      "end": 4507,
+      "loc": {
+        "start": {
+          "line": 150,
+          "column": 0
+        },
+        "end": {
+          "line": 150,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t</div>",
+      "start": 4511,
+      "end": 4523,
+      "loc": {
+        "start": {
+          "line": 152,
+          "column": 0
+        },
+        "end": {
+          "line": 152,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t</div>",
+      "start": 4527,
+      "end": 4538,
+      "loc": {
+        "start": {
+          "line": 154,
+          "column": 0
+        },
+        "end": {
+          "line": 154,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t)",
+      "start": 4540,
+      "end": 4545,
+      "loc": {
+        "start": {
+          "line": 155,
+          "column": 0
+        },
+        "end": {
+          "line": 155,
+          "column": 5
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 0,
+      "end": 6,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "React",
+      "start": 7,
+      "end": 12,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 7
+        },
+        "end": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 13,
+      "end": 17,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 13
+        },
+        "end": {
+          "line": 1,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "react",
+      "start": 18,
+      "end": 25,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 18
+        },
+        "end": {
+          "line": 1,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 25,
+      "end": 26,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 25
+        },
+        "end": {
+          "line": 1,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 28,
+      "end": 34,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "useEffect",
+      "start": 37,
+      "end": 46,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 9
+        },
+        "end": {
+          "line": 2,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 46,
+      "end": 47,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 18
+        },
+        "end": {
+          "line": 2,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "useState",
+      "start": 48,
+      "end": 56,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 20
+        },
+        "end": {
+          "line": 2,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 59,
+      "end": 63,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "react",
+      "start": 64,
+      "end": 71,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 36
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 71,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 74,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "axios",
+      "start": 81,
+      "end": 86,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 3,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 87,
+      "end": 91,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "axios",
+      "start": 92,
+      "end": 99,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 18
+        },
+        "end": {
+          "line": 3,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 99,
+      "end": 100,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 25
+        },
+        "end": {
+          "line": 3,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 102,
+      "end": 108,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 109,
+      "end": 110,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 7
+        },
+        "end": {
+          "line": 4,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "URLDayl",
+      "start": 111,
+      "end": 118,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 9
+        },
+        "end": {
+          "line": 4,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 119,
+      "end": 120,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 17
+        },
+        "end": {
+          "line": 4,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 121,
+      "end": 125,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 19
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "../../services/constantes",
+      "start": 126,
+      "end": 153,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 4,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 155,
+      "end": 161,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 162,
+      "end": 163,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 5,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Link",
+      "start": 164,
+      "end": 168,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 9
+        },
+        "end": {
+          "line": 5,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 169,
+      "end": 170,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 14
+        },
+        "end": {
+          "line": 5,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 171,
+      "end": 175,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 16
+        },
+        "end": {
+          "line": 5,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "react-router-dom",
+      "start": 176,
+      "end": 194,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 21
+        },
+        "end": {
+          "line": 5,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 194,
+      "end": 195,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 39
+        },
+        "end": {
+          "line": 5,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 197,
+      "end": 203,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 204,
+      "end": 205,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 7
+        },
+        "end": {
+          "line": 6,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "set",
+      "start": 206,
+      "end": 209,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 9
+        },
+        "end": {
+          "line": 6,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 210,
+      "end": 211,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 13
+        },
+        "end": {
+          "line": 6,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 212,
+      "end": 216,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 15
+        },
+        "end": {
+          "line": 6,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "react-hook-form",
+      "start": 217,
+      "end": 234,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 20
+        },
+        "end": {
+          "line": 6,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 234,
+      "end": 235,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 37
+        },
+        "end": {
+          "line": 6,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 237,
+      "end": 243,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 244,
+      "end": 245,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 7,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "toast",
+      "start": 246,
+      "end": 251,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 9
+        },
+        "end": {
+          "line": 7,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 252,
+      "end": 253,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 15
+        },
+        "end": {
+          "line": 7,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 254,
+      "end": 258,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 17
+        },
+        "end": {
+          "line": 7,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "react-toastify",
+      "start": 259,
+      "end": 275,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 22
+        },
+        "end": {
+          "line": 7,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\r\n * This component contain your list of painting list\r\n * @param {object} user - user object from api\r\n * @param {object} setUser - user setter\r\n * @emits - userLists/save : create new list\r\n * @emits - userLists/byUserId : get user lists\r\n * @emits - userLists/deleteById?listId=${listId} : delete selected list\r\n ",
+      "start": 281,
+      "end": 602,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 608,
+      "end": 614,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 615,
+      "end": 622,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 7
+        },
+        "end": {
+          "line": 20,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "function",
+        "keyword": "function",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "function",
+      "start": 623,
+      "end": 631,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 15
+        },
+        "end": {
+          "line": 20,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Lists",
+      "start": 632,
+      "end": 637,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 24
+        },
+        "end": {
+          "line": 20,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 637,
+      "end": 638,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 29
+        },
+        "end": {
+          "line": 20,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 638,
+      "end": 639,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 30
+        },
+        "end": {
+          "line": 20,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "user",
+      "start": 640,
+      "end": 644,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 32
+        },
+        "end": {
+          "line": 20,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 644,
+      "end": 645,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 36
+        },
+        "end": {
+          "line": 20,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "setUser",
+      "start": 646,
+      "end": 653,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 38
+        },
+        "end": {
+          "line": 20,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 654,
+      "end": 655,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 46
+        },
+        "end": {
+          "line": 20,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 655,
+      "end": 656,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 47
+        },
+        "end": {
+          "line": 20,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 657,
+      "end": 658,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 49
+        },
+        "end": {
+          "line": 20,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst [listList, setListList] = useState([]);",
+      "start": 664,
+      "end": 713,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst [listTitle, setListTitle] = useState([]);",
+      "start": 715,
+      "end": 766,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst [refreshKey, setRefreshKey] = useState(0);",
+      "start": 768,
+      "end": 820,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//Post new list to the API//",
+      "start": 830,
+      "end": 862,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst handleSubmit = (e) => {",
+      "start": 864,
+      "end": 897,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\te.preventDefault();",
+      "start": 903,
+      "end": 927,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\taxios.post(URLDayl + \"userLists/save\",",
+      "start": 931,
+      "end": 974,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t{ listName: listTitle, rank: 0, userId: user.id, id: 0, status: \"ACTIVE\", detail: \"\", imageUrl: \"\" }, { headers: { \"Access-Control-Allow-Origin\": \"*\", \"Content-Type\": \"application/json\" } }",
+      "start": 976,
+      "end": 1171,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 195
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t)",
+      "start": 1173,
+      "end": 1179,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.then((response) => {",
+      "start": 1181,
+      "end": 1208,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetRefreshKey(oldKey => oldKey + 1);",
+      "start": 1210,
+      "end": 1253,
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\ttoast.success(\"Nouvelle liste ajoutée!\", {",
+      "start": 1257,
+      "end": 1306,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 0
+        },
+        "end": {
+          "line": 42,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tposition: \"top-right\",",
+      "start": 1308,
+      "end": 1338,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 0
+        },
+        "end": {
+          "line": 43,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tautoClose: 3000,",
+      "start": 1340,
+      "end": 1364,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 0
+        },
+        "end": {
+          "line": 44,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\thideProgressBar: false,",
+      "start": 1366,
+      "end": 1397,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 0
+        },
+        "end": {
+          "line": 45,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tcloseOnClick: true,",
+      "start": 1399,
+      "end": 1426,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 0
+        },
+        "end": {
+          "line": 46,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tpauseOnHover: true,",
+      "start": 1428,
+      "end": 1455,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tdraggable: true,",
+      "start": 1457,
+      "end": 1481,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 0
+        },
+        "end": {
+          "line": 48,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tprogress: undefined,",
+      "start": 1483,
+      "end": 1511,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 0
+        },
+        "end": {
+          "line": 49,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t});",
+      "start": 1513,
+      "end": 1523,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 0
+        },
+        "end": {
+          "line": 50,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t});",
+      "start": 1529,
+      "end": 1538,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 0
+        },
+        "end": {
+          "line": 53,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}",
+      "start": 1542,
+      "end": 1547,
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 0
+        },
+        "end": {
+          "line": 55,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//Get User List//",
+      "start": 1551,
+      "end": 1572,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 0
+        },
+        "end": {
+          "line": 57,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tuseEffect(() => {",
+      "start": 1574,
+      "end": 1595,
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 0
+        },
+        "end": {
+          "line": 58,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\taxios",
+      "start": 1599,
+      "end": 1609,
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 0
+        },
+        "end": {
+          "line": 60,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.get(URLDayl + \"userLists/byUserId\", { params: { userId: user.id } }",
+      "start": 1611,
+      "end": 1685,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 0
+        },
+        "end": {
+          "line": 61,
+          "column": 74
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t)",
+      "start": 1687,
+      "end": 1694,
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 0
+        },
+        "end": {
+          "line": 62,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.then((response) => {",
+      "start": 1696,
+      "end": 1723,
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 0
+        },
+        "end": {
+          "line": 63,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetListList(response.data);",
+      "start": 1725,
+      "end": 1759,
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 0
+        },
+        "end": {
+          "line": 64,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " console.log(response.data)",
+      "start": 1761,
+      "end": 1790,
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 0
+        },
+        "end": {
+          "line": 65,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tconst boolArray = response.data.map((el) => { return { ...el, bool: false } });",
+      "start": 1792,
+      "end": 1878,
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 0
+        },
+        "end": {
+          "line": 66,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetListList(boolArray)",
+      "start": 1880,
+      "end": 1909,
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 0
+        },
+        "end": {
+          "line": 67,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t});",
+      "start": 1911,
+      "end": 1920,
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 0
+        },
+        "end": {
+          "line": 68,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}, [refreshKey]);",
+      "start": 1924,
+      "end": 1945,
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 0
+        },
+        "end": {
+          "line": 70,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//Delete user list//",
+      "start": 1949,
+      "end": 1973,
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 0
+        },
+        "end": {
+          "line": 72,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst deleteList = (listId) => {",
+      "start": 1975,
+      "end": 2011,
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 0
+        },
+        "end": {
+          "line": 73,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\taxios",
+      "start": 2015,
+      "end": 2025,
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 0
+        },
+        "end": {
+          "line": 75,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.delete(URLDayl + `userLists/deleteById?listId=${listId}`, { headers: { \"Access-Control-Allow-Origin\": \"*\", \"Content-Type\": \"application/json\" } }",
+      "start": 2027,
+      "end": 2179,
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 0
+        },
+        "end": {
+          "line": 76,
+          "column": 152
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t)",
+      "start": 2181,
+      "end": 2188,
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 0
+        },
+        "end": {
+          "line": 77,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t.then((response) => {",
+      "start": 2190,
+      "end": 2217,
+      "loc": {
+        "start": {
+          "line": 78,
+          "column": 0
+        },
+        "end": {
+          "line": 78,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetListList(response.data);",
+      "start": 2219,
+      "end": 2253,
+      "loc": {
+        "start": {
+          "line": 79,
+          "column": 0
+        },
+        "end": {
+          "line": 79,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\tsetRefreshKey(oldKey => oldKey + 1);",
+      "start": 2255,
+      "end": 2298,
+      "loc": {
+        "start": {
+          "line": 80,
+          "column": 0
+        },
+        "end": {
+          "line": 80,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\ttoast.success(\"Liste supprimée!\", {",
+      "start": 2302,
+      "end": 2344,
+      "loc": {
+        "start": {
+          "line": 82,
+          "column": 0
+        },
+        "end": {
+          "line": 82,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tposition: \"top-right\",",
+      "start": 2346,
+      "end": 2376,
+      "loc": {
+        "start": {
+          "line": 83,
+          "column": 0
+        },
+        "end": {
+          "line": 83,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tautoClose: 3000,",
+      "start": 2378,
+      "end": 2402,
+      "loc": {
+        "start": {
+          "line": 84,
+          "column": 0
+        },
+        "end": {
+          "line": 84,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\thideProgressBar: false,",
+      "start": 2404,
+      "end": 2435,
+      "loc": {
+        "start": {
+          "line": 85,
+          "column": 0
+        },
+        "end": {
+          "line": 85,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tcloseOnClick: true,",
+      "start": 2437,
+      "end": 2464,
+      "loc": {
+        "start": {
+          "line": 86,
+          "column": 0
+        },
+        "end": {
+          "line": 86,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tpauseOnHover: true,",
+      "start": 2466,
+      "end": 2493,
+      "loc": {
+        "start": {
+          "line": 87,
+          "column": 0
+        },
+        "end": {
+          "line": 87,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tdraggable: true,",
+      "start": 2495,
+      "end": 2519,
+      "loc": {
+        "start": {
+          "line": 88,
+          "column": 0
+        },
+        "end": {
+          "line": 88,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tprogress: undefined,",
+      "start": 2521,
+      "end": 2549,
+      "loc": {
+        "start": {
+          "line": 89,
+          "column": 0
+        },
+        "end": {
+          "line": 89,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t});",
+      "start": 2551,
+      "end": 2561,
+      "loc": {
+        "start": {
+          "line": 90,
+          "column": 0
+        },
+        "end": {
+          "line": 90,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t});",
+      "start": 2563,
+      "end": 2572,
+      "loc": {
+        "start": {
+          "line": 91,
+          "column": 0
+        },
+        "end": {
+          "line": 91,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}",
+      "start": 2578,
+      "end": 2583,
+      "loc": {
+        "start": {
+          "line": 94,
+          "column": 0
+        },
+        "end": {
+          "line": 94,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//afficher modale suppression//",
+      "start": 2589,
+      "end": 2624,
+      "loc": {
+        "start": {
+          "line": 97,
+          "column": 0
+        },
+        "end": {
+          "line": 97,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst handleBoolListTrue = (index) => {",
+      "start": 2626,
+      "end": 2669,
+      "loc": {
+        "start": {
+          "line": 98,
+          "column": 0
+        },
+        "end": {
+          "line": 98,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\tconst tempBool = [...listList]",
+      "start": 2673,
+      "end": 2708,
+      "loc": {
+        "start": {
+          "line": 100,
+          "column": 0
+        },
+        "end": {
+          "line": 100,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\ttempBool[index].bool = true;",
+      "start": 2712,
+      "end": 2745,
+      "loc": {
+        "start": {
+          "line": 102,
+          "column": 0
+        },
+        "end": {
+          "line": 102,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\tsetListList(tempBool);",
+      "start": 2747,
+      "end": 2774,
+      "loc": {
+        "start": {
+          "line": 103,
+          "column": 0
+        },
+        "end": {
+          "line": 103,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}",
+      "start": 2776,
+      "end": 2781,
+      "loc": {
+        "start": {
+          "line": 104,
+          "column": 0
+        },
+        "end": {
+          "line": 104,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t//cacher modale suppression//",
+      "start": 2785,
+      "end": 2818,
+      "loc": {
+        "start": {
+          "line": 106,
+          "column": 0
+        },
+        "end": {
+          "line": 106,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \tconst handleBoolListFalse = (index) => {",
+      "start": 2820,
+      "end": 2864,
+      "loc": {
+        "start": {
+          "line": 107,
+          "column": 0
+        },
+        "end": {
+          "line": 107,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\tconst tempBool = [...listList]",
+      "start": 2868,
+      "end": 2903,
+      "loc": {
+        "start": {
+          "line": 109,
+          "column": 0
+        },
+        "end": {
+          "line": 109,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\ttempBool[index].bool = false;",
+      "start": 2907,
+      "end": 2941,
+      "loc": {
+        "start": {
+          "line": 111,
+          "column": 0
+        },
+        "end": {
+          "line": 111,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\tsetListList(tempBool);",
+      "start": 2943,
+      "end": 2970,
+      "loc": {
+        "start": {
+          "line": 112,
+          "column": 0
+        },
+        "end": {
+          "line": 112,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t}",
+      "start": 2974,
+      "end": 2979,
+      "loc": {
+        "start": {
+          "line": 114,
+          "column": 0
+        },
+        "end": {
+          "line": 114,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \treturn (",
+      "start": 2991,
+      "end": 3003,
+      "loc": {
+        "start": {
+          "line": 120,
+          "column": 0
+        },
+        "end": {
+          "line": 120,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t<div className=\"Lists\">",
+      "start": 3005,
+      "end": 3033,
+      "loc": {
+        "start": {
+          "line": 121,
+          "column": 0
+        },
+        "end": {
+          "line": 121,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t<div className=\"createThisNewFolder mb-b\">",
+      "start": 3035,
+      "end": 3083,
+      "loc": {
+        "start": {
+          "line": 122,
+          "column": 0
+        },
+        "end": {
+          "line": 122,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t<p className=\"mt-a\">Créer une nouvelle liste</p>",
+      "start": 3085,
+      "end": 3140,
+      "loc": {
+        "start": {
+          "line": 123,
+          "column": 0
+        },
+        "end": {
+          "line": 123,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t<form action=\"\" onSubmit={handleSubmit}>",
+      "start": 3142,
+      "end": 3189,
+      "loc": {
+        "start": {
+          "line": 124,
+          "column": 0
+        },
+        "end": {
+          "line": 124,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t<div className=\"addListForm\">",
+      "start": 3191,
+      "end": 3228,
+      "loc": {
+        "start": {
+          "line": 125,
+          "column": 0
+        },
+        "end": {
+          "line": 125,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t<input onChange={(e) => setListTitle(e.target.value)} value={listTitle} type=\"text\" placeholder=\"Nom de la liste\" />",
+      "start": 3230,
+      "end": 3355,
+      "loc": {
+        "start": {
+          "line": 126,
+          "column": 0
+        },
+        "end": {
+          "line": 126,
+          "column": 125
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t<button type=\"submit\">Créer</button>",
+      "start": 3357,
+      "end": 3402,
+      "loc": {
+        "start": {
+          "line": 127,
+          "column": 0
+        },
+        "end": {
+          "line": 127,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t</div>",
+      "start": 3404,
+      "end": 3418,
+      "loc": {
+        "start": {
+          "line": 128,
+          "column": 0
+        },
+        "end": {
+          "line": 128,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t</form>",
+      "start": 3420,
+      "end": 3434,
+      "loc": {
+        "start": {
+          "line": 129,
+          "column": 0
+        },
+        "end": {
+          "line": 129,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t</div>",
+      "start": 3436,
+      "end": 3448,
+      "loc": {
+        "start": {
+          "line": 130,
+          "column": 0
+        },
+        "end": {
+          "line": 130,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t{/* <!-- créer une nouvelle liste - fin --> */}",
+      "start": 3450,
+      "end": 3503,
+      "loc": {
+        "start": {
+          "line": 131,
+          "column": 0
+        },
+        "end": {
+          "line": 131,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t<div className=\"accountArtists \">",
+      "start": 3507,
+      "end": 3546,
+      "loc": {
+        "start": {
+          "line": 133,
+          "column": 0
+        },
+        "end": {
+          "line": 133,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t{listList.length > 0 &&",
+      "start": 3548,
+      "end": 3578,
+      "loc": {
+        "start": {
+          "line": 134,
+          "column": 0
+        },
+        "end": {
+          "line": 134,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\tlistList.map((list, index) => (",
+      "start": 3580,
+      "end": 3619,
+      "loc": {
+        "start": {
+          "line": 135,
+          "column": 0
+        },
+        "end": {
+          "line": 135,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t<div className=\"item\" style={{ backgroundImage: `url(${URLDayl}images/content/mini/${list.imageUrl})` }}>",
+      "start": 3623,
+      "end": 3737,
+      "loc": {
+        "start": {
+          "line": 137,
+          "column": 0
+        },
+        "end": {
+          "line": 137,
+          "column": 114
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t<div className=\"name\">{list.listName}</div>",
+      "start": 3739,
+      "end": 3792,
+      "loc": {
+        "start": {
+          "line": 138,
+          "column": 0
+        },
+        "end": {
+          "line": 138,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t<div className=\"items-count\">{list.countItems} oeuvres</div>",
+      "start": 3794,
+      "end": 3864,
+      "loc": {
+        "start": {
+          "line": 139,
+          "column": 0
+        },
+        "end": {
+          "line": 139,
+          "column": 70
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t<Link className=\"discover\" to={`../../view/ListeAmateurPage.js/${list.id}`} state={list.id}></Link>",
+      "start": 3866,
+      "end": 3975,
+      "loc": {
+        "start": {
+          "line": 140,
+          "column": 0
+        },
+        "end": {
+          "line": 140,
+          "column": 109
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t<input type=\"button\" className=\"unfollow\" onClick={() => handleBoolListTrue(index)} value=\"\" />",
+      "start": 3979,
+      "end": 4084,
+      "loc": {
+        "start": {
+          "line": 142,
+          "column": 0
+        },
+        "end": {
+          "line": 142,
+          "column": 105
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t{list.bool && <div className=\"deleteConfirm\">",
+      "start": 4088,
+      "end": 4143,
+      "loc": {
+        "start": {
+          "line": 144,
+          "column": 0
+        },
+        "end": {
+          "line": 144,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t\t<span className=\"deleteText\">Supprimer?</span>",
+      "start": 4145,
+      "end": 4202,
+      "loc": {
+        "start": {
+          "line": 145,
+          "column": 0
+        },
+        "end": {
+          "line": 145,
+          "column": 57
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t\t<button type=\"button\" className=\"yes closeTwoParentsNow\" onClick={() => deleteList(list.id)} value=\"\">Oui</button>",
+      "start": 4204,
+      "end": 4329,
+      "loc": {
+        "start": {
+          "line": 146,
+          "column": 0
+        },
+        "end": {
+          "line": 146,
+          "column": 125
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t\t<button type=\"button\" className=\"no closeParentNow\" onClick={() => handleBoolListFalse(index)} value=\"\">Non</button>",
+      "start": 4331,
+      "end": 4458,
+      "loc": {
+        "start": {
+          "line": 147,
+          "column": 0
+        },
+        "end": {
+          "line": 147,
+          "column": 127
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t\t</div>}",
+      "start": 4460,
+      "end": 4477,
+      "loc": {
+        "start": {
+          "line": 148,
+          "column": 0
+        },
+        "end": {
+          "line": 148,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t\t</div>",
+      "start": 4479,
+      "end": 4494,
+      "loc": {
+        "start": {
+          "line": 149,
+          "column": 0
+        },
+        "end": {
+          "line": 149,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t\t\t))}",
+      "start": 4496,
+      "end": 4507,
+      "loc": {
+        "start": {
+          "line": 150,
+          "column": 0
+        },
+        "end": {
+          "line": 150,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t\t</div>",
+      "start": 4511,
+      "end": 4523,
+      "loc": {
+        "start": {
+          "line": 152,
+          "column": 0
+        },
+        "end": {
+          "line": 152,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t\t</div>",
+      "start": 4527,
+      "end": 4538,
+      "loc": {
+        "start": {
+          "line": 154,
+          "column": 0
+        },
+        "end": {
+          "line": 154,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " \t)",
+      "start": 4540,
+      "end": 4545,
+      "loc": {
+        "start": {
+          "line": 155,
+          "column": 0
+        },
+        "end": {
+          "line": 155,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4549,
+      "end": 4550,
+      "loc": {
+        "start": {
+          "line": 157,
+          "column": 0
+        },
+        "end": {
+          "line": 157,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4550,
+      "end": 4550,
+      "loc": {
+        "start": {
+          "line": 157,
+          "column": 1
+        },
+        "end": {
+          "line": 157,
+          "column": 1
+        }
+      }
+    }
+  ]
+}

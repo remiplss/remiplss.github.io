@@ -1,8 +1,20 @@
 window.esdocSearchIndex = [
   [
+    "client/src/component/atelier/accueil.js~accueil",
+    "function/index.html#static-function-Accueil",
+    "<span>Accueil</span> <span class=\"search-result-import-path\">client/src/component/Atelier/Accueil.js</span>",
+    "function"
+  ],
+  [
     "client/src/component/compteamateurpage/activity.js~activity",
     "function/index.html#static-function-Activity",
     "<span>Activity</span> <span class=\"search-result-import-path\">client/src/component/CompteAmateurPage/Activity.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/userinfo/amateurinfo.js~amateurinfo",
+    "function/index.html#static-function-AmateurInfo",
+    "<span>AmateurInfo</span> <span class=\"search-result-import-path\">client/src/component/UserInfo/AmateurInfo.js</span>",
     "function"
   ],
   [
@@ -60,9 +72,33 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "client/src/component/compteamateurpage/comments.js~comments",
+    "function/index.html#static-function-Comments",
+    "<span>Comments</span> <span class=\"search-result-import-path\">client/src/component/CompteAmateurPage/Comments.js</span>",
+    "function"
+  ],
+  [
     "client/src/view/compteamateurpage.js~compteamateurpage",
     "function/index.html#static-function-CompteAmateurPage",
     "<span>CompteAmateurPage</span> <span class=\"search-result-import-path\">client/src/view/CompteAmateurPage.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/listeamateurpage/ displayinfolist.js~displayinfolist",
+    "function/index.html#static-function-DisplayInfoList",
+    "<span>DisplayInfoList</span> <span class=\"search-result-import-path\">client/src/component/ListeAmateurPage/ DisplayInfoList.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/listeamateurpage/displaylist.js~displaylist",
+    "function/index.html#static-function-DisplayList",
+    "<span>DisplayList</span> <span class=\"search-result-import-path\">client/src/component/ListeAmateurPage/DisplayList.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/compteamateurpage/displayuser.js~displayuser",
+    "function/index.html#static-function-DisplayUser",
+    "<span>DisplayUser</span> <span class=\"search-result-import-path\">client/src/component/CompteAmateurPage/DisplayUser.js</span>",
     "function"
   ],
   [
@@ -108,6 +144,12 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "client/src/view/homepage.js~homepage",
+    "function/index.html#static-function-HomePage",
+    "<span>HomePage</span> <span class=\"search-result-import-path\">client/src/view/HomePage.js</span>",
+    "function"
+  ],
+  [
     "client/src/component/compteamateurpage/likes.js~likes",
     "function/index.html#static-function-Likes",
     "<span>Likes</span> <span class=\"search-result-import-path\">client/src/component/CompteAmateurPage/Likes.js</span>",
@@ -126,9 +168,33 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "client/src/component/artistdetailpage/listpaintartist.js~listpaintartist",
+    "function/index.html#static-function-ListPaintArtist",
+    "<span>ListPaintArtist</span> <span class=\"search-result-import-path\">client/src/component/ArtistDetailPage/ListPaintArtist.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/opuspage/similarpaint.js~listpaintartist",
+    "function/index.html#static-function-ListPaintArtist",
+    "<span>ListPaintArtist</span> <span class=\"search-result-import-path\">client/src/component/OpusPage/SimilarPaint.js</span>",
+    "function"
+  ],
+  [
     "client/src/view/listeamateurpage.js~listeamateurpage",
     "function/index.html#static-function-ListeAmateurPage",
     "<span>ListeAmateurPage</span> <span class=\"search-result-import-path\">client/src/view/ListeAmateurPage.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/compteamateurpage/lists.js~lists",
+    "function/index.html#static-function-Lists",
+    "<span>Lists</span> <span class=\"search-result-import-path\">client/src/component/CompteAmateurPage/Lists.js</span>",
+    "function"
+  ],
+  [
+    "client/src/view/login.js~login",
+    "function/index.html#static-function-LogIn",
+    "<span>LogIn</span> <span class=\"search-result-import-path\">client/src/view/LogIn.js</span>",
     "function"
   ],
   [
@@ -141,6 +207,18 @@ window.esdocSearchIndex = [
     "client/src/view/matchingcolor.js~matchingcolor",
     "function/index.html#static-function-MatchingColor",
     "<span>MatchingColor</span> <span class=\"search-result-import-path\">client/src/view/MatchingColor.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/homepage/matchingimage.js~matchingimage",
+    "function/index.html#static-function-MatchingImage",
+    "<span>MatchingImage</span> <span class=\"search-result-import-path\">client/src/component/HomePage/MatchingImage.js</span>",
+    "function"
+  ],
+  [
+    "client/src/view/matchingimage.js~matchingimage",
+    "function/index.html#static-function-MatchingImage",
+    "<span>MatchingImage</span> <span class=\"search-result-import-path\">client/src/view/MatchingImage.js</span>",
     "function"
   ],
   [
@@ -168,6 +246,12 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "client/src/component/homepage/mostmatched.js~mostmatched",
+    "function/index.html#static-function-MostMatched",
+    "<span>MostMatched</span> <span class=\"search-result-import-path\">client/src/component/HomePage/MostMatched.js</span>",
+    "function"
+  ],
+  [
     "client/src/view/opuspage.js~opuspage",
     "function/index.html#static-function-OpusPage",
     "<span>OpusPage</span> <span class=\"search-result-import-path\">client/src/view/OpusPage.js</span>",
@@ -180,9 +264,27 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "client/src/component/matchingresult/paintingtomatch.js~paintingtomatch",
+    "function/index.html#static-function-PaintingToMatch",
+    "<span>PaintingToMatch</span> <span class=\"search-result-import-path\">client/src/component/MatchingResult/PaintingToMatch.js</span>",
+    "function"
+  ],
+  [
     "client/src/component/homepage/randominfo.js~randominfo",
     "function/index.html#static-function-RandomInfo",
     "<span>RandomInfo</span> <span class=\"search-result-import-path\">client/src/component/HomePage/RandomInfo.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/matchingresult/resultmatch.js~resultmatch",
+    "function/index.html#static-function-ResultMatch",
+    "<span>ResultMatch</span> <span class=\"search-result-import-path\">client/src/component/MatchingResult/ResultMatch.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/matchingcolor/resultmatchingcolor.js~resultmatchingcolor",
+    "function/index.html#static-function-ResultMatchingColor",
+    "<span>ResultMatchingColor</span> <span class=\"search-result-import-path\">client/src/component/MatchingColor/ResultMatchingColor.js</span>",
     "function"
   ],
   [
@@ -198,9 +300,27 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "client/src/component/homepage/searchartist.js~searchartist",
+    "function/index.html#static-function-SearchArtist",
+    "<span>SearchArtist</span> <span class=\"search-result-import-path\">client/src/component/HomePage/SearchArtist.js</span>",
+    "function"
+  ],
+  [
     "client/src/component/homepage/searchbar.js~searchbar",
     "function/index.html#static-function-SearchBar",
     "<span>SearchBar</span> <span class=\"search-result-import-path\">client/src/component/HomePage/SearchBar.js</span>",
+    "function"
+  ],
+  [
+    "client/src/component/homepage/searchcolor.js~searchcolor",
+    "function/index.html#static-function-SearchColor",
+    "<span>SearchColor</span> <span class=\"search-result-import-path\">client/src/component/HomePage/SearchColor.js</span>",
+    "function"
+  ],
+  [
+    "client/src/view/signin.js~signin",
+    "function/index.html#static-function-SignIn",
+    "<span>SignIn</span> <span class=\"search-result-import-path\">client/src/view/SignIn.js</span>",
     "function"
   ],
   [
@@ -219,6 +339,12 @@ window.esdocSearchIndex = [
     "client/src/component/general/squelettehead.js~squelettehead",
     "function/index.html#static-function-SqueletteHead",
     "<span>SqueletteHead</span> <span class=\"search-result-import-path\">client/src/component/general/SqueletteHead.js</span>",
+    "function"
+  ],
+  [
+    "client/src/view/startpage.js~startpage",
+    "function/index.html#static-function-StartPage",
+    "<span>StartPage</span> <span class=\"search-result-import-path\">client/src/view/StartPage.js</span>",
     "function"
   ],
   [
@@ -564,9 +690,21 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/component/artistdetailpage/listpaintartist.js",
+    "file/src/component/ArtistDetailPage/ListPaintArtist.js.html",
+    "src/component/ArtistDetailPage/ListPaintArtist.js",
+    "file"
+  ],
+  [
     "src/component/artistdetailpage/similarartist.js",
     "file/src/component/ArtistDetailPage/SimilarArtist.js.html",
     "src/component/ArtistDetailPage/SimilarArtist.js",
+    "file"
+  ],
+  [
+    "src/component/atelier/accueil.js",
+    "file/src/component/Atelier/Accueil.js.html",
+    "src/component/Atelier/Accueil.js",
     "file"
   ],
   [
@@ -600,6 +738,18 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/component/compteamateurpage/comments.js",
+    "file/src/component/CompteAmateurPage/Comments.js.html",
+    "src/component/CompteAmateurPage/Comments.js",
+    "file"
+  ],
+  [
+    "src/component/compteamateurpage/displayuser.js",
+    "file/src/component/CompteAmateurPage/DisplayUser.js.html",
+    "src/component/CompteAmateurPage/DisplayUser.js",
+    "file"
+  ],
+  [
     "src/component/compteamateurpage/favartists.js",
     "file/src/component/CompteAmateurPage/FavArtists.js.html",
     "src/component/CompteAmateurPage/FavArtists.js",
@@ -609,6 +759,12 @@ window.esdocSearchIndex = [
     "src/component/compteamateurpage/likes.js",
     "file/src/component/CompteAmateurPage/Likes.js.html",
     "src/component/CompteAmateurPage/Likes.js",
+    "file"
+  ],
+  [
+    "src/component/compteamateurpage/lists.js",
+    "file/src/component/CompteAmateurPage/Lists.js.html",
+    "src/component/CompteAmateurPage/Lists.js",
     "file"
   ],
   [
@@ -630,9 +786,27 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/component/homepage/matchingimage.js",
+    "file/src/component/HomePage/MatchingImage.js.html",
+    "src/component/HomePage/MatchingImage.js",
+    "file"
+  ],
+  [
+    "src/component/homepage/mostmatched.js",
+    "file/src/component/HomePage/MostMatched.js.html",
+    "src/component/HomePage/MostMatched.js",
+    "file"
+  ],
+  [
     "src/component/homepage/randominfo.js",
     "file/src/component/HomePage/RandomInfo.js.html",
     "src/component/HomePage/RandomInfo.js",
+    "file"
+  ],
+  [
+    "src/component/homepage/searchartist.js",
+    "file/src/component/HomePage/SearchArtist.js.html",
+    "src/component/HomePage/SearchArtist.js",
     "file"
   ],
   [
@@ -642,15 +816,63 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/component/homepage/searchcolor.js",
+    "file/src/component/HomePage/SearchColor.js.html",
+    "src/component/HomePage/SearchColor.js",
+    "file"
+  ],
+  [
+    "src/component/listeamateurpage/ displayinfolist.js",
+    "file/src/component/ListeAmateurPage/ DisplayInfoList.js.html",
+    "src/component/ListeAmateurPage/ DisplayInfoList.js",
+    "file"
+  ],
+  [
+    "src/component/listeamateurpage/displaylist.js",
+    "file/src/component/ListeAmateurPage/DisplayList.js.html",
+    "src/component/ListeAmateurPage/DisplayList.js",
+    "file"
+  ],
+  [
     "src/component/matchingcolor/colorchooser.js",
     "file/src/component/MatchingColor/ColorChooser.js.html",
     "src/component/MatchingColor/ColorChooser.js",
     "file"
   ],
   [
+    "src/component/matchingcolor/resultmatchingcolor.js",
+    "file/src/component/MatchingColor/ResultMatchingColor.js.html",
+    "src/component/MatchingColor/ResultMatchingColor.js",
+    "file"
+  ],
+  [
+    "src/component/matchingresult/paintingtomatch.js",
+    "file/src/component/MatchingResult/PaintingToMatch.js.html",
+    "src/component/MatchingResult/PaintingToMatch.js",
+    "file"
+  ],
+  [
+    "src/component/matchingresult/resultmatch.js",
+    "file/src/component/MatchingResult/ResultMatch.js.html",
+    "src/component/MatchingResult/ResultMatch.js",
+    "file"
+  ],
+  [
     "src/component/opuspage/painting.js",
     "file/src/component/OpusPage/Painting.js.html",
     "src/component/OpusPage/Painting.js",
+    "file"
+  ],
+  [
+    "src/component/opuspage/similarpaint.js",
+    "file/src/component/OpusPage/SimilarPaint.js.html",
+    "src/component/OpusPage/SimilarPaint.js",
+    "file"
+  ],
+  [
+    "src/component/userinfo/amateurinfo.js",
+    "file/src/component/UserInfo/AmateurInfo.js.html",
+    "src/component/UserInfo/AmateurInfo.js",
     "file"
   ],
   [
@@ -750,15 +972,33 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/view/homepage.js",
+    "file/src/view/HomePage.js.html",
+    "src/view/HomePage.js",
+    "file"
+  ],
+  [
     "src/view/listeamateurpage.js",
     "file/src/view/ListeAmateurPage.js.html",
     "src/view/ListeAmateurPage.js",
     "file"
   ],
   [
+    "src/view/login.js",
+    "file/src/view/LogIn.js.html",
+    "src/view/LogIn.js",
+    "file"
+  ],
+  [
     "src/view/matchingcolor.js",
     "file/src/view/MatchingColor.js.html",
     "src/view/MatchingColor.js",
+    "file"
+  ],
+  [
+    "src/view/matchingimage.js",
+    "file/src/view/MatchingImage.js.html",
+    "src/view/MatchingImage.js",
     "file"
   ],
   [
@@ -774,9 +1014,21 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/view/signin.js",
+    "file/src/view/SignIn.js.html",
+    "src/view/SignIn.js",
+    "file"
+  ],
+  [
     "src/view/signinpage.js",
     "file/src/view/SignInPage.js.html",
     "src/view/SignInPage.js",
+    "file"
+  ],
+  [
+    "src/view/startpage.js",
+    "file/src/view/StartPage.js.html",
+    "src/view/StartPage.js",
     "file"
   ],
   [

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/CompteAmateurPage/Comments.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Accueil">Accueil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Comments">Comments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayUser">DisplayUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Lists">Lists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MostMatched">MostMatched</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchArtist">SearchArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchColor">SearchColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-listeamateurpage">component/ListeAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayInfoList">DisplayInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayList">DisplayList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatchingColor">ResultMatchingColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingresult">component/MatchingResult</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PaintingToMatch">PaintingToMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatch">ResultMatch</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-userinfo">component/UserInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AmateurInfo">AmateurInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogIn">LogIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignIn">SignIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-StartPage">StartPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/CompteAmateurPage/Comments.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import close from &quot;../../webapp/img/icons/ico_close_2.svg&quot;
+import lockB from &quot;../../webapp/img/icons/content_locked_1-2.svg&quot;
+import unlockB from &quot;../../webapp/img/icons/content_unlocked_1-2.svg&quot;
+import lockR from &quot;../../webapp/img/icons/content_locked_1-3.svg&quot;
+import unlockR from &quot;../../webapp/img/icons/content_unlocked_1-3.svg&quot;
+import { Link } from &quot;react-router-dom&quot;;
+import dayjs from &quot;dayjs&quot;;
+import localeFr from &quot;dayjs/locale/fr&quot;;
+
+
+
+
+
+/**
+ * This component contain your painting comment list
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ * @emits - api/painting_comment/byUserId: get list of user comments
+ * @emits - api/painting_comment/byId?commentId=${comId} : delete selected comment
+ * @emits - api/painting_comment/update : edit selected comment
+ */
+
+export default function Comments({ user, setUser }) {
+
+    // const [refreshKey, setRefreshKey] = useState(0);
+    // const [comment, setComment] = useState([]);
+    // const [checked, setChecked] = useState(false);
+    // const [date, setDate] = useState([]);
+    // const [boolVis, setBoolVis] = useState([false]);
+
+
+    // // Call Jquery script
+    // useEffect(() =&gt; {
+    //     const loadFile = async () =&gt; {
+    //         const { modal } = await import(&quot;../../webapp/js/js_source/modalBox&quot;);
+
+
+    //         modal();
+    //     };
+    //     loadFile();
+    // }, []);
+
+    // //Get Comment List//
+    // useEffect(() =&gt; {
+    //     axios
+    //         .get(URLDayl + &quot;api/painting_comment/byUserId&quot;, { params: { userId: user.id } }
+    //         )
+    //         .then((response) =&gt; {
+    //             setComment(response.data);
+
+    //             const boolArray = response.data.map((el) =&gt; {
+    //                 if (el.visibility === &quot;PUBLIC&quot;)
+    //                     return { ...el, boolDelete: false, boolShare: false, boolEdit: false, boolV: true }
+    //                 else
+    //                     return { ...el, boolDelete: false, boolShare: false, boolEdit: false, boolV: false }
+
+    //             });
+
+    //             //tri date
+    //             boolArray.sort(function (a, b) {
+    //                 if (a.creation &gt; b.creation) {
+    //                     return -1;
+    //                 }
+    //                 else if (a.creation == b.creation) {
+    //                     return 0;
+    //                 }
+    //                 else {
+    //                     return 1;
+    //                 }
+    //             })
+    //             let tempCrea = [];
+    //             //conversion en fran&#xE7;ais 
+    //             boolArray.map((el, index) =&gt; {
+    //                 el.date = dayjs(el.creation).locale(localeFr).format(&quot;DD MMMM YYYY&quot;);
+    //                 el.creation = dayjs(el.creation).locale(localeFr).format(&quot;MMMM YYYY&quot;);
+    //                 console.log(el.date)
+    //                 tempCrea.push(el.creation);
+    //             });
+    //             //retire les doublons de date
+    //             tempCrea = tempCrea.filter(function (item, pos) { return tempCrea.indexOf(item) === pos })
+
+    //             setDate(tempCrea);
+    //             setComment(boolArray)
+    //         });
+
+    // }, [refreshKey]);
+    // console.log(comment);
+
+
+    // //////////afficher modale suppression//////////
+    // const handleBoolDeleteTrue = (index) =&gt; {
+
+    //     const tempBool = [...comment]
+
+    //     tempBool[index].boolDelete = true;
+    //     setComment(tempBool);
+    // }
+
+    // //////////cacher modale suppression//////////
+    // const handleBoolDeleteFalse = (index) =&gt; {
+
+    //     const tempBool = [...comment]
+
+    //     tempBool[index].boolDelete = false;
+    //     setComment(tempBool);
+
+    // }
+    // //suprimer un commentaire
+    // const deleteCom = (comId) =&gt; {
+
+    //     axios.delete(URLDayl + `api/painting_comment/byId?commentId=${comId}`,
+    //         { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+    //     )
+    //         .then((response) =&gt; {
+
+    //             setRefreshKey(oldKey =&gt; oldKey + 1);
+
+    //         });
+
+
+    //     setRefreshKey(oldKey =&gt; oldKey + 1);
+    // }
+
+
+    // ////////////afficher modale edit////////////
+    // const handleBoolEditTrue = (index) =&gt; {
+
+    //     const tempBool = [...comment]
+
+    //     tempBool[index].boolEdit = true;
+    //     setComment(tempBool);
+    // }
+
+    // ////////////cacher modale edit////////////
+    // const handleBoolEditFalse = (index) =&gt; {
+
+    //     const tempBool = [...comment]
+
+    //     tempBool[index].boolEdit = false;
+    //     setComment(tempBool);
+
+    // }
+
+    // //Edit un commentaire
+    // const editCom = (comId, index) =&gt; {
+
+    //     //changement de la visibilit&#xE9;e
+    //     const tempCheck = [...comment]
+    //     if (comment[index].boolV === true)
+    //         tempCheck[index].visibility = &quot;PUBLIC&quot;
+    //     else
+    //         tempCheck[index].visibility = &quot;PRIVATE&quot;
+
+
+    //     setComment(tempCheck)
+
+    //     //update dans l&apos;api
+    //     axios.post(URLDayl + &quot;api/painting_comment/update&quot;,
+    //         { id: comId, content: comment[index].content, visibility: comment[index].visibility }, { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+    //     )
+    //         .then((response) =&gt; {
+    //             setRefreshKey(oldKey =&gt; oldKey + 1);
+
+    //         });
+    // }
+
+    // const editChange = (value, index) =&gt; {
+
+    //     const tempComment = [...comment];
+
+    //     tempComment[index].content = value;
+    //     setComment(tempComment);
+
+    // }
+    // ///////////////Change visibility////////////
+    // const handleCheck = (index) =&gt; {
+    //     console.log(&quot;test check&quot;)
+    //     const tempComment = [...comment]
+
+    //     if (tempComment[index].boolV === false)
+    //         tempComment[index].boolV = true;
+    //     else {
+    //         tempComment[index].boolV = false;
+    //     }
+    //     setComment(tempComment)
+    // }
+
+
+    // //////////afficher modale partage//////////
+    // const handleBoolShareTrue = (index) =&gt; {
+
+    //     const tempBool = [...comment]
+
+    //     tempBool[index].boolShare = true;
+    //     setComment(tempBool);
+    // }
+
+    // ////////////cacher modale partage////////////
+    // const handleBoolShareFalse = (index) =&gt; {
+
+    //     const tempBool = [...comment]
+
+    //     tempBool[index].boolShare = false;
+    //     setComment(tempBool);
+
+    // }
+    // const shareCom = (comId) =&gt; {
+    // }
+
+    // const handleBoolVis = () =&gt; {
+
+    //     if (boolVis === true) {
+    //         setBoolVis(false)
+    //     }
+    //     else {
+    //         setBoolVis(true)
+    //     }
+    // }
+
+
+    // return (
+    //     &lt;div className=&quot;Comments&quot;&gt;
+
+    //         &lt;div className=&quot;accountComments&quot;&gt;
+    //             {date.length &gt; 0 &amp;&amp; date.map((el, index) =&gt; {
+
+    //                 return (&lt;div&gt;&lt;h1&gt;{el}&lt;/h1&gt; {comment.length &gt; 0 &amp;&amp;
+    //                     comment.map((com, index) =&gt; {
+    //                         if (com.creation === el)
+    //                             return (
+    //                                 &lt;div&gt;
+
+
+    //                                     &lt;div className=&quot;item&quot;&gt;
+
+    //                                         &lt;div className=&quot;commentImg&quot; style={{ backgroundImage: `url(${URLDayl}images/content/mini/${com.artistId}/${com.imageName})` }}&gt;&lt;/div&gt;
+
+    //                                         &lt;h2&gt;&lt;Link to={`../../view/OpusPage.js/${com.paintingId}`} state={com.paintingId} &gt;{com.paintingTitle}, 1967&lt;/Link&gt;&lt;/h2&gt;
+
+    //                                         &lt;h3&gt;&lt;Link to={`../../view/ArtistDetailPage.js/${com.artistId}`} state={com.artistId}&gt;{com.painterName}&lt;/Link&gt;&lt;/h3&gt;
+    //                                         &lt;h4&gt;&lt;img className=&quot;commentIsLocked&quot; src={com.visibility === &quot;PUBLIC&quot; ? unlockR : lockR} /&gt;Commentaire du {com.date}:&lt;/h4&gt;
+
+    //                                         &lt;p&gt;{com.content}&lt;/p&gt;
+
+    //                                         &lt;input type=&quot;button&quot; className=&quot;openModalNow deleteComment&quot; onClick={() =&gt; handleBoolDeleteTrue(index)} /&gt;
+    //                                         &lt;input type=&quot;button&quot; className=&quot; openModalNow editComment&quot; onClick={() =&gt; handleBoolEditTrue(index)} /&gt;
+    //                                         &lt;input type=&quot;button&quot; className=&quot; openModalNow shareComment&quot; onClick={() =&gt; handleBoolShareTrue(index)} /&gt;
+
+    //                                     &lt;/div&gt;
+
+    //                                     {com.boolDelete === true &amp;&amp;
+    //                                         &lt;div&gt;
+    //                                             &lt;div className=&quot;smart-modal-overlay&quot; style={{ display: &quot;block&quot; }}&gt;&lt;/div&gt;
+    //                                             &lt;div id=&quot;comment0123_delete&quot; className=&quot;smart-modal-content-l scrollAuto&quot; style={{ transform: &quot;translate(-50%,-50%)&quot;, display: &quot;inline-flex&quot;, flexWrap: &quot;wrap&quot;, minHeight: &quot;0&quot; }}&gt;
+    //                                                 &lt;h3&gt;Supprimer mon commentaire&lt;/h3&gt;
+    //                                                 &lt;a className=&quot;smart-modal-close&quot;&gt;&lt;img className=&quot;img-left&quot; src={close} alt=&quot;Trier&quot; onClick={() =&gt; handleBoolDeleteFalse(index)} /&gt;&lt;/a&gt;
+    //                                                 &lt;div className=&quot;commentModal center-col overL-1&quot;&gt;
+
+    //                                                     &lt;p className=&quot;mb-b&quot;&gt;&#xCA;tes-vous s&#xFB;r de vouloir supprimer ce commentaire ?&lt;/p&gt;
+
+    //                                                     &lt;ul className=&quot;inlineList mb-a&quot;&gt;
+    //                                                         &lt;li&gt;&lt;input type=&quot;button&quot; className=&quot;formGreyBtn&quot; value=&quot;Annuler&quot; onClick={() =&gt; handleBoolDeleteFalse(index)} /&gt;&lt;/li&gt;
+    //                                                         &lt;li&gt;&lt;input type=&quot;button&quot; className=&quot;formRedBtn&quot; value=&quot;Supprimer&quot; onClick={() =&gt; deleteCom(com.id)} /&gt;&lt;/li&gt;
+    //                                                     &lt;/ul&gt;
+    //                                                 &lt;/div&gt;
+    //                                             &lt;/div&gt;
+    //                                         &lt;/div&gt;}
+
+
+
+    //                                     {com.boolEdit === true &amp;&amp;
+
+    //                                         &lt;div&gt;
+    //                                             &lt;div className=&quot;smart-modal-overlay&quot; style={{ display: &quot;block&quot;}}&gt;&lt;/div&gt;
+    //                                             &lt;div id=&quot;comment0123_edit&quot; className=&quot;smart-modal-content-l scrollAuto&quot; style={{ transform: &quot;translate(-50%,-50%)&quot;, display: &quot;inline-flex&quot;, flexWrap: &quot;wrap&quot;, minHeight: &quot;0&quot;}}&gt;
+    //                                                 &lt;h3&gt;&#xC9;diter mon commentaire&lt;/h3&gt;
+    //                                                 &lt;a className=&quot;smart-modal-close&quot;&gt;&lt;img className=&quot;img-left&quot; src={close} alt=&quot;Trier&quot; onClick={() =&gt; handleBoolEditFalse(index)} /&gt;&lt;/a&gt;
+    //                                                 &lt;div className=&quot;commentModal overL-1&quot;&gt;
+    //                                                     &lt;div className=&quot;commentImg&quot; style={{ backgroundImage: `url(${URLDayl}images/content/mini/${com.artistId}/${com.imageName})` }}&gt;&lt;/div&gt;
+    //                                                     &lt;p className=&quot;title&quot;&gt;{com.paintingTitle}, 1967&lt;/p&gt;
+    //                                                     &lt;p&gt;&lt;Link className=&quot;artist&quot; to={`../../view/ArtistDetailPage.js/${com.artistId}`} state={com.artistId &amp;&amp; com.artistId}&gt;{com.painterName}&lt;/Link&gt;&lt;/p&gt;
+    //                                                     &lt;p className=&quot;commentDate&quot;&gt;commentaire du 15 mai 2022:&lt;/p&gt;
+    //                                                     &lt;textarea onChange={(e) =&gt; editChange(e.target.value, index)} value={com.content} id=&quot;story&quot; name=&quot;story&quot; rows=&quot;5&quot; cols=&quot;33&quot; style={{height: &quot;110px&quot;}}&gt;&lt;/textarea&gt;
+    //                                                     {/* &lt;div className=&quot;toggleBox&quot;&gt;
+    //                                                         &lt;div className=&quot;lilToggle mt-b mb-b&quot;&gt;
+    //                                                             &lt;input type=&quot;checkbox&quot; onChange={(e) =&gt; handleCheck(index)} name=&quot;toggleDesc&quot; defaultChecked={com.boolV} /&gt;
+    //                                                             &lt;img src={lockB} style={{ width: &quot;20px&quot;, height: &quot;20px&quot;, bottom: &quot;6px&quot;, right: &quot;8px&quot;, position: &quot;absolute&quot; }} /&gt;
+    //                                                             &lt;img src={unlockB} style={{ width: &quot;20px&quot;, height: &quot;20px&quot;, bottom: &quot;6px&quot;, left: &quot;7px&quot;, position: &quot;absolute&quot; }} /&gt;
+    //                                                         &lt;/div&gt;
+    //                                                         {com &amp;&amp; com.boolV === true ? &lt;span&gt;Mode public&lt;/span&gt;
+    //                                                             : &lt;span&gt;Mode priv&#xE9;e&lt;/span&gt;}
+    //                                                     &lt;/div&gt; */}
+    //                                                    	&lt;input type=&quot;text&quot; size=&quot;55&quot; placeholder=&quot;Ex : expressionnisme, surr&#xE9;alisme &#x2026;&quot; style={{width: &quot;100%&quot;, marginTop: &quot;20px&quot;}}/&gt;
+    //                                 &lt;div className=&quot;hashList toLeft&quot;&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                     &lt;a href=&quot;#&quot;&gt;#hashtag&lt;/a&gt;
+    //                                 &lt;/div&gt;
+    //                                                     &lt;ul className=&quot;inlineList mb-a&quot; style={{marginTop: &quot;30px&quot;}}&gt;
+    //                                                         &lt;li&gt;&lt;input type=&quot;button&quot; className=&quot;formGreyBtn&quot; value=&quot;Annuler&quot; onClick={() =&gt; handleBoolEditFalse(index)} /&gt;&lt;/li&gt;
+    //                                                         &lt;li&gt;&lt;input type=&quot;button&quot; className=&quot;formRedBtn&quot; value=&quot;Enregistrer&quot; onClick={() =&gt; editCom(com.id, index)} /&gt;&lt;/li&gt;
+    //                                                     &lt;/ul&gt;
+    //                                                 &lt;/div&gt;
+    //                                             &lt;/div&gt;
+    //                                         &lt;/div&gt;}
+
+
+
+
+    //                                     {com.boolShare === true &amp;&amp;
+    //                                         &lt;div&gt;
+    //                                             &lt;div className=&quot;smart-modal-overlay&quot; style={{ display: &quot;block&quot; }}&gt;&lt;/div&gt;
+    //                                             &lt;div id=&quot;comment0123_share&quot; className=&quot;smart-modal-content-l scrollAuto&quot; style={{ transform: &quot;translate(-50%,-50%)&quot;, display: &quot;inline-flex&quot;, flexWrap: &quot;wrap&quot;, minHeight: &quot;0&quot;}}&gt;
+    //                                                 &lt;h3&gt;Partager mon commentaire&lt;/h3&gt;
+    //                                                 &lt;a className=&quot;smart-modal-close&quot;&gt;&lt;img className=&quot;img-left&quot; src={close} alt=&quot;Trier&quot; onClick={() =&gt; handleBoolShareFalse(index)} /&gt;&lt;/a&gt;
+    //                                                 &lt;div className=&quot;shareModal overL-1&quot;&gt;
+
+    //                                                     &lt;p className=&quot;commentDate&quot;&gt;commentaire du 15 mai 2022:&lt;/p&gt;
+    //                                                     &lt;p className=&quot;comment&quot;&gt;{com.content}&lt;/p&gt;
+
+    //                                                     &lt;div className=&quot;itemFrame&quot;&gt;
+    //                                                         &lt;div className=&quot;commentImg&quot; style={{ backgroundImage: `url(${URLDayl}images/content/mini/${com.artistId}/${com.imageName})` }}&gt;&lt;/div&gt;
+    //                                                         &lt;p className=&quot;title&quot;&gt;{com.paintingTitle}, 1967&lt;/p&gt;
+    //                                                         &lt;p&gt;&lt;Link className=&quot;artist&quot; to={`../../view/ArtistDetailPage.js/${com.artistId}`} state={com.artistId &amp;&amp; com.artistId}&gt;{com.painterName}&lt;/Link&gt;&lt;/p&gt;
+    //                                                         &lt;ul className=&quot;inlineList mb-a&quot;&gt;
+    //                                                             &lt;Link className=&quot;modalGreyBtn&quot; to={`../../view/OpusPage.js/${com.paintingId}`} state={com.paintingId &amp;&amp; com.paintingId}&gt;
+
+    //                                                                 voir
+    //                                                             &lt;/Link&gt;
+    //                                                             {/* &lt;Link className=&quot;modalMatchBtn&quot; to={`../../view/MatchingPage.js/${com.paintingId}`} style={{ color: &quot;white&quot; }} state={com.paintingId &amp;&amp; com.paintingId}&gt;
+    //                                                                 match
+    //                                                             &lt;/Link&gt; */}
+
+    //                                                         &lt;/ul&gt;
+    //                                                     &lt;/div&gt;
+    //                                                     &lt;div className=&quot;toggleBox&quot;&gt;
+    //                                                         &lt;div className=&quot;lilToggle mt-b mb-b&quot;&gt;
+    //                                                             &lt;input type=&quot;checkbox&quot; onChange={(e) =&gt; handleCheck(index)} name=&quot;toggleDesc&quot; defaultChecked={com.boolV} /&gt;
+    //                                                             &lt;img src={lockB} style={{ width: &quot;20px&quot;, height: &quot;20px&quot;, bottom: &quot;6px&quot;, right: &quot;8px&quot;, position: &quot;absolute&quot; }} /&gt;
+    //                                                             &lt;img src={unlockB} style={{ width: &quot;20px&quot;, height: &quot;20px&quot;, bottom: &quot;6px&quot;, left: &quot;7px&quot;, position: &quot;absolute&quot; }} /&gt;
+    //                                                         &lt;/div&gt;
+    //                                                         {com &amp;&amp; com.boolV === true ? &lt;span&gt;Mode public&lt;/span&gt;
+    //                                                             : &lt;span&gt;Mode priv&#xE9;e&lt;/span&gt;}
+    //                                                     &lt;/div&gt;
+    //                                                     &lt;ul className=&quot;inlineList mb-a&quot;&gt;
+    //                                                         &lt;li&gt;&lt;input type=&quot;button&quot; className=&quot;formGreyBtn&quot; value=&quot;Annuler&quot; onClick={() =&gt; handleBoolShareFalse(index)} /&gt;&lt;/li&gt;
+    //                                                         &lt;li&gt;&lt;input type=&quot;button&quot; className=&quot;formRedBtn&quot; value=&quot;Partager&quot; onClick={() =&gt; {shareCom(com.id);editCom(com.id, index);}} /&gt;&lt;/li&gt;
+    //                                                     &lt;/ul&gt;
+    //                                                 &lt;/div&gt;
+    //                                             &lt;/div&gt;
+    //                                         &lt;/div&gt;
+    //                                     }
+
+    //                                 &lt;/div&gt;
+    //                             )
+    //                     })}&lt;/div&gt;)
+
+
+
+
+    //             })}
+
+
+
+    //         &lt;/div&gt;
+
+
+    //         &lt;div className=&quot;cont-l-w center-tex&quot;&gt;
+    //             &lt;a className=&quot;viewMore&quot; &gt;Voir plus&lt;/a&gt;
+    //         &lt;/div&gt;
+
+    //     &lt;/div &gt;
+    // )
+
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

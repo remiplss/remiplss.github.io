@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/Atelier/Accueil.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Accueil">Accueil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Comments">Comments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayUser">DisplayUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Lists">Lists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MostMatched">MostMatched</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchArtist">SearchArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchColor">SearchColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-listeamateurpage">component/ListeAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayInfoList">DisplayInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayList">DisplayList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatchingColor">ResultMatchingColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingresult">component/MatchingResult</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PaintingToMatch">PaintingToMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatch">ResultMatch</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-userinfo">component/UserInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AmateurInfo">AmateurInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogIn">LogIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignIn">SignIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-StartPage">StartPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/Atelier/Accueil.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import { Link } from &quot;react-router-dom&quot;;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import &quot;../../webapp/css/atelier.css&quot;
+
+
+
+/**
+ * Page to update your artist Account
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ *  @param {boolean} isLogged - test if the user is logged
+ */
+export default function Accueil({ user, setUser, isLogged }) {
+
+
+
+
+
+    // // Call Jquery script
+    // useEffect(() =&gt; {
+    //     const loadFile = async () =&gt; {
+    //         const { stat } = await import(&quot;../../webapp/js/stats.min.js&quot;);
+
+
+    //         stat();
+    //     };
+    //     loadFile();
+    // }, []);
+
+
+    // return (
+
+    //     &lt;div className=&quot;Accueil&quot;&gt;
+    //         &lt;main class=&quot;workShopMain&quot;&gt;
+
+    //             &lt;h2 className=&quot;workShopWelcome&quot;&gt;Bonjour ,&lt;/h2&gt;
+    //             &lt;p&gt;Bienvenue dans votre atelier Dayl.art. Dans cet espace vous pourrez &#x2026; Gr&#xE2;ce aux technologie de reconnaissance d&#x2019;image les plus avanc&#xE9;es vous pourrez rapprochez vos peintures &#x2026;&lt;/p&gt;
+
+    //             {/* &lt;!-- SECTION PARTAGER UNE PENSEE - d&#xE9;but --&gt; */}
+    //             &lt;section className=&quot;mt-c&quot;&gt;
+    //                 &lt;h3 className=&quot;mt-a&quot;&gt;Une pens&#xE9;e &#xE0; partager ?&lt;/h3&gt;
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- SECTION PARTAGER UNE PENSEE - fin --&gt; */}
+
+    //             {/* &lt;!-- SECTION STATISTIQUES RAPIDES ATELIER - d&#xE9;but --&gt; */}
+    //             &lt;section className=&quot;mt-c&quot;&gt;
+    //                 &lt;h3&gt;Ce mois-ci, dans votre atelier :&lt;/h3&gt;
+    //                 &lt;div className=&quot;itemCounters&quot;&gt;
+    //                     &lt;article&gt;
+    //                         &lt;div className=&quot;itemCounter&quot; data-target=&quot;12&quot;&gt;&lt;/div&gt;
+    //                         &lt;h4&gt;Image ajout&#xE9;es&lt;/h4&gt;
+    //                     &lt;/article&gt;
+    //                     &lt;article&gt;
+    //                         &lt;div className=&quot;itemCounter&quot; data-target=&quot;3&quot;&gt;&lt;/div&gt;
+    //                         &lt;h4&gt;Brouillons&lt;/h4&gt;
+    //                     &lt;/article&gt;
+    //                     &lt;article&gt;
+    //                         &lt;div className=&quot;itemCounter&quot; data-target=&quot;6&quot;&gt;&lt;/div&gt;
+    //                         &lt;h4&gt;Peintures&lt;/h4&gt;
+    //                     &lt;/article&gt;
+    //                     &lt;article&gt;
+    //                         &lt;div className=&quot;itemCounter&quot; data-target=&quot;17&quot;&gt;&lt;/div&gt;
+    //                         &lt;h4&gt;j&#x2019;aimes&lt;/h4&gt;
+    //                     &lt;/article&gt;
+    //                 &lt;/div&gt;
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- SECTION STATISTIQUES RAPIDES ATELIER - fin --&gt; */}
+
+    //             {/* &lt;!-- SECTION DERNIERES IMAGES AJOUTEES - d&#xE9;but --&gt; */}
+    //             &lt;section class=&quot;mt-c&quot;&gt;
+    //                 &lt;h3&gt;Derni&#xE8;res images ajout&#xE9;es&lt;/h3&gt;
+    //                 &lt;p&gt;Vous trouverez ci-dessous les derni&#xE8;res images que vous avez ajout&#xE9;es. Vous pouvez commencer &#xE0; renseigner ces nouvelles images, en ajouter ou en supprimer. Cr&#xE9;ez les descriptifs de vos peintures , publiez et partagez les en ligne.&lt;/p&gt;
+    //                 {/* &lt;!-- item grid type 2 - d&#xE9;but --&gt; */}
+    //                 &lt;div class=&quot;itemGridType-2&quot;&gt;
+    //                     {/* &lt;!-- item - d&#xE9;but --&gt; */}
+    //                     &lt;div class=&quot;itemBox&quot; style={{ backgroundImage: &quot;url(&apos;temp/leonora_more_1.jpg&apos;)&quot;, backgroundPosition: &quot;50% center&quot;, backgroundSize: &quot;cover&quot;, backgroundRepeat: &quot;no-repeat&quot; }}&gt;
+    //                         &lt;div class=&quot;dataModify&quot;&gt;&lt;img src=&quot;img/icons/atelier_side_edit_1.svg&quot; alt=&quot;Modifier&quot; /&gt;&lt;/div&gt;
+    //                         &lt;input type=&quot;button&quot; class=&quot;unfollow&quot; value=&quot;&quot; /* onclick=&quot;openCloseNextDiv(this);&quot; */ /&gt;
+    //                         &lt;div class=&quot;deleteConfirm&quot;&gt;
+    //                             &lt;span class=&quot;deleteText&quot;&gt;Supprimer?&lt;/span&gt;
+    //                             &lt;button type=&quot;button&quot; class=&quot;yes closeTwoParentsNow&quot; value=&quot;&quot;&gt;Oui&lt;/button&gt;
+    //                             &lt;button type=&quot;button&quot; class=&quot;no closeParentNow&quot; value=&quot;&quot;&gt;Non&lt;/button&gt;
+    //                         &lt;/div&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- item - fin --&gt; */}
+    //                     {/* &lt;!-- item - d&#xE9;but --&gt; */}
+    //                     &lt;div class=&quot;itemBox&quot; style={{ backgroundImage: &quot;url(&apos;temp/leonora_more_1.jpg&apos;)&quot;, backgroundPosition: &quot;50% center&quot;, backgroundSize: &quot;cover&quot;, backgroundRepeat: &quot;no-repeat&quot; }}&gt;
+    //                         &lt;div class=&quot;dataModify&quot;&gt;&lt;img src=&quot;img/icons/atelier_side_edit_1.svg&quot; alt=&quot;Modifier&quot; /&gt;&lt;/div&gt;
+    //                         &lt;input type=&quot;button&quot; class=&quot;unfollow&quot; value=&quot;&quot; /* onclick=&quot;openCloseNextDiv(this);&quot; */ /&gt;
+    //                         &lt;div class=&quot;deleteConfirm&quot;&gt;
+    //                             &lt;span class=&quot;deleteText&quot;&gt;Supprimer?&lt;/span&gt;
+    //                             &lt;button type=&quot;button&quot; class=&quot;yes closeTwoParentsNow&quot; value=&quot;&quot;&gt;Oui&lt;/button&gt;
+    //                             &lt;button type=&quot;button&quot; class=&quot;no closeParentNow&quot; value=&quot;&quot;&gt;Non&lt;/button&gt;
+    //                         &lt;/div&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- item - fin --&gt; */}
+    //                     {/* &lt;!-- item - d&#xE9;but --&gt; */}
+    //                     &lt;div class=&quot;itemBox&quot; style={{ backgroundImage: &quot;url(&apos;temp/leonora_more_1.jpg&apos;)&quot;, backgroundPosition: &quot;50% center&quot;, backgroundSize: &quot;cover&quot;, backgroundRepeat: &quot;no-repeat&quot; }}&gt;
+    //                         &lt;div class=&quot;dataModify&quot;&gt;&lt;img src=&quot;img/icons/atelier_side_edit_1.svg&quot; alt=&quot;Modifier&quot; /&gt;&lt;/div&gt;
+    //                         &lt;input type=&quot;button&quot; class=&quot;unfollow&quot; value=&quot;&quot; /* onclick=&quot;openCloseNextDiv(this);&quot; */ /&gt;
+    //                         &lt;div class=&quot;deleteConfirm&quot;&gt;
+    //                             &lt;span class=&quot;deleteText&quot;&gt;Supprimer?&lt;/span&gt;
+    //                             &lt;button type=&quot;button&quot; class=&quot;yes closeTwoParentsNow&quot; value=&quot;&quot;&gt;Oui&lt;/button&gt;
+    //                             &lt;button type=&quot;button&quot; class=&quot;no closeParentNow&quot; value=&quot;&quot;&gt;Non&lt;/button&gt;
+    //                         &lt;/div&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- item - fin --&gt; */}
+    //                 &lt;/div&gt;
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- SECTION DERNIERES IMAGES AJOUTEES - fin --&gt; */}
+
+    //             {/* &lt;!-- SECTION AJOUTER DES IMAGES - d&#xE9;but --&gt; */}
+    //             &lt;section class=&quot;mt-c&quot;&gt;
+    //                 &lt;h3&gt;Ajouter de nouvelles images&lt;/h3&gt;
+    //                 &lt;p&gt;Vous trouverez ci-dessous les derni&#xE8;res images que vous avez ajout&#xE9;es. Vous pouvez commencer &#xE0; renseigner ces nouvelles images, en ajouter ou en supprimer. Cr&#xE9;ez les descriptifs de vos peintures , publiez et partagez les en ligne.&lt;/p&gt;
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- SECTION AJOUTER DES IMAGES - fin --&gt; */}
+
+    //             {/* &lt;!-- SECTION DERNIERES OEUVRES AJOUTE - d&#xE9;but --&gt; */}
+    //             &lt;section class=&quot;mt-c&quot;&gt;
+    //                 &lt;h3&gt;Mes derni&#xE8;res peintures en ligne&lt;/h3&gt;
+    //                 &lt;p class=&quot;pb-a&quot;&gt;Vous trouverez ci-dessous les derni&#xE8;res images que vous avez ajout&#xE9;es. Vous pouvez commencer &#xE0; renseigner ces nouvelles images, en ajouter ou en supprimer. Cr&#xE9;ez les descriptifs de vos peintures , publiez et partagez les en ligne.&lt;/p&gt;
+
+    //                 {/* &lt;!-- item grid type 1 - d&#xE9;but --&gt; */}
+    //                 &lt;div class=&quot;itemGridType-1&quot;&gt;
+    //                     {/* &lt;!-- item - d&#xE9;but --&gt; */}
+    //                     &lt;div class=&quot;itemBox&quot;&gt;
+    //                         &lt;div class=&quot;dataLikes&quot;&gt;&lt;img src=&quot;img/icons/atelier_main_likes_1.svg&quot; alt=&quot;Cliques j&apos;aime&quot; /&gt;12&lt;/div&gt;
+    //                         &lt;div class=&quot;dataLists&quot;&gt;&lt;img src=&quot;img/icons/atelier_main_listes_1.svg&quot; alt=&quot;Ajouts dans des listes&quot; /&gt;3&lt;/div&gt;
+    //                         &lt;div class=&quot;ItemEdit&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;img/icons/ico_pen_1.svg&quot; alt=&quot;Modifier&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+    //                         &lt;div class=&quot;ItemImg&quot; style={{ backgroundImage: &quot;url(&apos;temp/leonora_more_1.jpg&apos;)&quot;, backgroundPosition: &quot;50% center&quot;, backgroundSize: &quot;cover&quot;, backgroundRepeat: &quot;no-repeat&quot; }}&gt;&lt;/div&gt;
+    //                         &lt;p class=&quot;ItemName&quot;&gt;Titre de la peinture&lt;/p&gt;
+    //                         &lt;p class=&quot;ItemDesc&quot;&gt;Description courte&lt;/p&gt;
+    //                         &lt;p class=&quot;ItemSize&quot;&gt;L x H x P Cm&lt;/p&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- item - fin --&gt; */}
+    //                     {/* &lt;!-- item - d&#xE9;but --&gt; */}
+    //                     &lt;div class=&quot;itemBox&quot;&gt;
+    //                         &lt;div class=&quot;dataLikes&quot;&gt;&lt;img src=&quot;img/icons/atelier_main_likes_1.svg&quot; alt=&quot;Cliques j&apos;aime&quot; /&gt;12&lt;/div&gt;
+    //                         &lt;div class=&quot;dataLists&quot;&gt;&lt;img src=&quot;img/icons/atelier_main_listes_1.svg&quot; alt=&quot;Ajouts dans des listes&quot; /&gt;3&lt;/div&gt;
+    //                         &lt;div class=&quot;ItemEdit&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;img/icons/ico_pen_1.svg&quot; alt=&quot;Modifier&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+    //                         &lt;div class=&quot;ItemImg&quot; style={{ backgroundImage: &quot;url(&apos;temp/leonora_more_1.jpg&apos;)&quot;, backgroundPosition: &quot;50% center&quot;, backgroundSize: &quot;cover&quot;, backgroundRepeat: &quot;no-repeat&quot; }}&gt;&lt;/div&gt;
+    //                         &lt;p class=&quot;ItemName&quot;&gt;Titre de la peinture&lt;/p&gt;
+    //                         &lt;p class=&quot;ItemDesc&quot;&gt;Description courte&lt;/p&gt;
+    //                         &lt;p class=&quot;ItemSize&quot;&gt;L x H x P Cm&lt;/p&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- item - fin --&gt; */}
+    //                     {/* &lt;!-- item - d&#xE9;but --&gt; */}
+    //                     &lt;div class=&quot;itemBox&quot;&gt;
+    //                         &lt;div class=&quot;dataLikes&quot;&gt;&lt;img src=&quot;img/icons/atelier_main_likes_1.svg&quot; alt=&quot;Cliques j&apos;aime&quot; /&gt;12&lt;/div&gt;
+    //                         &lt;div class=&quot;dataLists&quot;&gt;&lt;img src=&quot;img/icons/atelier_main_listes_1.svg&quot; alt=&quot;Ajouts dans des listes&quot; /&gt;3&lt;/div&gt;
+    //                         &lt;div class=&quot;ItemEdit&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;img/icons/ico_pen_1.svg&quot; alt=&quot;Modifier&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+    //                         &lt;div class=&quot;ItemImg&quot; style={{ backgroundImage: &quot;url(&apos;temp/leonora_more_1.jpg&apos;)&quot;, backgroundPosition: &quot;50% center&quot;, backgroundSize: &quot;cover&quot;, backgroundRepeat: &quot;no-repeat&quot; }}&gt;&lt;/div&gt;
+    //                         &lt;p class=&quot;ItemName&quot;&gt;Titre de la peinture&lt;/p&gt;
+    //                         &lt;p class=&quot;ItemDesc&quot;&gt;Description courte&lt;/p&gt;
+    //                         &lt;p class=&quot;ItemSize&quot;&gt;L x H x P Cm&lt;/p&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- item - fin --&gt; */}
+    //                 &lt;/div&gt;
+    //                 {/* &lt;!-- item grid type 1 - fin --&gt; */}
+
+    //                 &lt;div class=&quot;center-tex pb-c pt-b&quot;&gt;
+    //                     &lt;a class=&quot;btn-1&quot; href=&quot;#&quot;&gt;Toutes mes peintures&lt;/a&gt;
+    //                 &lt;/div&gt;
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- SECTION DERNIERES OEUVRES AJOUTE - fin --&gt; */}
+    //         &lt;/main&gt;
+    //     &lt;/div&gt;
+    // );
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

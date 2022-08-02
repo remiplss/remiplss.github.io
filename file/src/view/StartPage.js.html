@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/view/StartPage.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Accueil">Accueil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Comments">Comments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayUser">DisplayUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Lists">Lists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MostMatched">MostMatched</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchArtist">SearchArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchColor">SearchColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-listeamateurpage">component/ListeAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayInfoList">DisplayInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayList">DisplayList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatchingColor">ResultMatchingColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingresult">component/MatchingResult</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PaintingToMatch">PaintingToMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatch">ResultMatch</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-userinfo">component/UserInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AmateurInfo">AmateurInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogIn">LogIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignIn">SignIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-StartPage">StartPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/view/StartPage.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useState, useEffect } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import { Link } from &quot;react-router-dom&quot;;
+import { URLDayl } from &quot;../services/constantes&quot;;
+import { ColorPicker, useColor } from &quot;react-color-palette&quot;;
+import Carousel from &quot;react-multi-carousel&quot;;
+import Fav from &quot;../component/general/Fav&quot;;
+import ListModal from &quot;../component/general/ListModal&quot;;
+import &quot;react-color-palette/lib/css/styles.css&quot;;
+import Artist from &quot;../component/ArtistDetailPage/Artist&quot;;
+import ListPaintArtist from &quot;../component/ArtistDetailPage/ListPaintArtist&quot;;
+import SimilarArtist from &quot;../component/ArtistDetailPage/SimilarArtist&quot;;
+import { useLocation } from &quot;react-router-dom&quot;;
+import ai from &quot;../webapp/img/icons/ico-newuserpage-ai.svg&quot;
+import rs from &quot;../webapp/img/icons/ico-newuserpage-network.svg&quot;
+import web3 from &quot;../webapp/img/icons/ico-newuserpage-web3.svg&quot;
+import artist from &quot;../webapp/img/icons/ico-newuserpage-artist.svg&quot;
+import amateur from &quot;../webapp/img/icons/ico-newuserpage-amateur.svg&quot;
+import institut from &quot;../webapp/img/icons/ico-newuserpage-institut.svg&quot;
+import expert from &quot;../webapp/img/icons/ico-newuserpage-expert.svg&quot;
+import match from &quot;../webapp/img/icons/ico-newuserpage-ai.svg&quot;
+import objectives from &quot;../webapp/img/icons/ico-newuserpage-objectives.png&quot;
+import mockup from &quot;../webapp/img/icons/ico-newuserpage-mockup.png&quot;
+import frise1 from &quot;../webapp/img/icons/ico-newuserpage-frise-1.png&quot;
+import frise2 from &quot;../webapp/img/icons/ico-newuserpage-frise-1-mob.png&quot;
+import believe from &quot;../webapp/img/icons/ico-newuserpage-believe.svg&quot;
+import platform from &quot;../webapp/img/icons/ico-newuserpage-platform.png&quot;
+
+
+
+/**
+ * This component display Starting page wich explain how the website work
+ * @param {object} user - user object from api
+
+ * @param {boolean} isLogged - test if the user is logged
+*/
+
+
+
+
+export default function StartPage({ user, isLogged }) {
+
+
+
+    // const [searchPainting, setSearchPainting] = useState([]);
+    // const [search, setSearch] = useState([]);
+    // const [color, setColor] = useColor();
+    // const [randImg, setRandImg] = useState([]);
+    // const [listStyles, setListStyles] = useState([]);
+    // const [listOrigins, setListOrigins] = useState([]);
+    // const [listGenres, setListGenres] = useState([]);
+
+
+    // const responsive2 = {
+    //     desktop: {
+    //         breakpoint: { max: 3000, min: 1024 },
+    //         items: 1,
+    //         paritialVisibilityGutter: 0
+    //     },
+    //     tablet: {
+    //         breakpoint: { max: 1024, min: 464 },
+    //         items: 1,
+    //         paritialVisibilityGutter: 0
+    //     },
+    //     mobile: {
+    //         breakpoint: { max: 464, min: 0 },
+    //         items: 1,
+    //         paritialVisibilityGutter: 0
+    //     }
+    // };
+
+    // // Send Search //
+    // const handleSubmit = (event) =&gt; {
+    //     event.preventDefault();
+
+    //     axios.post(URLDayl + &quot;paintingSearch/findPaintingBySearchDto&quot;, {
+    //         license: search.license, style: search.style, genre: search.genre, nationality: search.nationality,
+    //         freeSearch: search.freeSearch, year: search.year, decade: search.decade
+    //     },
+    //         { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;USER_PAINT&quot;: &quot;0&quot; } }
+    //     )
+    //         .then((response) =&gt; {
+
+    //             setSearchPainting(response.data);
+    //             console.log(response.data)
+
+    //         });
+    // }
+
+    // const handleChange = color =&gt; setColor(color);
+
+    // // Matching by color //
+    // useEffect(() =&gt; {
+
+    //     axios.post(
+    //         URLDayl + `paintingSearch/findByColor`, { colorCode: color.hex, sortOrder: &quot;ASC&quot; }, { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+    //     )
+    //         .then((response) =&gt; {
+
+    //             setSearchPainting(response.data);
+    //         });
+    // }, [color]);
+
+
+    // // get 30 random Paint //
+
+    // useEffect(() =&gt; {
+    //     axios
+    //         .get(URLDayl + &quot;paintingEntity/randomPaintings30&quot;, {}, { headers: { &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot; } })
+    //         .then((response) =&gt; {
+    //             setRandImg(response.data);
+    //         });
+    // }, []);
+
+    // // get filter //
+
+    // useEffect(() =&gt; {
+    //     axios
+    //         .get(URLDayl + &quot;paintingFront/listStyles&quot;, {}, { headers: { &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot; } })
+    //         .then((response) =&gt; {
+    //             setListStyles(response.data);
+    //         });
+    //     axios
+    //         .get(URLDayl + &quot;paintingFront/listOrigins&quot;, {}, { headers: { &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot; } })
+    //         .then((response) =&gt; {
+    //             setListOrigins(response.data);
+    //         });
+    //     axios
+    //         .get(URLDayl + &quot;paintingFront/listGenres&quot;, {}, { headers: { &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot; } })
+    //         .then((response) =&gt; {
+    //             setListGenres(response.data);
+    //         });
+    // }, []);
+
+
+    // return (
+    //     &lt;div className=&quot;StartPage&quot;&gt;
+    //         {/* &lt;!-- MAIN - d&#xE9;but --&gt; */}
+    //         &lt;main&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		TOP BOX - TITRE &amp; BG - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;center-col&quot;&gt;
+
+    //                 &lt;div className=&quot;cont-f-w startPageBg&quot; style={{ backgroundImage: `url(${URLDayl}images/content/${searchPainting.length &gt; 0 &amp;&amp; searchPainting[0].artistId}/${searchPainting.length &gt; 0 &amp;&amp; searchPainting[0].urlImage})`, backgroundRepeat: &quot;no-repeat&quot;, backgroundPosition: &quot;center center&quot;, backgroundSize: &quot;cover&quot;, height: &quot;400px&quot; }}&gt;&lt;/div&gt;
+
+    //                 &lt;div className=&quot;cont-n-w center-col exploPageTop&quot; &gt;
+    //                     &lt;h1 className=&quot;goRed&quot;&gt;Discover &lt;span&gt;Art&lt;/span&gt; You &lt;span&gt;Love&lt;/span&gt;&lt;/h1&gt;
+    //                     &lt; div style={{ width: &quot;700px&quot; }}&gt;
+    //                         &lt;Carousel
+                                
+    //                             itemClass=&quot;image-item&quot;
+    //                             responsive={responsive2}
+    //                             arrows={false}
+    //                             showDots={true}
+    //                             autoPlay={true}
+    //                             infinite={true}
+    //                         &gt;
+    //                             &lt;div style={{ width: &quot;650px&quot;, margin: &quot;25px&quot;, marginBottom: &quot;50px&quot; }}&gt; &lt;p&gt;Dayl offre, via les technologies IA, &lt;span&gt;un pont entre l&#x2019;histoire de l&#x2019;art et les artistes contemporains&lt;/span&gt; &#xE0; travers une navigation in&#xE9;dite et le &#xAB; matching &#xBB; des peintures&lt;/p&gt;&lt;/div&gt;
+    //                             &lt;div style={{ width: &quot;650px&quot;, margin: &quot;25px&quot;, marginBottom: &quot;50px&quot; }}&gt; &lt;p&gt;Dayl, une plateforme ouverte &lt;span&gt;au partage, &#xE0; l&#x2019;&#xE9;change, aux rencontres et &#xE0; la promotion&lt;/span&gt; d&#x2019;une vision p&#xE9;dagogique des &#x153;uvres d&#x2019;art, &#xE0; travers les &#xE2;ges&lt;/p&gt;&lt;/div&gt;
+    //                             &lt;div style={{ width: &quot;650px&quot;, margin: &quot;25px&quot;, marginBottom: &quot;50px&quot; }}&gt; &lt;p&gt;Dayl fait le pari de la valorisation des supports num&#xE9;riques artistiques en mode &lt;span&gt;Haute D&#xE9;finition&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+    //                         &lt;/Carousel&gt;&lt;/div&gt;
+
+    //                 &lt;/div&gt;
+
+
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		TOP BOX - TITRE &amp; BG - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		TRIO BOX - AI / RESEAU SOCIAL / WEB 3.0 - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;center-col&quot;&gt;
+
+    //                 &lt;div className=&quot;tBoxCont mt-c&quot;&gt;
+
+    //                     &lt;div className=&quot;tBox&quot;&gt;
+    //                         &lt;img src={ai} alt=&quot;intelligence Artificielle&quot; /&gt;
+    //                         &lt;p className=&quot;goRed&quot;&gt;Une &lt;span&gt;intelligence Artificielle&lt;/span&gt; au service d&#x2019;une &lt;b&gt;navigation innovante&lt;/b&gt; &#xE0; travers le &#xAB; matching &#xBB; des peintures&lt;/p&gt;
+    //                     &lt;/div&gt;
+    //                     &lt;div className=&quot;tBox&quot;&gt;
+    //                         &lt;img src={rs} alt=&quot;r&#xE9;seau social ouvert&quot; /&gt;
+    //                         &lt;p className=&quot;goRed&quot;&gt;Un &lt;span&gt;r&#xE9;seau social ouvert&lt;/span&gt; d&#xE9;di&#xE9; aux &lt;b&gt;artistes&lt;/b&gt;, aux &lt;b&gt;amateurs d&#x2019;art&lt;/b&gt; et aux &lt;b&gt;professionnels de la culture&lt;/b&gt;&lt;/p&gt;
+    //                     &lt;/div&gt;
+    //                     &lt;div className=&quot;tBox&quot;&gt;
+    //                         &lt;img src={web3} alt=&quot;Web 3.0&quot; /&gt;
+    //                         &lt;p className=&quot;goRed&quot;&gt;Une plateforme num&#xE9;rique &lt;span&gt;Web 3.0&lt;/span&gt; d&#xE9;di&#xE9;e aux artistes et &#xE0; la &lt;span&gt;valorisation des supports num&#xE9;riques HD&lt;/span&gt; du patrimoine des artistes&lt;/p&gt;
+    //                     &lt;/div&gt;
+
+    //                 &lt;/div&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		TRIO BOX - AI / RESEAU SOCIAL / WEB 3.0 - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		BLACKBOARD TEXT - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;bbBoxCont&quot;&gt;
+
+    //                 &lt;p&gt;Dayl est ouverte au partage, &#xE0; l&#x2019;&#xE9;change visant &#xE0; promouvoir une vision qualitative, p&#xE9;dagogique et personnelle de l&#x2019;histoire de l&#x2019;art conjugu&#xE9;e au pass&#xE9;, au pr&#xE9;sent et au futur&lt;/p&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		BLACKBOARD TEXT - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		FRAMED BOXES - ARTISTE / INSTITUTION / AMATEUR / PRO - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;center-col plr-a&quot;&gt;
+
+    //                 &lt;div className=&quot;framedBoxCont&quot;&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+
+    //                         &lt;div className=&quot;fBox&quot;&gt;
+    //                             &lt;img src={web3} alt=&quot;Vous &#xEA;tes artiste peintre ou un artiste digital&quot; /&gt;
+    //                             &lt;h2&gt;Vous &#xEA;tes artiste peintre ou un artiste digital &#x2026; &lt;/h2&gt;
+    //                             &lt;ul className=&quot;mb-b&quot;&gt;
+    //                                 &lt;li&gt;Rencontrez votre public&lt;/li&gt;
+    //                                 &lt;li&gt;Acc&#xE9;dez &#xE0; des nouvelles sources d&#x2019;inspiration&lt;/li&gt;
+    //                                 &lt;li&gt;Positionnez vos oeuvres dans la continuit&#xE9; d&#x2019;un h&#xE9;ritage artistique&lt;/li&gt;
+    //                                 &lt;li&gt;Cr&#xE9;ez et Valorisez votre Patrimoine num&#xE9;rique&lt;/li&gt;
+    //                             &lt;/ul&gt;
+    //                             &lt;a href=&quot;&quot; className=&quot;startBoxBtn&quot;&gt;En savoir +&lt;/a&gt;
+    //                         &lt;/div&gt;
+    //                         &lt;div className=&quot;fBox&quot;&gt;
+    //                             &lt;img src={amateur} alt=&quot;Vous &#xEA;tes amateur d&#x2019;art, curieux, passionn&#xE9;&quot; /&gt;
+    //                             &lt;h2&gt;Vous &#xEA;tes amateur d&#x2019;art, curieux, passionn&#xE9; &#x2026;&lt;/h2&gt;
+    //                             &lt;ul className=&quot;mb-b&quot;&gt;
+    //                                 &lt;li&gt;Explorez les oeuvres de l&#x2019;histoire&lt;/li&gt;
+    //                                 &lt;li&gt;Enrichissez votre savoir culturel&lt;/li&gt;
+    //                                 &lt;li&gt;Suivez les actualit&#xE9;s des arts et de la culture&lt;/li&gt;
+    //                                 &lt;li&gt;D&#xE9;couvrez des artistes &#xE9;mergents et int&#xE9;grez leur communaut&#xE9;&lt;/li&gt;
+    //                                 &lt;li&gt;Contribuez &#xE0; l&#x2019;&#xE9;mergence de nouveaux artistes&lt;/li&gt;
+    //                             &lt;/ul&gt;
+    //                             &lt;a href=&quot;&quot; className=&quot;startBoxBtn&quot;&gt;En savoir +&lt;/a&gt;
+    //                         &lt;/div&gt;
+
+    //                     &lt;/div&gt;
+    //                     &lt;div className=&quot;col&quot;&gt;
+
+    //                         &lt;div className=&quot;fBox&quot;&gt;
+    //                             &lt;img src={institut} alt=&quot;Vous &#xEA;tes une institution culturelle, un professionnel de la culture&quot; /&gt;
+    //                             &lt;h2&gt;Vous &#xEA;tes une institution culturelle, un professionnel de la culture &#x2026;&lt;/h2&gt;
+    //                             &lt;ul className=&quot;mb-b&quot;&gt;
+    //                                 &lt;li&gt;Venez enrichir la communaut&#xE9; Dayl&lt;/li&gt;
+    //                                 &lt;li&gt;Partagez vos posts, analyses, News&lt;/li&gt;
+    //                                 &lt;li&gt;Elargissez votre r&#xE9;seau, nourrissez la connaissance artistique&lt;/li&gt;
+    //                                 &lt;li&gt;Participez &#xE0; l&#x2019;&#xE9;ditorialisation, l&#x2019;am&#xE9;lioration des contenus&lt;/li&gt;
+    //                                 &lt;li&gt;Soutenez des artistes et initiatives que vous aimez&lt;/li&gt;
+    //                             &lt;/ul&gt;
+    //                             &lt;a href=&quot;&quot; className=&quot;startBoxBtn&quot;&gt;En savoir +&lt;/a&gt;
+    //                         &lt;/div&gt;
+    //                         &lt;div className=&quot;fBox&quot;&gt;
+    //                             &lt;img src={expert} alt=&quot;Vous &#xEA;tes &#xE9;tudiant, expert en histoire de l&#x2019;art&quot; /&gt;
+    //                             &lt;h2&gt;Vous &#xEA;tes &#xE9;tudiant, expert en histoire de l&#x2019;art &#x2026;&lt;/h2&gt;
+    //                             &lt;ul className=&quot;mb-b&quot;&gt;
+    //                                 &lt;li&gt;Approfondissez votre culture artistique&lt;/li&gt;
+    //                                 &lt;li&gt;Participez &#xE0; l&#x2019;&#xE9;ditorialisation du site&lt;/li&gt;
+    //                                 &lt;li&gt;Enrichissez votre r&#xE9;seau professionnel&lt;/li&gt;
+    //                                 &lt;li&gt;D&#xE9;couvrez des artistes &#xE9;mergents et rejoignez leur communaut&#xE9;&lt;/li&gt;
+    //                                 &lt;li&gt;Soutenez des artistes que vous aimez&lt;/li&gt;
+    //                             &lt;/ul&gt;
+    //                             &lt;a href=&quot;&quot; className=&quot;startBoxBtn&quot;&gt;En savoir +&lt;/a&gt;
+    //                         &lt;/div&gt;
+
+    //                     &lt;/div&gt;
+
+    //                 &lt;/div&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		FRAMED BOXES - ARTISTE / INSTITUTION / AMATEUR / PRO - fin --&gt; */}
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;div className=&quot;startSpaceBar mt-d mb-c&quot;&gt;
+
+    //                 &lt;div&gt;&lt;/div&gt;
+
+    //             &lt;/div&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		MATCHING TRYBOX - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;center-col matchingTryBox&quot;&gt;
+
+    //                 &lt;h2&gt;Cherchez une &#x153;uvre, un artiste, une couleur &#x2026; lancez un &#xAB;match&#xBB; !&lt;/h2&gt;
+
+    //                 &lt;form id=&quot;fineSearch&quot; className=&quot;fineSearch&quot; method=&quot;post&quot;&gt;
+    //                     {/* &lt;!-- Choisir un style d&apos;oeuvre - d&#xE9;but --&gt; */}
+    //                     &lt;div&gt;
+    //                         &lt;select className=&quot;searchFilter&quot; id=&quot;style&quot; name=&quot;style&quot; value={search?.style} onChange={e =&gt; setSearch({ ...search, style: e.target.value })}&gt;
+    //                             &lt;option value=&quot;&quot; selected&gt;Style&lt;/option&gt;
+    //                             {listStyles.length &gt; 0 &amp;&amp; listStyles.map((style, index) =&gt; (
+    //                                 &lt;option value={style.code}&gt;{style.name}&lt;/option&gt;
+    //                             ))}
+
+
+    //                         &lt;/select&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- Choisir un style d&apos;oeuvre - fin --&gt; */}
+
+    //                     {/* &lt;!-- Choisir un genre d&apos;oeuvre - d&#xE9;but --&gt; */}
+    //                     &lt;div &gt;
+    //                         &lt;select className=&quot;searchFilter&quot; id=&quot;genre&quot; name=&quot;genre&quot; value={search?.genre} onChange={e =&gt; setSearch({ ...search, genre: e.target.value })}&gt;
+    //                             &lt;option value=&quot;&quot; selected&gt;Genre&lt;/option&gt;
+    //                             {listGenres.length &gt; 0 &amp;&amp; listGenres.map((genre, index) =&gt; (
+    //                                 &lt;option value={genre.code}&gt;{genre.name}&lt;/option&gt;
+    //                             ))}
+    //                         &lt;/select&gt;
+    //                     &lt;/div&gt;
+
+    //                     {/* &lt;!-- Choisir un genre d&apos;oeuvre - fin --&gt; */}
+
+    //                     {/* &lt;!-- Choisir une nationalit&#xE9; de l&apos;oeuvre - d&#xE9;but --&gt; */}
+    //                     &lt;div&gt;
+    //                         &lt;select className=&quot;searchFilter&quot; id=&quot;nationalite&quot; name=&quot;nationalite&quot; value={search?.nationality} onChange={e =&gt; setSearch({ ...search, nationality: e.target.value })}&gt;
+    //                             &lt;option value=&quot;&quot; selected&gt;Nationalit&#xE9;&lt;/option&gt;
+    //                             {listOrigins.length &gt; 0 &amp;&amp; listOrigins.map((origin, index) =&gt; (
+    //                                 &lt;option value={origin.code}&gt;{origin.name}&lt;/option&gt;
+    //                             ))}
+    //                         &lt;/select&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- Choisir une nationalit&#xE9; de l&apos;oeuvre - fin --&gt; */}
+
+    //                     {/* &lt;!-- Champ de recherche texte - d&#xE9;but --&gt; */}
+    //                     &lt;div&gt;
+    //                         &lt;input
+    //                             value={search?.freeSearch} onChange={e =&gt; setSearch({ ...search, freeSearch: e.target.value })}
+    //                             type=&quot;text&quot;
+    //                             id=&quot;searchString&quot;
+    //                             className=&quot;searchString explorer&quot;
+    //                             name=&quot;searchString&quot;
+    //                             placeholder=&quot;Artiste, mot-cl&#xE9;...&quot;
+    //                         /&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- Champ de recherche texte - fin --&gt; */}
+
+    //                     {/* &lt;!-- Ann&#xE9;e de l&apos;oeuvre - d&#xE9;but --&gt; */}
+    //                     &lt;div&gt;
+    //                         &lt;input
+    //                             value={search?.year} onChange={e =&gt; setSearch({ ...search, year: e.target.value })}
+    //                             type=&quot;text&quot;
+    //                             id=&quot;annee&quot;
+    //                             className=&quot;date&quot;
+    //                             name=&quot;annee&quot;
+    //                             placeholder=&quot;Ann&#xE9;e&quot;
+    //                         /&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- Ann&#xE9;e de l&apos;oeuvre - fin --&gt; */}
+
+    //                     {/* &lt;!-- D&#xE9;cennie de l&apos;oeuvre - d&#xE9;but --&gt; */}
+    //                     &lt;div&gt;
+    //                         &lt;input
+    //                             value={search?.decade} onChange={e =&gt; setSearch({ ...search, decade: e.target.value })}
+    //                             type=&quot;text&quot;
+    //                             id=&quot;decennie&quot;
+    //                             className=&quot;date&quot;
+    //                             name=&quot;decennie&quot;
+    //                             placeholder=&quot;D&#xE9;cennie&quot;
+    //                         /&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- D&#xE9;cennie de l&apos;oeuvre - fin --&gt; */}
+
+    //                     {/* &lt;!-- Bouton de lancement de recherche - d&#xE9;but --&gt; */}
+    //                     &lt;div data-tooltip=&quot;Lancer la recherche&quot;&gt;
+    //                         &lt;input type=&quot;submit&quot; onClick={handleSubmit} id=&quot;submit&quot; className=&quot;squareSub&quot; value=&quot;&quot; /&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- Bouton de lancement de recherche - fin --&gt;
+
+	// 				&lt;!-- Lien matching &#xE0; la vol&#xE9;e - d&#xE9;but --&gt; */}
+    //                     &lt;div data-tooltip=&quot;Matching &#xE0; la vol&#xE9;e&quot;&gt;
+    //                         &lt;Link href=&quot;matching-image.html&quot; to=&quot;../../view/MatchingImage.js&quot; className=&quot;squareMatch&quot;&gt;&lt;/Link&gt;
+    //                     &lt;/div&gt;
+    //                     {/* &lt;!-- Lien matching &#xE0; la vol&#xE9;e - fin --&gt; */}
+    //                 &lt;/form&gt;
+    //                 &lt;div className=&quot;duoTry mt-b&quot;&gt;
+    //                     &lt;div className=&quot;col-l&quot;&gt;
+    //                         &lt;ColorPicker width={250} height={228} color={color} onChange={handleChange} hideHSV hideRGB /&gt;
+    //                         &lt;div style={{ border: &apos;2px solid #0000001a&apos;, borderRadius: &apos;50%&apos;, width: &quot;50px&quot;, height: &quot;50px&quot;, position: &quot;absolute&quot;, bottom: &quot;42px&quot;, left: &quot;25px&quot;, background: color.hex }}&gt;&lt;/div&gt;
+
+    //                     &lt;/div&gt;
+    //                     &lt;div className=&quot;col-r&quot;&gt;
+    //                         {/* &lt;!-- Modal artistes match&#xE9;s &amp; filtrer le matching - d&#xE9;but --&gt; */}
+    //                         &lt;div className=&quot;cont-l-w&quot; style={{ width: &quot;1000px&quot; }}&gt;
+    //                             &lt;div className=&quot;itemGallery mt-a&quot;&gt;
+    //                                 &lt;div className=&quot;gridContent items&quot;&gt;
+    //                                     {searchPainting.length &gt; 0 &amp;&amp;
+    //                                         searchPainting.slice(0, 6).map((match, index) =&gt; (
+
+    //                                             &lt;div className=&quot;item&quot; style={{ width: &quot;220px&quot;, height: &quot;220px&quot; }}&gt;
+    //                                                 &lt;div className=&quot;base&quot; style={{ backgroundImage: `url(${URLDayl}images/content/mini/${match.artistId}/${match.urlImage})` }}&gt;
+    //                                                     {/* &lt;button id=&quot;itemCommentState&quot; className=&quot;comment yes&quot; type=&quot;button&quot; value=&quot;notComment&quot;&gt;&lt;/button&gt; */}
+    //                                                     &lt;Fav user={user} isLogged={isLogged} favPaint={match} /&gt;
+    //                                                     {/* &lt;ListModal user={user} isLogged={isLogged} listPaint={match} /&gt; */}
+    //                                                 &lt;/div&gt;
+    //                                                 &lt;div className=&quot;hidden&quot;&gt;
+    //                                                     &lt;div className=&quot;revealShadow&quot;&gt;&lt;/div&gt;
+    //                                                     &lt;h3 className=&quot;itemArtist&quot;&gt;{match.artisteName}&lt;/h3&gt;
+    //                                                     &lt;h4 className=&quot;itemName&quot;&gt;{match.name}&lt;/h4&gt;
+    //                                                     &lt;div className=&quot;itemYear&quot;&gt;{match.year}&lt;/div&gt;
+    //                                                     &lt;ul className=&quot;hListGridItem&quot;&gt;
+    //                                                         &lt;li&gt;
+    //                                                             &lt;Link className=&quot;GridviewItem&quot; to={`../../view/OpusPage.js/${match.id}`} state={match.id} &gt;
+    //                                                                 Voir
+    //                                                             &lt;/Link&gt;
+    //                                                         &lt;/li&gt;
+    //                                                         &lt;li&gt;
+    //                                                             &lt;Link className=&quot;GridmakeMatch&quot; to={`../../view/MatchingPage.js/${match.id}`} state={match.id} &gt;
+    //                                                                 match
+    //                                                             &lt;/Link&gt;
+    //                                                         &lt;/li&gt;
+    //                                                     &lt;/ul&gt;
+
+    //                                                 &lt;/div&gt;
+
+    //                                                 {/*&lt;!-- oeuvre - fin --&gt; */}
+    //                                             &lt;/div&gt;
+    //                                         ))}
+    //                                 &lt;/div&gt;
+    //                             &lt;/div&gt;
+    //                             {/* &lt;!-- items row - fin --&gt; */}
+    //                         &lt;/div&gt;
+    //                     &lt;/div&gt;
+    //                 &lt;/div&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		MATCHING TRYBOX - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		FULL WIDTH CONTENT BOX - NAVIGATION PAR MATCH - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;fwcCont&quot;&gt;
+
+    //                 &lt;img src={match} alt=&quot;Un principe de navigation reposant sur LES MATCHS&quot; /&gt;
+    //                 &lt;h2&gt;Un principe de navigation reposant sur LES MATCHS :&lt;br /&gt;D&#xE9;couvrez les 50 peintures plus proches voisines.&lt;/h2&gt;
+    //                 &lt;p&gt;Une exp&#xE9;rience singuli&#xE8;re et in&#xE9;dite bas&#xE9;e sur une Intelligence Artificielle innovante.&lt;br /&gt;Sur l&#x2019;ensemble des oeuvres pr&#xE9;sentes sur DAYL vous pouvez &lt;b&gt;lancer un match&lt;/b&gt; et d&#xE9;couvrir ses 50 plus proches voisines.&lt;/p&gt;
+    //                 &lt;p&gt;Essayez sur une des peintures pr&#xE9;sent&#xE9;es ci-dessus, en cliquant sur :&lt;/p&gt;
+    //                 &lt;div className=&quot;blueBoxBtn&quot;&gt;Match&lt;/div&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		FULL WIDTH CONTENT BOX - NAVIGATION PAR MATCH - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;div className=&quot;startSpaceBar mb-d&quot;&gt;
+
+    //                 &lt;div&gt;&lt;/div&gt;
+
+    //             &lt;/div&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		DUO CONTENT - RESEAU SOCIAL - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;center-col plr-a&quot;&gt;
+
+    //                 &lt;div className=&quot;duoCBoxCont&quot;&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+    //                         &lt;img className=&quot;ico&quot; src={rs} alt=&quot;Cr&#xE9;ez et partagez votre univers artistique&quot; /&gt;
+    //                         &lt;h2&gt;Cr&#xE9;ez et partagez votre univers artistique autour d&#x2019;un r&#xE9;seau social unique !&lt;/h2&gt;
+    //                         &lt;p&gt;DAYL vous propose un r&#xE9;seaux social unique pour que les artistes, amateurs et experts du monde de l&#x2019;art sur retrouvent et &#xE9;changent &lt;b&gt;autour d&#x2019;une passion commune.&lt;/b&gt;&lt;/p&gt;
+    //                         &lt;p&gt;Gr&#xE2;ce &#xE0; &lt;b&gt;un espace personnel&lt;/b&gt;, cr&#xE9;ez votre univers artistique que vous pourrez rendre publique, si vous le souhaitez, et &lt;b&gt;partagez vos actualit&#xE9;s&lt;/b&gt; aupr&#xE8;s des gens qui vous suivent.&lt;/p&gt;
+    //                     &lt;/div&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+    //                         &lt;img className=&quot;mockup&quot; src={mockup} alt=&quot;Cr&#xE9;ez et partagez votre univers artistique&quot; /&gt;
+    //                     &lt;/div&gt;
+
+    //                 &lt;/div&gt;
+    //                 &lt;div className=&quot;duoCBoxCont&quot;&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+    //                         &lt;h3&gt;Suivez, partagez, &#xE9;changez avec les autres membres de la communaut&#xE9;&lt;/h3&gt;
+    //                         &lt;ul className=&quot;mb-b&quot;&gt;
+    //                             &lt;li&gt;&lt;b&gt;Abonnez-vous&lt;/b&gt; &#xE0; d&#x2019;autres membres de la communaut&#xE9; et suivez leurs actualit&#xE9;s.&lt;/li&gt;
+    //                             &lt;li&gt;&lt;b&gt;Partagez&lt;/b&gt; vos commentaires, les oeuvres que vous aimez, les matching ... &lt;/li&gt;
+    //                             &lt;li&gt;&lt;b&gt;Postez&lt;/b&gt; vos actualit&#xE9;s personnelles autour du monde de l&#x2019;art : vos derni&#xE8;res expositions visit&#xE9;es,  vos derni&#xE8;res oeuvres ...&lt;/li&gt;
+    //                         &lt;/ul&gt;
+    //                     &lt;/div&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+    //                         &lt;h3&gt;Votre univers artistique centralis&#xE9; dans un espace personnel&lt;/h3&gt;
+    //                         &lt;ul className=&quot;mb-b&quot;&gt;
+    //                             &lt;li&gt;Toutes les &lt;b&gt;actualit&#xE9;s&lt;/b&gt; des comptes que vous suivez&lt;/li&gt;
+    //                             &lt;li&gt;Vos &lt;b&gt;artistes&lt;/b&gt; pr&#xE9;f&#xE9;r&#xE9;s&lt;/li&gt;
+    //                             &lt;li&gt;Les &lt;b&gt;oeuvres&lt;/b&gt; que vous avez aim&#xE9;es&lt;/li&gt;
+    //                             &lt;li&gt;Les &lt;b&gt;matching&lt;/b&gt; que vous avez enregistr&#xE9;s&lt;/li&gt;
+    //                             &lt;li&gt;Les &lt;b&gt;listes&lt;/b&gt; que vous avez cr&#xE9;&#xE9;es avec vos oeuvres pr&#xE9;f&#xE9;r&#xE9;es&lt;/li&gt;
+    //                             &lt;li&gt;Des &lt;b&gt;recommandations&lt;/b&gt; personnalis&#xE9;es&lt;/li&gt;
+    //                         &lt;/ul&gt;
+    //                     &lt;/div&gt;
+
+    //                 &lt;/div&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		DUO CONTENT - RESEAU SOCIAL - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;div className=&quot;startSpaceBar mt-c mb-d&quot;&gt;
+
+    //                 &lt;div&gt;&lt;/div&gt;
+
+    //             &lt;/div&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		FULL WIDTH CONTENT BOX - GALERIE NUMERIQUE MARCHANDE - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;fwcCont&quot;&gt;
+    //                 &lt;h2&gt;Une galerie num&#xE9;rique marchande qui priorise les &#x153;uvres physiques et qui met en avant le travail des artistes-peintres.&lt;/h2&gt;
+    //                 &lt;p&gt;Nous partons du constat que l&#x2019;univers NFT dans son ensemble oublie trop souvent la mat&#xE9;rialit&#xE9; physique du geste cr&#xE9;atif. Chez Dayl nous ambitionnons de rapprocher le m&#xE9;tier pictural avec le patrimoine digital.&lt;/p&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		FULL WIDTH CONTENT BOX - GALERIE NUMERIQUE MARCHANDE - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		DUO CONTENT - GALERIE NUMERIQUE MARCHANDE - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;center-col plr-a&quot;&gt;
+
+    //                 &lt;div className=&quot;duoCBoxCont&quot;&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+    //                         &lt;h3&gt;Nos objectifs :&lt;/h3&gt;
+    //                         &lt;ul className=&quot;mb-b space&quot;&gt;
+    //                             &lt;li&gt;Mettre en lumi&#xE8;re le talent des &lt;b&gt;peintres&lt;/b&gt;, assurer aux &lt;b&gt;collectionneurs&lt;/b&gt; un march&#xE9; singulier et qualitatif, guider les &lt;b&gt;amateurs d&#x2019;art&lt;/b&gt; dans le monde du march&#xE9; contemporain.&lt;/li&gt;
+    //                             &lt;li&gt;Nous proposons d&#x2019;&#xE9;largir la &lt;b&gt;phygitalisation du march&#xE9; artistique&lt;/b&gt; aux peintres afin de leur offrir des possibilit&#xE9;s que les galeries traditionnelles ne peuvent pas leur assurer : &lt;b&gt;patrimoines compl&#xE9;mentaires, publics plus larges, acheteurs qualifi&#xE9;s.&lt;/b&gt;&lt;/li&gt;
+    //                             &lt;li&gt;Nous avons le soucis de &lt;b&gt;poursuivre l&#x2019;histoire de l&#x2019;art &#xE0; travers son march&#xE9; contemporain.&lt;/b&gt; En effet, nos curations de peintures reposent sur une compr&#xE9;hension globale des innovations esth&#xE9;tiques d&#x2019;aujourd&#x2019;hui &lt;b&gt;en rapport avec notre h&#xE9;ritage commun.&lt;/b&gt;&lt;/li&gt;
+    //                             &lt;li&gt;Nous savons que le &lt;b&gt;geste pictural&lt;/b&gt; a de la valeur et nous pensons qu&#x2019;il doit se confronter aux &lt;b&gt;outils technologiques contemporains&lt;/b&gt; et rencontrer &#xE0; la fois de &lt;b&gt;nouveaux supports et de nouveaux publics.&lt;/b&gt;&lt;/li&gt;
+    //                         &lt;/ul&gt;
+    //                     &lt;/div&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+    //                         &lt;img className=&quot;mockup&quot; src={objectives} alt=&quot;Nos objectifs&quot; /&gt;
+    //                     &lt;/div&gt;
+
+    //                 &lt;/div&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		DUO CONTENT - GALERIE NUMERIQUE MARCHANDE - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;div className=&quot;startSpaceBar mt-c mb-d&quot;&gt;
+
+    //                 &lt;div&gt;&lt;/div&gt;
+
+    //             &lt;/div&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		DUO CONTENT - PLATEFORME POUR ARTISTES - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;center-col plr-a&quot;&gt;
+
+    //                 &lt;div className=&quot;duoCBoxCont&quot;&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+    //                         &lt;img className=&quot;mockup rounded&quot; src={platform} alt=&quot;Une plateforme pour les artistes et le partage de la connaissance artistique&quot; /&gt;
+    //                     &lt;/div&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+    //                         &lt;h2&gt;Une plateforme pour les artistes et le partage de la connaissance artistique&lt;/h2&gt;
+    //                         &lt;p&gt;Dayl est une plateforme qui offre un acc&#xE8;s &#xE0; la culture artistique. Elle cr&#xE9;e, via des technologies IA, &lt;b&gt;un pont entre l&#x2019;histoire de l&#x2019;art et les artistes contemporains&lt;/b&gt; et facilite la rencontre entre les artistes et les passionn&#xE9;s d&#x2019;art.&lt;/p&gt;
+    //                         &lt;ul className=&quot;mb-b&quot;&gt;
+    //                             &lt;li&gt;Positionnez votre travail dans la continuit&#xE9; d&#x2019;un ou plusieurs h&#xE9;ritages artistiques&lt;/li&gt;
+    //                             &lt;li&gt;Continuez &#xE0; vendre vos oeuvres en direct ou via vos partenaires historiques&lt;/li&gt;
+    //                             &lt;li&gt;Acc&#xE9;dez &#xE0; des analyses plastiques&lt;/li&gt;
+    //                             &lt;li&gt;Rencontrez des oeuvres qui vous inspirent&lt;/li&gt;
+    //                             &lt;li&gt;Gagnez en visibilit&#xE9;, accroissez vos communaut&#xE9;s et r&#xE9;seaux professionnels&lt;/li&gt;
+    //                         &lt;/ul&gt;
+    //                     &lt;/div&gt;
+
+    //                 &lt;/div&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		DUO CONTENT - PLATEFORME POUR ARTISTES - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;div className=&quot;startSpaceBar mt-c mb-d&quot;&gt;
+
+    //                 &lt;div&gt;&lt;/div&gt;
+
+    //             &lt;/div&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		DUO CONTENT - NUMERISATION HD - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;center-col plr-a&quot;&gt;
+
+    //                 &lt;div className=&quot;duoCBoxCont&quot;&gt;
+
+    //                     &lt;div className=&quot;col&quot;&gt;
+    //                         &lt;h2&gt;Valorisez votre patrimoine artistique via sa num&#xE9;risation HD&lt;/h2&gt;
+    //                         &lt;p&gt;Nous faisons le pari de la valorisation de votre patrimoine artistique num&#xE9;ris&#xE9; en mode Haute D&#xE9;finition (HD)&lt;/p&gt;
+    //                         &lt;ul&gt;
+    //                             &lt;li&gt;Photographies HD de vos oeuvres, gigapixelisation,&lt;/li&gt;
+    //                             &lt;li&gt;&#xC9;valuation de votre potentiel Business num&#xE9;rique,&lt;/li&gt;
+    //                             &lt;li&gt;Marketing de vos ench&#xE8;res,&lt;/li&gt;
+    //                             &lt;li&gt;Vente de vos supports num&#xE9;riques,&lt;/li&gt;
+    //                             &lt;li&gt;Gestion de vos royalties,&lt;/li&gt;
+    //                             &lt;li&gt;Coffre fort num&#xE9;rique&#x2026;&lt;/li&gt;
+    //                         &lt;/ul&gt;
+    //                         &lt;p&gt;&lt;b&gt;Une offre 360&#xB0;de valorisation de votre patrimoine artistique num&#xE9;ris&#xE9;&lt;/b&gt;&lt;/p&gt;
+    //                     &lt;/div&gt;
+
+    //                     &lt;div className=&quot;col black&quot;&gt;
+    //                         &lt;img className=&quot;ico&quot; src={believe} alt=&quot;Une plateforme pour les artistes et le partage de la connaissance artistique&quot; /&gt;
+    //                         &lt;p&gt;Nous croyons fermement, pour tous les artistes, que le support num&#xE9;rique Haute D&#xE9;finition d&#x2019;une oeuvre artistique sera demain, pour l&#x2019;artiste et ses ayants droits, une source de revenus compl&#xE9;mentaires cons&#xE9;quents, inscrite dans le temps et pleinement respectueuse du droit d&#x2019;auteur.&lt;/p&gt;
+    //                     &lt;/div&gt;
+
+    //                 &lt;/div&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		DUO CONTENT - NUMERISATION HD - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;div className=&quot;startSpaceBar mt-c mb-d&quot;&gt;
+
+    //                 &lt;div&gt;&lt;/div&gt;
+
+    //             &lt;/div&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		STARTSPACEBAR - fin --&gt; */}
+
+
+
+    //             {/* &lt;!-- ******************************************************
+	// 		FULL WIDTH CONTENT BOX - VALORISEZ VOTRE PATRIMOINE - d&#xE9;but
+	// 		******************************************************* --&gt; */}
+    //             &lt;section className=&quot;fwcCont&quot;&gt;
+
+    //                 &lt;h2&gt;Valorisez votre patrimoine artistique via sa num&#xE9;risation HD&lt;/h2&gt;
+    //                 &lt;img className=&quot;diag&quot; src={frise1} alt=&quot;Valorisez votre patrimoine artistique via sa num&#xE9;risation HD&quot; /&gt;
+    //                 &lt;img className=&quot;diag-m&quot; src={frise2} alt=&quot;Valorisez votre patrimoine artistique via sa num&#xE9;risation HD&quot; /&gt;
+
+    //             &lt;/section&gt;
+    //             {/* &lt;!-- ******************************************************
+	// 		FULL WIDTH CONTENT BOX - NAVIGATION PAR MATCH - fin --&gt; */}
+
+    //         &lt;/main&gt;
+
+    //     &lt;/div &gt;
+
+    // );
+}
+
+
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

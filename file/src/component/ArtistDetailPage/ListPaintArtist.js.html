@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/component/ArtistDetailPage/ListPaintArtist.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Accueil">Accueil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Comments">Comments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayUser">DisplayUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Lists">Lists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MostMatched">MostMatched</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchArtist">SearchArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchColor">SearchColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-listeamateurpage">component/ListeAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayInfoList">DisplayInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayList">DisplayList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatchingColor">ResultMatchingColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingresult">component/MatchingResult</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PaintingToMatch">PaintingToMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatch">ResultMatch</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-userinfo">component/UserInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AmateurInfo">AmateurInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogIn">LogIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignIn">SignIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-StartPage">StartPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/component/ArtistDetailPage/ListPaintArtist.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import { URLDayl } from &quot;../../services/constantes&quot;
+import close from &quot;../../webapp/img/icons/ico_close_2.svg&quot;
+import artist from &quot;../../webapp/img/icons/ico_artists_2.svg&quot;
+import filter from &quot;../../webapp/img/icons/ico_filters_3.svg&quot;
+import { Link } from &quot;react-router-dom&quot;;
+import ListModal from &quot;../general/ListModal&quot;;
+import Fav from &quot;../general/Fav&quot;;
+
+/**
+ * Paint list of this artist
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ * @param {number} paintId - artist ID
+ * @param {boolean} isLogged - test if the user is logged
+ * @emits - paintingEntity/byArtist/{paintId} : get paint list of this artist
+ * @emits - users/{id} : refresh user info
+
+ */
+
+export default function ListPaintArtist({ user, setUser, paintId, isLogged }) {
+
+	// const [listPaintArtist, setListPaintArtist] = useState([]);
+	// const [refreshKey, setRefreshKey] = useState(0);
+	// const [orderDate, setOrderDate] = useState(0);
+	// const [tempList, setTempList] = useState([]);
+
+
+
+
+
+	// //get list paint artist//
+	// useEffect(() =&gt; {
+
+
+	// 	axios.get(URLDayl + `paintingEntity/byArtist/${paintId}/0`).then((response) =&gt; {
+	// 		setListPaintArtist(response.data);
+
+	// 		const boolArray = response.data.map((el) =&gt; { return { ...el, bool: false, boolList: false } });
+
+	// 		setTempList(boolArray)
+
+	// 		setListPaintArtist(boolArray)
+	// 	});
+	// }, [paintId]);
+
+
+
+	// //update user
+	// useEffect(() =&gt; {
+	// 	if (user)
+	// 		axios.get(URLDayl + `users/${user.id}`, { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+	// 		).then((response) =&gt; { setUser(response.data) });
+
+
+	// }, [refreshKey]);
+
+	// // Call Jquery script
+	// useEffect(() =&gt; {
+	// 	const loadFile = async () =&gt; {
+	// 		const { modal } = await import(&quot;../../webapp/js/js_source/modalBox&quot;);
+	// 		const { grid } = await import(&quot;../../webapp/js/gridActions.min.js&quot;);
+
+	// 		modal();
+	// 		grid();
+	// 	};
+	// 	loadFile();
+	// }, []);
+
+	// //fonction de tri par date
+	// function handleOrderDate() {
+	// 	let bufferOrder;
+	// 	let bufferOrder2;
+	// 	if (orderDate === 0) {
+	// 		//tri ordre decroissant
+	// 		setListPaintArtist(listPaintArtist.sort((a, b) =&gt; b.year - a.year));
+
+	// 		setOrderDate(1);
+	// 	}
+	// 	else if (orderDate === 1) {
+	// 		//on stock les oeuvres dont la date = 0 ou null
+	// 		bufferOrder = listPaintArtist.filter(function (paint) { return paint.year === null || paint.year === 0; })
+
+	// 		//tri ordre croissant sans les 0 et null
+	// 		bufferOrder2 = listPaintArtist.filter(function (paint) { return paint.year &gt; 0; }).sort((a, b) =&gt; a.year - b.year);
+	// 		console.log(bufferOrder2)
+
+	// 		//on rajoute les oauvres tri&#xE9; au tableau de 0
+	// 		bufferOrder.unshift(...bufferOrder2)
+
+	// 		setListPaintArtist(bufferOrder)
+	// 		setOrderDate(1);
+
+	// 		setOrderDate(2);
+	// 	}
+	// 	else if (orderDate === 2) {
+	// 		setListPaintArtist(tempList);
+	// 		setOrderDate(0);
+	// 	}
+	// }
+
+
+	// return (
+	// 	&lt;div className=&quot;ListPaintArtist&quot;&gt;
+	// 		{/* &lt;!-- ******************************************************
+	// 		GRILLE AUTRES OEUVRES DE CET.TE ARTISTE - d&#xE9;but
+	// 		****************************************************** --&gt; */}
+	// 		&lt;section className=&quot;center-col&quot;&gt;
+
+	// 			&lt;div className=&quot;cont-l-w rowSpaceBetween&quot; style={{ marginTop: &quot;20px&quot;, alignItems: &quot;flex-start&quot; }}&gt;
+	// 				&lt;div&gt;
+	// 					&lt;h2&gt;Oeuvres de {listPaintArtist.length &gt; 0 &amp;&amp; listPaintArtist[0].artisteName} : &lt;/h2&gt;&lt;/div&gt;
+	// 				{/* &lt;!-- Bouton matching par ann&#xE9;e (+ ancien au + r&#xE9;cent) - d&#xE9;but --&gt; */}
+	// 				&lt;button className={orderDate === 0 ? &quot;orderByDate&quot; : orderDate === 1 ? &quot;orderByDateDown&quot; : &quot;orderByDateUp&quot;} onClick={handleOrderDate}&gt;{orderDate === 0 ?&quot;Tri par date&quot; : orderDate === 1 ? &quot;Tri croissant&quot; : &quot;Tri d&#xE9;croissant&quot;}&lt;/button&gt;
+	// 				{/* &lt;!-- Bouton matching par ann&#xE9;e (+ ancien au + r&#xE9;cent) - fin --&gt; */}
+	// 				{/* &lt;!-- Choix du type de grille - d&#xE9;but --&gt; */}
+	// 				&lt;ul className=&quot;gridColsType&quot;&gt;
+	// 					&lt;li&gt;&lt;button type=&quot;button&quot; className=&quot;go2Cols&quot;&gt;2&lt;/button&gt;&lt;/li&gt;
+	// 					&lt;li&gt;&lt;button type=&quot;button&quot; className=&quot;go4Cols&quot;&gt;4&lt;/button&gt;&lt;/li&gt;
+	// 					&lt;li&gt;&lt;button type=&quot;button&quot; className=&quot;go6Cols&quot;&gt;6&lt;/button&gt;&lt;/li&gt;
+	// 					&lt;li&gt;colonnes par ligne&lt;/li&gt;
+	// 				&lt;/ul&gt;
+	// 				{/* &lt;!-- Choix du type de grille - d&#xE9;but --&gt; */}
+
+	// 				&lt;div&gt;
+	// 					&lt;ul&gt;
+	// 						&lt;li&gt;
+
+	// 							{/* &lt;!-- Modal filtrer matching - d&#xE9;but --&gt; */}
+	// 							{/* &lt;div className=&quot;smart-modal&quot;&gt;
+	// 								&lt;a data-target=&quot;modalFiltrer&quot; className=&quot;smart-modal-open&quot;&gt;&lt;img className=&quot;img-left&quot; src={filter} alt=&quot;Trier&quot; /&gt;&lt;span&gt;Filtrer&lt;/span&gt;&lt;/a&gt;
+
+	// 								&lt;div id=&quot;modalFiltrer&quot; className=&quot;smart-modal-content scrollAuto&quot;&gt;
+	// 									&lt;h3&gt;Filtres disponibles&lt;/h3&gt;
+	// 									&lt;a className=&quot;smart-modal-close&quot;&gt;&lt;img className=&quot;img-left&quot; src={close} alt=&quot;Trier&quot; /&gt;&lt;/a&gt;
+
+										
+	// 									&lt;div&gt;
+	// 										&lt;form id=&quot;fineMatching&quot; className=&quot;fineMatching&quot; method=&quot;post&quot; action=&quot;#&quot;&gt;
+	// 											&lt;select id=&quot;licence&quot; name=&quot;licence&quot;&gt;
+	// 												&lt;option value=&quot;&quot;&gt;Licence&lt;/option&gt;
+	// 												&lt;option value=&quot;Domaine public&quot;&gt;Domaine public&lt;/option&gt;
+	// 												&lt;option value=&quot;saab&quot;&gt;Oeuvres prot&#xE9;g&#xE9;es&lt;/option&gt;
+	// 											&lt;/select&gt;
+	// 										&lt;/form&gt;
+	// 									&lt;/div&gt;
+									
+	// 									&lt;div&gt;
+	// 										&lt;form id=&quot;fineMatching&quot; className=&quot;fineMatching&quot; method=&quot;post&quot; action=&quot;#&quot;&gt;
+	// 											&lt;select id=&quot;style&quot; name=&quot;style&quot;&gt;
+	// 												&lt;option value=&quot;&quot;&gt;Style&lt;/option&gt;
+	// 												&lt;option value=&quot;Pointillism&quot;&gt;Pointillism&lt;/option&gt;
+	// 												&lt;option value=&quot;Renaissance&quot;&gt;Renaissance&lt;/option&gt;
+	// 												&lt;option value=&quot;Symbolism&quot;&gt;Symbolism&lt;/option&gt;
+	// 												&lt;option value=&quot;Assemblage&quot;&gt;Assemblage&lt;/option&gt;
+	// 											&lt;/select&gt;
+	// 										&lt;/form&gt;
+	// 									&lt;/div&gt;
+										
+	// 									&lt;div&gt;
+	// 										&lt;form id=&quot;fineMatching&quot; className=&quot;fineMatching mb-a&quot; method=&quot;post&quot; action=&quot;#&quot;&gt;
+	// 											&lt;select id=&quot;genre&quot; name=&quot;genre&quot;&gt;
+	// 												&lt;option value=&quot;&quot;&gt;Genre&lt;/option&gt;
+	// 												&lt;option value=&quot;Transport and industry&quot;&gt;Transport and industry&lt;/option&gt;
+	// 												&lt;option value=&quot;Fashion and costume&quot;&gt;Fashion and costume&lt;/option&gt;
+	// 												&lt;option value=&quot;Natural world&quot;&gt;Natural world&lt;/option&gt;
+	// 												&lt;option value=&quot;Science and knowledge&quot;&gt;Science and knowledge&lt;/option&gt;
+	// 											&lt;/select&gt;
+	// 										&lt;/form&gt;
+	// 									&lt;/div&gt;
+
+	// 								&lt;/div&gt;
+	// 							&lt;/div&gt; */}
+	// 							{/* &lt;!-- Modal filtrer matching - fin --&gt; */}
+
+	// 						&lt;/li&gt;
+
+	// 					&lt;/ul&gt;
+	// 				&lt;/div&gt;
+	// 			&lt;/div&gt;
+
+	// 			{/* &lt;!-- Modal artistes match&#xE9;s &amp; filtrer le matching - d&#xE9;but --&gt; */}
+	// 			&lt;div className=&quot;cont-l-w&quot;&gt;
+	// 				&lt;div className=&quot;itemGallery mt-a&quot;&gt;
+	// 					&lt;div className=&quot;gridContent items&quot;&gt;
+	// 						{listPaintArtist.length &gt; 0 &amp;&amp;
+	// 							listPaintArtist.map((listPaint, index) =&gt; (
+
+	// 								&lt;div className=&quot;item&quot;&gt;
+	// 									&lt;div className=&quot;base&quot; style={{ backgroundImage: `url(${URLDayl}images/content/mini/${listPaint.artistId}/${listPaint.urlImage})` }}&gt;
+	// 										&lt;button id=&quot;itemCommentState&quot; className=&quot;comment yes&quot; type=&quot;button&quot; value=&quot;notComment&quot;&gt;&lt;/button&gt;
+	// 										&lt;Fav user={user} isLogged={isLogged} favPaint={listPaint} /&gt;
+	// 										&lt;ListModal user={user} isLogged={isLogged} listPaint={listPaint} /&gt;
+	// 									&lt;/div&gt;
+	// 									&lt;div className=&quot;hidden&quot;&gt;
+	// 										&lt;div className=&quot;revealShadow&quot;&gt;&lt;/div&gt;
+	// 										&lt;h3 className=&quot;itemArtist&quot;&gt;{listPaint.artisteName}&lt;/h3&gt;
+	// 										&lt;h4 className=&quot;itemName&quot;&gt;{listPaint.name}&lt;/h4&gt;
+	// 										&lt;div className=&quot;itemYear&quot;&gt;{listPaint.year}&lt;/div&gt;
+	// 										&lt;ul className=&quot;hListGridItem&quot;&gt;
+	// 											&lt;li&gt;
+	// 												&lt;div className=&quot;smart-modal&quot;&gt;
+	// 													&lt;Link className=&quot;GridviewItem&quot; to={`../../view/OpusPage.js/${listPaint.id}`} state={listPaint.id} &gt;
+	// 														Voir
+	// 													&lt;/Link&gt;
+	// 												&lt;/div&gt;
+	// 											&lt;/li&gt;
+	// 											&lt;li&gt;
+	// 												&lt;Link className=&quot;GridmakeMatch&quot; to={`../../view/MatchingPage.js/${listPaint.id}`} state={listPaint.id} &gt;
+	// 													match
+	// 												&lt;/Link&gt;
+	// 											&lt;/li&gt;
+	// 										&lt;/ul&gt;
+
+	// 									&lt;/div&gt;
+										
+	// 								&lt;/div&gt;
+	// 							))}
+
+
+
+
+
+
+
+
+	// 					&lt;/div&gt;
+	// 				&lt;/div&gt;
+	// 				{/* &lt;!-- items row - fin --&gt; */}
+	// 			&lt;/div&gt;
+
+	// 			&lt;div className=&quot;cont-l-w center-tex&quot;&gt;
+	// 				&lt;a className=&quot;viewMore&quot;&gt;Voir plus&lt;/a&gt;
+	// 			&lt;/div&gt;
+
+	// 		&lt;/section&gt;
+	// 		{/* &lt;!-- GRILLE AUTRES OEUVRES DE CET.TE ARTISTE - fin --&gt; */}
+	// 	&lt;/div&gt;
+
+	// );
+}
+
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/view/LogIn.js | client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-App">App</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-artistdetailpage">component/ArtistDetailPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Artist">Artist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SimilarArtist">SimilarArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-atelier">component/Atelier</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Accueil">Accueil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Biography">Biography</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MenuAtelier">MenuAtelier</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-chat">component/Chat</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatMenu">ChatMenu</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ChatModal">ChatModal</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-compteamateurpage">component/CompteAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Activity">Activity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Comments">Comments</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayUser">DisplayUser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavArtists">FavArtists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Likes">Likes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Lists">Lists</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Matching">Matching</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalNetwork">ModalNetwork</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TabAmateurs">TabAmateurs</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-homepage">component/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MostMatched">MostMatched</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-RandomInfo">RandomInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchArtist">SearchArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchBar">SearchBar</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SearchColor">SearchColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-listeamateurpage">component/ListeAmateurPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayInfoList">DisplayInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-DisplayList">DisplayList</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingcolor">component/MatchingColor</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ColorChooser">ColorChooser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatchingColor">ResultMatchingColor</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-matchingresult">component/MatchingResult</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-PaintingToMatch">PaintingToMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ResultMatch">ResultMatch</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-opuspage">component/OpusPage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Painting">Painting</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListPaintArtist">ListPaintArtist</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-userinfo">component/UserInfo</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AmateurInfo">AmateurInfo</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#component-general">component/general</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-EmojiPicker">EmojiPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Fav">Fav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavAdd">FavAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-FavRemove">FavRemove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-TestFav">TestFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFav">getFav</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFavM">getFavM</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GifPicker">GifPicker</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal">ListModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListModal2">ListModal2</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ModalArtist">ModalArtist</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SaveMatch">SaveMatch</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteFoot">SqueletteFoot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SqueletteHead">SqueletteHead</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GoToTop">GoToTop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-SALT">SALT</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-URLDayl">URLDayl</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#view">view</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ArtistDetailpage">ArtistDetailpage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Atelier">Atelier</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-CompteAmateurPage">CompteAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ListeAmateurPage">ListeAmateurPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-LogIn">LogIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingColor">MatchingColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingImage">MatchingImage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-MatchingPage">MatchingPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-OpusPage">OpusPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-SignIn">SignIn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-StartPage">StartPage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-UserInfo">UserInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/view/LogIn.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &quot;react&quot;;
+import { useEffect, useState } from &quot;react&quot;;
+import axios from &quot;axios&quot;;
+import sha1 from &quot;sha1&quot;;
+import { SALT, URLDayl } from &quot;../services/constantes&quot;
+import { Link } from &quot;react-router-dom&quot;
+import useCookie, { getCookie, setCookie } from &apos;react-use-cookie&apos;;
+import { toast } from &quot;react-toastify&quot;
+import vis from &quot;../webapp/img/icons/password_display_1.svg&quot;
+import unvis from &quot;../webapp/img/icons/password_hide_1.svg&quot;
+import { useNavigate } from &quot;react-router-dom&quot;;
+import { useForm } from &quot;react-hook-form&quot;;
+
+/**
+ * This component display the Login page
+ * @param {object} user - user object from api
+ * @param {object} setUser - user setter
+ * @param {boolean} setIsLogged - isLogged setter
+ * @emits - users/login : connect a user
+ * @emits - paintingEntity/randomPaintings30 : get a random painting
+ */
+
+export default function LogIn({ user, setUser, setIsLogged}) {
+//   const { register, handleSubmit, formState: { errors } } = useForm();
+
+//   // const [session, setSession] = useState(null);
+//   const [randImg, setRandImg] = useState([]);
+//   const [boolVisibility, setBoolVisibility] = useState(false);
+
+//   const navigate = useNavigate();
+
+
+
+//   //Connexion au compte via l&apos;api//
+//   const onSubmit = (data, event) =&gt; {
+//     event.preventDefault();
+//     let log = false;
+//     axios.post(URLDayl + &quot;users/login&quot;, { email: data.trueEmail, password: sha1(data.truePassword + SALT /*Encryption sha1 + SALT*/) },
+//       { headers: { &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;, &quot;Content-Type&quot;: &quot;application/json&quot; } }
+//     )
+//       .then((response) =&gt; {
+
+//         setUser({ ...user, ...response.data });
+// console.log(response.data)
+//         if (response.data) {
+//           setIsLogged(true);
+//           log = true;
+//           localStorage.setItem(&quot;id&quot;, response.data.id)
+        
+//           //redirection vers la page compte
+//           navigate(`../view/CompteAmateurPage.js`, { state: response.data })
+//         }
+
+
+//         toast.success(&quot;Vous &#xEA;tes connect&#xE9;!&quot;, {
+//           position: &quot;top-right&quot;,
+//           autoClose: 3000,
+//           hideProgressBar: false,
+//           closeOnClick: true,
+//           pauseOnHover: true,
+//           draggable: true,
+//           progress: undefined,
+//         });
+
+
+
+//       }).catch((e) =&gt; {
+//         console.log(e)
+//         toast.warning(&quot;Identifiants ou mot de passe incorrect!&quot;, {
+//           position: &quot;top-right&quot;,
+//           autoClose: 3000,
+//           hideProgressBar: false,
+//           closeOnClick: true,
+//           pauseOnHover: true,
+//           draggable: true,
+//           progress: undefined,
+//         });
+//       });
+
+
+
+//     // setSession({ truePassword: null })
+
+
+
+
+//   }
+//   // get 30 random Paint //
+//   useEffect(() =&gt; {
+//     axios
+//       .get(URLDayl + &quot;paintingEntity/randomPaintings30&quot;, {}, { headers: { &quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot; } })
+//       .then((response) =&gt; {
+//         setRandImg(response.data);
+
+
+//       });
+//   }, []);
+
+//   function handleVisibility() {
+
+//     if (boolVisibility === true) {
+//       setBoolVisibility(false)
+//     }
+//     else {
+//       setBoolVisibility(true);
+//     }
+//   }
+
+//   return (
+//     &lt;div className=&quot;LogIn&quot;&gt;
+//       &lt;div className=&quot;accountFront&quot;&gt;
+//         {/* &lt;!-- Rang&#xE9;e de gauche (formulaire) - d&#xE9;but --&gt; */}
+//         &lt;div className=&quot;splitLeft&quot;&gt;
+//           &lt;h1&gt;Connexion&lt;/h1&gt;
+//           &lt;form className=&quot;formCompact&quot; onSubmit={handleSubmit(onSubmit)}&gt;
+//             &lt;input  {...register(&quot;trueEmail&quot;)} /* value={session?.trueEmail} onChange={e =&gt; setSession({ ...session, trueEmail: e.target.value })} */ type=&quot;email&quot; className=&quot;name&quot; size=&quot;35&quot; placeholder=&quot;Email&quot; required /&gt;
+//             &lt;img className=&quot;img-left&quot; src={boolVisibility === true ? unvis : vis} alt=&quot;Fermer&quot; onClick={handleVisibility} style={{ width: &quot;20px&quot;, height: &quot;20px&quot;, position: &quot;absolute&quot;, zIndex: &quot;99999&quot;, top: &quot;72px&quot;, right: &quot;10px&quot; }} /&gt;
+//             &lt;input {...register(&quot;truePassword&quot;)} /* value={session?.truePassword} onChange={e =&gt; setSession({ ...session, truePassword: e.target.value })} */ type={boolVisibility === true ? &quot;&quot; : &quot;password&quot;} className=&quot;password&quot; placeholder=&quot;Mot de passe&quot; minlength=&quot;8&quot; required /&gt;
+//             &lt;input type=&quot;submit&quot; className=&quot;submit mt-a&quot; value=&quot;Connexion&quot; /&gt;
+//           &lt;/form&gt;
+//           &lt;a href=&quot;compte-mdp.html&quot; className=&quot;accountLink mb-a&quot;&gt;Mot de passe oubli&#xE9; ?&lt;/a&gt;
+//           &lt;p&gt;Vous n&apos;avez pas de compte ? &lt;Link to=&quot;../view/SignIn.js&quot; className=&quot;accountLink&quot;&gt;Inscription&lt;/Link&gt;&lt;/p&gt;
+//         &lt;/div&gt;
+//         {/* &lt;!-- Rang&#xE9;e de gauche (formulaire) - fin --&gt; */}
+
+//         {/* &lt;!-- Rang&#xE9;e de droite (arri&#xE8;re-plan dynamique) - d&#xE9;but --&gt; */}
+//         &lt;div className=&quot;splitRight&quot; style={{ backgroundImage: `url(${URLDayl}images/content/${randImg.length &gt; 0 &amp;&amp; randImg[0].artistId}/${randImg.length &gt; 0 &amp;&amp; randImg[0].urlImage})`, backgroundRepeat: &quot;no-repeat&quot;, backgroundPosition: &quot;center center&quot;, backgroundSize: &quot;cover&quot; }} &gt;
+//           &lt;div&gt;
+//             &lt;p className=&quot;itemArtist&quot;&gt;{randImg.length &gt; 0 &amp;&amp; randImg[0].artisteName}&lt;/p&gt;
+//             &lt;p className=&quot;itemName&quot; &gt;{randImg.length &gt; 0 &amp;&amp; randImg[0].name}&lt;/p&gt;
+//             &lt;p className=&quot;itemYear&quot;&gt;{randImg.length &gt; 0 &amp;&amp; randImg[0].year}&lt;/p&gt;
+//           &lt;/div&gt;
+//         &lt;/div&gt;
+//         {/* &lt;!-- Rang&#xE9;e de droite (arri&#xE8;re-plan dynamique) - d&#xE9;but --&gt; */}
+//       &lt;/div&gt;
+//     &lt;/div&gt;
+//   );
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
